@@ -4,7 +4,7 @@ A curated public directory of robot lawn mowers — wire-free LiDAR / RTK / visi
 
 The site is a static Astro app. There is no CMS, auth, or backend. The homepage is a filterable index of published listings. Each listing is one Markdown file that becomes one SEO page, with an official manufacturer product photo when the brand publishes one.
 
-Live site: **https://bestlawnrobots.com**. GitHub Pages is the public host; Railway is leftover.
+Live site: **https://www.bestlawnrobots.com** (apex redirects to www). GitHub Pages is the public host; Railway is leftover.
 
 ## Run locally
 
@@ -25,7 +25,7 @@ npm start        # serve dist/ (Railway start command)
 
 `astro.config.ts`:
 
-- `site`: `https://bestlawnrobots.com`
+- `site`: `https://www.bestlawnrobots.com`
 - `base`: `/`
 
 ## Deploy

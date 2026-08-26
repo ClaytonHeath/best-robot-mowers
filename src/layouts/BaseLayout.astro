@@ -1,6 +1,6 @@
 ---
 import "../styles/global.css";
-import { OWNER, SITE_NAME, assetPath, withBase } from "../lib/site";
+import { OWNER, SITE_NAME, SITE_URL, assetPath, stringifyJsonLd, withBase } from "../lib/site";
 
 interface Props {
   title: string;
@@ -8,13 +8,16 @@ interface Props {
   canonicalPath?: string;
   type?: "website" | "article";
   ogImage?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description, canonicalPath = "", type = "website", ogImage } = Astro.props;
-const canonical = new URL(withBase(canonicalPath), Astro.site);
+const { title, description, canonicalPath = "", type = "website", ogImage, jsonLd } = Astro.props;
+const site = Astro.site ?? new URL(SITE_URL);
+const canonical = new URL(withBase(canonicalPath), site);
 const pageTitle = title === SITE_NAME ? SITE_NAME : `${title} · ${SITE_NAME}`;
 const path = Astro.url.pathname;
-const ogImageAbs = ogImage ? new URL(ogImage, Astro.site).href : undefined;
+const ogImageAbs = ogImage ? new URL(ogImage, site).href : undefined;
+const jsonLdBlocks = jsonLd == null ? [] : Array.isArray(jsonLd) ? jsonLd : [jsonLd];
 ---
 
 <!doctype html>
@@ -33,6 +36,11 @@ const ogImageAbs = ogImage ? new URL(ogImage, Astro.site).href : undefined;
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonical} />
     {ogImageAbs && <meta property="og:image" content={ogImageAbs} />}
+    {
+      jsonLdBlocks.map((block) => (
+        <script type="application/ld+json" set:html={stringifyJsonLd(block)} />
+      ))
+    }
     <meta name="twitter:card" content={ogImageAbs ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />

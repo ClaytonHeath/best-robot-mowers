@@ -1,4 +1,6 @@
 export const SITE_NAME = "Best Robot Lawn Mowers";
+/** Canonical origin. Must match astro.config `site` and public/CNAME (www). */
+export const SITE_URL = "https://www.bestlawnrobots.com";
 export const SITE_TAGLINE =
   "Official photos, published specs, and a short caveat for each robot mower.";
 export const OWNER = "A Justamanstanding project";
@@ -81,4 +83,112 @@ export function formatUpdated(date: Date): string {
 
 export function isPresentUrl(value: string | undefined): value is string {
   return Boolean(value && value.trim().length > 0);
+}
+
+function origin(): string {
+  return SITE_URL.replace(/\/+$/, "");
+}
+
+/** Absolute page URL with the site's trailing-slash style. */
+export function absoluteUrl(path = ""): string {
+  const relative = withBase(path);
+  return `${origin()}${relative.startsWith("/") ? relative : `/${relative}`}`;
+}
+
+export function listingCanonicalUrl(slug: string): string {
+  return absoluteUrl(`mowers/${slug}`);
+}
+
+function absoluteAssetUrl(path: string): string {
+  if (/^https?:\/\//i.test(path)) return path;
+  const relative = assetPath(path);
+  return `${origin()}${relative.startsWith("/") ? relative : `/${relative}`}`;
+}
+
+export interface ListingJsonLdInput {
+  title: string;
+  brand: string;
+  model: string;
+  verdict: string;
+  slug: string;
+  image?: string;
+  priceUsd?: number;
+  officialUrl: string;
+}
+
+export function productJsonLd(listing: ListingJsonLdInput): Record<string, unknown> {
+  const url = listingCanonicalUrl(listing.slug);
+  const product: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: listing.title,
+    brand: { "@type": "Brand", name: listing.brand },
+    description: listing.verdict,
+    url,
+  };
+  if (listing.model) {
+    product.sku = listing.model;
+    product.model = listing.model;
+  }
+  if (listing.image?.trim()) {
+    product.image = absoluteAssetUrl(listingPhotoSrc(listing.slug, listing.image));
+  }
+  if (listing.priceUsd !== undefined) {
+    product.offers = {
+      "@type": "Offer",
+      price: listing.priceUsd,
+      priceCurrency: "USD",
+      url: isPresentUrl(listing.officialUrl) ? listing.officialUrl : url,
+    };
+  }
+  return product;
+}
+
+export function listingBreadcrumbJsonLd(listing: Pick<ListingJsonLdInput, "title" | "slug">): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl() },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: listing.title,
+        item: listingCanonicalUrl(listing.slug),
+      },
+    ],
+  };
+}
+
+export function websiteJsonLd(): Record<string, unknown> {
+  const url = absoluteUrl();
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url,
+    publisher: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url,
+    },
+  };
+}
+
+export function itemListJsonLd(listings: { title: string; slug: string }[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: listings.map((listing, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: listing.title,
+      url: listingCanonicalUrl(listing.slug),
+    })),
+  };
+}
+
+/** Serialize JSON-LD so `</script>` in copy cannot break the tag. */
+export function stringifyJsonLd(data: unknown): string {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
 }
