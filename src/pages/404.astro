@@ -1,0 +1,12 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE_NAME, withBase } from "../lib/site";
+---
+
+<BaseLayout title="Page not found" description={`That URL is not in the ${SITE_NAME} directory.`}>
+  <div class="wrap about">
+    <h1>No listing at this URL</h1>
+    <p>The directory only publishes pages that exist as Markdown files. Try the index.</p>
+    <p><a href={withBase()}>Back to the directory</a></p>
+  </div>
+</BaseLayout>

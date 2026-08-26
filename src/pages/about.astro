@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { OWNER, SITE_NAME, withBase } from "../lib/site";
+---
+
+<BaseLayout
+  title="Methodology"
+  description={`${SITE_NAME} is a curated directory. We do not take payment for rankings. Listings are written from official specs.`}
+  canonicalPath="about"
+>
+  <div class="wrap about">
+    <p class="kicker">About this directory</p>
+    <h1>We curate. We don’t sell the ranking.</h1>
+    <p>
+      {SITE_NAME} is a public, slow-growing directory of robot lawn mowers — wire-free LiDAR, RTK,
+      and vision models as well as boundary-wire machines. It is run by {OWNER}.
+      The homepage is the index. Each listing is one Markdown file, one page, one set of facts.
+    </p>
+
+    <h2>What “curated” means here</h2>
+    <p>
+      New models are added because they ship, not because a brand paid. There is no sponsored
+      ranking, no “best of 2026” package, and no invented testimonials. If that policy changes,
+      this page will say so first.
+    </p>
+
+    <h2>How a listing is written</h2>
+    <ul>
+      <li>Official product pages and spec sheets are the source of truth.</li>
+      <li>If a number is not on that page, it is omitted rather than guessed.</li>
+      <li>Prices are labeled with a note (MSRP vs live cart vs unknown).</li>
+      <li>The verdict is a caveat-aware one-liner, not a marketing sentence.</li>
+      <li>Pages are updated when new hardware ships or official specs change.</li>
+    </ul>
+
+    <h2>Coverage, slope, and navigation</h2>
+    <p>
+      Coverage is the manufacturer’s recommended mowing area, not a promise that every yard of
+      that size will finish in one charge. Slope is the published maximum inside the work area
+      unless noted. Navigation tags (LiDAR, RTK, vision, boundary wire) describe what the maker
+      claims the mower uses — mixed systems get more than one tag.
+    </p>
+
+    <h2>Affiliate links</h2>
+    <p>
+      Some links on this site may be affiliate links. Seed listings ship with empty affiliate
+      URLs. When a link is an affiliate, the footer disclosure still applies: some links may be
+      affiliate. That does not change the spec table.
+    </p>
+
+    <p><a href={withBase()}>Back to the directory</a></p>
+  </div>
+</BaseLayout>
