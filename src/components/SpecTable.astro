@@ -31,19 +31,22 @@ if (d.ipRating) rows.push({ label: "Ingress rating", value: d.ipRating });
 rows.push({ label: "Specs checked", value: formatUpdated(d.updated) });
 ---
 
-<table class="spec-table">
-  <caption class="visually-hidden">Key specifications</caption>
-  <tbody>
-    {
-      rows.map((row) => (
-        <tr>
-          <th scope="row">{row.label}</th>
-          <td>{row.value}</td>
-        </tr>
-      ))
-    }
-  </tbody>
-</table>
+<div class="spec-plate">
+  <p class="spec-plate-label">Stamped specs</p>
+  <table class="spec-table">
+    <caption class="visually-hidden">Key specifications</caption>
+    <tbody>
+      {
+        rows.map((row) => (
+          <tr>
+            <th scope="row">{row.label}</th>
+            <td>{row.value}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
 
 <style>
   .visually-hidden {
@@ -53,12 +56,5 @@ rows.push({ label: "Specs checked", value: formatUpdated(d.updated) });
     overflow: hidden;
     clip: rect(0 0 0 0);
     white-space: nowrap;
-  }
-
-  caption {
-    text-align: left;
-    font-family: var(--font-serif);
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
   }
 </style>

@@ -16,6 +16,7 @@ whoItsFor: Tree-shaded suburban lawns up to about three-quarters of an acre that
 verdict: A well-documented LiDAR flagship with a real edge trimmer and a 50% work-area slope rating, but official coverage is only 3/4 acre and virtual boundaries are limited to 20% slope.
 affiliateUrl: ""
 officialUrl: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro
+image: /mowers/ecovacs-goat-a3000-lidar-pro.webp
 updated: 2026-08-26
 cuttingWidthIn: 13
 cuttingHeight: 1.18–3.54 in (30–90 mm), 7 steps

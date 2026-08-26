@@ -1,8 +1,10 @@
 # Best Robot Lawn Mowers
 
-A curated public directory of robot lawn mowers — wire-free LiDAR / RTK / vision models and boundary-wire machines. Run by **Clayton Moulynox**.
+A curated public directory of robot lawn mowers — wire-free LiDAR / RTK / vision models and boundary-wire machines. **A Justamanstanding project.**
 
-The site is a static Astro app. There is no CMS, auth, or backend. The homepage is a filterable index of published listings. Each listing is one Markdown file that becomes one SEO page.
+The site is a static Astro app. There is no CMS, auth, or backend. The homepage is a filterable index of published listings. Each listing is one Markdown file that becomes one SEO page, with an official manufacturer product photo when the brand publishes one.
+
+Live site: **https://bestlawnrobots.com** (Railway).
 
 ## Run locally
 
@@ -13,19 +15,31 @@ npm install
 npm run dev
 ```
 
-Open the URL Astro prints (usually `http://localhost:4321/best-robot-mowers/`). The `/best-robot-mowers` prefix is the GitHub Pages base path.
+Open the URL Astro prints (usually `http://localhost:4321/`).
 
 ```bash
 npm run build    # writes a static site to dist/
-npm run preview  # serves dist/
+npm run preview  # Astro preview of dist/
+npm start        # serve dist/ (Railway start command)
 ```
 
-`astro.config.ts` uses a placeholder site URL:
+`astro.config.ts`:
 
-- `site`: `https://claytonheath.github.io`
-- `base`: `/best-robot-mowers`
+- `site`: `https://bestlawnrobots.com`
+- `base`: `/`
 
-Change those when a custom domain is attached. GitHub Pages deploy is `.github/workflows/deploy.yml` (enable Pages → GitHub Actions in the repo settings).
+## Deploy (Railway)
+
+Production host is Railway, not GitHub Pages.
+
+`railway.toml` tells Railway to:
+
+1. `npm run build` → `dist/`
+2. `npm start` → serve `dist/` on `$PORT`
+
+If you prefer Railpack’s built-in static file server instead of `serve`, set the service variable `RAILPACK_STATIC_FILE_ROOT=dist` (and `RAILPACK_NODE_VERSION=22`). Custom domain: **bestlawnrobots.com**.
+
+PR CI (`.github/workflows/build.yml`) still runs `npm run build` on every pull request.
 
 ## Publisher contract: add a listing
 
@@ -34,6 +48,8 @@ Create **one Markdown file** in `src/content/listings/`. Filename should match t
 Only `status: published` listings appear on the homepage and get a public page. Drafts are validated at build time but not routed.
 
 Official product pages are the source of truth. **If a spec is not on the official page, omit the field rather than guess.** Leave `affiliateUrl` empty (`""`) unless there is a real affiliate URL.
+
+Save an official product photo into `public/mowers/{slug}.webp` (see `public/mowers/SOURCES.txt`) and set `image` in frontmatter. Do not generate fake photos of real products. If the manufacturer page has no usable still, omit `image` — the card uses a stamped missing-photo plate.
 
 ### Frontmatter schema (required unless marked optional)
 
@@ -54,7 +70,7 @@ Official product pages are the source of truth. **If a spec is not on the offici
 | `verdict` | string | Honest one-liner, including the catch. |
 | `affiliateUrl` | string, **optional** | Full URL or `""`. |
 | `officialUrl` | string | Required. Official product URL. |
-| `image` | string, **optional** | Path or URL. Omit if none. |
+| `image` | string, **optional** | Path under `public/`, e.g. `/mowers/{slug}.webp`. |
 | `updated` | date | `YYYY-MM-DD`. Date specs were checked. |
 
 Optional extras (all omitted unless the official page states them): `cuttingWidthIn` (number, inches), `cuttingHeight` (string), `noiseDb` (number), `weightLbs` (number), `ipRating` (string), `driveType` (string).
@@ -109,15 +125,18 @@ src/content/listings/*.md      # one file per mower
 src/pages/index.astro          # filterable directory
 src/pages/mowers/[slug].astro  # listing pages
 src/pages/about.astro          # methodology
-src/lib/site.ts                # formatting helpers and base-path links
+src/lib/site.ts                # branding, formatting, paths
+public/mowers/                 # official product stills
+railway.toml                   # Railway static deploy
 ```
 
 Homepage filters are static: they run in a small client script against `data-*` attributes and URL search params (`?wire=free&coverage=under-0.5&nav=lidar`). No backend.
 
 ## Seed listings
 
-Published on first ship, specs checked against official pages on 26 Aug 2026:
+Published listings, specs checked against official pages on 26 Aug 2026:
 
 - [Segway Navimow X390](https://navimow.com/products/segway-navimow-x390)
 - [Mammotion LUBA 3 AWD 1500](https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower)
 - [Worx Landroid Vision Cloud WR310.1](https://www.worx.com/landroid-vision-cloud.html)
+- [ECOVACS GOAT A3000 LiDAR PRO](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro)

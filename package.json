@@ -8,6 +8,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "start": "serve dist -l tcp://0.0.0.0:${PORT:-8080}",
     "check": "astro check"
   },
   "engines": {
@@ -15,7 +16,8 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.7"
+    "astro": "^7.2.7",
+    "serve": "^14.2.6"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
