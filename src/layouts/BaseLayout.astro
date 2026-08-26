@@ -38,7 +38,7 @@ const jsonLdBlocks = jsonLd == null ? [] : Array.isArray(jsonLd) ? jsonLd : [jso
     {ogImageAbs && <meta property="og:image" content={ogImageAbs} />}
     {
       jsonLdBlocks.map((block) => (
-        <script type="application/ld+json" set:html={stringifyJsonLd(block)} />
+        <script is:inline type="application/ld+json" set:html={stringifyJsonLd(block)} />
       ))
     }
     <meta name="twitter:card" content={ogImageAbs ? "summary_large_image" : "summary"} />
