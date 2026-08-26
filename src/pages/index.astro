@@ -2,7 +2,14 @@
 import { getCollection } from "astro:content";
 import ListingCard from "../components/ListingCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { COVERAGE_BANDS, NAV_LABELS, SITE_DESCRIPTION, SITE_NAME } from "../lib/site";
+import {
+  COVERAGE_BANDS,
+  NAV_LABELS,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  itemListJsonLd,
+  websiteJsonLd,
+} from "../lib/site";
 
 const listings = (await getCollection("listings", ({ data }) => data.status === "published")).sort(
   (a, b) => a.data.brand.localeCompare(b.data.brand) || a.data.model.localeCompare(b.data.model),
@@ -11,7 +18,11 @@ const listings = (await getCollection("listings", ({ data }) => data.status === 
 const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
 ---
 
-<BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION}>
+<BaseLayout
+  title={SITE_NAME}
+  description={SITE_DESCRIPTION}
+  jsonLd={[websiteJsonLd(), itemListJsonLd(listings.map((listing) => listing.data))]}
+>
   <div class="wrap">
     <header class="page-hero">
       <p class="kicker">{listings.length} robot mowers</p>

@@ -3,7 +3,16 @@ import { getCollection, render } from "astro:content";
 import ProductPhoto from "../../components/ProductPhoto.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { formatAcres, formatPrice, formatUpdated, isPresentUrl, listingPhotoSrc, withBase } from "../../lib/site";
+import {
+  formatAcres,
+  formatPrice,
+  formatUpdated,
+  isPresentUrl,
+  listingBreadcrumbJsonLd,
+  listingPhotoSrc,
+  productJsonLd,
+  withBase,
+} from "../../lib/site";
 
 export async function getStaticPaths() {
   const listings = await getCollection("listings", ({ data }) => data.status === "published");
@@ -26,6 +35,7 @@ const photo = listingPhotoSrc(d.slug, d.image);
   canonicalPath={`mowers/${d.slug}`}
   type="article"
   ogImage={photo}
+  jsonLd={[productJsonLd(d), listingBreadcrumbJsonLd(d)]}
 >
   <div class="wrap">
     <header class="listing-hero">
