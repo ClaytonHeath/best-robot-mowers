@@ -1,0 +1,47 @@
+---
+import { getCollection, render } from "astro:content";
+import SpecTable from "../../components/SpecTable.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { formatAcres, formatUpdated, isPresentUrl, withBase } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const listings = await getCollection("listings", ({ data }) => data.status === "published");
+  return listings.map((listing) => ({
+    params: { slug: listing.data.slug },
+    props: { listing },
+  }));
+}
+
+const { listing } = Astro.props;
+const { Content } = await render(listing);
+const d = listing.data;
+const description = `${d.verdict} ${d.whoItsFor}`;
+---
+
+<BaseLayout title={d.title} description={description} canonicalPath={`mowers/${d.slug}`} type="article">
+  <div class="wrap listing-layout">
+    <article class="prose">
+      <p class="kicker">
+        {d.brand} · {formatAcres(d.coverageAcres)} · {d.wireFree ? "Wire-free" : "Boundary wire"}
+      </p>
+      <h1>{d.title}</h1>
+      <p class="lede">{d.verdict}</p>
+      <Content />
+    </article>
+    <aside class="side">
+      <SpecTable listing={listing} />
+      <div class="cta">
+        {
+          isPresentUrl(d.affiliateUrl) && (
+            <a class="btn btn-primary" href={d.affiliateUrl} rel="sponsored nofollow noopener">
+              Check price
+            </a>
+          )
+        }
+        <a class="btn btn-ghost" href={d.officialUrl} rel="noopener noreferrer">Official product page</a>
+        <p class="note">Updated {formatUpdated(d.updated)}. Specs that were not on the official page are omitted.</p>
+        <p class="note"><a href={withBase()}>← All mowers</a></p>
+      </div>
+    </aside>
+  </div>
+</BaseLayout>

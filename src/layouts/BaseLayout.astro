@@ -1,0 +1,67 @@
+---
+import "../styles/global.css";
+import { OWNER, SITE_NAME, withBase } from "../lib/site";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  type?: "website" | "article";
+}
+
+const { title, description, canonicalPath = "", type = "website" } = Astro.props;
+const canonical = new URL(withBase(canonicalPath), Astro.site);
+const pageTitle = title === SITE_NAME ? SITE_NAME : `${title} · ${SITE_NAME}`;
+const path = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="author" content={OWNER} />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonical} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="wordmark" href={withBase()}>
+          {SITE_NAME}
+          <small>Directory · {OWNER}</small>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <a href={withBase()} aria-current={path === withBase() ? "page" : undefined}>Directory</a>
+          <a href={withBase("about")} aria-current={path.includes("/about") ? "page" : undefined}>Methodology</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>
+          Curated by {OWNER}. We don’t take payment for rankings.
+          Some links may be affiliate.
+        </p>
+        <p>
+          <a href={withBase("about")}>How we review</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
