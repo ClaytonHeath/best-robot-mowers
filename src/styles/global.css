@@ -444,10 +444,22 @@ a:hover {
   display: grid;
   gap: 1.5rem;
   padding: 1.5rem 0 3rem;
+  grid-template-areas:
+    "side"
+    "prose";
+}
+
+.listing-layout .prose {
+  grid-area: prose;
+}
+
+.listing-layout .side {
+  grid-area: side;
 }
 
 @media (min-width: 900px) {
   .listing-layout {
+    grid-template-areas: "prose side";
     grid-template-columns: minmax(0, 1.4fr) minmax(16rem, 0.8fr);
     align-items: start;
   }
