@@ -1,0 +1,22 @@
+Official manufacturer product photos, saved 26 Aug 2026.
+Not generated. Pulled from each model's official US product page.
+
+segway-navimow-x390.webp
+  Page: https://navimow.com/products/segway-navimow-x390
+  File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/NavimowX390-1.png?v=1766664841
+  (X390 gallery still with the model mark on the fender; the page's featured image is a shared X330 navbar asset.)
+
+mammotion-luba-3-awd-1500.webp
+  Page: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0744/3310/2122/files/13_1_-_-jpg.webp?v=1774842649
+  (Featured LUBA 3 AWD product still on the official US store.)
+
+worx-landroid-vision-cloud-wr310.webp
+  Page: https://www.worx.com/landroid-vision-cloud.html
+  File: https://www.worx.com/media/catalog/product/w/r/wr310.1_view1_1.png
+  (WR310.1 catalog view on the official Worx product page.)
+
+ecovacs-goat-a3000-lidar-pro.webp
+  Page: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro
+  File: https://site-static.ecovacs.com/upload/us/image/product/2026/02/10/010750_6791$id-goat-a3000-lidar-pro-920x920-1.png
+  (Official GOAT A3000 LiDAR PRO pack shot.)

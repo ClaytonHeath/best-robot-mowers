@@ -1,18 +1,20 @@
 ---
 import "../styles/global.css";
-import { OWNER, SITE_NAME, withBase } from "../lib/site";
+import { OWNER, SITE_NAME, assetPath, withBase } from "../lib/site";
 
 interface Props {
   title: string;
   description: string;
   canonicalPath?: string;
   type?: "website" | "article";
+  ogImage?: string;
 }
 
-const { title, description, canonicalPath = "", type = "website" } = Astro.props;
+const { title, description, canonicalPath = "", type = "website", ogImage } = Astro.props;
 const canonical = new URL(withBase(canonicalPath), Astro.site);
 const pageTitle = title === SITE_NAME ? SITE_NAME : `${title} · ${SITE_NAME}`;
 const path = Astro.url.pathname;
+const ogImageAbs = ogImage ? new URL(ogImage, Astro.site).href : undefined;
 ---
 
 <!doctype html>
@@ -30,22 +32,24 @@ const path = Astro.url.pathname;
     <meta property="og:description" content={description} />
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonical} />
-    <meta name="twitter:card" content="summary" />
+    {ogImageAbs && <meta property="og:image" content={ogImageAbs} />}
+    <meta name="twitter:card" content={ogImageAbs ? "summary_large_image" : "summary"} />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
-    <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
+    {ogImageAbs && <meta name="twitter:image" content={ogImageAbs} />}
+    <link rel="icon" href={assetPath("favicon.svg")} type="image/svg+xml" />
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap header-inner">
         <a class="wordmark" href={withBase()}>
-          {SITE_NAME}
-          <small>Directory · {OWNER}</small>
+          <span class="wordmark-title">{SITE_NAME}</span>
+          <small>{OWNER}</small>
         </a>
         <nav class="nav" aria-label="Primary">
-          <a href={withBase()} aria-current={path === withBase() ? "page" : undefined}>Directory</a>
-          <a href={withBase("about")} aria-current={path.includes("/about") ? "page" : undefined}>Methodology</a>
+          <a href={withBase()} aria-current={path === withBase() ? "page" : undefined}>Floor</a>
+          <a href={withBase("about")} aria-current={path.includes("/about") ? "page" : undefined}>Method</a>
         </nav>
       </div>
     </header>
@@ -54,13 +58,22 @@ const path = Astro.url.pathname;
     </main>
     <footer class="site-footer">
       <div class="wrap footer-inner">
-        <p>
-          Curated by {OWNER}. We don’t take payment for rankings.
-          Some links may be affiliate.
-        </p>
-        <p>
-          <a href={withBase("about")}>How we review</a>
-        </p>
+        <div>
+          <p class="footer-brand">{SITE_NAME}</p>
+          <p>
+            {OWNER}. We don’t take payment for rankings.
+            Some links may be affiliate.
+          </p>
+        </div>
+        <div>
+          <p class="footer-label">On the floor</p>
+          <p><a href={withBase()}>All mowers</a></p>
+          <p><a href={withBase("about")}>How a listing is written</a></p>
+        </div>
+        <div>
+          <p class="footer-label">Host</p>
+          <p>Live at bestlawnrobots.com. Specs come from official product pages, not press quotes.</p>
+        </div>
       </div>
     </footer>
   </body>

@@ -1,8 +1,8 @@
 export const SITE_NAME = "Best Robot Lawn Mowers";
-export const SITE_TAGLINE = "A curated directory of robot lawn mowers.";
-export const OWNER = "Clayton Moulynox";
+export const SITE_TAGLINE = "A hardware-catalog directory of robot lawn mowers.";
+export const OWNER = "A Justamanstanding project";
 export const SITE_DESCRIPTION =
-  "Honest, factual pages for wire-free LiDAR, RTK, and vision robot mowers, plus boundary-wire models. Curated by Clayton Moulynox.";
+  "Official photos and printed specs for wire-free LiDAR, RTK, and vision robot mowers, plus boundary-wire models. A Justamanstanding project — not a ranking for sale.";
 
 export const NAV_LABELS = {
   lidar: "LiDAR",
@@ -29,8 +29,20 @@ export function withBase(path = ""): string {
   return `${base}${trimmed}${trimmed.endsWith("/") ? "" : "/"}`;
 }
 
+export function assetPath(path: string): string {
+  const base = import.meta.env.BASE_URL;
+  const trimmed = path.replace(/^\/+/, "");
+  return `${base}${trimmed}`;
+}
+
 export function listingPath(slug: string): string {
   return withBase(`mowers/${slug}`);
+}
+
+export function listingPhotoSrc(slug: string, image?: string): string {
+  if (image && /^https?:\/\//i.test(image)) return image;
+  if (image && image.trim()) return assetPath(image.replace(/^\/+/, ""));
+  return assetPath(`mowers/${slug}.webp`);
 }
 
 export function formatNav(types: NavigationType[]): string {
@@ -53,7 +65,7 @@ export function formatPrice(priceUsd: number | undefined, fallback = "Price vari
   return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
-    maximumFractionDigits: 0,
+    maximumFractionDigits: Number.isInteger(priceUsd) ? 0 : 2,
   }).format(priceUsd);
 }
 

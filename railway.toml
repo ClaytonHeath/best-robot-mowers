@@ -1,0 +1,17 @@
+# Railway static site
+#
+# Build: npm run build  (writes dist/)
+# Start: npm start      (serves dist/ on $PORT)
+#
+# Optional service variable if you use Railpack's static file server
+# instead of the start command: RAILPACK_STATIC_FILE_ROOT=dist
+# Pin Node with RAILPACK_NODE_VERSION=22
+
+[build]
+builder = "RAILPACK"
+buildCommand = "npm run build"
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/"
+restartPolicyType = "ON_FAILURE"

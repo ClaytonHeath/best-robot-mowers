@@ -14,15 +14,16 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
 <BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION}>
   <div class="wrap">
     <header class="page-hero">
-      <p class="kicker">{listings.length} published listings</p>
-      <h1>Robot lawn mowers, compared on facts</h1>
+      <p class="kicker">{listings.length} machines on the floor · late-season catalog</p>
+      <h1>Robot mowers, stacked like outdoor gear.</h1>
       <p class="lede">
-        Filter by wire-free vs wire, coverage, and how the mower actually navigates.
-        Each card is a real model with specs taken from the official product page — not a ranking for sale.
+        Each bin is an official still, five or six stamped specs, and a short verdict.
+        Filter the aisle by wire, acreage, and how the machine actually finds the lawn.
+        Nothing here is a ranking for sale.
       </p>
     </header>
 
-    <div class="filters" role="search" aria-label="Filter mowers">
+    <div class="bin-rack" role="search" aria-label="Filter mowers">
       <fieldset>
         <legend>Boundary</legend>
         <div class="chip-row">
@@ -61,7 +62,7 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
 
     <div class="toolbar">
       <p><span data-result-count>{listings.length} mowers</span> · tick 2–3 cards to compare</p>
-      <button class="reset" type="button" data-reset hidden>Clear filters</button>
+      <button class="reset" type="button" data-reset hidden>Clear bins</button>
     </div>
 
     <section class="compare-panel" data-compare-panel hidden>
@@ -73,7 +74,7 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
 
     <section class="listing-grid" aria-label="Mower listings">
       {listings.map((listing) => <ListingCard listing={listing} />)}
-      <p class="empty" data-empty hidden>No published mowers match those filters.</p>
+      <p class="empty" data-empty hidden>No published mowers match those bins.</p>
     </section>
   </div>
   <script>

@@ -16,6 +16,7 @@ whoItsFor: Quarter-acre lawns that want antenna-free, vision-first mowing and al
 verdict: Easy wire-free setup and cloud RTK without a yard pole, but 0.25 acre and a 30% slope cap make it a small-yard mower, not a hillside tractor.
 affiliateUrl: ""
 officialUrl: https://www.worx.com/landroid-vision-cloud.html
+image: /mowers/worx-landroid-vision-cloud-wr310.webp
 updated: 2026-08-26
 cuttingWidthIn: 8.7
 cuttingHeight: 1.57–3.54 in, electric

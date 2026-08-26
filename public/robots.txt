@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://claytonheath.github.io/best-robot-mowers/sitemap-index.xml
+Sitemap: https://bestlawnrobots.com/sitemap-index.xml

@@ -5,8 +5,9 @@ import { SITE_NAME, withBase } from "../lib/site";
 
 <BaseLayout title="Page not found" description={`That URL is not in the ${SITE_NAME} directory.`}>
   <div class="wrap about">
+    <p class="kicker">Empty bin</p>
     <h1>No listing at this URL</h1>
-    <p>The directory only publishes pages that exist as Markdown files. Try the index.</p>
-    <p><a href={withBase()}>Back to the directory</a></p>
+    <p>The floor only publishes pages that exist as Markdown files. Try the index.</p>
+    <p><a href={withBase()}>Back to the floor</a></p>
   </div>
 </BaseLayout>

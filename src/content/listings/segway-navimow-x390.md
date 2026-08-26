@@ -16,6 +16,7 @@ whoItsFor: Large, relatively open lawns up to 2.5 acres where you want wire-free
 verdict: A capable large-lawn RTK mower with a 50% slope rating, but it is rear-wheel drive and the second antenna is extra if one base station cannot cover the yard.
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/segway-navimow-x390
+image: /mowers/segway-navimow-x390.webp
 updated: 2026-08-26
 cuttingWidthIn: 9.3
 cuttingHeight: 2–4 in, automatic

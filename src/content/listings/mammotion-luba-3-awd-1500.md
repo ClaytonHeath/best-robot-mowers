@@ -16,6 +16,7 @@ whoItsFor: Smaller, hilly, or obstacle-heavy yards up to about a third of an acr
 verdict: The 1500 is the small-yard LUBA 3 — AWD and 360° LiDAR without a required RTK antenna, at a 0.37-acre rating that will disappoint anyone who assumed every LUBA covers an acre.
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower
+image: /mowers/mammotion-luba-3-awd-1500.webp
 updated: 2026-08-26
 cuttingWidthIn: 15.7
 cuttingHeight: 1.0–2.7 in standard; 2.2–4.0 in High (H) version

@@ -1,10 +1,12 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import ProductPhoto from "./ProductPhoto.astro";
 import {
   formatAcres,
   formatNav,
   formatPrice,
   listingPath,
+  listingPhotoSrc,
 } from "../lib/site";
 
 interface Props {
@@ -12,8 +14,34 @@ interface Props {
 }
 
 const { listing } = Astro.props;
-const { slug, brand, title, verdict, coverageAcres, slopePercent, navigation, wireFree, priceUsd } =
-  listing.data;
+const {
+  slug,
+  brand,
+  title,
+  verdict,
+  coverageAcres,
+  slopePercent,
+  navigation,
+  wireFree,
+  priceUsd,
+  cuttingWidthIn,
+  driveType,
+  ipRating,
+  image,
+} = listing.data;
+
+const specRows: { label: string; value: string }[] = [
+  { label: "Coverage", value: formatAcres(coverageAcres) },
+  { label: "Slope", value: slopePercent !== undefined ? `${slopePercent}%` : "Not stated" },
+  { label: "Nav", value: formatNav(navigation) },
+  {
+    label: "Boundary",
+    value: wireFree ? "Wire-free" : "Boundary wire",
+  },
+];
+if (cuttingWidthIn) specRows.push({ label: "Cut", value: `${cuttingWidthIn} in` });
+if (driveType) specRows.push({ label: "Drive", value: driveType });
+else if (ipRating) specRows.push({ label: "Ingress", value: ipRating });
 ---
 
 <article
@@ -29,37 +57,29 @@ const { slug, brand, title, verdict, coverageAcres, slopePercent, navigation, wi
   data-slope={slopePercent ?? ""}
   data-who={listing.data.whoItsFor}
 >
-  <div class="card-top">
-    <span class="brand">{brand}</span>
-    <span class="price">{formatPrice(priceUsd)}</span>
-  </div>
-  <h2><a href={listingPath(slug)}>{title}</a></h2>
-  <p class="verdict">{verdict}</p>
-  <dl class="specs">
-    <div>
-      <dt>Coverage</dt>
-      <dd>{formatAcres(coverageAcres)}</dd>
+  <ProductPhoto src={listingPhotoSrc(slug, image)} alt={title} href={listingPath(slug)}>
+    <span class="price-stamp">{formatPrice(priceUsd)}</span>
+  </ProductPhoto>
+  <div class="bin-body">
+    <p class="brand">{brand}</p>
+    <h2><a href={listingPath(slug)}>{title}</a></h2>
+    <dl class="specs">
+      {
+        specRows.map((row) => (
+          <div>
+            <dt>{row.label}</dt>
+            <dd>{row.value}</dd>
+          </div>
+        ))
+      }
+    </dl>
+    <p class="verdict">{verdict}</p>
+    <div class="card-foot">
+      <label class="compare-toggle">
+        <input type="checkbox" data-compare value={slug} />
+        Compare
+      </label>
+      <a href={listingPath(slug)}>Full listing</a>
     </div>
-    <div>
-      <dt>Slope</dt>
-      <dd>{slopePercent !== undefined ? `${slopePercent}%` : "Not stated"}</dd>
-    </div>
-    <div>
-      <dt>Navigation</dt>
-      <dd>{formatNav(navigation)}</dd>
-    </div>
-    <div>
-      <dt>Boundary</dt>
-      <dd>
-        <span class:list={["badge", { wire: !wireFree }]}>{wireFree ? "Wire-free" : "Boundary wire"}</span>
-      </dd>
-    </div>
-  </dl>
-  <div class="card-foot">
-    <label class="compare-toggle">
-      <input type="checkbox" data-compare value={slug} />
-      Compare
-    </label>
-    <a href={listingPath(slug)}>Full listing</a>
   </div>
 </article>
