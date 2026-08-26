@@ -534,6 +534,10 @@ hr {
     min-height: calc(100svh - var(--header-h));
     padding: 3.25rem 0 3.5rem;
   }
+
+  .hero-copy {
+    order: -1;
+  }
 }
 
 .hero-copy {
@@ -560,12 +564,12 @@ hr {
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 22rem;
+  min-height: 18rem;
 }
 
 .hero-still .photo-plate {
   flex: 1;
-  min-height: 22rem;
+  min-height: 18rem;
 }
 
 .hero-caption {
