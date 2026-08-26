@@ -1,0 +1,59 @@
+---
+interface Props {
+  src?: string;
+  alt: string;
+}
+
+const { src, alt } = Astro.props;
+const views = src ? [src] : [];
+---
+
+<section class="listing-gallery" data-product-gallery aria-label={`${alt} images`}>
+  <div class="gallery-stage">
+    {
+      views.length > 0 ? (
+        views.map((view, index) => (
+          <div
+            class:list={["gallery-panel", index !== 0 && "is-hidden"]}
+            data-gallery-panel={String(index)}
+          >
+            <div class="photo-plate">
+              <img
+                src={view}
+                alt={`${alt} — view ${index + 1} of ${views.length}`}
+                width="1400"
+                height="1750"
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding={index === 0 ? "sync" : "async"}
+              />
+            </div>
+          </div>
+        ))
+      ) : (
+        <div class="photo-plate">
+          <div class="photo-missing" role="img" aria-label={`${alt}: official photo not on the manufacturer page`}>
+            <span class="photo-missing-mark">No official still</span>
+            <span class="photo-missing-copy">The manufacturer page does not publish a usable product photo for this machine.</span>
+          </div>
+        </div>
+      )
+    }
+  </div>
+  {
+    views.length > 0 && (
+      <div class="gallery-thumbs" role="group" aria-label="Choose an image">
+        {views.map((view, index) => (
+          <button
+            type="button"
+            class="gallery-thumb"
+            data-gallery-thumb={String(index)}
+            aria-label={`Show view ${index + 1}`}
+            aria-pressed={index === 0 ? "true" : "false"}
+          >
+            <img src={view} alt="" width="360" height="360" loading="lazy" decoding="async" />
+          </button>
+        ))}
+      </div>
+    )
+  }
+</section>

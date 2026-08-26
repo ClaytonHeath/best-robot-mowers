@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import ListingCard from "../../components/ListingCard.astro";
-import ProductPhoto from "../../components/ProductPhoto.astro";
+import ListingGallery from "../../components/ListingGallery.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { breadcrumbJsonLd, productJsonLd } from "../../lib/schema";
@@ -51,9 +51,7 @@ const origin = Astro.site ?? Astro.url.origin;
     </nav>
 
     <div class="listing-split">
-      <section class="listing-gallery" aria-label={`${d.title} photograph`}>
-        <ProductPhoto src={photo} alt={d.title} eager />
-      </section>
+      <ListingGallery src={photo} alt={d.title} />
 
       <div class="listing-buy">
         <p class="label">
@@ -102,4 +100,7 @@ const origin = Astro.site ?? Astro.url.origin;
       )
     }
   </div>
+  <script>
+    import "../../scripts/gallery.ts";
+  </script>
 </BaseLayout>

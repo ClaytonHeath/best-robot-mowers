@@ -538,6 +538,16 @@ hr {
   .hero-copy {
     order: -1;
   }
+
+  .hero-still {
+    min-height: 0;
+  }
+
+  .hero-still .photo-plate {
+    aspect-ratio: auto;
+    min-height: 0;
+    height: 100%;
+  }
 }
 
 .hero-copy {
@@ -952,6 +962,62 @@ hr {
 
 .listing-gallery .photo-plate {
   min-height: 20rem;
+}
+
+.gallery-stage {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.gallery-panel.is-hidden {
+  display: none;
+}
+
+.gallery-thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.gallery-thumb {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line);
+  transition: box-shadow 260ms ease;
+}
+
+.gallery-thumb img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  padding: 8%;
+}
+
+.gallery-thumb:hover {
+  box-shadow: inset 0 0 0 1px var(--line-strong);
+}
+
+.gallery-thumb[aria-pressed="true"] {
+  box-shadow: inset 0 0 0 2px var(--accent);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gallery-panel:not(.is-hidden) {
+    animation: panel-in 600ms var(--ease-out-expo) both;
+  }
+
+  @keyframes panel-in {
+    from {
+      opacity: 0;
+      transform: scale(1.015);
+    }
+  }
 }
 
 .listing-buy {
