@@ -4,7 +4,7 @@ A curated public directory of robot lawn mowers — wire-free LiDAR / RTK / visi
 
 The site is a static Astro app. There is no CMS, auth, or backend. The homepage is a filterable index of published listings. Each listing is one Markdown file that becomes one SEO page, with an official manufacturer product photo when the brand publishes one.
 
-Live site: **https://bestlawnrobots.com** (Railway).
+Live site: **https://bestlawnrobots.com**. GitHub Pages is the public host; Railway is leftover.
 
 ## Run locally
 
@@ -28,16 +28,16 @@ npm start        # serve dist/ (Railway start command)
 - `site`: `https://bestlawnrobots.com`
 - `base`: `/`
 
-## Deploy (Railway)
+## Deploy
 
-Production host is Railway, not GitHub Pages.
+Production publishes from `main` via GitHub Actions → GitHub Pages (`.github/workflows/deploy.yml`). Custom domain: **www.bestlawnrobots.com** (apex `bestlawnrobots.com` redirects to www).
 
-`railway.toml` tells Railway to:
+`railway.toml` is leftover so Railway does not break during DNS cutover. It still:
 
 1. `npm run build` → `dist/`
 2. `npm start` → serve `dist/` on `$PORT`
 
-If you prefer Railpack’s built-in static file server instead of `serve`, set the service variable `RAILPACK_STATIC_FILE_ROOT=dist` (and `RAILPACK_NODE_VERSION=22`). Custom domain: **bestlawnrobots.com**.
+If you prefer Railpack’s built-in static file server instead of `serve`, set the service variable `RAILPACK_STATIC_FILE_ROOT=dist` (and `RAILPACK_NODE_VERSION=22`).
 
 PR CI (`.github/workflows/build.yml`) still runs `npm run build` on every pull request.
 
@@ -127,7 +127,8 @@ src/pages/mowers/[slug].astro  # listing pages
 src/pages/about.astro          # methodology
 src/lib/site.ts                # branding, formatting, paths
 public/mowers/                 # official product stills
-railway.toml                   # Railway static deploy
+.github/workflows/deploy.yml   # GitHub Pages production deploy
+railway.toml                   # leftover Railway static deploy (DNS cutover)
 ```
 
 Homepage filters are static: they run in a small client script against `data-*` attributes and URL search params (`?wire=free&coverage=under-0.5&nav=lidar`). No backend.
