@@ -1,8 +1,8 @@
 export const SITE_NAME = "Best Robot Lawn Mowers";
-export const SITE_TAGLINE = "A hardware-catalog directory of robot lawn mowers.";
+export const SITE_TAGLINE = "A considered directory of robot lawn mowers.";
 export const OWNER = "A Justamanstanding project";
 export const SITE_DESCRIPTION =
-  "Official photos and printed specs for wire-free LiDAR, RTK, and vision robot mowers, plus boundary-wire models. A Justamanstanding project — not a ranking for sale.";
+  "A small, slow directory of robot lawn mowers — official manufacturer stills, printed specs, and a short verdict. Wire-free LiDAR, RTK, and vision machines, plus boundary-wire models. A Justamanstanding project.";
 
 export const NAV_LABELS = {
   lidar: "LiDAR",
@@ -80,4 +80,13 @@ export function formatUpdated(date: Date): string {
 
 export function isPresentUrl(value: string | undefined): value is string {
   return Boolean(value && value.trim().length > 0);
+}
+
+export function padIndex(n: number): string {
+  return String(n).padStart(2, "0");
+}
+
+/** Unique meta description from the listing’s own verdict. */
+export function listingDescription(data: { verdict: string }): string {
+  return data.verdict.replace(/\s+/g, " ").trim();
 }

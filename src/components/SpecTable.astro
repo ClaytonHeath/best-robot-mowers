@@ -12,49 +12,36 @@ const d = listing.data;
 const rows: { label: string; value: string }[] = [
   { label: "Brand", value: d.brand },
   { label: "Model", value: d.model },
-  { label: "Recommended coverage", value: formatAcres(d.coverageAcres) },
+  { label: "Coverage", value: formatAcres(d.coverageAcres) },
   {
     label: "Max slope",
-    value: d.slopePercent !== undefined ? `${d.slopePercent}%` : "Not stated on official page",
+    value: d.slopePercent !== undefined ? `${d.slopePercent}%` : "Not stated",
   },
   { label: "Navigation", value: formatNav(d.navigation) },
   { label: "Boundary", value: d.wireFree ? "Wire-free" : "Boundary wire" },
-  { label: "Price (USD)", value: `${formatPrice(d.priceUsd)}${d.priceNote ? ` — ${d.priceNote}` : ""}` },
+  { label: "Price", value: formatPrice(d.priceUsd) },
 ];
 
+if (d.priceNote) rows.push({ label: "Price note", value: d.priceNote });
 if (d.driveType) rows.push({ label: "Drive", value: d.driveType });
-if (d.cuttingWidthIn) rows.push({ label: "Cutting width", value: `${d.cuttingWidthIn} in` });
-if (d.cuttingHeight) rows.push({ label: "Cutting height", value: d.cuttingHeight });
+if (d.cuttingWidthIn) rows.push({ label: "Cut width", value: `${d.cuttingWidthIn} in` });
+if (d.cuttingHeight) rows.push({ label: "Cut height", value: d.cuttingHeight });
 if (d.noiseDb) rows.push({ label: "Noise", value: `${d.noiseDb} dB` });
 if (d.weightLbs) rows.push({ label: "Weight", value: `${d.weightLbs} lb` });
-if (d.ipRating) rows.push({ label: "Ingress rating", value: d.ipRating });
+if (d.ipRating) rows.push({ label: "Ingress", value: d.ipRating });
 rows.push({ label: "Specs checked", value: formatUpdated(d.updated) });
 ---
 
-<div class="spec-plate">
-  <p class="spec-plate-label">Stamped specs</p>
-  <table class="spec-table">
-    <caption class="visually-hidden">Key specifications</caption>
-    <tbody>
-      {
-        rows.map((row) => (
-          <tr>
-            <th scope="row">{row.label}</th>
-            <td>{row.value}</td>
-          </tr>
-        ))
-      }
-    </tbody>
-  </table>
+<div>
+  <p class="label">Specification</p>
+  <dl class="plate">
+    {
+      rows.map((row) => (
+        <div class="plate-row">
+          <dt>{row.label}</dt>
+          <dd>{row.value}</dd>
+        </div>
+      ))
+    }
+  </dl>
 </div>
-
-<style>
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-  }
-</style>

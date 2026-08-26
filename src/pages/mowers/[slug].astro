@@ -1,23 +1,38 @@
 ---
 import { getCollection, render } from "astro:content";
+import ListingCard from "../../components/ListingCard.astro";
 import ProductPhoto from "../../components/ProductPhoto.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { formatAcres, formatPrice, formatUpdated, isPresentUrl, listingPhotoSrc, withBase } from "../../lib/site";
+import { breadcrumbJsonLd, productJsonLd } from "../../lib/schema";
+import {
+  formatAcres,
+  formatNav,
+  formatPrice,
+  formatUpdated,
+  isPresentUrl,
+  listingDescription,
+  listingPhotoSrc,
+  withBase,
+} from "../../lib/site";
 
 export async function getStaticPaths() {
   const listings = await getCollection("listings", ({ data }) => data.status === "published");
   return listings.map((listing) => ({
     params: { slug: listing.data.slug },
-    props: { listing },
+    props: {
+      listing,
+      related: listings.filter((item) => item.id !== listing.id).slice(0, 3),
+    },
   }));
 }
 
-const { listing } = Astro.props;
+const { listing, related } = Astro.props;
 const { Content } = await render(listing);
 const d = listing.data;
-const description = `${d.verdict} ${d.whoItsFor}`;
+const description = listingDescription(d);
 const photo = listingPhotoSrc(d.slug, d.image);
+const origin = Astro.site ?? Astro.url.origin;
 ---
 
 <BaseLayout
@@ -26,26 +41,27 @@ const photo = listingPhotoSrc(d.slug, d.image);
   canonicalPath={`mowers/${d.slug}`}
   type="article"
   ogImage={photo}
+  jsonLd={[productJsonLd(listing, origin), breadcrumbJsonLd(listing, origin)]}
 >
-  <div class="wrap">
-    <header class="listing-hero">
-      <ProductPhoto src={photo} alt={d.title} eager>
-        <span class="price-stamp">{formatPrice(d.priceUsd)}</span>
-      </ProductPhoto>
-      <div class="listing-intro">
-        <p class="kicker">
-          {d.brand} · {formatAcres(d.coverageAcres)} · {d.wireFree ? "Wire-free" : "Boundary wire"}
-        </p>
-        <h1>{d.title}</h1>
-        <p class="lede">{d.verdict}</p>
-      </div>
-    </header>
+  <div class="shell">
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a class="link" href={withBase()}>Catalogue</a>
+      <span aria-hidden="true">/</span>
+      <span aria-current="page">{d.title}</span>
+    </nav>
 
-    <div class="listing-layout">
-      <article class="prose">
-        <Content />
-      </article>
-      <aside class="side">
+    <div class="listing-split">
+      <section class="listing-gallery" aria-label={`${d.title} photograph`}>
+        <ProductPhoto src={photo} alt={d.title} eager />
+      </section>
+
+      <div class="listing-buy">
+        <p class="label">
+          {d.brand} · {d.wireFree ? "Wire-free" : "Boundary wire"} · {formatAcres(d.coverageAcres)}
+        </p>
+        <h1 class="type-h2">{d.title}</h1>
+        <p class="listing-price mono">{formatPrice(d.priceUsd)}</p>
+        <p class="type-body">{d.verdict}</p>
         <SpecTable listing={listing} />
         <div class="cta">
           {
@@ -55,11 +71,35 @@ const photo = listingPhotoSrc(d.slug, d.image);
               </a>
             )
           }
-          <a class="btn btn-ghost" href={d.officialUrl} rel="noopener noreferrer">Official product page</a>
-          <p class="note">Updated {formatUpdated(d.updated)}. Specs that were not on the official page are omitted.</p>
-          <p class="note"><a href={withBase()}>← All mowers</a></p>
+          <a class="btn btn-outline" href={d.officialUrl} rel="noopener noreferrer">Official product page</a>
         </div>
-      </aside>
+        <p class="note">
+          Updated {formatUpdated(d.updated)}. Specs omitted when the official page does not state them.
+          Navigation: {formatNav(d.navigation)}.
+        </p>
+      </div>
     </div>
+
+    <article class="listing-article prose">
+      <Content />
+    </article>
+
+    {
+      related.length > 0 && (
+        <section class="related">
+          <div class="related-head">
+            <h2 class="type-h2">Other machines in the directory</h2>
+            <a class="link link-mono" href={withBase()}>
+              All listings
+            </a>
+          </div>
+          <div class="listing-grid">
+            {related.map((item, index) => (
+              <ListingCard listing={item} index={index} headingLevel="h3" compare={false} />
+            ))}
+          </div>
+        </section>
+      )
+    }
   </div>
 </BaseLayout>

@@ -1,40 +1,113 @@
 ---
 import { getCollection } from "astro:content";
 import ListingCard from "../components/ListingCard.astro";
+import ProductPhoto from "../components/ProductPhoto.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { COVERAGE_BANDS, NAV_LABELS, SITE_DESCRIPTION, SITE_NAME } from "../lib/site";
+import {
+  COVERAGE_BANDS,
+  NAV_LABELS,
+  SITE_DESCRIPTION,
+  SITE_NAME,
+  formatAcres,
+  formatNav,
+  listingPath,
+  listingPhotoSrc,
+  padIndex,
+  withBase,
+} from "../lib/site";
 
 const listings = (await getCollection("listings", ({ data }) => data.status === "published")).sort(
   (a, b) => a.data.brand.localeCompare(b.data.brand) || a.data.model.localeCompare(b.data.model),
 );
 
 const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
+const featured = [...listings].sort((a, b) => b.data.coverageAcres - a.data.coverageAcres)[0];
+const wireFreeCount = listings.filter((item) => item.data.wireFree).length;
+const acres = listings.map((item) => item.data.coverageAcres);
+const minAcres = acres.length ? Math.min(...acres) : 0;
+const maxAcres = acres.length ? Math.max(...acres) : 0;
+const navSystems = [...new Set(listings.flatMap((item) => item.data.navigation))].filter(
+  (type) => type === "lidar" || type === "rtk" || type === "vision",
+);
+
+const facts = [
+  { label: "Listings", value: padIndex(listings.length) },
+  { label: "Wire-free", value: padIndex(wireFreeCount) },
+  {
+    label: "Coverage",
+    value: `${minAcres === maxAcres ? formatAcres(minAcres) : `${minAcres}–${maxAcres} ac`}`,
+  },
+  { label: "Navigation", value: navSystems.map((type) => NAV_LABELS[type]).join(" · ") },
+];
 ---
 
 <BaseLayout title={SITE_NAME} description={SITE_DESCRIPTION}>
-  <div class="wrap">
-    <header class="page-hero">
-      <p class="kicker">{listings.length} machines on the floor · late-season catalog</p>
-      <h1>Robot mowers, stacked like outdoor gear.</h1>
-      <p class="lede">
-        Each bin is an official still, five or six stamped specs, and a short verdict.
-        Filter the aisle by wire, acreage, and how the machine actually finds the lawn.
-        Nothing here is a ranking for sale.
+  <section class="hero shell">
+    <div class="hero-copy">
+      <h1 class="type-hero hero-in">Robot mowers, considered.</h1>
+      <p class="type-lead hero-in" style="--reveal-delay:120ms">
+        A small, slow directory of outdoor machines — official stills, printed specs, and a short
+        verdict. Filter by wire, acreage, and how the mower finds the lawn. Nothing here is a ranking
+        for sale.
       </p>
+      <div class="hero-actions hero-in" style="--reveal-delay:220ms">
+        <a class="btn btn-primary" href="#catalogue">Browse the catalogue</a>
+        <a class="btn btn-outline" href={withBase("about")}>The method</a>
+      </div>
+    </div>
+    {
+      featured && (
+        <figure class="hero-still hero-in" style="--reveal-delay:80ms">
+          <ProductPhoto
+            src={listingPhotoSrc(featured.data.slug, featured.data.image)}
+            alt={featured.data.title}
+            href={listingPath(featured.data.slug)}
+            eager
+          />
+          <figcaption class="hero-caption">
+            <a href={listingPath(featured.data.slug)}>
+              No. {padIndex(listings.indexOf(featured) + 1)} — {featured.data.title}
+            </a>
+            <span>
+              {formatNav(featured.data.navigation)} · {formatAcres(featured.data.coverageAcres)}
+            </span>
+          </figcaption>
+        </figure>
+      )
+    }
+  </section>
+
+  <div class="rule"></div>
+  <section class="fact-band shell" aria-label="Directory snapshot">
+    {
+      facts.map((fact) => (
+        <div class="fact">
+          <p class="label fact-label">{fact.label}</p>
+          <p class="fact-value">{fact.value}</p>
+        </div>
+      ))
+    }
+  </section>
+  <div class="rule"></div>
+
+  <section class="catalog shell" id="catalogue" aria-label="Mower catalogue">
+    <header class="catalog-head">
+      <h2 class="type-h2">Every machine on the list</h2>
+      <p class="type-lead">Official photographs. Specs as printed. A caveat in the verdict.</p>
     </header>
 
-    <div class="bin-rack" role="search" aria-label="Filter mowers">
-      <fieldset>
-        <legend>Boundary</legend>
-        <div class="chip-row">
+    <div class="filter-bar" role="search" aria-label="Filter mowers">
+      <div class="filter-group" data-filter-group="wire">
+        <p class="label" id="filter-wire">Boundary</p>
+        <div class="chip-row" role="group" aria-labelledby="filter-wire">
           <button class="chip" type="button" data-filter="wire" data-value="all" aria-pressed="true">All</button>
           <button class="chip" type="button" data-filter="wire" data-value="free" aria-pressed="false">Wire-free</button>
           <button class="chip" type="button" data-filter="wire" data-value="wire" aria-pressed="false">Boundary wire</button>
         </div>
-      </fieldset>
-      <fieldset>
-        <legend>Coverage</legend>
-        <div class="chip-row">
+      </div>
+      <div class="filter-group" data-filter-group="coverage">
+        <p class="label" id="filter-coverage">Coverage</p>
+        <div class="chip-row" role="group" aria-labelledby="filter-coverage">
           <button class="chip" type="button" data-filter="coverage" data-value="all" aria-pressed="true">All</button>
           {
             COVERAGE_BANDS.map((band) => (
@@ -44,10 +117,10 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
             ))
           }
         </div>
-      </fieldset>
-      <fieldset>
-        <legend>Navigation</legend>
-        <div class="chip-row">
+      </div>
+      <div class="filter-group" data-filter-group="nav">
+        <p class="label" id="filter-nav">Navigation</p>
+        <div class="chip-row" role="group" aria-labelledby="filter-nav">
           <button class="chip" type="button" data-filter="nav" data-value="all" aria-pressed="true">All</button>
           {
             navTypes.map((type) => (
@@ -57,12 +130,17 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
             ))
           }
         </div>
-      </fieldset>
+      </div>
     </div>
 
     <div class="toolbar">
-      <p><span data-result-count>{listings.length} mowers</span> · tick 2–3 cards to compare</p>
-      <button class="reset" type="button" data-reset hidden>Clear bins</button>
+      <p>
+        <span data-result-count>{padIndex(listings.length)}</span>
+        {" "}
+        <span data-result-label>{listings.length === 1 ? "machine shown" : "machines shown"}</span>
+        {" · mark two to compare"}
+      </p>
+      <button class="reset link link-mono" type="button" data-reset hidden>Clear</button>
     </div>
 
     <section class="compare-panel" data-compare-panel hidden>
@@ -72,11 +150,44 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
       </table>
     </section>
 
-    <section class="listing-grid" aria-label="Mower listings">
-      {listings.map((listing) => <ListingCard listing={listing} />)}
-      <p class="empty" data-empty hidden>No published mowers match those bins.</p>
-    </section>
-  </div>
+    <div class="listing-grid" aria-label="Mower listings">
+      {listings.map((listing, index) => <ListingCard listing={listing} index={index} eager={index < 2} />)}
+      <p class="empty" data-empty hidden>No machines match that combination.</p>
+    </div>
+  </section>
+
+  <section class="systems shell">
+    <div class="systems-head">
+      <h2 class="type-h2">How the machines find the lawn</h2>
+    </div>
+    <div class="systems-grid">
+      <article class="system" data-reveal>
+        <p class="label">Quiet · ranging</p>
+        <h3>LiDAR</h3>
+        <p>
+          A spinning or solid-state ranger maps the yard without a perimeter wire. Strong in shade
+          and among trees, where GPS is thin.
+        </p>
+      </article>
+      <article class="system" data-reveal style="--reveal-delay:110ms">
+        <p class="label">Precise · open sky</p>
+        <h3>RTK</h3>
+        <p>
+          Centimetre-grade positioning from a local antenna or a network correction. Best where the
+          sky is reasonably clear.
+        </p>
+      </article>
+      <article class="system" data-reveal style="--reveal-delay:220ms">
+        <p class="label">Camera · no pole</p>
+        <h3>Vision</h3>
+        <p>
+          Cameras and visual odometry, sometimes with cloud RTK. Setup is light; coverage and slope
+          ratings tend to be smaller.
+        </p>
+      </article>
+    </div>
+  </section>
+
   <script>
     import "../scripts/filters.ts";
   </script>

@@ -15,11 +15,11 @@ const showImage = Boolean(src) && !missing;
   href ? (
     <a class="photo-plate photo-link" href={href}>
       {showImage ? (
-        <img src={src} alt={alt} width="1400" height="1400" loading={eager ? "eager" : "lazy"} decoding="async" />
+        <img src={src} alt={alt} width="1400" height="1750" loading={eager ? "eager" : "lazy"} decoding="async" />
       ) : (
         <div class="photo-missing" role="img" aria-label={`${alt}: official photo not on the manufacturer page`}>
           <span class="photo-missing-mark">No official still</span>
-          <span class="photo-missing-copy">The manufacturer page does not publish a usable product photo for this SKU.</span>
+          <span class="photo-missing-copy">The manufacturer page does not publish a usable product photo for this machine.</span>
         </div>
       )}
       <slot />
@@ -27,11 +27,11 @@ const showImage = Boolean(src) && !missing;
   ) : (
     <div class="photo-plate">
       {showImage ? (
-        <img src={src} alt={alt} width="1400" height="1400" loading={eager ? "eager" : "lazy"} decoding="async" />
+        <img src={src} alt={alt} width="1400" height="1750" loading={eager ? "eager" : "lazy"} decoding="async" />
       ) : (
         <div class="photo-missing" role="img" aria-label={`${alt}: official photo not on the manufacturer page`}>
           <span class="photo-missing-mark">No official still</span>
-          <span class="photo-missing-copy">The manufacturer page does not publish a usable product photo for this SKU.</span>
+          <span class="photo-missing-copy">The manufacturer page does not publish a usable product photo for this machine.</span>
         </div>
       )}
       <slot />

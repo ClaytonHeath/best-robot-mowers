@@ -38,7 +38,12 @@ function applyFilters() {
 
   const count = document.querySelector("[data-result-count]");
   if (count) {
-    count.textContent = `${visible} mower${visible === 1 ? "" : "s"}`;
+    count.textContent = String(visible).padStart(2, "0");
+  }
+
+  const label = document.querySelector("[data-result-label]");
+  if (label) {
+    label.textContent = visible === 1 ? "machine shown" : "machines shown";
   }
 
   const empty = document.querySelector<HTMLElement>("[data-empty]");

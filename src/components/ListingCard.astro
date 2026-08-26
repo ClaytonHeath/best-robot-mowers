@@ -7,13 +7,19 @@ import {
   formatPrice,
   listingPath,
   listingPhotoSrc,
+  padIndex,
 } from "../lib/site";
 
 interface Props {
   listing: CollectionEntry<"listings">;
+  index?: number;
+  eager?: boolean;
+  headingLevel?: "h2" | "h3";
+  compare?: boolean;
 }
 
-const { listing } = Astro.props;
+const { listing, index, eager = false, headingLevel = "h2", compare = true } = Astro.props;
+const Heading = headingLevel;
 const {
   slug,
   brand,
@@ -24,28 +30,13 @@ const {
   navigation,
   wireFree,
   priceUsd,
-  cuttingWidthIn,
-  driveType,
-  ipRating,
   image,
 } = listing.data;
-
-const specRows: { label: string; value: string }[] = [
-  { label: "Coverage", value: formatAcres(coverageAcres) },
-  { label: "Slope", value: slopePercent !== undefined ? `${slopePercent}%` : "Not stated" },
-  { label: "Nav", value: formatNav(navigation) },
-  {
-    label: "Boundary",
-    value: wireFree ? "Wire-free" : "Boundary wire",
-  },
-];
-if (cuttingWidthIn) specRows.push({ label: "Cut", value: `${cuttingWidthIn} in` });
-if (driveType) specRows.push({ label: "Drive", value: driveType });
-else if (ipRating) specRows.push({ label: "Ingress", value: ipRating });
+const reference = index === undefined ? undefined : padIndex(index + 1);
 ---
 
 <article
-  class="card"
+  class="product-card"
   data-listing-card
   data-slug={slug}
   data-wire={wireFree ? "free" : "wire"}
@@ -56,30 +47,32 @@ else if (ipRating) specRows.push({ label: "Ingress", value: ipRating });
   data-price={priceUsd ?? ""}
   data-slope={slopePercent ?? ""}
   data-who={listing.data.whoItsFor}
+  data-reveal
+  style={index !== undefined ? `--reveal-delay:${(index % 2) * 110}ms` : undefined}
 >
-  <ProductPhoto src={listingPhotoSrc(slug, image)} alt={title} href={listingPath(slug)}>
-    <span class="price-stamp">{formatPrice(priceUsd)}</span>
-  </ProductPhoto>
-  <div class="bin-body">
-    <p class="brand">{brand}</p>
-    <h2><a href={listingPath(slug)}>{title}</a></h2>
-    <dl class="specs">
-      {
-        specRows.map((row) => (
-          <div>
-            <dt>{row.label}</dt>
-            <dd>{row.value}</dd>
-          </div>
-        ))
-      }
-    </dl>
-    <p class="verdict">{verdict}</p>
-    <div class="card-foot">
-      <label class="compare-toggle">
-        <input type="checkbox" data-compare value={slug} />
-        Compare
-      </label>
-      <a href={listingPath(slug)}>Full listing</a>
+  <ProductPhoto src={listingPhotoSrc(slug, image)} alt={title} href={listingPath(slug)} eager={eager} />
+  <div class="product-card-meta">
+    {reference && <span class="product-card-idx">{reference}</span>}
+    <div class="product-card-copy">
+      <Heading>
+        <a href={listingPath(slug)}>{title}</a>
+      </Heading>
+      <p class="product-card-kicker">
+        {brand} · {formatNav(navigation)} · {formatAcres(coverageAcres)}
+      </p>
     </div>
+    <span class="product-card-price">{formatPrice(priceUsd)}</span>
+  </div>
+  <p class="product-card-verdict">{verdict}</p>
+  <div class="product-card-foot">
+    {
+      compare && (
+        <label class="compare-toggle">
+          <input type="checkbox" data-compare value={slug} />
+          Compare
+        </label>
+      )
+    }
+    <a class="link link-mono" href={listingPath(slug)}>Full listing</a>
   </div>
 </article>

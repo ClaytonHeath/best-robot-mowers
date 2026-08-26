@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import JsonLd from "../components/JsonLd.astro";
 import { OWNER, SITE_NAME, assetPath, withBase } from "../lib/site";
 
 interface Props {
@@ -8,13 +9,16 @@ interface Props {
   canonicalPath?: string;
   type?: "website" | "article";
   ogImage?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
-const { title, description, canonicalPath = "", type = "website", ogImage } = Astro.props;
+const { title, description, canonicalPath = "", type = "website", ogImage, jsonLd } = Astro.props;
 const canonical = new URL(withBase(canonicalPath), Astro.site);
 const pageTitle = title === SITE_NAME ? SITE_NAME : `${title} · ${SITE_NAME}`;
 const path = Astro.url.pathname;
+const home = withBase();
 const ogImageAbs = ogImage ? new URL(ogImage, Astro.site).href : undefined;
+const year = new Date().getFullYear();
 ---
 
 <!doctype html>
@@ -38,18 +42,41 @@ const ogImageAbs = ogImage ? new URL(ogImage, Astro.site).href : undefined;
     <meta name="twitter:description" content={description} />
     {ogImageAbs && <meta name="twitter:image" content={ogImageAbs} />}
     <link rel="icon" href={assetPath("favicon.svg")} type="image/svg+xml" />
+    <script is:inline>
+      if (
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches === false &&
+        "IntersectionObserver" in window
+      ) {
+        document.documentElement.dataset.motion = "on";
+      }
+    </script>
+    {jsonLd && <JsonLd data={jsonLd} />}
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
-      <div class="wrap header-inner">
-        <a class="wordmark" href={withBase()}>
+      <div class="shell header-inner">
+        <a class="wordmark" href={home}>
           <span class="wordmark-title">{SITE_NAME}</span>
-          <small>{OWNER}</small>
+          <span class="wordmark-credit">{OWNER}</span>
         </a>
         <nav class="nav" aria-label="Primary">
-          <a href={withBase()} aria-current={path === withBase() ? "page" : undefined}>Floor</a>
-          <a href={withBase("about")} aria-current={path.includes("/about") ? "page" : undefined}>Method</a>
+          <a
+            class="nav-link"
+            href={home}
+            aria-current={path === home ? "page" : undefined}
+          >
+            <span class="nav-idx">01</span>
+            Catalogue
+          </a>
+          <a
+            class="nav-link"
+            href={withBase("about")}
+            aria-current={path.includes("/about") ? "page" : undefined}
+          >
+            <span class="nav-idx">02</span>
+            Method
+          </a>
         </nav>
       </div>
     </header>
@@ -57,24 +84,50 @@ const ogImageAbs = ogImage ? new URL(ogImage, Astro.site).href : undefined;
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="wrap footer-inner">
-        <div>
-          <p class="footer-brand">{SITE_NAME}</p>
-          <p>
-            {OWNER}. We don’t take payment for rankings.
-            Some links may be affiliate.
-          </p>
+      <div class="shell">
+        <div class="footer-inner">
+          <div>
+            <p class="footer-brand">{SITE_NAME}</p>
+            <p class="footer-blurb">
+              {OWNER}. A curated public directory — not a shop, not a ranking for sale.
+              Some links may be affiliate.
+            </p>
+          </div>
+          <div class="footer-col">
+            <p class="label">Directory</p>
+            <a class="link" href={home}>The catalogue</a>
+            <a class="link" href={withBase("about")}>How a listing is written</a>
+          </div>
+          <div class="footer-col">
+            <p class="label">Host</p>
+            <p>Live at bestlawnrobots.com. Specs come from official product pages, not press quotes.</p>
+          </div>
         </div>
-        <div>
-          <p class="footer-label">On the floor</p>
-          <p><a href={withBase()}>All mowers</a></p>
-          <p><a href={withBase("about")}>How a listing is written</a></p>
-        </div>
-        <div>
-          <p class="footer-label">Host</p>
-          <p>Live at bestlawnrobots.com. Specs come from official product pages, not press quotes.</p>
-        </div>
+        <p class="footer-copy">© {year} {SITE_NAME} — {OWNER}</p>
       </div>
     </footer>
+    <script is:inline>
+      (() => {
+        if (document.documentElement.dataset.motion !== "on") return;
+        const observer = new IntersectionObserver(
+          (entries) => {
+            for (const entry of entries) {
+              if (!entry.isIntersecting) continue;
+              entry.target.classList.add("is-in");
+              observer.unobserve(entry.target);
+            }
+          },
+          { rootMargin: "0px 0px -8% 0px", threshold: 0 },
+        );
+        const observeAll = () => {
+          document.querySelectorAll("[data-reveal]:not(.is-in)").forEach((node) => observer.observe(node));
+        };
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", observeAll);
+        } else {
+          observeAll();
+        }
+      })();
+    </script>
   </body>
 </html>

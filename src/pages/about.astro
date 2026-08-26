@@ -1,55 +1,93 @@
 ---
+import ProductPhoto from "../components/ProductPhoto.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { OWNER, SITE_NAME, withBase } from "../lib/site";
+import { OWNER, SITE_NAME, listingPhotoSrc, withBase } from "../lib/site";
 ---
 
 <BaseLayout
-  title="Method"
-  description={`${SITE_NAME} is a curated directory. We do not take payment for rankings. Listings are written from official specs.`}
+  title="The method"
+  description={`${SITE_NAME} is a curated directory, not a shop. We do not take payment for rankings. Listings are written from official specs and manufacturer photographs.`}
   canonicalPath="about"
 >
-  <div class="wrap about">
-    <p class="kicker">Colophon</p>
-    <h1>A catalog, not a podium.</h1>
-    <p>
-      {SITE_NAME} is a slow-growing public directory of robot lawn mowers — wire-free LiDAR, RTK,
-      and vision models as well as boundary-wire machines. {OWNER}.
-      The homepage is the floor. Each listing is one Markdown file, one page, one set of facts,
-      and — when the manufacturer publishes one — one official product still.
-    </p>
+  <div class="shell about">
+    <header class="about-hero">
+      <p class="label">Colophon</p>
+      <h1 class="type-h1" style="margin-top: 1rem">A directory, not a podium.</h1>
+      <p class="type-lead">
+        {SITE_NAME} is a slow-growing public catalogue of robot lawn mowers — wire-free LiDAR, RTK,
+        and vision models as well as boundary-wire machines. {OWNER}. Each listing is one Markdown
+        file, one page, one set of facts, and — when the manufacturer publishes one — one official
+        still.
+      </p>
+    </header>
 
-    <h2>What “curated” means here</h2>
-    <p>
-      New models are added because they ship, not because a brand paid. There is no sponsored
-      ranking, no “best of 2026” package, and no invented testimonials. If that policy changes,
-      this page will say so first.
-    </p>
+    <figure class="about-still">
+      <ProductPhoto
+        src={listingPhotoSrc("mammotion-luba-3-awd-1500", "/mowers/mammotion-luba-3-awd-1500.webp")}
+        alt="Mammotion LUBA 3 AWD, an official manufacturer still from the directory"
+        eager
+      />
+    </figure>
 
-    <h2>How a listing is written</h2>
-    <ul>
-      <li>Official product pages and spec sheets are the source of truth.</li>
-      <li>If a number is not on that page, it is omitted rather than guessed.</li>
-      <li>Prices are labeled with a note (MSRP vs live cart vs unknown).</li>
-      <li>The verdict is a caveat-aware one-liner, not a marketing sentence.</li>
-      <li>Product photos are saved from the official page. We do not generate fake stills of real machines.</li>
-      <li>Pages are updated when new hardware ships or official specs change.</li>
-    </ul>
+    <div class="about-split">
+      <h2 class="type-h3">We started with the spec sheet</h2>
+      <div class="about-copy">
+        <p>
+          The homepage is the catalogue. New models are added because they ship, not because a brand
+          paid. There is no sponsored ranking, no “best of” package, and no invented testimonials.
+          If that policy changes, this page will say so first.
+        </p>
+        <p>
+          Official product pages and spec sheets are the source of truth. If a number is not on that
+          page, it is omitted rather than guessed.
+        </p>
+      </div>
+    </div>
 
-    <h2>Coverage, slope, and navigation</h2>
-    <p>
-      Coverage is the manufacturer’s recommended mowing area, not a promise that every yard of
-      that size will finish in one charge. Slope is the published maximum inside the work area
-      unless noted. Navigation tags (LiDAR, RTK, vision, boundary wire) describe what the maker
-      claims the mower uses — mixed systems get more than one tag.
-    </p>
+    <div class="principles">
+      <article class="principle">
+        <h2>Official pages, always</h2>
+        <p>
+          Prices are labeled with a note — MSRP, live cart, or unknown. The verdict is a
+          caveat-aware one-liner, not a marketing sentence.
+        </p>
+      </article>
+      <article class="principle">
+        <h2>Photographs from the maker</h2>
+        <p>
+          Product stills are saved from the official page. We do not generate fake pictures of real
+          machines. If the manufacturer has no usable still, the listing uses a quiet empty plate.
+        </p>
+      </article>
+      <article class="principle">
+        <h2>Updated when hardware moves</h2>
+        <p>
+          Pages are revised when new hardware ships or official specs change. Coverage, slope, and
+          navigation tags describe what the maker claims — mixed systems get more than one tag.
+        </p>
+      </article>
+    </div>
 
-    <h2>Affiliate links</h2>
-    <p>
-      Some links on this site may be affiliate links. Seed listings ship with empty affiliate
-      URLs. When a link is an affiliate, the footer disclosure still applies: some links may be
-      affiliate. That does not change the spec table.
-    </p>
+    <div class="about-split">
+      <h2 class="type-h3">Coverage, slope, navigation</h2>
+      <div class="about-copy">
+        <p>
+          Coverage is the manufacturer’s recommended mowing area, not a promise that every yard of
+          that size will finish in one charge. Slope is the published maximum inside the work area
+          unless noted. Navigation tags (LiDAR, RTK, vision, boundary wire) describe the claimed
+          stack.
+        </p>
+        <h3 class="type-h3" style="margin-top: 2rem; font-size: 1.375rem">Affiliate links</h3>
+        <p style="margin-top: 0.85rem">
+          Some links on this site may be affiliate links. Seed listings ship with empty affiliate
+          URLs. When a link is an affiliate, the footer disclosure still applies. That does not
+          change the spec table.
+        </p>
+      </div>
+    </div>
 
-    <p><a href={withBase()}>Back to the floor</a></p>
+    <div class="about-cta">
+      <a class="btn btn-primary" href={withBase()}>See the catalogue</a>
+    </div>
   </div>
 </BaseLayout>
