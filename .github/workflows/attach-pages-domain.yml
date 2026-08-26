@@ -1,0 +1,37 @@
+name: Attach Pages custom domain
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/attach-pages-domain.yml"
+  workflow_dispatch:
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  attach:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set www.bestlawnrobots.com on GitHub Pages
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" \
+            -f cname='www.bestlawnrobots.com' \
+            -f build_type='workflow'
+          echo '--- pages after cname ---'
+          gh api "repos/${GITHUB_REPOSITORY}/pages"
+          echo '--- enforce https ---'
+          if gh api --method PUT "repos/${GITHUB_REPOSITORY}/pages" \
+            -F https_enforced=true \
+            -f build_type='workflow'; then
+            echo 'HTTPS enforce succeeded'
+          else
+            echo 'HTTPS enforce not ready (cert/DNS); leaving domain attached'
+          fi
+          echo '--- pages final ---'
+          gh api "repos/${GITHUB_REPOSITORY}/pages"
