@@ -1,8 +1,9 @@
 export const SITE_NAME = "Best Robot Lawn Mowers";
-export const SITE_TAGLINE = "A hardware-catalog directory of robot lawn mowers.";
+export const SITE_TAGLINE =
+  "Official photos, published specs, and a short caveat for each robot mower.";
 export const OWNER = "A Justamanstanding project";
 export const SITE_DESCRIPTION =
-  "Official photos and printed specs for wire-free LiDAR, RTK, and vision robot mowers, plus boundary-wire models. A Justamanstanding project — not a ranking for sale.";
+  "Official photos, the specs the manufacturer publishes, and a one-line caveat on what each machine is actually for. Filter by wire, coverage, and navigation.";
 
 export const NAV_LABELS = {
   lidar: "LiDAR",
