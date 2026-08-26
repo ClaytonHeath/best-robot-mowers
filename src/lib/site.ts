@@ -116,6 +116,7 @@ export interface ListingJsonLdInput {
   officialUrl: string;
 }
 
+/** Product + Offer only. No Review, aggregateRating, reviewRating, Person, or FAQPage. */
 export function productJsonLd(listing: ListingJsonLdInput): Record<string, unknown> {
   const url = listingCanonicalUrl(listing.slug);
   const product: Record<string, unknown> = {
@@ -175,6 +176,7 @@ export function websiteJsonLd(): Record<string, unknown> {
   };
 }
 
+/** Homepage documentation list (url, name, position). Not a Product carousel. */
 export function itemListJsonLd(listings: { title: string; slug: string }[]): Record<string, unknown> {
   return {
     "@context": "https://schema.org",
