@@ -961,7 +961,8 @@ hr {
 }
 
 .listing-gallery .photo-plate {
-  min-height: 20rem;
+  min-height: 16rem;
+  aspect-ratio: 1;
 }
 
 .gallery-stage {
