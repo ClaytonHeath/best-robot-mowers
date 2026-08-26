@@ -45,7 +45,7 @@ const facts = [
   <section class="hero shell">
     {
       featured && (
-        <figure class="hero-still hero-in" style="--reveal-delay:80ms">
+        <figure class="hero-still">
           <ProductPhoto
             src={listingPhotoSrc(featured.data.slug, featured.data.image)}
             alt={featured.data.title}
@@ -64,13 +64,13 @@ const facts = [
       )
     }
     <div class="hero-copy">
-      <h1 class="type-hero hero-in">Robot mowers, considered.</h1>
-      <p class="type-lead hero-in" style="--reveal-delay:120ms">
+      <h1 class="type-hero">Robot mowers, considered.</h1>
+      <p class="type-lead">
         A small, slow directory of outdoor machines — official stills, printed specs, and a short
         verdict. Filter by wire, acreage, and how the mower finds the lawn. Nothing here is a ranking
         for sale.
       </p>
-      <div class="hero-actions hero-in" style="--reveal-delay:220ms">
+      <div class="hero-actions">
         <a class="btn btn-primary" href="#catalogue">Browse the catalogue</a>
         <a class="btn btn-outline" href={withBase("about")}>The method</a>
       </div>

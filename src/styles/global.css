@@ -522,32 +522,38 @@ hr {
 
 .hero {
   display: grid;
-  gap: 2rem;
-  padding: 2.25rem 0 2.5rem;
-  align-items: stretch;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+  padding: 1.25rem 0 2.5rem;
+  align-items: start;
 }
 
-@media (min-width: 960px) {
-  .hero {
-    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
-    gap: 3.5rem;
-    min-height: calc(100svh - var(--header-h));
-    padding: 3.25rem 0 3.5rem;
-  }
+.hero-still {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
 
-  .hero-copy {
-    order: -1;
-  }
+.hero-still .photo-plate {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  min-height: 22rem;
+  flex: none;
+  background: var(--surface);
+}
 
-  .hero-still {
-    min-height: 0;
-  }
-
-  .hero-still .photo-plate {
-    aspect-ratio: auto;
-    min-height: 0;
-    height: 100%;
-  }
+.hero-still .photo-plate img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  opacity: 1;
+  padding: 8%;
+  object-fit: contain;
+  transform: none;
 }
 
 .hero-copy {
@@ -555,31 +561,53 @@ hr {
   flex-direction: column;
   justify-content: center;
   max-width: 34rem;
-  padding-block: 0.5rem;
+  padding-block: 0.5rem 1rem;
+}
+
+.hero-copy .type-hero {
+  font-size: clamp(2.15rem, 3.9vw, 3.6rem);
+  color: var(--ink);
 }
 
 .hero-copy .type-lead {
-  margin-top: 1.75rem;
-  max-width: 36ch;
+  margin-top: 1.25rem;
+  max-width: 38ch;
 }
 
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 2.25rem;
+  margin-top: 1.75rem;
 }
 
-.hero-still {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  min-height: 18rem;
-}
+@media (min-width: 960px) {
+  .hero {
+    grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+    grid-template-areas: "copy still";
+    gap: 3rem;
+    min-height: calc(100svh - var(--header-h));
+    padding: 0 0 2.5rem;
+    align-items: stretch;
+  }
 
-.hero-still .photo-plate {
-  flex: 1;
-  min-height: 18rem;
+  .hero-copy {
+    grid-area: copy;
+    padding-block: 2.25rem;
+  }
+
+  .hero-still {
+    grid-area: still;
+    min-height: calc(100svh - var(--header-h));
+  }
+
+  .hero-still .photo-plate {
+    aspect-ratio: auto;
+    flex: 1 1 auto;
+    width: 100%;
+    height: calc(100svh - var(--header-h) - 4.75rem);
+    min-height: calc(100svh - var(--header-h) - 4.75rem);
+  }
 }
 
 .hero-caption {
