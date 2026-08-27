@@ -18,7 +18,7 @@ npm run dev
 Open the URL Astro prints (usually `http://localhost:4321/`).
 
 ```bash
-npm run build    # writes a static site to dist/
+npm run build    # photo gate, then static site to dist/
 npm run preview  # Astro preview of dist/
 npm start        # serve dist/ (Railway start command)
 ```
@@ -39,7 +39,7 @@ Production publishes from `main` via GitHub Actions → GitHub Pages (`.github/w
 
 If you prefer Railpack’s built-in static file server instead of `serve`, set the service variable `RAILPACK_STATIC_FILE_ROOT=dist` (and `RAILPACK_NODE_VERSION=22`).
 
-PR CI (`.github/workflows/build.yml`) still runs `npm run build` on every pull request.
+PR CI (`.github/workflows/build.yml`) runs `npm run check:photos` then `npm run build` on every pull request. Published listings without `/mowers/{slug}.webp` fail the PR.
 
 ## Publisher contract: add a listing
 
@@ -49,7 +49,7 @@ Only `status: published` listings appear on the homepage and get a public page. 
 
 Official product pages are the source of truth. **If a spec is not on the official page, omit the field rather than guess.** Leave `affiliateUrl` empty (`""`) unless there is a real affiliate URL.
 
-Save an official product photo into `public/mowers/{slug}.webp` (see `public/mowers/SOURCES.txt`) and set `image` in frontmatter. Do not generate fake photos of real products. If the manufacturer page has no usable still, omit `image` — the card uses a stamped missing-photo plate.
+Published listings require an official manufacturer product still. Save it as `public/mowers/{slug}.webp` (non-empty) and set `image: /mowers/{slug}.webp` in frontmatter. Log the manufacturer page and exact file URL in `public/mowers/SOURCES.txt`. Never generate photos of real mowers. Drafts may omit `image`. A published listing missing the still, the `image` field, or the file fails `npm run build` / CI — do not merge it.
 
 ### Frontmatter schema (required unless marked optional)
 
@@ -70,7 +70,7 @@ Save an official product photo into `public/mowers/{slug}.webp` (see `public/mow
 | `verdict` | string | Honest one-liner, including the catch. |
 | `affiliateUrl` | string, **optional** | Full URL or `""`. |
 | `officialUrl` | string | Required. Official product URL. |
-| `image` | string, **optional** | Path under `public/`, e.g. `/mowers/{slug}.webp`. |
+| `image` | string, **required when published** | Must be exactly `/mowers/{slug}.webp`. Drafts may omit. |
 | `updated` | date | `YYYY-MM-DD`. Date specs were checked. |
 
 Optional extras (all omitted unless the official page states them): `cuttingWidthIn` (number, inches), `cuttingHeight` (string), `noiseDb` (number), `weightLbs` (number), `ipRating` (string), `driveType` (string).
@@ -82,7 +82,7 @@ Optional extras (all omitted unless the official page states them): `cuttingWidt
 3. **Standout details** (specs and real differentiators)
 4. **Honest verdict** (including caveats)
 
-Link the official source in the body. Rebuild (`npm run build`) must stay green — Zod will fail the build on invalid frontmatter.
+Link the official source in the body. Rebuild (`npm run build`) must stay green — Zod fails on invalid frontmatter, and `check:photos` fails if a published still is missing.
 
 ### Minimal example
 
@@ -127,6 +127,7 @@ src/pages/mowers/[slug].astro  # listing pages
 src/pages/about.astro          # methodology
 src/lib/site.ts                # branding, formatting, paths
 public/mowers/                 # official product stills
+scripts/check-listing-photos.mjs  # published listings must have a still
 .github/workflows/deploy.yml   # GitHub Pages production deploy
 railway.toml                   # leftover Railway static deploy (DNS cutover)
 ```

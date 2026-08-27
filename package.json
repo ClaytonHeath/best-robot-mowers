@@ -6,7 +6,8 @@
   "description": "Curated public directory of robot lawn mowers.",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "check:photos": "node scripts/check-listing-photos.mjs",
+    "build": "npm run check:photos && astro build",
     "preview": "astro preview",
     "start": "serve dist -l tcp://0.0.0.0:${PORT:-8080}",
     "check": "astro check"
