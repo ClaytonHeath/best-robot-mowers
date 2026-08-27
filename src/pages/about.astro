@@ -1,12 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { OWNER, SITE_NAME, withBase } from "../lib/site";
+import { OWNER, SITE_NAME, shareImageSrc, withBase } from "../lib/site";
 ---
 
 <BaseLayout
   title="How listings are written"
   description={`${SITE_NAME} is a curated directory. We do not take payment for rankings. Listings are written from official specs.`}
   canonicalPath="about"
+  ogImage={shareImageSrc()}
 >
   <div class="wrap about">
     <p class="kicker">Colophon</p>

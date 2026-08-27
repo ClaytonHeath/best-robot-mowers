@@ -7,6 +7,13 @@ export const OWNER = "A Justamanstanding project";
 export const SITE_DESCRIPTION =
   "Official photos, the specs the manufacturer publishes, and a one-line caveat on what each machine is actually for. Filter by wire, coverage, and navigation.";
 
+/** Brand wordmark card (1200×630). Not a product photo. */
+export const SHARE_IMAGE = "og.webp";
+
+export function shareImageSrc(): string {
+  return assetPath(SHARE_IMAGE);
+}
+
 export const NAV_LABELS = {
   lidar: "LiDAR",
   rtk: "RTK",

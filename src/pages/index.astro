@@ -8,6 +8,7 @@ import {
   SITE_DESCRIPTION,
   SITE_NAME,
   itemListJsonLd,
+  shareImageSrc,
   websiteJsonLd,
 } from "../lib/site";
 
@@ -21,6 +22,7 @@ const navTypes = ["lidar", "rtk", "vision", "boundary-wire"] as const;
 <BaseLayout
   title={SITE_NAME}
   description={SITE_DESCRIPTION}
+  ogImage={shareImageSrc()}
   jsonLd={[websiteJsonLd(), itemListJsonLd(listings.map((listing) => listing.data))]}
 >
   <div class="wrap">
