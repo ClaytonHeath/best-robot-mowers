@@ -1,8 +1,10 @@
 ---
 import { getCollection, render } from "astro:content";
 import ProductPhoto from "../../components/ProductPhoto.astro";
+import RelatedListings from "../../components/RelatedListings.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { pickRelatedListings } from "../../lib/related";
 import {
   formatAcres,
   formatPrice,
@@ -27,6 +29,11 @@ const { Content } = await render(listing);
 const d = listing.data;
 const description = `${d.verdict} ${d.whoItsFor}`;
 const photo = listingPhotoSrc(d.slug, d.image);
+const published = await getCollection("listings", ({ data }) => data.status === "published");
+const related = pickRelatedListings(
+  d,
+  published.map((item) => item.data),
+);
 ---
 
 <BaseLayout
@@ -71,5 +78,7 @@ const photo = listingPhotoSrc(d.slug, d.image);
         </div>
       </aside>
     </div>
+
+    <RelatedListings items={related} />
   </div>
 </BaseLayout>

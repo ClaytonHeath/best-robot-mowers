@@ -1,0 +1,44 @@
+---
+import ProductPhoto from "./ProductPhoto.astro";
+import type { RelatedPick } from "../lib/related";
+import { formatAcres, listingPath, listingPhotoSrc } from "../lib/site";
+
+interface Props {
+  items: RelatedPick[];
+}
+
+const { items } = Astro.props;
+---
+
+{
+  items.length > 0 && (
+    <section class="related" aria-label="Related listings">
+      <p class="kicker">Also on the floor</p>
+      <h2>Related listings</h2>
+      <div class="related-grid">
+        {items.map(({ listing, reason }) => (
+          <article class="card">
+            <ProductPhoto
+              src={listingPhotoSrc(listing.slug, listing.image)}
+              alt={listing.title}
+              href={listingPath(listing.slug)}
+            />
+            <div class="bin-body">
+              <p class="brand">
+                {listing.brand} · {formatAcres(listing.coverageAcres)} ·{" "}
+                {listing.wireFree ? "Wire-free" : "Boundary wire"}
+              </p>
+              <h3>
+                <a href={listingPath(listing.slug)}>{listing.title}</a>
+              </h3>
+              <p class="verdict">{reason}</p>
+              <div class="card-foot">
+                <a href={listingPath(listing.slug)}>Full listing</a>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  )
+}
