@@ -142,7 +142,7 @@ a:hover {
 
 .header-inner {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 0.85rem 0 0.75rem;
@@ -158,21 +158,10 @@ a:hover {
   display: block;
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  font-size: clamp(1.15rem, 3.6vw, 1.55rem);
+  font-size: clamp(1.32rem, 5vw, 1.95rem);
   font-weight: 700;
   letter-spacing: -0.03em;
-}
-
-.wordmark small {
-  display: block;
-  margin-top: 0.28rem;
-  font-family: var(--font-stamp);
-  font-stretch: 72%;
-  font-size: 0.72rem;
-  font-weight: 650;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--rust);
+  text-wrap: balance;
 }
 
 .nav {
