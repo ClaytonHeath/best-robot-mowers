@@ -4,7 +4,8 @@ brand: Husqvarna
 slug: husqvarna-automower-435x-awd
 model: Automower 435X AWD
 status: published
-priceNote: Official US product page did not publish a list price on 27 Aug 2026. Loop wire and stakes are listed as not included.
+priceUsd: 2999
+priceNote: US street about $2,999.99 on 27 Aug 2026 at multiple dealers; Safford shows a $1,499 sale vs $2,999.99 regular (verify). No official price on husqvarna.com. Check the live cart.
 coverageAcres: 0.9
 slopePercent: 70
 navigation:
@@ -27,7 +28,7 @@ driveType: All-wheel drive
 
 Husqvarna Automower 435X AWD is a residential, all-wheel-drive robot mower for lawns up to **0.9 acre (±20%)**. The US SKU is **967 85 33-05**. Husqvarna lists the boundary type as **physical wire**. This is not the 435 iQ AWD: no EPOS virtual mapping, no satellite boundary. A buried (or pegged) perimeter loop defines the work area.
 
-The box includes the mower, charging station, power supply, 33 ft low-voltage cable, and 6 extra blades. **Loop wire and stakes are not included.**
+The box includes the mower, charging station, power supply, 33 ft low-voltage cable, and 6 extra blades. **Loop wire and stakes are not included.** US dealer carts were about **$2,999.99** on 27 Aug 2026; husqvarna.com does not publish a list price.
 
 ## Who it's for
 
@@ -35,6 +36,7 @@ Yards that are medium in area and awkward in terrain — slopes, obstacles, a pi
 
 ## Standout details
 
+- **Price:** US street about $2,999.99 on 27 Aug 2026 at multiple dealer carts (SKU 967853305). Not an official Husqvarna MSRP. One dealer (Safford) showed a $1,499 sale vs $2,999.99 regular; verify the live cart. Wire and stakes are extra.
 - **Coverage:** 0.9 acre recommended (±20%).
 - **Navigation:** Physical perimeter wire. Spec table lists Follow guide: 3. App-side Automower Zone Control can add work areas and temporary stay-out zones *inside* that wired perimeter. Ultrasonic sensors are listed for object detection, not as the boundary system.
 - **Drive and slope:** All-wheel drive with a pivoting rear body. 70% in-lawn / 50% at the wire.
@@ -44,7 +46,7 @@ Yards that are medium in area and awkward in terrain — slopes, obstacles, a pi
 - **Connectivity:** Bluetooth and cellular; Automower Connect app; Amazon Alexa / Google Home; firmware over the air. GPS theft tracking, GeoFence, PIN, alarm, lift and tilt sensors.
 - **In the box / not in the box:** Charging station, PSU, 33 ft low-voltage cable, 6 extra blades. Wire and stakes sold separately (Husqvarna Boundary Wire, Stakes, or Large Installation Kit).
 
-Source: [Husqvarna Automower 435X AWD](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/), checked 27 Aug 2026.
+Source: [Husqvarna Automower 435X AWD](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/), checked 27 Aug 2026. Street price from dealer carts the same day, including [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-967853305) and [MOWbotic Solutions](https://mowboticsolutions.com/product/automower-435x-awd/).
 
 ## Honest verdict
 
