@@ -23,5 +23,5 @@ ecovacs-goat-a3000-lidar-pro.webp
 
 husqvarna-automower-435x-awd.webp
   Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/
-  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/o/ok/ok-383431.png?format=PNG_SQUARE_CONTAIN_XXL
+  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/o/ok/ok-383431.webp?v=57f05ae6148fd9b9&format=WEBP_LANDSCAPE_CONTAIN_XXL
   (Official 435X AWD pack shot; not 435 iQ AWD.)
