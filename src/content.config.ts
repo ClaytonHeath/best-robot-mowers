@@ -52,6 +52,16 @@ const listings = defineCollection({
     weightLbs: z.number().positive().optional(),
     ipRating: z.string().optional(),
     driveType: z.string().optional(),
+  }).superRefine((listing, ctx) => {
+    if (listing.status !== "published") return;
+    const expected = `/mowers/${listing.slug}.webp`;
+    if (listing.image !== expected) {
+      ctx.addIssue({
+        code: "custom",
+        path: ["image"],
+        message: `Published listings require image: ${expected}`,
+      });
+    }
   }),
 });
 

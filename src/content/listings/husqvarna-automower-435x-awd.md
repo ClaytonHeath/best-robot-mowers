@@ -15,6 +15,7 @@ whoItsFor: Hilly, complex lawns up to 0.9 acre that will bury perimeter wire in 
 verdict: AWD and a 70% in-lawn slope rating for medium yards that still need physical wire — loop wire and stakes are sold separately.
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/
+image: /mowers/husqvarna-automower-435x-awd.webp
 updated: 2026-08-27
 cuttingWidthIn: 8.7
 cuttingHeight: 1.2–2.8 in, electric

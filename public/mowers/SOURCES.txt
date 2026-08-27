@@ -20,3 +20,8 @@ ecovacs-goat-a3000-lidar-pro.webp
   Page: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro
   File: https://site-static.ecovacs.com/upload/us/image/product/2026/02/10/010750_6791$id-goat-a3000-lidar-pro-920x920-1.png
   (Official GOAT A3000 LiDAR PRO pack shot.)
+
+husqvarna-automower-435x-awd.webp
+  Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/
+  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/o/ok/ok-383431.webp?v=57f05ae6148fd9b9&format=WEBP_LANDSCAPE_CONTAIN_XXL
+  (Official 435X AWD pack shot; not 435 iQ AWD.)
