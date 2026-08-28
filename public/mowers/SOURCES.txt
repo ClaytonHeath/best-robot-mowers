@@ -25,3 +25,8 @@ husqvarna-automower-435x-awd.webp
   Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/
   File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/o/ok/ok-383431.webp?v=57f05ae6148fd9b9&format=WEBP_LANDSCAPE_CONTAIN_XXL
   (Official 435X AWD pack shot; not 435 iQ AWD.)
+
+worx-landroid-l-wr155.webp
+  Page: https://www.worx.com/landroid-l-1-2-acre-20v-cordless-robotic-lawn-mower-wr155.html
+  File: https://www.worx.com/media/catalog/product/w/r/wr155-carousel-image-newest-1.jpg
+  (Magento gallery main still, caption Landroid L 1/2 Acre. Official Worx US product page.)
