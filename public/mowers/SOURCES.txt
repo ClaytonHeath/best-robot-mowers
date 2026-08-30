@@ -30,3 +30,8 @@ worx-landroid-l-wr155.webp
   Page: https://www.worx.com/landroid-l-1-2-acre-20v-cordless-robotic-lawn-mower-wr155.html
   File: https://www.worx.com/media/catalog/product/w/r/wr155-carousel-image-newest-1.jpg
   (Magento gallery main still, caption Landroid L 1/2 Acre. Official Worx US product page.)
+
+husqvarna-automower-440-iq.webp
+  Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/
+  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/s/sb/sb-611400.webp?v=be6ed1c8ccd0c4b3&format=WEBP_LANDSCAPE_CONTAIN_LG
+  (Official 440 iQ Aprimo studio still sb-611400. Not 435X AWD / not 435 iQ AWD.)
