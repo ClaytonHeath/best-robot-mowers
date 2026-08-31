@@ -38,5 +38,5 @@ husqvarna-automower-440-iq.webp
 
 husqvarna-automower-410-iq.webp
   Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/
-  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/v/vg/vg-821274.jpg?v=1afb68a6d152aa71&format=opengraph-cover
-  (Official 410 iQ Aprimo still vg-821274 og-cover. Not 440 iQ / not 435X AWD.)
+  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/v/vg/vg-821274.webp?v=1afb68a6148fd9b9&format=WEBP_LANDSCAPE_CONTAIN_XXL
+  (Official 410 iQ Aprimo studio still vg-821274 WEBP_LANDSCAPE_CONTAIN_XXL, padded square for the card plate. Not opengraph-cover. Not 440 iQ / not 435X AWD.)
