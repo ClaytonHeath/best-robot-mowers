@@ -35,3 +35,8 @@ husqvarna-automower-440-iq.webp
   Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/
   File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/s/sb/sb-611400.webp?v=be6ed1c8ccd0c4b3&format=WEBP_LANDSCAPE_CONTAIN_LG
   (Official 440 iQ Aprimo studio still sb-611400. Not 435X AWD / not 435 iQ AWD.)
+
+husqvarna-automower-410-iq.webp
+  Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/
+  File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/v/vg/vg-821274.jpg?v=1afb68a6d152aa71&format=opengraph-cover
+  (Official 410 iQ Aprimo still vg-821274 og-cover. Not 440 iQ / not 435X AWD.)
