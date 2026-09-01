@@ -5,7 +5,7 @@ slug: husqvarna-automower-435-iq-awd
 model: Automower 435 iQ AWD
 status: published
 priceUsd: 4799
-priceNote: US street $4,599.99–$4,999.99 on 1 Sep 2026. $4,799.95 at Safford (MPN 970745205); $4,999.99 at The Power Tool Store (SKU 970745205) and Nebraska Furniture Mart (Model AM 435 iQ AWD); $4,599.99 at RIPSAW (spec table SKU 970 74 52-05; $4,999.99 featured). husqvarna.com has no visible cart. Not official MSRP. Check the live cart.
+priceNote: US street $4,599.99–$4,999.99 on 1 Sep 2026. $4,799.95 at Safford (MPN 970745205); $4,999.99 at The Power Tool Store (SKU 970745205) and Nebraska Furniture Mart (Model AM 435 iQ AWD); $4,599.99 at RIPSAW (spec table SKU 970 74 52-05). husqvarna.com has no visible cart. Not official MSRP. Check the live cart.
 coverageAcres: 1.3
 slopePercent: 70
 navigation:
