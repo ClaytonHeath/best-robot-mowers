@@ -45,3 +45,8 @@ husqvarna-automower-435-iq-awd.webp
   Page: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435-iq-awd/
   File: https://www-static-nw.husqvarna.com/-/images/aprimo/husqvarna/robotic-mowers/photos/studio/l/la/la-734523.webp?v=29f1a236148fd9b9&format=WEBP_LANDSCAPE_CONTAIN_XXL
   (Official 435 iQ AWD Aprimo studio still la-734523 WEBP_LANDSCAPE_CONTAIN_XXL, padded square for the card plate. Live CDN GET 200 on 1 Sep 2026 with browser UA + product-page Referer (85304-byte VP8X 1245×830). Not 435X AWD / not 410 iQ / not 440 iQ.)
+
+segway-navimow-x430.webp
+  Page: https://navimow.com/products/navimow-x4-robot-lawn-mower?variant=45014269100169
+  File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/X4BLK-1.2-PDP-X430-NA_11b5e3cc-730c-4e58-b3c3-4a67de21cfb0.png?v=1770030983
+  (Official X430 PDP pack shot X4BLK-1.2-PDP-X430-NA. Square studio/contain. Not X450, not X390.)
