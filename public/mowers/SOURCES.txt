@@ -50,3 +50,8 @@ segway-navimow-x430.webp
   Page: https://navimow.com/products/navimow-x4-robot-lawn-mower?variant=45014269100169
   File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/X4BLK-1.2-PDP-X430-NA_11b5e3cc-730c-4e58-b3c3-4a67de21cfb0.png?v=1770030983
   (Official X430 PDP pack shot X4BLK-1.2-PDP-X430-NA. Square studio/contain. Not X450, not X390.)
+
+segway-navimow-i105.webp
+  Page: https://navimow.com/products/navimow-i105
+  File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/i105-square-right_f7218837-e219-48ec-858b-11bb0caa68cc.png?v=1766745896
+  (Official i105 PDP pack shot i105-square-right. Square studio/contain. Not i110, not X390/X430/X450.)
