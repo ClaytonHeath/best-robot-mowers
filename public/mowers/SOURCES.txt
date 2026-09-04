@@ -55,3 +55,8 @@ segway-navimow-i105.webp
   Page: https://navimow.com/products/navimow-i105
   File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/i105-square-right_f7218837-e219-48ec-858b-11bb0caa68cc.png?v=1766745896
   (Official i105 PDP pack shot i105-square-right. Square studio/contain. Not i110, not X390/X430/X450.)
+
+segway-navimow-i110.webp
+  Page: https://navimow.com/products/navimow-i110
+  File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/110-4.png?v=1766745952
+  (Official i110 PDP pack shot 110-4. Square studio/contain. Not i105, not X390/X430/X450.)
