@@ -60,3 +60,8 @@ segway-navimow-i110.webp
   Page: https://navimow.com/products/navimow-i110
   File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/110-4.png?v=1766745952
   (Official i110 PDP pack shot 110-4. Square studio/contain. Not i105, not X390/X430/X450.)
+
+worx-landroid-m-wr147.webp
+  Page: https://www.worx.com/landroid-m-1-4-acre-20v-cordless-robotic-lawn-mower-wr147.html
+  File: https://www.worx.com/WorxGlobalCAS/w/r/wr147-carousel-image-1-newest-feed.png
+  (Official WR147 Magento carousel still. Square studio/contain. Not WR155 / not Vision Cloud WR310 / not WR165.)
