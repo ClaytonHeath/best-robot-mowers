@@ -65,3 +65,8 @@ worx-landroid-m-wr147.webp
   Page: https://www.worx.com/landroid-m-1-4-acre-20v-cordless-robotic-lawn-mower-wr147.html
   File: https://www.worx.com/WorxGlobalCAS/w/r/wr147-carousel-image-1-newest-feed.png
   (Official WR147 Magento carousel still. Square studio/contain. Not WR155 / not Vision Cloud WR310 / not WR165.)
+
+worx-landroid-s-wr165.webp
+  Page: https://www.worx.com/landroid-s-1-8-acre-20v-cordless-robotic-lawn-mower-wr165.html
+  File: https://www.worx.com/WorxGlobalCAS/w/r/wr165-carousel-image-1-newest-feed.png
+  (Official WR165 Magento carousel still — Landroid S 1/8 Acre Main Image. Square studio/contain. Not WR147 / not WR155 / not Vision Cloud WR310.)
