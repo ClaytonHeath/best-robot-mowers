@@ -70,3 +70,8 @@ worx-landroid-s-wr165.webp
   Page: https://www.worx.com/landroid-s-1-8-acre-20v-cordless-robotic-lawn-mower-wr165.html
   File: https://www.worx.com/WorxGlobalCAS/w/r/wr165-carousel-image-1-newest-feed.png
   (Official WR165 Magento carousel still — Landroid S 1/8 Acre Main Image. Square studio/contain. Not WR147 / not WR155 / not Vision Cloud WR310.)
+
+anthbot-genie.webp
+  Page: https://www.anthbot.com/products/genie-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/lQLPJxFHoUQlZ0fNCcTNCcSwm73MPkqJk28I_vDUOXX3AA_2500_2500.png?v=1765874263
+  (Official Anthbot Genie 600e Shopify featured_image, 2500² angled studio pack shot. Square studio/contain. Not Genie 1000 / not Genie 3000.)
