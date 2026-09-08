@@ -75,3 +75,8 @@ anthbot-genie.webp
   Page: https://www.anthbot.com/products/genie-robot-lawn-mower
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/lQLPJxFHoUQlZ0fNCcTNCcSwm73MPkqJk28I_vDUOXX3AA_2500_2500.png?v=1765874263
   (Official Anthbot Genie 600e Shopify featured_image, 2500² angled studio pack shot. Square studio/contain. Not Genie 1000 / not Genie 3000.)
+
+yarbo-lawn-mower-pro.webp
+  Page: https://www.yarbo.com/products/yarbo-lawn-mower-pro
+  File: https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Yarbo_Lawn_Mower_Pro_c3fd73bc-3da8-4802-a1d1-a3d898588419.jpg?v=1780307894
+  (Official Yarbo Lawn Mower Pro studio pack shot — Core + Lawn Mower Pro deck, mower-configured. Square padded. Not All-Season Pro 4-in-1 exploded pack.)
