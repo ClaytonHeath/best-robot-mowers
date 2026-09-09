@@ -211,6 +211,19 @@ a:hover {
   font-size: 1.05rem;
 }
 
+.page-hero .note {
+  margin-top: 0.7rem;
+}
+
+.hub-copy {
+  margin-top: 0.9rem;
+  max-width: var(--reading);
+}
+
+.hub-copy p {
+  color: var(--ink-soft);
+}
+
 .kicker {
   display: block;
   margin: 0 0 0.55rem;

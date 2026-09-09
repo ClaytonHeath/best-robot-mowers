@@ -123,6 +123,7 @@ updated: 2026-08-26
 src/content.config.ts          # Zod schema (source of truth)
 src/content/listings/*.md      # one file per mower
 src/pages/index.astro          # filterable directory
+src/pages/wire-free.astro      # indexable hub of published wireFree listings
 src/pages/mowers/[slug].astro  # listing pages
 src/pages/about.astro          # methodology
 src/lib/site.ts                # branding, formatting, paths
@@ -132,7 +133,7 @@ scripts/check-listing-photos.mjs  # published listings must have a still
 railway.toml                   # leftover Railway static deploy (DNS cutover)
 ```
 
-Homepage filters are static: they run in a small client script against `data-*` attributes and URL search params (`?wire=free&coverage=under-0.5&nav=lidar`). No backend.
+Homepage filters are static: they run in a small client script against `data-*` attributes and URL search params (`?wire=free&coverage=under-0.5&nav=lidar`). No backend. Those chips are not Google URLs. `/wire-free/` is the indexable catalog of published listings with `wireFree: true`.
 
 ## Seed listings
 
