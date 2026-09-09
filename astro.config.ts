@@ -83,6 +83,10 @@ export default defineConfig({
           out.lastmod = isoFromFile("src/pages/about.astro");
           return out;
         }
+        if (pathname === "/wire-free/") {
+          out.lastmod = isoFromFile("src/pages/wire-free.astro");
+          return out;
+        }
         return out;
       },
     }),

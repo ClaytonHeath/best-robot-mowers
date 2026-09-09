@@ -197,6 +197,50 @@ export function itemListJsonLd(listings: { title: string; slug: string }[]): Rec
   };
 }
 
+/** Hub / collection URL. ItemList of listings only — no Review or aggregateRating. */
+export function collectionPageJsonLd(input: {
+  name: string;
+  description: string;
+  path: string;
+  listings: { title: string; slug: string }[];
+}): Record<string, unknown> {
+  const url = absoluteUrl(input.path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: input.name,
+    description: input.description,
+    url,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: absoluteUrl(),
+    },
+    mainEntity: {
+      "@type": "ItemList",
+      name: input.name,
+      numberOfItems: input.listings.length,
+      itemListElement: input.listings.map((listing, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: listing.title,
+        url: listingCanonicalUrl(listing.slug),
+      })),
+    },
+  };
+}
+
+export function pageBreadcrumbJsonLd(name: string, path: string): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl() },
+      { "@type": "ListItem", position: 2, name, item: absoluteUrl(path) },
+    ],
+  };
+}
+
 /** Serialize JSON-LD so `</script>` in copy cannot break the tag. */
 export function stringifyJsonLd(data: unknown): string {
   return JSON.stringify(data).replace(/</g, "\\u003c");

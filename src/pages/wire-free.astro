@@ -1,0 +1,77 @@
+---
+import { getCollection } from "astro:content";
+import ListingCard from "../components/ListingCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  collectionPageJsonLd,
+  pageBreadcrumbJsonLd,
+  shareImageSrc,
+  withBase,
+} from "../lib/site";
+
+const listings = (
+  await getCollection("listings", ({ data }) => data.status === "published" && data.wireFree)
+).sort((a, b) => a.data.brand.localeCompare(b.data.brand) || a.data.model.localeCompare(b.data.model));
+
+const pageTitle = "Wire-free robot mowers";
+const description =
+  "Robot mowers sold without a buried perimeter wire — RTK, vision, and LiDAR. Coverage and slope are the manufacturer’s figures. Compare published listings, not a ranked list.";
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={description}
+  canonicalPath="wire-free"
+  ogImage={shareImageSrc()}
+  jsonLd={[
+    collectionPageJsonLd({
+      name: pageTitle,
+      description,
+      path: "wire-free",
+      listings: listings.map((listing) => listing.data),
+    }),
+    pageBreadcrumbJsonLd(pageTitle, "wire-free"),
+  ]}
+>
+  <div class="wrap">
+    <header class="page-hero">
+      <p class="kicker">{listings.length} published listings · no buried perimeter wire</p>
+      <h1>Wire-free robot mowers, no buried boundary wire.</h1>
+      <p class="lede">
+        On this site, wire-free means the machine is sold to hold a work area with RTK, vision, LiDAR, or a mix of those — not a loop of wire in the ground. You still place a charging station. Most kits still need sky for GNSS, or cameras and LiDAR that can see. The install you skip is trenching a boundary.
+      </p>
+      <div class="hub-copy">
+        <p>
+          This list is for yards where a buried loop is a poor fit: rentals, beds and trees that change, or no appetite for a trench. It is not the automatic pick for every lawn. A simple, open rectangle can still be a better match for a boundary-wire machine.
+        </p>
+        <p>
+          Not every wire-free SKU fits every yard. Coverage and slope on each card are what the manufacturer publishes, not a promise about your trees, satellite view, or grade. How listings are written is on the
+          <a href={withBase("about")}>Method</a> page.
+        </p>
+        <p>
+          Start with coverage and slope, then the navigation tags. Open a listing for the caveat. Tick two or three cards if you want the spec rows side by side. The
+          <a href={withBase()}>full catalog</a> is on the floor, including boundary-wire machines behind the homepage filters.
+        </p>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <p><span data-result-count>{listings.length} mowers</span> · tick 2–3 cards to compare</p>
+    </div>
+
+    <section class="compare-panel" data-compare-panel hidden>
+      <h2>Compare</h2>
+      <table class="spec-table">
+        <tbody data-compare-body></tbody>
+      </table>
+    </section>
+
+    <section class="listing-grid" aria-label="Wire-free mower listings">
+      {listings.map((listing) => <ListingCard listing={listing} />)}
+      <p class="empty" data-empty hidden>No published wire-free mowers in the catalog yet.</p>
+    </section>
+  </div>
+  <script>
+    import "../scripts/filters.ts";
+  </script>
+</BaseLayout>
