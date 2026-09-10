@@ -85,3 +85,8 @@ anthbot-genie-1000.webp
   Page: https://www.anthbot.com/products/genie-robot-lawn-mower
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/lQLPJxFHoUQlZ0fNCcTNCcSwm73MPkqJk28I_vDUOXX3AA_2500_2500.png?v=1765874263
   (Official Anthbot Genie series Shopify featured_image / gallery studio pack shot, 2500². Same studio set shared by Genie 600 / 600e / 1000 / 3000 — no Genie-1000-only studio still found. Square studio/contain. Not OG meta side still f04fbc442a2f0a11aa9fb8efa0a1b314.png. SKU lock: Genie 1000 | 0.49 acre SKU 105010025 only — not Genie 600e / anthbot-genie.)
+
+anthbot-genie-3000.webp
+  Page: https://www.anthbot.com/products/genie-robot-lawn-mower?variant=49940022722862
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/lQLPJxFHoUQlZ0fNCcTNCcSwm73MPkqJk28I_vDUOXX3AA_2500_2500.png?v=1765874263
+  (Official Anthbot Genie series Shopify featured_image / gallery studio pack shot, 2500². Same studio set shared by Genie 600 / 600e / 1000 / 3000 — no Genie-3000-only studio still found. Square studio/contain. Not OG landscape crop / not Pos1 f04fbc44…png as primary. SKU lock: Genie 3000 | 0.89 acre SKU 105010042 only — not Genie 600e / anthbot-genie, not Genie 1000 / anthbot-genie-1000.)
