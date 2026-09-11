@@ -90,3 +90,8 @@ anthbot-genie-3000.webp
   Page: https://www.anthbot.com/products/genie-robot-lawn-mower?variant=49940022722862
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/lQLPJxFHoUQlZ0fNCcTNCcSwm73MPkqJk28I_vDUOXX3AA_2500_2500.png?v=1765874263
   (Official Anthbot Genie series Shopify featured_image / gallery studio pack shot, 2500². Same studio set shared by Genie 600 / 600e / 1000 / 3000 — no Genie-3000-only studio still found. Square studio/contain. Not OG landscape crop / not Pos1 f04fbc44…png as primary. SKU lock: Genie 3000 | 0.89 acre SKU 105010042 only — not Genie 600e / anthbot-genie, not Genie 1000 / anthbot-genie-1000.)
+
+anthbot-m5.webp
+  Page: https://anthbot.com/products/m5-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/02-RTK.png?v=1766641055
+  (Official Anthbot M5 Shopify featured/primary studio pack shot 02-RTK.png, 3000² elevated 3/4 on solid black. Square studio/contain. Not OG/social landscape crop. SKU lock: base M5 Package “M5” SKU 105010082 / variant 51871722078510 only — not M5 + Garage, not M5 + Blades + RTK Wall Mount Kit, not M5 LiDAR, not M9, not Genie series.)
