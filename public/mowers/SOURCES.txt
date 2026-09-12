@@ -95,3 +95,8 @@ anthbot-m5.webp
   Page: https://anthbot.com/products/m5-robot-lawn-mower
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/02-RTK.png?v=1766641055
   (Official Anthbot M5 Shopify featured/primary studio pack shot 02-RTK.png, 3000² elevated 3/4 on solid black. Square studio/contain. Not OG/social landscape crop. SKU lock: base M5 Package “M5” SKU 105010082 / variant 51871722078510 only — not M5 + Garage, not M5 + Blades + RTK Wall Mount Kit, not M5 LiDAR, not M9, not Genie series.)
+
+anthbot-m9.webp
+  Page: https://anthbot.com/products/m9-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/2_0060035c-8567-4f17-8277-716ac8ce1f98.jpg?v=1773042414
+  (Official Anthbot M9 gallery white studio pack shot, 1500² 3/4 high angle, whole machine. Square studio/contain. Not OG landscape crop. Not featured 02-RTK.png (black bg / M5 compare reuse). Not e09dbf5b…jpg garage canopy. SKU lock: base M9 Package “M9” SKU 105010084 / variant 51871726960942 only — not M9 + Garage, not M9 + Blades + RTK Wall Mount Kit, not M5 / M5 LiDAR, not Genie series.)
