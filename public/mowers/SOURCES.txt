@@ -100,3 +100,8 @@ anthbot-m9.webp
   Page: https://anthbot.com/products/m9-robot-lawn-mower
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/2_0060035c-8567-4f17-8277-716ac8ce1f98.jpg?v=1773042414
   (Official Anthbot M9 gallery white studio pack shot, 1500² 3/4 high angle, whole machine. Square studio/contain. Not OG landscape crop. Not featured 02-RTK.png (black bg / M5 compare reuse). Not e09dbf5b…jpg garage canopy. SKU lock: base M9 Package “M9” SKU 105010084 / variant 51871726960942 only — not M9 + Garage, not M9 + Blades + RTK Wall Mount Kit, not M5 / M5 LiDAR, not Genie series.)
+
+anthbot-m5-lidar.webp
+  Page: https://anthbot.com/products/m5-lidar-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/02-LiDar_1.png?v=1766641055
+  (Official Anthbot M5 LiDAR Shopify studio pack shot 02-LiDar_1.png, 3000² on black with top-mounted LiDAR module visible. Square studio/contain. Not OG landscape crop. Not base M5 02-RTK.png. Not M9 gallery stills. SKU lock: M5 LiDAR SKU 105010083 / variant 51527951122734 Default Title only — not base M5 RTK anthbot-m5, not M9, not Genie, not ECOVACS GOAT A3000 LiDAR PRO.)
