@@ -110,3 +110,8 @@ anthbot-n8.webp
   Page: https://anthbot.com/products/n8-robot-lawn-mower
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/N8_1_33cacef9-0066-4bca-9487-46b270551338.png?v=1773373196
   (Official Anthbot N8 Shopify studio pack shot N8_1_33cacef9…png, 3125² full chassis + rear collection bag on solid black. Square studio/contain. Not OG landscape crop. Not gallery N8_1.png workhorse collage. SKU lock: base N8 SKU 105010094 / variant 51528020459822 Default Title only — not Genie series, not M5 / M5 LiDAR / M9.)
+
+dreame-a3-awd-pro-3500.webp
+  Page: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972116225
+  File: https://cdn.shopify.com/s/files/1/0767/5379/7377/files/1.1_2.png?v=1774430841
+  (Official Dreame A3 AWD Pro featured/variant studio still 1.1_2.png, 2000² whole machine on white with DREAME + A3 AWD badge. Square studio/contain. Not OG landscape crop. Not A3_AWD_Pro.png wrong-model-badged. Not lifestyle/composite gallery. Marketing chrome (phone mockup + award badges) present on source — intentional. SKU lock: A3 AWD Pro 3500 variant 48120972116225 / SKU 010901AA000106 only — not Pro 2500 / Pro 5000 / non-Pro A3 AWD 1000/2000.)
