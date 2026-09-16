@@ -5,7 +5,7 @@ slug: roborock-rockneo-q1
 model: RockNeo Q110H
 status: published
 priceUsd: 1299
-priceNote: Official US list on garden.roborock.com RockNeo Q1 PDP/specs (“From $1,299” / “Current Price: $1,299”) on 16 Sep 2026 for US SKU RockNeo Q110H. Manufacturer where-to-buy points to Amazon ASIN B0GRVYN12B (Currently unavailable on check). Not labeled MSRP on PDP body copy.
+priceNote: "Official US list on garden.roborock.com RockNeo Q1 PDP/specs (“From $1,299” / “Current Price: $1,299”) on 16 Sep 2026 for US SKU RockNeo Q110H. Manufacturer where-to-buy points to Amazon ASIN B0GRVYN12B (Currently unavailable on check). Not labeled MSRP on PDP body copy."
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
