@@ -115,3 +115,8 @@ dreame-a3-awd-pro-3500.webp
   Page: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972116225
   File: https://cdn.shopify.com/s/files/1/0767/5379/7377/files/1.1_2.png?v=1774430841
   (Official Dreame A3 AWD Pro featured/variant studio still 1.1_2.png, 2000² whole machine on white with DREAME + A3 AWD badge. Square studio/contain. Not OG landscape crop. Not A3_AWD_Pro.png wrong-model-badged. Not lifestyle/composite gallery. Marketing chrome (phone mockup + award badges) present on source — intentional. SKU lock: A3 AWD Pro 3500 variant 48120972116225 / SKU 010901AA000106 only — not Pro 2500 / Pro 5000 / non-Pro A3 AWD 1000/2000.)
+
+roborock-rockneo-q1.webp
+  Page: https://garden.roborock.com/us/products/roborock-rockneo-q1
+  File: https://garden-files.roborock.com/uploads/v689ea2a015603.png
+  (Official Roborock RockNeo Q1 US studio pack shot, 960² on black, full machine front-quarter. Same bytes as garden-files …/us/uploads/Q1.vb707dae70c.png. Square studio/contain. Not OG landscape crop. SKU lock: US RockNeo Q110H only — not EU Q105, not RockNeo Q2 LiDAR, not RockMow X115H/X120H/X130H AWD, not Dreame A3 AWD Pro 3500.)
