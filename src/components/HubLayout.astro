@@ -1,0 +1,79 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ListingCard from "./ListingCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  collectionPageJsonLd,
+  pageBreadcrumbJsonLd,
+  shareImageSrc,
+} from "../lib/site";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath: string;
+  kicker: string;
+  listings: CollectionEntry<"listings">[];
+  listLabel: string;
+  emptyMessage?: string;
+}
+
+const {
+  title,
+  description,
+  canonicalPath,
+  kicker,
+  listings,
+  listLabel,
+  emptyMessage = "No published mowers match this hub yet.",
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  ogImage={shareImageSrc()}
+  jsonLd={[
+    collectionPageJsonLd({
+      name: title,
+      description,
+      path: canonicalPath,
+      listings: listings.map((listing) => listing.data),
+    }),
+    pageBreadcrumbJsonLd(title, canonicalPath),
+  ]}
+>
+  <div class="wrap">
+    <header class="page-hero">
+      <p class="kicker">{kicker}</p>
+      <h1>{title}</h1>
+      <p class="note"><a href="#hub-listings">Published listings ↓</a></p>
+    </header>
+
+    <article class="hub-copy">
+      <slot />
+    </article>
+
+    <div class="toolbar" id="hub-listings">
+      <p><span data-result-count>{listings.length} mowers</span> · tick 2–3 cards to compare</p>
+    </div>
+
+    <section class="compare-panel" data-compare-panel hidden>
+      <h2>Compare</h2>
+      <table class="spec-table">
+        <tbody data-compare-body></tbody>
+      </table>
+    </section>
+
+    <slot name="listings">
+      <section class="listing-grid" aria-label={listLabel}>
+        {listings.map((listing) => <ListingCard listing={listing} />)}
+        <p class="empty" data-empty hidden>{emptyMessage}</p>
+      </section>
+    </slot>
+  </div>
+  <script>
+    import "../scripts/filters.ts";
+  </script>
+</BaseLayout>

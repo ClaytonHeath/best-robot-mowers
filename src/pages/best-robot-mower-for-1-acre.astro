@@ -1,0 +1,55 @@
+---
+import { getCollection, getEntry, render } from "astro:content";
+import ListingCard from "../components/ListingCard.astro";
+import HubLayout from "../components/HubLayout.astro";
+import { listingsForAcreNearMiss, listingsForAcrePlus } from "../lib/hubs";
+
+const hub = await getEntry("hubs", "best-robot-mower-for-1-acre");
+if (!hub || hub.data.status !== "published") {
+  throw new Error("Missing published hub: best-robot-mower-for-1-acre");
+}
+const { Content } = await render(hub);
+
+const published = await getCollection("listings", ({ data }) => data.status === "published");
+const acrePlus = listingsForAcrePlus(published);
+const nearMiss = listingsForAcreNearMiss(published);
+const listings = [...acrePlus, ...nearMiss];
+---
+
+<HubLayout
+  title={hub.data.title}
+  description={hub.data.description}
+  canonicalPath={hub.data.slug}
+  kicker={`${acrePlus.length} at 1 acre+ · ${nearMiss.length} near-miss under 1 acre`}
+  listings={listings}
+  listLabel="1-acre and near-miss mower listings"
+  emptyMessage="No published mowers with about 1 acre of published coverage yet."
+>
+  <Content />
+  <Fragment slot="listings">
+    <section class="hub-section" id="acre-plus" aria-labelledby="acre-plus-heading">
+      <h2 id="acre-plus-heading">Published coverage 1 acre+</h2>
+      <p class="note">Manufacturer recommended work area at or above 1 acre.</p>
+      <div class="listing-grid" aria-label="1-acre and larger mower listings">
+        {acrePlus.map((listing) => <ListingCard listing={listing} />)}
+        {
+          acrePlus.length === 0 && (
+            <p class="empty">No published mowers with 1 acre or more of published coverage yet.</p>
+          )
+        }
+      </div>
+    </section>
+    <section class="hub-section" id="acre-near-miss" aria-labelledby="acre-near-miss-heading">
+      <h2 id="acre-near-miss-heading">Closest undersize (under 1 acre)</h2>
+      <p class="note">Published recommended coverage from 0.75 acre up to, but not including, 1 acre. Not guaranteed full-acre machines.</p>
+      <div class="listing-grid" aria-label="Near-miss under 1 acre mower listings">
+        {nearMiss.map((listing) => <ListingCard listing={listing} />)}
+        {
+          nearMiss.length === 0 && (
+            <p class="empty">No published near-miss listings in the 0.75–1 acre band yet.</p>
+          )
+        }
+      </div>
+    </section>
+  </Fragment>
+</HubLayout>

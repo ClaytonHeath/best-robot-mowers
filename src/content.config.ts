@@ -65,4 +65,23 @@ const listings = defineCollection({
   }),
 });
 
-export const collections = { listings };
+const hubs = defineCollection({
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/hubs",
+  }),
+  schema: z.object({
+    title: z.string().min(1),
+    description: z.string().min(1),
+    slug: z
+      .string()
+      .regex(
+        /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
+        "slug must be lowercase kebab-case",
+      ),
+    updated: z.coerce.date(),
+    status: z.enum(["published", "draft"]),
+  }),
+});
+
+export const collections = { listings, hubs };

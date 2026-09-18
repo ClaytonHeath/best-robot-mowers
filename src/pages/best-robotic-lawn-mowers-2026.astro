@@ -1,0 +1,47 @@
+---
+import { getCollection, getEntry, render } from "astro:content";
+import ListingCard from "../components/ListingCard.astro";
+import HubLayout from "../components/HubLayout.astro";
+import { groupPublishedByYardFit } from "../lib/hubs";
+
+const hub = await getEntry("hubs", "best-robotic-lawn-mowers-2026");
+if (!hub || hub.data.status !== "published") {
+  throw new Error("Missing published hub: best-robotic-lawn-mowers-2026");
+}
+const { Content } = await render(hub);
+
+const published = await getCollection("listings", ({ data }) => data.status === "published");
+const groups = groupPublishedByYardFit(published);
+const listings = groups.flatMap((group) => group.listings);
+---
+
+<HubLayout
+  title={hub.data.title}
+  description={hub.data.description}
+  canonicalPath={hub.data.slug}
+  kicker={`${published.length} published listings · yard-fit directory, not a ranked list`}
+  listings={listings}
+  listLabel="Published mower listings by yard size"
+>
+  <Content />
+  <Fragment slot="listings">
+    {
+      groups.map((group) => (
+        <section class="hub-section" id={group.id} aria-labelledby={`${group.id}-heading`}>
+          <h2 id={`${group.id}-heading`}>{group.heading}</h2>
+          <p class="note">{group.note}</p>
+          <div class="listing-grid" aria-label={`${group.heading} mower listings`}>
+            {group.listings.map((listing) => (
+              <ListingCard listing={listing} />
+            ))}
+          </div>
+        </section>
+      ))
+    }
+    {
+      listings.length === 0 && (
+        <p class="empty">No published mowers in the catalog yet.</p>
+      )
+    }
+  </Fragment>
+</HubLayout>
