@@ -24,4 +24,10 @@ Canonical URLs (www, trailing slash) once on `main`:
 
 Hub copy is `src/content/hubs/*.md` (title/description/slug/updated + Markdown body). Publisher-brief HTML comments are stripped. Relative draft links were rewritten to live hub paths. Listing cards stay `ListingCard` stills from `/mowers/{slug}.webp` — no new photos.
 
+Card grids (mechanical, from published frontmatter):
+
+- 2026: all published listings, grouped by coverage bands used on the homepage
+- Hills: AWD or published slope ≥ 70% (sorted steepest first); lower % stays in the article tables
+- 1 acre: recommended coverage ≥ 1.0, plus 0.75–1.0 near-misses
+
 Schema is CollectionPage + ItemList + breadcrumbs only. No FAQPage, AggregateRating, or Review.

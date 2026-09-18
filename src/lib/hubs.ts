@@ -3,8 +3,11 @@ import { COVERAGE_BANDS, coverageBand, type CoverageBandId } from "./site";
 
 export type HubListing = CollectionEntry<"listings">;
 
-/** Manufacturer-published work-area slope at or above this percent counts as “hills” on the hub. */
-export const HILL_SLOPE_MIN_PERCENT = 45;
+/**
+ * Card-grid cutoff for the hills hub: AWD, or published work-area slope at/above this percent.
+ * Editorial copy still explains lower % (30–50) as weaker hillside matches.
+ */
+export const HILL_SLOPE_MIN_PERCENT = 70;
 
 /** Manufacturer-published coverage at or above this acreage is a primary 1-acre+ fit. */
 export const ACRE_COVERAGE_MIN = 1;
