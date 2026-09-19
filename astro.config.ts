@@ -87,6 +87,18 @@ export default defineConfig({
           out.lastmod = isoFromFile("src/pages/wire-free.astro");
           return out;
         }
+        if (pathname === "/best-robotic-lawn-mowers-2026/") {
+          out.lastmod = isoFromFile("src/content/hubs/best-robotic-lawn-mowers-2026.md");
+          return out;
+        }
+        if (pathname === "/best-robot-mower-for-hills/") {
+          out.lastmod = isoFromFile("src/content/hubs/best-robot-mower-for-hills.md");
+          return out;
+        }
+        if (pathname === "/best-robot-mower-for-1-acre/") {
+          out.lastmod = isoFromFile("src/content/hubs/best-robot-mower-for-1-acre.md");
+          return out;
+        }
         return out;
       },
     }),

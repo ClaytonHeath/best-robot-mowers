@@ -1,0 +1,27 @@
+---
+import { getCollection, getEntry, render } from "astro:content";
+import HubLayout from "../components/HubLayout.astro";
+import { HILL_SLOPE_MIN_PERCENT, listingsForHills } from "../lib/hubs";
+
+const hub = await getEntry("hubs", "best-robot-mower-for-hills");
+if (!hub || hub.data.status !== "published") {
+  throw new Error("Missing published hub: best-robot-mower-for-hills");
+}
+const { Content } = await render(hub);
+
+const listings = listingsForHills(
+  await getCollection("listings", ({ data }) => data.status === "published"),
+);
+---
+
+<HubLayout
+  title={hub.data.title}
+  description={hub.data.description}
+  canonicalPath={hub.data.slug}
+  kicker={`${listings.length} published listings · AWD or manufacturer slope ${HILL_SLOPE_MIN_PERCENT}%+`}
+  listings={listings}
+  listLabel="Hill and slope mower listings"
+  emptyMessage={`No published mowers with a ${HILL_SLOPE_MIN_PERCENT}%+ slope figure or AWD drive yet.`}
+>
+  <Content />
+</HubLayout>
