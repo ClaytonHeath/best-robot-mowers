@@ -135,3 +135,8 @@ dreame-a3-awd-pro-2500.webp
   Page: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972148993
   File: https://cdn.shopify.com/s/files/1/0767/5379/7377/files/1.1_2.png?v=1774430841
   (Official Dreame A3 AWD Pro featured studio still, 2000². Shared Pro hero also used for Pro 3500 variant_ids. Not non-Pro A3-3.png, not Pro 5000 A3_AWD_Pro.png. SKU lock: Pro 2500 variant 48120972148993 / SKU 010901AA000110 only — not Pro 3500/5000, not non-Pro 1000/2000.)
+
+dreame-a3-awd-pro-5000.webp
+  Page: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972181761
+  File: https://cdn.shopify.com/s/files/1/0767/5379/7377/files/A3_AWD_Pro.png?v=1787900273
+  (Official Dreame A3 AWD Pro 5000 dedicated still, 2000², A3 PRO badge; Free Gift inset. Not shared Pro hero 1.1_2.png (2500/3500), not non-Pro A3-3.png. SKU lock: Pro 5000 variant 48120972181761 / SKU 010901AA000212 only — not Pro 2500/3500, not non-Pro 1000/2000.)
