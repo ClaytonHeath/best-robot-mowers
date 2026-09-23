@@ -150,3 +150,8 @@ mammotion-luba-3-awd-5000.webp
   Page: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985073443114
   File: https://cdn.shopify.com/s/files/1/0744/3310/2122/files/13_1_-_-jpg.webp?v=1774842649
   (Official Mammotion LUBA 3 AWD Standard-family studio still, 3000², linked to 1500/3000/5000 Standard variants. Not High-only still; not OG crop. SKU lock: LUBA 3 AWD 5000 Standard variant 50985073443114 / SKU MTLA25LU35KNA only — not 1500/3000, not High 5000 MTLA25LU35KHNA.)
+
+mova-lidax-ultra-1000.webp
+  Page: https://us.mova.tech/products/mova-lidax-ultra-1000-robot-lawn-mower?variant=47255944626412
+  File: https://cdn.shopify.com/s/files/1/0712/8245/8860/files/Lidaxultra1000_-us_9cfb64f8-b954-4749-8584-c40dfa6d30b8.png?v=1789717995
+  (Official MOVA LiDAX Ultra 1000 US featured studio still. Whole-machine; marketing badges present. Not OG crop; not Ultra 2000 hero; not comparison chart. SKU lock: LiDAX Ultra 1000 variant 47255944626412 / SKU 010901AA000182 only — not Ultra 2000, not Ultra AWD, not Dreame A3.)
