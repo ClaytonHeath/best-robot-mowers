@@ -155,3 +155,8 @@ mova-lidax-ultra-1000.webp
   Page: https://us.mova.tech/products/mova-lidax-ultra-1000-robot-lawn-mower?variant=47255944626412
   File: https://cdn.shopify.com/s/files/1/0712/8245/8860/files/Lidaxultra1000_-us_9cfb64f8-b954-4749-8584-c40dfa6d30b8.png?v=1789717995
   (Official MOVA LiDAX Ultra 1000 US featured studio still. Whole-machine; marketing badges present. Not OG crop; not Ultra 2000 hero; not comparison chart. SKU lock: LiDAX Ultra 1000 variant 47255944626412 / SKU 010901AA000182 only — not Ultra 2000, not Ultra AWD, not Dreame A3.)
+
+mova-lidax-ultra-2000.webp
+  Page: https://us.mova.tech/products/mova-lidax-ultra-2000-robot-lawn-mower?variant=47255944298732
+  File: https://cdn.shopify.com/s/files/1/0712/8245/8860/files/Lidaxultra2000_-us.png?v=1789718061
+  (Official MOVA LiDAX Ultra 2000 US featured studio still. Whole-machine; marketing badges present. Not Ultra 1000 hero; not Ultra AWD still; not OG crop. SKU lock: LiDAX Ultra 2000 variant 47255944298732 / SKU 010901AA000181 only — not Ultra 1000, not Ultra 2000 AWD, not Ultra 3000 AWD, not Dreame A3.)
