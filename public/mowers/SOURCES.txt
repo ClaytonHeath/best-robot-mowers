@@ -165,3 +165,8 @@ mova-lidax-ultra-3000-awd.webp
   Page: https://us.mova.tech/products/mova-lidax-ultra-3000-awd-robotic-lawn-mower?variant=47355510325484
   File: https://cdn.shopify.com/s/files/1/0712/8245/8860/files/AWD_-US.png?v=1789717762
   (Official MOVA LiDAX Ultra AWD US featured studio still, featured image on the Ultra 3000 AWD PDP. Whole machine; marketing badges present; AWD and UltraTrim 2.0 markings, no 3000 marking. MOVA serves the same file on the Ultra 2000 AWD PDP (same chassis). Not an OG landscape crop, not lifestyle, not the RWD Ultra 1000/2000 hero. SKU lock: LiDAX Ultra 3000 AWD variant 47355510325484 / SKU 010901AA000205 only. Not the Live Only twin, not Ultra 2000 AWD, not Dreame A3.)
+
+mova-lidax-pro-800.webp
+  Page: https://us.mova.tech/products/mova-lidax-pro-800-robotic-lawn-mower?variant=47666572099820
+  File: https://cdn.shopify.com/s/files/1/0712/8245/8860/files/CP_1000_d0b15c31-5bd9-4c79-b979-e5ed96e720cf.png?v=1778658026
+  (Official MOVA LiDAX Pro 800 studio cutout used as the product image in the Specifications table on the US Pro 800 PDP (column labelled "800 / LiDAX Pro"). Shows the whole machine at a 3/4 front angle on transparency; "LiDAX PRO" side marking visible, and no Ultra Trim marking on the skirt. No badges, no lifestyle, not an OG crop. Native file is 720×600, upscaled into a 1400×1400 white canvas, so it is slightly soft. The PDP's featured image (Lidaxpro800_-us.png) was rejected: it is the same render as the Ultra 1000 hero, with "LiDAX ULTRA" / "ULTRA TRIM" markings plus badges. Gallery image 1_377c6e96… (3000px, LiDAX PRO) was also rejected because a phone mockup covers the rear wheel. SKU lock: LiDAX Pro 800 variant 47666572099820 / SKU 010901AA000250 only; not Ultra 1000, not Ultra 2000, not Ultra AWD.)
