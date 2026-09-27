@@ -41,6 +41,10 @@ If you prefer Railpack’s built-in static file server instead of `serve`, set t
 
 PR CI (`.github/workflows/build.yml`) runs `npm run check:photos` then `npm run build` on every pull request. Published listings without `/mowers/{slug}.webp` fail the PR.
 
+## IndexNow
+
+After a successful GitHub Pages deploy from `main`, `.github/workflows/deploy.yml` POSTs canonical `www` URLs to [IndexNow](https://www.indexnow.org/) (Bing and other IndexNow engines). The public key file is `public/e61f9748dc7a489d4f882c6f70d98446.txt` → `https://www.bestlawnrobots.com/e61f9748dc7a489d4f882c6f70d98446.txt`. Submissions use changed listing slugs as `/mowers/<slug>/` plus the homepage (and hub/about pages when those files change); layout/config diffs fall back to the live sitemap. The job waits for the key file to be live, logs HTTP 200/202 as success, and never fails the deploy. Dry-run: `node scripts/indexnow.mjs --dry-run --from HEAD~1 --to HEAD`.
+
 ## Publisher contract: add a listing
 
 Create **one Markdown file** in `src/content/listings/`. Filename should match the slug, e.g. `segway-navimow-x390.md`.
@@ -134,7 +138,8 @@ src/pages/about.astro          # methodology
 src/lib/site.ts                # branding, formatting, paths
 public/mowers/                 # official product stills
 scripts/check-listing-photos.mjs  # published listings must have a still
-.github/workflows/deploy.yml   # GitHub Pages production deploy
+scripts/indexnow.mjs              # post-deploy IndexNow ping (Bing)
+.github/workflows/deploy.yml   # GitHub Pages production deploy + IndexNow
 railway.toml                   # leftover Railway static deploy (DNS cutover)
 ```
 
