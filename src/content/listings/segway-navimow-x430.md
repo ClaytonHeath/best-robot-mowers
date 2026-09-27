@@ -4,8 +4,8 @@ brand: Segway Navimow
 slug: segway-navimow-x430
 model: X430
 status: published
-priceUsd: 2249
-priceNote: Official US cart on 2 Sep 2026 for the X430 | 1.0 acre variant — $2,249 sale, $2,499 regular. Not labeled MSRP.
+priceUsd: 2499
+priceNote: Official US cart on 27 Sep 2026 for the X430 | 1.0 acre variant — $2,499, no sale or compare-at price; sold out on that date. Not labeled MSRP.
 coverageAcres: 1
 slopePercent: 84
 navigation:
@@ -17,7 +17,7 @@ verdict: AWD 1-acre RTK mower with an 84% slope rating and a 17-inch cut; the ca
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-x4-robot-lawn-mower?variant=45014269100169
 image: /mowers/segway-navimow-x430.webp
-updated: 2026-09-02
+updated: 2026-09-27
 cuttingWidthIn: 17
 cuttingHeight: 0.75–4 in
 ipRating: IP66
@@ -49,4 +49,4 @@ Sources: [Navimow X430 product / cart page](https://navimow.com/products/navimow
 
 ## Honest verdict
 
-The X430 is the US-buyable X4: in-stock all-wheel drive, a published 1-acre rating, 84% slope, and a 17-inch dual-disc deck that is a different machine from the X390. Pay the $2,249 cart if that yard actually needs AWD; the $2,499 regular price is the same page’s compare-at, not a labeled MSRP. Skip it if you need 1.5 acres (X450, $2,999 and sold out on this date), 2.5 acres (X390), or a path the 24-inch body cannot pass.
+The X430 is the US-store X4 (sold out on 27 Sep 2026): all-wheel drive, a published 1-acre rating, 84% slope, and a 17-inch dual-disc deck that is a different machine from the X390. Pay the $2,499 cart price if that yard actually needs AWD; the official store showed no sale or compare-at price on 27 Sep 2026, and it is not a labeled MSRP. Skip it if you need 1.5 acres (X450, $2,999 and sold out on this date), 2.5 acres (X390), or a path the 24-inch body cannot pass.
