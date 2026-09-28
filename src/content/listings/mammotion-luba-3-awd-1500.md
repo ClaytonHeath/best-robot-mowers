@@ -5,7 +5,7 @@ slug: mammotion-luba-3-awd-1500
 model: LUBA 3 AWD 1500
 status: published
 priceUsd: 2399
-priceNote: Listed price for the LUBA 3 AWD 1500 on the official US store on 26 Aug 2026, tax excluded.
+priceNote: "Official US cart price on 28 Sep 2026 for the High Version (variant 50985017213226, SKU MTLA25LU315HHNA, 2.2–4.0 in cut): $2,399, with no compare-at price, tax excluded. The High Version was in stock on 28 Sep 2026. The Standard Version (variant 50985073377578, SKU MTLA25LU315HNA) was sold out on 28 Sep 2026."
 coverageAcres: 0.37
 slopePercent: 80
 navigation:
@@ -15,9 +15,9 @@ wireFree: true
 whoItsFor: Smaller, hilly, or obstacle-heavy yards up to about a third of an acre that need all-wheel drive and LiDAR, not a 2-acre RTK flagship.
 verdict: The 1500 is the small-yard LUBA 3 — AWD and 360° LiDAR without a required RTK antenna, at a 0.37-acre rating that will disappoint anyone who assumed every LUBA covers an acre.
 affiliateUrl: ""
-officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower
+officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985017213226
 image: /mowers/mammotion-luba-3-awd-1500.webp
-updated: 2026-08-26
+updated: 2026-09-28
 cuttingWidthIn: 15.7
 cuttingHeight: 1.0–2.7 in standard; 2.2–4.0 in High (H) version
 noiseDb: 70
