@@ -175,3 +175,8 @@ mammotion-luba-mini-2-awd-1500h.webp
   Page: https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower?variant=51222244819242
   File: https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_Mini_2_High_Grass_right_side_view.png?v=1790137812
   (Official Mammotion studio still, front-right three-quarter view of the whole machine on a transparent background: LiDAR dome, camera bar, omni front wheels, white front bumper. It is the variant image Shopify assigns to the High Version, 51222244819242 / MTLA25LUM215HHNA, and shows the taller H-version body. It is not the Standard Version still LUBA_Mini_2_Radar_right_side_view.png. No badges or text overlays. Trimmed to the machine, contained on white at 1400x1400 RGB.)
+
+lymow-one-plus-5a.webp
+  Page: https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower?variant=47332598710507
+  File: https://www.lymow.com/cdn/shop/files/Lymow_One_Plus_Mover.jpg?v=1770258356
+  (Official Lymow studio still of the whole Lymow One Plus, front three-quarter view on plain white, from the product page's "What's in the box" section (4000x4000 JPEG); same render as the variant featured image PDP-IMAGE1-NA.webp but without award badges. No text, badges or props. Trimmed to the machine and fitted on white at 1400x1400 RGB WebP. Checked 2026-09-28.)
