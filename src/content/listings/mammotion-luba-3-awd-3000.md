@@ -5,7 +5,7 @@ slug: mammotion-luba-3-awd-3000
 model: LUBA 3 AWD 3000
 status: published
 priceUsd: 2109
-priceNote: Official US cart price for LUBA 3 AWD 3000 Standard (SKU MTLA25LU33KNA) on 21 Sep 2026; tax excluded. Compare-at $2,799 shown on the same PDP. High cutting-height twin (SKU MTLA25LU33KHNA) same cart price.
+priceNote: "Official US cart price on 28 Sep 2026 for the Standard Version (variant 50985073410346, SKU MTLA25LU33KNA, 1.0–2.7 in cut): $2,109, with a $2,799 compare-at price on the product page, tax excluded. The Standard Version was in stock on 28 Sep 2026. The High Version (variant 50985057288490, SKU MTLA25LU33KHNA) lists the same $2,109 but was sold out on 28 Sep 2026."
 coverageAcres: 0.75
 slopePercent: 80
 navigation:
@@ -18,7 +18,7 @@ verdict: The 3000 is the mid-size LUBA 3 — 0.75-acre rating, Tri-Fusion with N
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower
 image: /mowers/mammotion-luba-3-awd-3000.webp
-updated: 2026-09-21
+updated: 2026-09-28
 cuttingWidthIn: 15.7
 cuttingHeight: "1.0–2.7 in Standard (this SKU); 2.2–4.0 in High (H) version"
 noiseDb: 70
