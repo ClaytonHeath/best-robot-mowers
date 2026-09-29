@@ -180,3 +180,8 @@ lymow-one-plus-5a.webp
   Page: https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower?variant=47332598710507
   File: https://www.lymow.com/cdn/shop/files/Lymow_One_Plus_Mover.jpg?v=1770258356
   (Official Lymow studio still of the whole Lymow One Plus, front three-quarter view on plain white, from the product page's "What's in the box" section (4000x4000 JPEG); same render as the variant featured image PDP-IMAGE1-NA.webp but without award badges. No text, badges or props. Trimmed to the machine and fitted on white at 1400x1400 RGB WebP. Checked 2026-09-28.)
+
+ecovacs-goat-o1000-lidar-pro.webp
+  Page: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro
+  File: https://site-static.ecovacs.com/upload/us/image/product/2026/02/13/075052_2864$id-goat-o1000-lidar-pro-920x920-1.png
+  (Official ECOVACS studio still of the whole GOAT O1000 LiDAR PRO, front-left three-quarter view on a transparent background: LiDAR dome, red STOP button, front camera bar, off-road drive wheel and TruEdge trimmer brush. Main gallery image, Product JSON-LD image and cart thumbnail for SKU GO1000LP. No badges or text overlays beyond on-machine labels. Composited on white, trimmed to the machine, fitted on white at 1400x1400 RGB WebP. Checked 2026-09-29.)
