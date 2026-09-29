@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Smaller, hilly, or obstacle-heavy yards up to about a third of an acre that need all-wheel drive and LiDAR, not a 2-acre RTK flagship.
-verdict: "Sloped lawns up to 0.37 acre (80% rated) that want AWD, a 15.7 in cut and 360° LiDAR without a required RTK antenna. The limit is coverage: this is the smallest LUBA 3, and at $2,399 it costs $700 more than the LUBA mini 2 AWD 1500H, which has the same acreage and slope ratings."
+verdict: "Sloped lawns up to 0.37 acre (80% rated) that want AWD, a 15.7 in cut and 360° LiDAR without a required RTK antenna. The catch is price per acre: while stock lasts, the LUBA 3 AWD 3000 Standard is $2,109, which is $290 less than this $2,399 High Version for twice the coverage (0.75 acre), and the LUBA mini 2 AWD 1500H has the same 0.37-acre and 80% ratings for $1,699."
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985017213226
 image: /mowers/mammotion-luba-3-awd-1500.webp
-updated: 2026-09-28
+updated: 2026-09-29
 cuttingWidthIn: 15.7
 cuttingHeight: 1.0–2.7 in standard; 2.2–4.0 in High (H) version
 noiseDb: 70
