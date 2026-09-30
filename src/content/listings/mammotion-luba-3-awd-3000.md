@@ -16,9 +16,9 @@ wireFree: true
 whoItsFor: Medium yards up to about three-quarters of an acre that need all-wheel drive, 360° LiDAR, and NetRTK without burying perimeter wire.
 verdict: The 3000 is the mid-size LUBA 3 — 0.75-acre rating, Tri-Fusion with NetRTK via iNavi, and AWD for 80% slopes — not the 0.37-acre 1500 and not the 1.25-acre 5000.
 affiliateUrl: ""
-officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower
+officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985073410346
 image: /mowers/mammotion-luba-3-awd-3000.webp
-updated: 2026-09-28
+updated: 2026-09-30
 cuttingWidthIn: 15.7
 cuttingHeight: "1.0–2.7 in Standard (this SKU); 2.2–4.0 in High (H) version"
 noiseDb: 70
