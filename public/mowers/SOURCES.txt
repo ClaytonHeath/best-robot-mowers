@@ -185,3 +185,8 @@ ecovacs-goat-o1000-lidar-pro.webp
   Page: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro
   File: https://site-static.ecovacs.com/upload/us/image/product/2026/02/13/075052_2864$id-goat-o1000-lidar-pro-920x920-1.png
   (Official ECOVACS studio still of the whole GOAT O1000 LiDAR PRO, front-left three-quarter view on a transparent background: LiDAR dome, red STOP button, front camera bar, off-road drive wheel and TruEdge trimmer brush. Main gallery image, Product JSON-LD image and cart thumbnail for SKU GO1000LP. No badges or text overlays beyond on-machine labels. Composited on white, trimmed to the machine, fitted on white at 1400x1400 RGB WebP. Checked 2026-09-29.)
+
+ecovacs-goat-a2000-lidar-pro.webp
+  Page: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro
+  File: https://site-static.ecovacs.com/upload/us/image/product/2026/02/10/064258_2034$id-goat-a2000-lidar-pro-920x920-1.png
+  (Official ECOVACS studio still of the whole GOAT A2000 LiDAR PRO, front-right three-quarter view on a transparent background: LiDAR dome, red STOP button, front camera bar, off-road drive wheel and TruEdge trimmer brush. Main id-goat gallery packshot for SKU GA2000LP. No badges or text overlays beyond on-machine labels. Composited on white, trimmed to the machine, fitted on white at 1400x1400 RGB WebP. Checked 2026-09-30.)
