@@ -190,3 +190,8 @@ ecovacs-goat-a2000-lidar-pro.webp
   Page: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro
   File: https://site-static.ecovacs.com/upload/us/image/product/2026/02/10/064258_2034$id-goat-a2000-lidar-pro-920x920-1.png
   (Official ECOVACS studio still of the whole GOAT A2000 LiDAR PRO, front-right three-quarter view on a transparent background: LiDAR dome, red STOP button, front camera bar, off-road drive wheel and TruEdge trimmer brush. Main id-goat gallery packshot for SKU GA2000LP. No badges or text overlays beyond on-machine labels. Composited on white, trimmed to the machine, fitted on white at 1400x1400 RGB WebP. Checked 2026-09-30.)
+
+segway-navimow-i215-lidar.webp
+  Page: https://navimow.com/products/navimow-i2-lidar-robot-lawn-mower?variant=45014721724553
+  File: https://navimow.com/cdn/shop/files/i215_Lidar_Front45_07_46f81dfe-59af-451a-9e42-78fd8b5e650a.png?v=1770629631
+  (Official i215 LiDAR Front45 studio still from the US i2 LiDAR PDP gallery; whole-machine pack shot with i215 LiDAR model mark.)
