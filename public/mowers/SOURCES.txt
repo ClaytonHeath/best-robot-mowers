@@ -195,3 +195,8 @@ segway-navimow-i215-lidar.webp
   Page: https://navimow.com/products/navimow-i2-lidar-robot-lawn-mower?variant=45014721724553
   File: https://navimow.com/cdn/shop/files/i215_Lidar_Front45_07_46f81dfe-59af-451a-9e42-78fd8b5e650a.png?v=1770629631
   (Official i215 LiDAR Front45 studio still from the US i2 LiDAR PDP gallery; whole-machine pack shot with i215 LiDAR model mark.)
+
+segway-navimow-i210-awd.webp
+  Page: https://navimow.com/products/navimow-i2-awd-robot-lawn-mower?variant=45014242853001
+  File: https://navimow.com/cdn/shop/files/i210_AWD_Front45_07_69611953-5068-4d69-b59a-a83c5f8a027b.png?v=1770029744
+  (Official i210 AWD Front45 studio still from the US i2 AWD PDP gallery; whole-machine pack shot with i210 AWD model mark and orange AWD tires. Variant-linked image for 45014242853001.)
