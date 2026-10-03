@@ -200,3 +200,8 @@ segway-navimow-i210-awd.webp
   Page: https://navimow.com/products/navimow-i2-awd-robot-lawn-mower?variant=45014242853001
   File: https://navimow.com/cdn/shop/files/i210_AWD_Front45_07_69611953-5068-4d69-b59a-a83c5f8a027b.png?v=1770029744
   (Official i210 AWD Front45 studio still from the US i2 AWD PDP gallery; whole-machine pack shot with i210 AWD model mark and orange AWD tires. Variant-linked image for 45014242853001.)
+
+lymow-one-plus-10a.webp
+  Page: https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower?variant=47332598743275
+  File: https://www.lymow.com/cdn/shop/files/Lymow_One_Plus_Mover.jpg?v=1770258356
+  (Official Lymow studio still of the whole One Plus, front three-quarter on white, from the product page "What's in the box" section, 4000×4000 JPEG. Same chassis render as the 5A listing; not the badge-composited featured file PDP-IMAGE1-NA.webp. No text overlays beyond on-machine LYMOW marks. Trimmed to the machine, contained on white at 1400×1400 RGB. SKU lock: 10A variant 47332598743275 / SKU LM1PLUSUS10A only — not the 5A / lymow-one-plus-5a.)
