@@ -205,3 +205,9 @@ lymow-one-plus-10a.webp
   Page: https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower?variant=47332598743275
   File: https://www.lymow.com/cdn/shop/files/Lymow_One_Plus_Mover.jpg?v=1770258356
   (Official Lymow studio still of the whole One Plus, front three-quarter on white, from the product page "What's in the box" section, 4000×4000 JPEG. Same chassis render as the 5A listing; not the badge-composited featured file PDP-IMAGE1-NA.webp. No text overlays beyond on-machine LYMOW marks. Trimmed to the machine, contained on white at 1400×1400 RGB. SKU lock: 10A variant 47332598743275 / SKU LM1PLUSUS10A only — not the 5A / lymow-one-plus-5a.)
+
+sunseeker-x7-gen-2.webp
+  Page: https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661
+  File: https://cdn.shopify.com/s/files/1/0772/3951/7501/files/x7-gen2-01-front.jpg?v=1790591178
+  (official US store still, clean chassis front, white studio, no badges or lifestyle overlay; 1400x1400 webp from 2048x2048 JPEG; checked 4 Oct 2026 AWST)
+
