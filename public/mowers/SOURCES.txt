@@ -211,3 +211,7 @@ sunseeker-x7-gen-2.webp
   File: https://cdn.shopify.com/s/files/1/0772/3951/7501/files/x7-gen2-01-front.jpg?v=1790591178
   (official US store still, clean chassis front, white studio, no badges or lifestyle overlay; 1400x1400 webp from 2048x2048 JPEG; checked 4 Oct 2026 AWST)
 
+kress-rtkn-kr161.webp
+  Page: https://www.kress.com/en-us/kress-rtk%E2%81%BF-%C2%BC-acre-robotic-lawn-mower-kr161/
+  File: https://www.kress.com/wp-content/plugins/woocommerce-onpage/storage/cache/08e16babd3fd5686464d9f2a1954246d6254ad4d.png/KR172_list.png
+  (Official US PDP list/schema chassis render shared with KR172, file KR172_list.png. Whole machine, studio, white. Not the softer OG op_image crop. SKU lock: KR161 / WooCommerce product 1292954 only, not KR172, KR173, or KR174. 1400x1400 RGB WebP. Checked 5 Oct 2026 AWST.)
