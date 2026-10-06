@@ -4,8 +4,8 @@ brand: Worx
 slug: worx-landroid-vision-cloud-wr310
 model: WR310.1
 status: published
-priceUsd: 1799
-priceNote: Worx US listed $1,799.99 for WR310.1 on 26 Aug 2026. Promotional callouts on that page were inconsistent — confirm the live cart price.
+priceUsd: 1199.99
+priceNote: "Official Worx US store on 6 Oct 2026 (AWST) for partNumber / SKU WR310.1 (Landroid Vision Cloud ¼ Acre), catalog entry id 3074457345616683946: Display $1,199.99 and Offer $1,199.99 in USD, so there is no separate compare-at or struck price, and Worx's catalog marked it buyable. Worx's US inventory endpoint returned inventoryStatus Available (availableQuantity 192) for WR310.1 the same morning. No cart line was possible from the research host, so this price comes from Worx's US catalog and inventory data. Tax and shipping excluded."
 coverageAcres: 0.25
 slopePercent: 30
 navigation:
@@ -15,9 +15,9 @@ wireFree: true
 whoItsFor: Quarter-acre lawns that want antenna-free, vision-first mowing and already live in the Worx PowerShare battery system.
 verdict: Easy wire-free setup and cloud RTK without a yard pole, but 0.25 acre and a 30% slope cap make it a small-yard mower, not a hillside tractor.
 affiliateUrl: ""
-officialUrl: https://www.worx.com/landroid-vision-cloud.html
+officialUrl: https://www.worx.com/en-us/worxus/landroid-vision-cloud-1-4-acre
 image: /mowers/worx-landroid-vision-cloud-wr310.webp
-updated: 2026-08-26
+updated: 2026-10-06
 cuttingWidthIn: 8.7
 cuttingHeight: 1.57–3.54 in, electric
 weightLbs: 30.9
@@ -43,7 +43,7 @@ Homeowners with about **0.25 acre** of grass, mixed hardscape edges, and a prefe
 - **Other listed features:** Multi-zone management, rain sensor, hose-washable deck, Bluetooth and Wi-Fi, over-the-air updates. Night vision (FiatLux) is optional on the line, not listed as standard on WR310.1.
 - **In the box:** Mower, charging station, charger, 20 V battery, spare blades, a short “No-Go Line” (19.7 ft) and stakes — a physical assist, not a full boundary wire.
 
-Sources: [Worx Landroid Vision Cloud WR310.1](https://www.worx.com/landroid-vision-cloud.html), checked 26 Aug 2026. Noise, IP rating, and per-charge coverage were not stated as clear numbers on that page, so they are omitted.
+Sources: [Worx Landroid Vision Cloud WR310.1](https://www.worx.com/en-us/worxus/landroid-vision-cloud-1-4-acre), checked 26 Aug 2026 and re-checked against the official US spec block on 6 Oct 2026. Noise, IP rating, and per-charge coverage were not stated as clear numbers on that page, so they are omitted.
 
 ## Honest verdict
 

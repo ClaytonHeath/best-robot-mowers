@@ -29,7 +29,7 @@ driveType: 4WD
 
 The Worx Landroid Vision Cloud 4WD WR344 is a wire-free, four-wheel-drive robot mower sold on the official Worx US store. This listing covers only the **1 Acre / WR344** configuration: partNumber and SKU **WR344**, catalog entry id **3074457345616683941**.
 
-It shares a configurable PDP with three Vision Cloud 4WD siblings: **WR341** (¼ acre), **WR342** (½ acre), and **WR346** (1½ acre). It is also a different machine from the two-wheel-drive Landroid Vision Cloud, which this site already lists as [worx-landroid-vision-cloud-wr310](/mowers/worx-landroid-vision-cloud-wr310/).
+It shares a configurable PDP with three Vision Cloud 4WD siblings: **WR341** (¼ acre), **WR342** (½ acre), and **WR346** (1½ acre). It is also a different machine from the standard Landroid Vision Cloud (WR310.1, rated for 30% slopes), which this site already lists as [worx-landroid-vision-cloud-wr310](/mowers/worx-landroid-vision-cloud-wr310/).
 
 From the official US specifications block and the WR344/WR346 owner's manual linked from that page (checked **6 Oct 2026**):
 
