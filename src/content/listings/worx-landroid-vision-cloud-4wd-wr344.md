@@ -35,7 +35,7 @@ From the official US specifications block and the WR344/WR346 owner's manual lin
 
 - Recommended lawn size: **1 acre** (spec table); manual cutting area **1 acre (4000 m²)**
 - Navigation: **RTK Cloud** with a **stereo** camera (Vision AI) and **V-SLAM**; no perimeter wire
-- Maximum slope: **84% (40°)** on both the spec table and the manual
+- Maximum slope: **84% (40°)** on both the spec table and the manual; the manual caps it at **15°** with the included Cut-to-Zero module fitted
 - Drive: **4-wheel drive** with a terrain-adaptive body and front steering
 - Cutting width / diameter: **8.7 in** (22 cm), **3 blades**, self-leveling blade disc, **2400 rpm** no-load speed
 - Cutting height: **1.57–3.54 in** (40–90 mm), electric adjustment, six steps in the manual
