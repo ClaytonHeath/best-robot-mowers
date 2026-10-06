@@ -215,3 +215,8 @@ kress-rtkn-kr161.webp
   Page: https://www.kress.com/en-us/kress-rtk%E2%81%BF-%C2%BC-acre-robotic-lawn-mower-kr161/
   File: https://www.kress.com/wp-content/plugins/woocommerce-onpage/storage/cache/08e16babd3fd5686464d9f2a1954246d6254ad4d.png/KR172_list.png
   (Official US PDP list/schema chassis render shared with KR172, file KR172_list.png. Whole machine, studio, white. Not the softer OG op_image crop. SKU lock: KR161 / WooCommerce product 1292954 only, not KR172, KR173, or KR174. 1400x1400 RGB WebP. Checked 5 Oct 2026 AWST.)
+
+worx-landroid-vision-cloud-4wd-wr344.webp
+  Page: https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-acre
+  File: https://www.worx.com/WorxGlobalCAS/w/r/wr344_view1_1.png
+  (Official Worx catalog "Landroid Vision Cloud 4WD 1 Acre Main Image", served as 1200x1200 transparent WebP despite the .png URL. Whole machine, studio, no badges. Alpha-trimmed and contained on white at 1400x1400 RGB WebP. SKU lock: WR344 / catalog entry 3074457345616683941 only, not WR341, WR342 or WR346, and not the 2WD Vision Cloud WR310. Checked 6 Oct 2026 AWST.)
