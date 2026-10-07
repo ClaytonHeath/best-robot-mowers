@@ -220,3 +220,8 @@ worx-landroid-vision-cloud-4wd-wr344.webp
   Page: https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-acre
   File: https://www.worx.com/WorxGlobalCAS/w/r/wr344_view1_1.png
   (Official Worx catalog "Landroid Vision Cloud 4WD 1 Acre Main Image", served as 1200x1200 transparent WebP despite the .png URL. Whole machine, studio, no badges. Alpha-trimmed and contained on white at 1400x1400 RGB WebP. SKU lock: WR344 / catalog entry 3074457345616683941 only, not WR341, WR342 or WR346, and not the 2WD Vision Cloud WR310. Checked 6 Oct 2026 AWST.)
+
+roboup-tm01-t1200pro.webp
+  Page: https://us.iroboup.com/products/roboup-tm01-t1200-pro-robot-lawn-mower?variant=52962413871398
+  File: https://cdn.shopify.com/s/files/1/0906/8160/6438/files/T1200_Pro-1080x1080_2_1.jpg
+  (Official RoboUP US store still T1200_Pro-1080x1080_2_1.jpg, whole-machine studio on white, no badges. Native crop MAG≈3.75; padded centered to 1400×1400 RGB WebP without upscaling the machine. Not the badge-composited featured T1200-US.webp. SKU lock: T1200Pro-RobotLawnMower / variant 52962413871398 / product 10075764949286 only — mower-only, not Garage or RTK Mount Rod bundles. Checked 7 Oct 2026 AWST.)
