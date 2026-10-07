@@ -5,7 +5,7 @@ slug: mammotion-luba-3-awd-1500
 model: LUBA 3 AWD 1500
 status: published
 priceUsd: 2399
-priceNote: "Official US cart price on 4 Oct 2026 for the High Version (variant 50985017213226, SKU MTLA25LU315HHNA, 2.2–4.0 in cut): $2,399, with no compare-at price, tax excluded. The High Version was sold out on 4 Oct 2026. The Standard Version (variant 50985073377578, SKU MTLA25LU315HNA) was sold out on 4 Oct 2026."
+priceNote: "Official US cart price on 7 Oct 2026 for the High Version (variant 50985017213226, SKU MTLA25LU315HHNA, 2.2–4.0 in cut): $2,399, with no compare-at price, tax excluded. The High Version was in stock on 7 Oct 2026. The Standard Version (variant 50985073377578, SKU MTLA25LU315HNA) was sold out on 7 Oct 2026."
 coverageAcres: 0.37
 slopePercent: 80
 navigation:
@@ -17,7 +17,7 @@ verdict: "Sloped lawns up to 0.37 acre (80% rated) that want AWD, a 15.7 in cut 
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985017213226
 image: /mowers/mammotion-luba-3-awd-1500.webp
-updated: 2026-10-04
+updated: 2026-10-07
 cuttingWidthIn: 15.7
 cuttingHeight: 1.0–2.7 in standard; 2.2–4.0 in High (H) version
 noiseDb: 70
