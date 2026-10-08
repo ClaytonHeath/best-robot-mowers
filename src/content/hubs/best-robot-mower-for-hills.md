@@ -1,6 +1,6 @@
 ---
 title: Best robot mower for hills
-description: Robot lawn mowers for slopes and AWD yards from the live Best Robot Lawn Mowers catalog. Slope percent vs degrees, work-area vs boundary limits, and honest manufacturer-claim caveats.
+description: Compare robot lawn mowers for slopes and AWD yards. Slope percent vs degrees, work-area vs boundary limits, and honest manufacturer-claim caveats.
 slug: best-robot-mower-for-hills
 updated: 2026-09-18
 status: published
