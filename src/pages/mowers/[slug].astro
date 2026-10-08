@@ -11,6 +11,7 @@ import {
   formatUpdated,
   isPresentUrl,
   listingBreadcrumbJsonLd,
+  listingMetaDescription,
   listingPhotoSrc,
   productJsonLd,
   withBase,
@@ -27,7 +28,7 @@ export async function getStaticPaths() {
 const { listing } = Astro.props;
 const { Content } = await render(listing);
 const d = listing.data;
-const description = `${d.verdict} ${d.whoItsFor}`;
+const description = listingMetaDescription(d);
 const photo = listingPhotoSrc(d.slug, d.image);
 const published = await getCollection("listings", ({ data }) => data.status === "published");
 const related = pickRelatedListings(

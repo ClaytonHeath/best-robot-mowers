@@ -88,6 +88,43 @@ export function formatUpdated(date: Date): string {
   }).format(date);
 }
 
+/** Search results cut snippets at roughly 155–160 characters. */
+export const META_DESCRIPTION_MAX = 155;
+
+function clipAtWord(text: string, max: number): string {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  const lastSpace = cut.lastIndexOf(" ");
+  const trimmed = (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:.–—-]+$/, "");
+  return `${trimmed}…`;
+}
+
+export interface ListingMetaInput {
+  title: string;
+  verdict: string;
+  coverageAcres: number;
+  slopePercent?: number;
+  priceUsd?: number;
+  navigation: NavigationType[];
+  wireFree: boolean;
+}
+
+/** Spec-led snippet built only from frontmatter already shown on the page, capped for search results. */
+export function listingMetaDescription(listing: ListingMetaInput): string {
+  const nav = listing.navigation
+    .map((type) => (type === "lidar" || type === "rtk" ? NAV_LABELS[type] : NAV_LABELS[type].toLowerCase()))
+    .join(" + ");
+  const wire = listing.wireFree ? "wire-free " : listing.navigation.includes("boundary-wire") ? "" : "boundary-wire ";
+  const specs = [`up to ${formatAcres(listing.coverageAcres)}`];
+  if (listing.slopePercent !== undefined) specs.push(`${listing.slopePercent}% slopes`);
+  if (listing.priceUsd !== undefined && !listing.verdict.includes(formatPrice(listing.priceUsd))) {
+    specs.push(formatPrice(listing.priceUsd));
+  }
+  const lead = `${listing.title}: ${wire}${nav} robot mower for ${specs.join(", ")}.`;
+  if (lead.length >= META_DESCRIPTION_MAX - 30) return clipAtWord(lead, META_DESCRIPTION_MAX);
+  return clipAtWord(`${lead} ${listing.verdict}`, META_DESCRIPTION_MAX);
+}
+
 export function isPresentUrl(value: string | undefined): value is string {
   return Boolean(value && value.trim().length > 0);
 }

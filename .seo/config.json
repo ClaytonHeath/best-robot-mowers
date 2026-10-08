@@ -1,0 +1,8 @@
+{
+  "domain": "https://www.bestlawnrobots.com",
+  "stack": "astro",
+  "content_paths": ["src/content/listings", "src/content/hubs"],
+  "build_cmd": "npm run build",
+  "dev_cmd": "npm run dev",
+  "note": "Non-sensitive SEO state only. Metrics, run records, and credentials are kept outside this public repo."
+}
