@@ -1,6 +1,6 @@
 ---
 title: Best robot mower for 1 acre
-description: Robot lawn mowers whose published coverage fits about one acre — curated from the Best Robot Lawn Mowers catalog. Marketed vs recommended coverage called out; thin shelf above 1 acre stated plainly.
+description: Robot lawn mowers whose published coverage fits about one acre. Marketed vs recommended coverage called out; thin shelf above 1 acre stated plainly.
 slug: best-robot-mower-for-1-acre
 updated: 2026-09-18
 status: published

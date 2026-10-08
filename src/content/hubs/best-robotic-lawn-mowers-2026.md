@@ -1,6 +1,6 @@
 ---
 title: Best robotic lawn mowers 2026
-description: Curated yard-fit picks from the Best Robot Lawn Mowers directory — small, mid, hills/AWD, wire-free, boundary-wire budget, and large lawns. Manufacturer coverage and slope only; not a ranked list.
+description: Curated yard-fit picks: small, mid, hills/AWD, wire-free, boundary-wire budget, and large lawns. Manufacturer coverage and slope only; not a ranked list.
 slug: best-robotic-lawn-mowers-2026
 updated: 2026-09-18
 status: published
