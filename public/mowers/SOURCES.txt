@@ -225,3 +225,8 @@ roboup-tm01-t1200pro.webp
   Page: https://us.iroboup.com/products/roboup-tm01-t1200-pro-robot-lawn-mower?variant=52962413871398
   File: https://cdn.shopify.com/s/files/1/0906/8160/6438/files/T1200_Pro-1080x1080_2_1.jpg
   (Official RoboUP US store still T1200_Pro-1080x1080_2_1.jpg, whole-machine studio on white, no badges. Native crop MAG≈3.75; padded centered to 1400×1400 RGB WebP without upscaling the machine. Not the badge-composited featured T1200-US.webp. SKU lock: T1200Pro-RobotLawnMower / variant 52962413871398 / product 10075764949286 only — mower-only, not Garage or RTK Mount Rod bundles. Checked 7 Oct 2026 AWST.)
+
+eufy-e15.webp
+  Page: https://www.eufy.com/products/t28801a1?variant=44697729269946
+  File: https://cdn.shopify.com/s/files/1/0504/7094/4954/files/E15_78053c62-b8cf-4de7-859c-021f244ffd6a.png?v=1788431014
+  (Official eufy US store studio still E15_78053c62-b8cf-4de7-859c-021f244ffd6a.png, 1000x1000 transparent PNG: whole machine, front-left three-quarter, E15 mark on the fender, no badges or text overlays. Native machine-crop MAG≈3.71. Composited on white, trimmed, padded centered to 1400x1400 RGB WebP without upscaling the machine. Not the badge-composited E18_1 image on the same PDP. SKU lock: T28801A1 / variant 44697729269946 / product 8071515832506 only, not the E18 (T28011A1). Checked 8 Oct 2026 AWST.)
