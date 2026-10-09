@@ -52,7 +52,7 @@ Only models with published listings and supporting frontmatter are listed. Price
 - **Coverage:** 1 acre recommended
 - **Drive:** All-wheel drive (Xero-Turn 4WD)
 - **Nav:** RTK + vision · wire-free
-- **Price (listing):** $2,249 US cart (2 Sep 2026)
+- **Price (listing):** $2,499 (sold out 27 Sep 2026)
 - **Catch:** Coverage and bulk — not the 1.5-acre X450; **24-inch body** is a hard limit in tight gaps. No separate boundary-slope figure is published for X4 on the listing (unlike X3’s 25%).
 
 ### 80% AWD LiDAR (no RTK on these SKUs)
