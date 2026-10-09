@@ -4,8 +4,8 @@ brand: Segway Navimow
 slug: segway-navimow-i215-lidar
 model: i215 LiDAR
 status: published
-priceUsd: 1599
-priceNote: Official US cart on 1 Oct 2026 (AWST) for variant 45014721724553 (SKU AA.12.04.02.0002, “Navimow i215 LiDAR | 0.37 acre”) — $1,599.00. Cart compare_at null; tax and shipping excluded. Mower-only line accepted into guest cart (subtotal/total $1,599.00). The $1,848.99 on the same store is a separate Garage Bundle product (variant 46839863705737), not a compare-at for this SKU.
+priceUsd: 1329
+priceNote: Official US cart on 9 Oct 2026 (AWST) for variant 45014721724553 (SKU AA.12.04.02.0002, “Navimow i215 LiDAR | 0.37 acre”) — $1,329.00 sale, $1,599.00 compare-at (product.js compare_at_price 159900). Guest cart/add.js accepted the mower-only line at $1,329.00 with no discount (cart total $1,329.00 USD); available=true. Tax and shipping excluded. The separate i215 LiDAR + Garage Bundle product (variant 46839863705737) was $1,578.99 with a $1,848.99 compare-at on the same date, a different cart line. This was $1,599 with no compare-at on 1 Oct 2026.
 coverageAcres: 0.37
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: US lawns up to about 0.37 acre that want wire-free LiDAR + vision (no perimeter wire, no local RTK antenna to site), a wider 8.66-inch deck than the i105/i110, and a published 45% work-area climb. Skip it if the yard needs all-wheel drive or an 80% slope rating, or if 0.25 acre or less is enough for the cheaper i110 / i105.
-verdict: The US i215 LiDAR is the 0.37-acre LiDAR + vision i2 cart at $1,599, with an 8.66-inch deck, 7.65 Ah pack, and 45% work-area / 25% boundary slopes; the catch is it is not AWD, so a same-acreage hilly yard may still want the LUBA mini 2 AWD 1500H ($1,799 on 9 Oct 2026) — and it is not the RTK + vision i105/i110.
+verdict: The US i215 LiDAR is the 0.37-acre LiDAR + vision i2 cart at $1,329 on sale (compare-at $1,599), with an 8.66-inch deck, 7.65 Ah pack, and 45% work-area / 25% boundary slopes; the catch is it is not AWD, so a same-acreage hilly yard may still want the LUBA mini 2 AWD 1500H ($1,799 on 9 Oct 2026) — and it is not the RTK + vision i105/i110.
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-i2-lidar-robot-lawn-mower?variant=45014721724553
 image: /mowers/segway-navimow-i215-lidar.webp
-updated: 2026-10-01
+updated: 2026-10-09
 cuttingWidthIn: 8.66
 cuttingHeight: 2–4 in
 noiseDb: 59
@@ -29,7 +29,7 @@ ipRating: IP66
 
 The Navimow **i215 LiDAR** is the US **0.37-acre** SKU in Segway’s **i2 LiDAR** line. Official product title: **Navimow i2 LiDAR Robotic Lawn Mower**; locked variant **Navimow i215 LiDAR | 0.37 acre** (Shopify variant **45014721724553**, SKU **AA.12.04.02.0002**). It is a perimeter-wire-free robot mower that navigates with **solid-state LiDAR + Vision** (EFLS™ Dual-fusion / VisionFence™ on the US pages). Segway sells it as antenna-free mapping — drop-and-mow / one-click auto mapping — rather than the Network RTK + VisionFence setup used on the listed i105 / i110.
 
-This is **not** the RTK + vision [Segway Navimow i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) (`segway-navimow-i105`, 0.125 acre) or [Segway Navimow i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`, 0.25 acre), **not** the i2 AWD series, and **not** the separate i215 LiDAR + Garage Bundle ($1,848.99).
+This is **not** the RTK + vision [Segway Navimow i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) (`segway-navimow-i105`, 0.125 acre) or [Segway Navimow i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`, 0.25 acre), **not** the i2 AWD series, and **not** the separate i215 LiDAR + Garage Bundle ($1,578.99, compare-at $1,848.99, on 9 Oct 2026).
 
 Official US numbers for this SKU (US user manual spec table column **i215 LiDAR**, plus PDP / FAQ where noted):
 
@@ -45,13 +45,13 @@ Official US numbers for this SKU (US user manual spec table column **i215 LiDAR*
 
 Homeowners with roughly a third of an acre who want **LiDAR + vision** so they do not have to bury a wire or site a local RTK antenna, and who prefer a wider deck and steeper published climb than the smaller i-series carts. Setup is app mapping (auto or manual) with GeoSketch™ real-scene map editing, EdgeSense™ ride-on boundaries, and up to **20** zones on the US pages. Marketing claims navigation through about **28-inch (2.3 ft)** passages, under trees, and at night.
 
-It is a weaker match if the lawn is only **0.125** or **0.25** acre — that is what the cheaper [i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) / [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) are for — or if the yard is steep enough that you want **AWD** and an **80%** rating. Same published acreage peer on this directory: [Mammotion LUBA mini 2 AWD 1500H](https://www.bestlawnrobots.com/mowers/mammotion-luba-mini-2-awd-1500h/) (`mammotion-luba-mini-2-awd-1500h`, $1,699 on 1 Oct 2026).
+It is a weaker match if the lawn is only **0.125** or **0.25** acre — that is what the cheaper [i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) / [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) are for — or if the yard is steep enough that you want **AWD** and an **80%** rating. Same published acreage peer on this directory: [Mammotion LUBA mini 2 AWD 1500H](https://www.bestlawnrobots.com/mowers/mammotion-luba-mini-2-awd-1500h/) (`mammotion-luba-mini-2-awd-1500h`, $1,799 on 9 Oct 2026).
 
 ## Standout details
 
 - **Coverage:** **0.37 acre** recommended on the variant title, PDP FAQ, and US manual. FAQ / mapping footnote: up to about **0.44 acre** (1.2×), layout-dependent; all zones share one map limit.
 - **Navigation:** High-res **solid-state LiDAR + Vision** dual fusion (EFLS™). US marketing: ~**200,000** points/sec, up to about **230 ft** range, **50 ms** scan interval; VisionFence detects **200+** obstacle types (copy also says **0.4 in** / **1 cm** precision — same claim, two units). No perimeter wire; pages emphasize no local antenna for this LiDAR model.
-- **How it differs from listed i105 / i110:** Those are **RTK + vision (EFLS 2.0 + VisionFence)**, **7.1 in** cut, **30%** work-area / **10%** boundary slopes, **24 lb**, **IP66**, **58 dB(A)**. i105 is **0.125 acre** at **$669** (compare-at $799 on its listing date); i110 is **0.25 acre** at **$1,099**. i215 LiDAR steps up to **0.37 acre**, **LiDAR** sensing, **8.66 in** cut, **2–4 in** height, **45% / 25%** slopes, **7.65 Ah**, **32.41 lb**, **59 dB(A)**, SKU **AA.12.04.02.0002**, cart **$1,599**.
+- **How it differs from listed i105 / i110:** Those are **RTK + vision (EFLS 2.0 + VisionFence)**, **7.1 in** cut, **30%** work-area / **10%** boundary slopes, **24 lb**, **IP66**, **58 dB(A)**. i105 is **0.125 acre** at **$799** (no compare-at, 9 Oct 2026); i110 is **0.25 acre** at **$1,099** (sold out on 9 Oct 2026). i215 LiDAR steps up to **0.37 acre**, **LiDAR** sensing, **8.66 in** cut, **2–4 in** height, **45% / 25%** slopes, **7.65 Ah**, **32.41 lb**, **59 dB(A)**, SKU **AA.12.04.02.0002**, cart **$1,329** (compare-at $1,599, 9 Oct 2026).
 - **Drive and slope:** Off-road rear wheels with Electronic Stability Control on the PDP; published max incline **45% (24°)** inside the work area and **25% (14°)** at the boundary (manual). Not marketed as AWD — FAQ positions i215 LiDAR for flatter / larger lawns versus the i2 AWD series.
 - **Cutting:** **8.66 in**, six blades, height **2–4 in** (set from the mower display / app per the manual). EdgeSense™ ride-on edge cutting on the US pages.
 - **Battery / runtime:** **7.65 Ah / 165 Wh**; ~**160 min** mowing and ~**130 min** charge in the manual table.
@@ -61,7 +61,7 @@ It is a weaker match if the lawn is only **0.125** or **0.25** acre — that is 
 Conflicts / omissions (spec table / manual win):
 
 - **Dimensions:** FAQ **25.0 × 17.5 × 11.3 in** vs manual **25 × 17.6 × 11.3 in**.
-- **$1,848.99:** Garage Bundle product price, not a mower-only compare-at (cart `compare_at_price` is null).
+- **$1,599 / $1,578.99 / $1,848.99:** $1,599 is this mower-only variant's compare-at on 9 Oct 2026 (cart `compare_at_price` 159900). The separate i215 LiDAR + Garage Bundle product was $1,578.99 with a $1,848.99 compare-at — a different cart line, not this SKU's price.
 - **Operating temperature:** Marketing “−4°F to 122°F” matches the manual **storage** range; **working** range in the manual is **32–104°F** (50–95°F recommended).
 - **Drive type** is not labeled FWD/RWD/AWD as a single field on the PDP or manual table, so `driveType` is omitted (parts diagram shows rear drive wheels + front casters).
 - Site chrome about **Network RTK** appears on many Navimow pages; this SKU’s product story is **LiDAR + vision** without a local antenna.
@@ -70,4 +70,4 @@ Sources: [Navimow i2 LiDAR US product / cart page](https://navimow.com/products/
 
 ## Honest verdict
 
-Pay the **$1,599** US cart if the lawn is actually around **0.37 acre**, you want **LiDAR + vision** without burying wire or siting an antenna, and a **45%** work-area rating with an **8.66-inch** deck is enough. Prefer the listed [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`) or [i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) (`segway-navimow-i105`) if the yard is **0.25 acre** or smaller and RTK + vision is fine. If the same **0.37 acre** is hilly enough to need **AWD** and an **80%** figure, compare the [LUBA mini 2 AWD 1500H](https://www.bestlawnrobots.com/mowers/mammotion-luba-mini-2-awd-1500h/) (`mammotion-luba-mini-2-awd-1500h`) at **$1,699** on the same date — about **$100** more for four-wheel drive. Skip the Garage Bundle price if you only need the mower; that **$1,848.99** is a different cart line.
+Pay the **$1,329** US cart (on sale from $1,599, 9 Oct 2026) if the lawn is actually around **0.37 acre**, you want **LiDAR + vision** without burying wire or siting an antenna, and a **45%** work-area rating with an **8.66-inch** deck is enough. Prefer the listed [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`) or [i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) (`segway-navimow-i105`) if the yard is **0.25 acre** or smaller and RTK + vision is fine. If the same **0.37 acre** is hilly enough to need **AWD** and an **80%** figure, compare the [LUBA mini 2 AWD 1500H](https://www.bestlawnrobots.com/mowers/mammotion-luba-mini-2-awd-1500h/) (`mammotion-luba-mini-2-awd-1500h`) at **$1,799** on the same date — about **$470** more for four-wheel drive. Skip the Garage Bundle price if you only need the mower; that **$1,578.99** (compare-at $1,848.99) is a different cart line.

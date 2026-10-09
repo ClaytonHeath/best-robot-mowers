@@ -31,8 +31,8 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | --- | --- | --- | --- | --- | --- | --- |
 | Tight urban | [Anthbot M5](/mowers/anthbot-m5/) | 0.12 acre | 45% | RTK + vision | Wire-free | $649 |
 | Small RTK Genie | [Anthbot Genie 600e (4G)](/mowers/anthbot-genie/) | 0.15 acre recommended (variant markets 0.22) | 45% | RTK + vision | Wire-free | $699 |
-| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $669 |
-| Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 |
+| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $799 |
+| Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 (sold out 9 Oct 2026) |
 | Vision + cloud RTK | [Worx Landroid Vision Cloud WR310.1](/mowers/worx-landroid-vision-cloud-wr310/) | 0.25 acre | 30% | Vision + RTK | Wire-free | $1,799 |
 | RTK + vision RWD | [Roborock RockNeo Q1](/mowers/roborock-rockneo-q1/) | 0.25 acre | 45% | RTK + vision | Wire-free | $1,299 |
 | Small AWD / steep patches | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) | 0.25 acre | 80% | LiDAR + vision | Wire-free | $1,599.99 |
