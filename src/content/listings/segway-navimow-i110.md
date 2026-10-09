@@ -5,7 +5,7 @@ slug: segway-navimow-i110
 model: i110
 status: published
 priceUsd: 1099
-priceNote: Official US cart on 4 Sep 2026 for Navimow i110 | 0.25 acre — $1,099. available true. SKU AA.12.02.03.0003. No compare-at on the live cart. Not labeled MSRP. The i-series spec compare page still lists MSRP $1,299 for the 0.25-acre column; that is not the live cart price. Yesterday’s $788 sale price was not present on the cart or PDP today.
+priceNote: Official US store on 9 Oct 2026 (AWST) for Navimow i110 | 0.25 acre (product 7975879901321, variant 43296343621769, SKU AA.12.02.03.0003) — $1,099.00, no compare-at; SOLD OUT on 9 Oct 2026 (product.js available=false; guest cart/add.js rejected the variant with "already sold out"). Price unchanged from the 4 Sep 2026 cart. Not labeled MSRP.
 coverageAcres: 0.25
 slopePercent: 30
 navigation:
@@ -17,7 +17,7 @@ verdict: The US i110 is the 0.25-acre i-series cart at $1,099, with RTK plus 140
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-i110
 image: /mowers/segway-navimow-i110.webp
-updated: 2026-09-04
+updated: 2026-10-09
 cuttingWidthIn: 7.1
 cuttingHeight: 2–3.6 in, manual
 noiseDb: 58
@@ -49,4 +49,4 @@ Sources: [Navimow i110 product / cart page](https://navimow.com/products/navimow
 
 ## Honest verdict
 
-Pay the $1,099 US cart if the lawn is actually 0.25 acre or less and a 7.1-inch, 30% i-series mower is enough. The compare page’s $1,299 MSRP is not the live cart; the prior $788 sale was not on the cart today. Skip it if you only need 0.125 acre (i105), X-series coverage or AWD, or a path narrower than the published 100 cm passage.
+Pay the $1,099 US price (sold out on 9 Oct 2026; no compare-at) if the lawn is actually 0.25 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you only need 0.125 acre (i105), X-series coverage or AWD, or a path narrower than the published 100 cm passage. While it is out of stock, the same-acreage [i210 AWD](https://www.bestlawnrobots.com/mowers/segway-navimow-i210-awd/) (`segway-navimow-i210-awd`) was $1,049 on sale in the same store.

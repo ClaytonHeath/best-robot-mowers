@@ -4,8 +4,8 @@ brand: Segway Navimow
 slug: segway-navimow-x390
 model: X390
 status: published
-priceUsd: 4999
-priceNote: MSRP on the official US spec sheet. The US product page listed $4,499 on 26 Aug 2026.
+priceUsd: 4499
+priceNote: "Official navimow.com US store price on 9 Oct 2026 (AWST): $4,499 in a guest cart, in stock. The official US spec sheet lists a $4,999 MSRP; this listing previously showed that MSRP, and the store already listed $4,499 on 26 Aug 2026."
 coverageAcres: 2.5
 slopePercent: 50
 navigation:
@@ -17,7 +17,7 @@ verdict: A capable large-lawn RTK mower with a 50% slope rating, but it is rear-
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/segway-navimow-x390
 image: /mowers/segway-navimow-x390.webp
-updated: 2026-08-26
+updated: 2026-10-09
 cuttingWidthIn: 9.3
 cuttingHeight: 2–4 in, automatic
 noiseDb: 60
