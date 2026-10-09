@@ -4,8 +4,8 @@ brand: Mammotion
 slug: mammotion-luba-mini-2-awd-1500h
 model: LUBA mini 2 AWD 1500H (High Version)
 status: published
-priceUsd: 1699
-priceNote: "Official US cart price on 27 Sep 2026 for variant 51222244819242 (SKU MTLA25LUM215HHNA, LUBA mini 2 AWD 1500 | 0.37 acre / High Version 2.2–4.0 in): $1,699.00 sale, $1,999.00 compare-at; tax and shipping excluded (the page advertises free shipping). The exact variant went into the cart at $1,699.00. It is the only US-store listing of this SKU; the Standard Version (0.8–2.6 in) is $1,999 and sold out on this date."
+priceUsd: 1799
+priceNote: "Official US cart price on 9 Oct 2026 (AWST) for variant 51222244819242 (SKU MTLA25LUM215HHNA, LUBA mini 2 AWD 1500 | 0.37 acre / High Version 2.2–4.0 in): $1,799.00 sale, $1,999.00 compare-at; tax and shipping excluded (the page advertises free shipping). The exact variant went into a guest cart at $1,799.00 with no discount, and the schema.org Offer reads 1799.0 USD, InStock. This was $1,699 on 27 Sep 2026. It is the only US-store listing of this SKU; the Standard Version (0.8–2.6 in) is $1,999 and was sold out on 9 Oct 2026."
 coverageAcres: 0.37
 slopePercent: 80
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Hilly or bumpy lawns up to 0.37 acre, kept at 2.2 inches or taller, that want all-wheel drive and LiDAR + camera mapping with no boundary wire and no RTK antenna to site. The limits are 0.37 acre, a 7.8-inch main cutting disc, and a 2.2-inch minimum height on this High Version.
-verdict: A $1,699 AWD LiDAR mower rated for 0.37 acre and 80% slopes, with no antenna pole to site. The catch is the High Version's 2.2-inch minimum cut and a 7.8-inch main disc, where the $2,399 LUBA 3 AWD 1500 has a 15.7-inch cut on the same 0.37-acre rating.
+verdict: A $1,799 AWD LiDAR mower rated for 0.37 acre and 80% slopes, with no antenna pole to site. The catch is the High Version's 2.2-inch minimum cut and a 7.8-inch main disc, where the $2,399 LUBA 3 AWD 1500 has a 15.7-inch cut on the same 0.37-acre rating.
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-mini-2-awd-robot-lawn-mower?variant=51222244819242
 image: /mowers/mammotion-luba-mini-2-awd-1500h.webp
-updated: 2026-09-27
+updated: 2026-10-09
 cuttingWidthIn: 7.8
 cuttingHeight: "2.2–4.0 in (High Version)"
 weightLbs: 39.5
@@ -78,4 +78,4 @@ Sources: [official Mammotion US product page, High Version variant](https://us.m
 
 ## Honest verdict
 
-At **$1,699** ($1,999 compare-at, which is also the Standard Version's price), the 1500H gives a 0.37-acre hilly yard AWD, an 80% slope rating and LiDAR + vision mapping, with no antenna pole to site and no wire to bury. The directory's LUBA 3 AWD 1500 has the same 0.37-acre and 80% ratings, but it was **$2,399** (High Version) in the same store on the same day. For the extra $700 you get a 15.7-inch cut, a 9.4 Ah battery, 7,000 sq ft per charge and a 90-minute recharge. The mini 2 has a 7.8-inch main disc, 5,380 sq ft per charge and 150 minutes to recharge. Buy the mini 2 if the yard is small, sloped and kept at 2.2 inches or taller. Skip this High Version if you mow short, and skip the model if the lawn is over 0.37 acre.
+At **$1,799** ($1,999 compare-at, which is also the Standard Version's price), the 1500H gives a 0.37-acre hilly yard AWD, an 80% slope rating and LiDAR + vision mapping, with no antenna pole to site and no wire to bury. The directory's LUBA 3 AWD 1500 has the same 0.37-acre and 80% ratings, but it was **$2,399** (High Version) in the same store on 9 Oct 2026. For the extra $600 you get a 15.7-inch cut, a 9.4 Ah battery, 7,000 sq ft per charge and a 90-minute recharge. The mini 2 has a 7.8-inch main disc, 5,380 sq ft per charge and 150 minutes to recharge. Buy the mini 2 if the yard is small, sloped and kept at 2.2 inches or taller. Skip this High Version if you mow short, and skip the model if the lawn is over 0.37 acre.

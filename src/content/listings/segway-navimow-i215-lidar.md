@@ -13,7 +13,7 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: US lawns up to about 0.37 acre that want wire-free LiDAR + vision (no perimeter wire, no local RTK antenna to site), a wider 8.66-inch deck than the i105/i110, and a published 45% work-area climb. Skip it if the yard needs all-wheel drive or an 80% slope rating, or if 0.25 acre or less is enough for the cheaper i110 / i105.
-verdict: The US i215 LiDAR is the 0.37-acre LiDAR + vision i2 cart at $1,599, with an 8.66-inch deck, 7.65 Ah pack, and 45% work-area / 25% boundary slopes; the catch is it is not AWD, so a same-acreage hilly yard may still want the $1,699 LUBA mini 2 AWD 1500H — and it is not the RTK + vision i105/i110.
+verdict: The US i215 LiDAR is the 0.37-acre LiDAR + vision i2 cart at $1,599, with an 8.66-inch deck, 7.65 Ah pack, and 45% work-area / 25% boundary slopes; the catch is it is not AWD, so a same-acreage hilly yard may still want the LUBA mini 2 AWD 1500H ($1,799 on 9 Oct 2026) — and it is not the RTK + vision i105/i110.
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-i2-lidar-robot-lawn-mower?variant=45014721724553
 image: /mowers/segway-navimow-i215-lidar.webp

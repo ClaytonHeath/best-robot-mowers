@@ -230,3 +230,8 @@ eufy-e15.webp
   Page: https://www.eufy.com/products/t28801a1?variant=44697729269946
   File: https://cdn.shopify.com/s/files/1/0504/7094/4954/files/E15_78053c62-b8cf-4de7-859c-021f244ffd6a.png?v=1788431014
   (Official eufy US store studio still E15_78053c62-b8cf-4de7-859c-021f244ffd6a.png, 1000x1000 transparent PNG: whole machine, front-left three-quarter, E15 mark on the fender, no badges or text overlays. Native machine-crop MAG≈3.71. Composited on white, trimmed, padded centered to 1400x1400 RGB WebP without upscaling the machine. Not the badge-composited E18_1 image on the same PDP. SKU lock: T28801A1 / variant 44697729269946 / product 8071515832506 only, not the E18 (T28011A1). Checked 8 Oct 2026 AWST.)
+
+segway-navimow-h220.webp
+  Page: https://navimow.com/products/navimow-h2-robot-lawn-mower?variant=45014291415177
+  File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/H2-1.1-PDP-H220-NA_c70617c0-8af5-4bd9-9a45-abe9e4e22f08.png?v=1769166200
+  (Official Navimow US PDP studio still H2-1.1-PDP-H220-NA, also the variant featured image: 1500x1500 transparent PNG, whole machine, front three-quarter, H220 mark beside the STOP button, no badges or text overlays. Native machine-crop MAG≈4.98. Composited on white, trimmed, padded centered to 1400x1400 RGB WebP without upscaling the machine. Not the near-identical H2-1.1-PDP-H210-NA still (H210 mark). SKU lock: H220 / variant 45014291415177 / SKU AA.12.05.04.0003 / product 8367261089929 only, not the H210 (variant 45014291382409). Checked 9 Oct 2026 AWST.)
