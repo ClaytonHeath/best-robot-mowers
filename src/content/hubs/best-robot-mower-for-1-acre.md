@@ -33,7 +33,7 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 ### [Segway Navimow X430](/mowers/segway-navimow-x430/)
 - **Coverage:** **1.0 acre** recommended (map storage footnote up to ~1.2× on the listing)
 - **Slope:** 84% · **Drive:** AWD · **Nav:** RTK + vision · wire-free
-- **Cut:** 17 in dual-disc · **Price:** $2,249 US cart (2 Sep 2026)
+- **Cut:** 17 in dual-disc · **Price:** $2,499 (sold out 27 Sep 2026)
 - **Who it’s for (listing):** Hilly or uneven lawns up to 1 acre that want wire-free AWD and a wide deck.
 - **What breaks the deal:** Yard over an acre (listing points at X450, which is **not** a published page on this site); paths narrower than the **24-inch** body.
 
@@ -54,7 +54,7 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 ### [Segway Navimow X390](/mowers/segway-navimow-x390/)
 - **Coverage:** **2.5 acres** recommended
 - **Slope:** 50% work / 25% boundary · **Drive:** Rear-wheel drive · **Nav:** RTK + vision · wire-free
-- **Price:** $4,999 MSRP on listing ($4,499 official store noted 26 Aug 2026)
+- **Price:** $4,499 ($4,999 MSRP)
 - **Who it’s for (listing):** Large, relatively open lawns up to 2.5 acres that do not need AWD.
 - **What breaks the deal:** Steep wet hills (RWD); second antenna cost if one base cannot cover; overkill budget if the lawn is a clean 1.0 acre and X430 AWD fits.
 
