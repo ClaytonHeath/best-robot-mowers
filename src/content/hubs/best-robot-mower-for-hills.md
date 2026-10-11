@@ -70,7 +70,7 @@ Only models with published listings and supporting frontmatter are listed. Price
 - Closest Dreame Pro SKU under an acre in the catalog. Not the 1.20-acre Pro 5000; no RTK on this platform.
 
 #### [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/)
-- **Slope:** 80% · **Coverage:** 0.37 acre · **Cut:** 15.7 in · **Price:** $2,399
+- **Slope:** 80% · **Coverage:** 0.37 acre · **Cut:** 15.7 in · **Price:** $2,399 (sold out 11 Oct 2026)
 - Small-yard LUBA 3 — AWD and 360° LiDAR without a required RTK antenna on this SKU. Will disappoint anyone who assumed every LUBA covers an acre.
 
 ### ~70% AWD / dual-drive
