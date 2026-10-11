@@ -51,7 +51,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 |
 | ~3/4-acre LiDAR + trimmer | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | 0.75 acre | 50% (virtual boundary 20%) | LiDAR + vision | Wire-free | $2,499.99 |
 | ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $2,399.99 |
-| ~0.37-acre AWD LiDAR | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 0.37 acre | 80% | LiDAR + vision | Wire-free | $2,399 |
+| ~0.37-acre AWD LiDAR | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 0.37 acre | 80% | LiDAR + vision | Wire-free | $2,399 (sold out 11 Oct 2026) |
 
 **Yard-fit note:** Genie 3000’s live cart is low relative to acreage peers, but use the **0.75-acre recommended** figure — not the 0.89-acre marketing label — the same way Genie 1000 uses 0.25 recommended vs 0.49 marketed. Husqvarna 410 iQ’s irregular capacity is half the systematic figure; messy layouts should size to 0.25 acre on that card.
 
@@ -65,7 +65,7 @@ Manufacturer slope % is **max inside the work area** unless the listing splits b
 | --- | --- | --- | --- | --- | --- |
 | Highest published climb in catalog | [Segway Navimow X430](/mowers/segway-navimow-x430/) | 84% | 1 acre | AWD | $2,499 (sold out 27 Sep 2026) |
 | AWD LiDAR, no RTK pole | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) / [2000](/mowers/dreame-a3-awd-2000/) / [Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 80% | 0.25 / 0.5 / 0.87 acre | AWD | $1,599.99–$2,399.99 |
-| AWD LiDAR small yard | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 80% | 0.37 acre | AWD | $2,399 |
+| AWD LiDAR small yard | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 80% | 0.37 acre | AWD | $2,399 (sold out 11 Oct 2026) |
 | EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 70% in-lawn / 50% boundary | 1.3 systematic / 0.9 irregular | AWD | ~$4,799 street |
 | Wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 70% in-lawn / 50% at wire | 0.9 acre | AWD | ~$2,999 street |
 | Modular large / tracked core | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 70% | 6 acres max | Dual drive motors | $5,499 |
