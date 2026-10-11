@@ -5,7 +5,7 @@ slug: mammotion-luba-3-awd-1500
 model: LUBA 3 AWD 1500
 status: published
 priceUsd: 2399
-priceNote: "Official US cart price on 9 Oct 2026 (AWST) for the High Version (variant 50985017213226, SKU MTLA25LU315HHNA, 2.2–4.0 in cut): $2,399, with no compare-at price, tax excluded. The High Version was in stock on 9 Oct 2026. The Standard Version (variant 50985073377578, SKU MTLA25LU315HNA) was sold out on 9 Oct 2026."
+priceNote: "Official US price on 11 Oct 2026 (AWST) for the High Version (variant 50985017213226, SKU MTLA25LU315HHNA, 2.2–4.0 in cut): $2,399, with no compare-at price, tax excluded. The High Version was sold out on 11 Oct 2026: product.js reports it unavailable and a guest cart/add.js was refused as 'already sold out'. The listed price is the last US store price, unchanged since 9 Oct 2026. The Standard Version (variant 50985073377578, SKU MTLA25LU315HNA, $2,399) was also sold out on 11 Oct 2026, so no LUBA 3 AWD 1500 version could be added to the US cart on that date."
 coverageAcres: 0.37
 slopePercent: 80
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Smaller, hilly, or obstacle-heavy yards up to about a third of an acre that need all-wheel drive and LiDAR, not a 2-acre RTK flagship.
-verdict: "Sloped lawns up to 0.37 acre (80% rated) that want AWD, a 15.7 in cut and 360° LiDAR without a required RTK antenna. The catch is price: on 9 Oct 2026 the LUBA mini 2 AWD 1500H had the same 0.37-acre and 80% ratings for $1,799, which is $600 less than this $2,399 High Version, and the LUBA 3 AWD 3000 Standard (0.75 acre) was back to $2,799 after its sale ended."
+verdict: "Sloped lawns up to 0.37 acre (80% rated) that want AWD, a 15.7 in cut and 360° LiDAR without a required RTK antenna. The catch is price: on 9 Oct 2026 the LUBA mini 2 AWD 1500H had the same 0.37-acre and 80% ratings for $1,799, which is $600 less than this $2,399 High Version (sold out on 11 Oct 2026), and the LUBA 3 AWD 3000 Standard (0.75 acre) was back to $2,799 after its sale ended."
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985017213226
 image: /mowers/mammotion-luba-3-awd-1500.webp
-updated: 2026-10-09
+updated: 2026-10-11
 cuttingWidthIn: 15.7
 cuttingHeight: 1.0–2.7 in standard; 2.2–4.0 in High (H) version
 noiseDb: 70
