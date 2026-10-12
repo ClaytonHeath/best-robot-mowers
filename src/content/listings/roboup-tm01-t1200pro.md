@@ -5,7 +5,7 @@ slug: roboup-tm01-t1200pro
 model: TM01 T1200Pro
 status: published
 priceUsd: 799
-priceNote: "Official RoboUP US store on 7 Oct 2026 (AWST) for Shopify product id 10075764949286, variant 52962413871398 (option title T1200Pro), SKU T1200Pro-RobotLawnMower: sale $799.00, compare-at $1,549.00. Guest cart/add.js returned presentment_price 799.0 USD, quantity 1, that SKU, and available=true on the product.js variant. schema.org Product Offer on the same US PDP: price 799.0, priceCurrency USD, availability InStock, sku T1200Pro-RobotLawnMower. This listing is the mower-only T1200Pro option, not the Garage or RTK Mount Rod bundles. Tax and shipping excluded."
+priceNote: "Official RoboUP US store price on 12 Oct 2026 (AWST) for Shopify product id 10075764949286, variant 52962413871398 (option title T1200Pro), SKU T1200Pro-RobotLawnMower: sale $799.00, compare-at $1,549.00, unchanged since 7 Oct 2026. The mower-only T1200Pro was SOLD OUT on 12 Oct 2026: the PDP Add to Cart button reads 'Sold out' and is disabled, and a guest cart/add.js was refused as 'already sold out'. The T1200Pro + RTK Mount Rod bundle was refused the same way. Product JSON and the schema.org Offer still report available/InStock, which does not match the store's cart behaviour. The listed price is the last US store price. This listing is the mower-only T1200Pro option, not the Garage or RTK Mount Rod bundles. Tax and shipping excluded."
 coverageAcres: 0.37
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Lawns up to 0.37 acre that want wire-free RTK plus vision mapping without paying mid-tier AWD money, knowing the cut is a 7.87-inch disc, the published max slope is 45%, and you still place the charging station and RTK reference hardware.
-verdict: "At $799 on sale from $1,549, the TM01 T1200Pro is RoboUP's 0.37-acre wire-free RTK+vision mower: no perimeter wire, a 7.87-inch cut, 1.2–2.4 in electric height, IPX6, and a 45% max slope on the US spec table. The hard limit is that 0.37-acre cap, the narrow deck, and a 45% slope that is well below the AWD class."
+verdict: "At $799 on sale from $1,549 (sold out on 12 Oct 2026), the TM01 T1200Pro is RoboUP's 0.37-acre wire-free RTK+vision mower: no perimeter wire, a 7.87-inch cut, 1.2–2.4 in electric height, IPX6, and a 45% max slope on the US spec table. The hard limit is that 0.37-acre cap, the narrow deck, and a 45% slope that is well below the AWD class."
 affiliateUrl: ""
 officialUrl: https://us.iroboup.com/products/roboup-tm01-t1200-pro-robot-lawn-mower?variant=52962413871398
 image: /mowers/roboup-tm01-t1200pro.webp
-updated: 2026-10-07
+updated: 2026-10-12
 cuttingWidthIn: 7.87
 cuttingHeight: "1.2–2.4 in"
 noiseDb: 56
@@ -62,7 +62,7 @@ Skip it if the grass area is past about 0.37 acre, if you need a published AWD r
 - **Drive and slope:** spec table **Max. Slope 45%**; marketing **24°**. The page does not call this model AWD, so `driveType` is omitted. Off-road tyres are marked Yes.
 - **Navigation:** RTK + vision, wire-free; AI cameras and bumper detect/avoid; multi-zone and no-go management in the app.
 - **Runtime and build:** typical **100 min** per charge, **70 min** charge, about **24 lbs**, **IPX6**, quieter operation at **≤56 dBA**.
-- **Purchase terms on this date:** US cart/variant **$799.00** sale from **$1,549.00** compare-at; schema.org Offer **USD 799.0**, **InStock**, SKU **T1200Pro-RobotLawnMower**. Tax and shipping are excluded.
+- **Purchase terms:** US store price **$799.00** sale from **$1,549.00** compare-at, SKU **T1200Pro-RobotLawnMower**. The mower-only T1200Pro was **sold out on 12 Oct 2026**: the Add to Cart button reads "Sold out" and the US cart refuses the variant, although product JSON and the schema.org Offer still say InStock. Tax and shipping are excluded.
 
 Page / source notes:
 
@@ -75,6 +75,6 @@ Sources: [official RoboUP US product page, TM01 T1200Pro](https://us.iroboup.com
 
 ## Honest verdict
 
-At **$799** on sale from **$1,549**, the TM01 T1200Pro is RoboUP's mid-small wire-free RTK+vision mower for yards up to **0.37 acre**: no perimeter wire, a **7.87-inch** cut, **1.2–2.4 in** electric height, **IPX6**, and a published **45%** max slope. That suits a compact suburban lawn when the draw is a live US cart price under $1,000 rather than a wide AWD deck.
+At **$799** on sale from **$1,549**, the TM01 T1200Pro is RoboUP's mid-small wire-free RTK+vision mower for yards up to **0.37 acre**: no perimeter wire, a **7.87-inch** cut, **1.2–2.4 in** electric height, **IPX6**, and a published **45%** max slope. That suits a compact suburban lawn when the draw is a US price under $1,000 rather than a wide AWD deck, but the mower-only T1200Pro was sold out in RoboUP's US store on 12 Oct 2026.
 
 The hard limit is acreage headroom, deck width, and steep-hill capability. If the grass area is larger than **0.37 acre**, or the yard needs published AWD at 70%+, this is the wrong class. Buy the T1200Pro when the lawn is truly inside **0.37 acre** and the priority is wire-free RTK+vision without a garage or mount-rod bundle.
