@@ -5,7 +5,7 @@ slug: mammotion-luba-3-awd-5000
 model: LUBA 3 AWD 5000 Standard
 status: published
 priceUsd: 3299
-priceNote: Official US cart price for LUBA 3 AWD 5000 Standard variant 50985073443114 (SKU MTLA25LU35KNA) on 22 Sep 2026; tax excluded. The exact variant was available and accepted into cart.
+priceNote: Official US cart price for LUBA 3 AWD 5000 Standard variant 50985073443114 (SKU MTLA25LU35KNA) on 22 Sep 2026; tax excluded. The exact variant was available and accepted into cart. SOLD OUT on 14 Oct 2026 (AWST) — a guest cart/add.js was refused as "already sold out" and product.js reports the variant unavailable (the 5000 High, variant 50985057321258, was refused the same way). The listed $3,299 is the last US store price.
 coverageAcres: 1.25
 slopePercent: 80
 navigation:
@@ -14,7 +14,7 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Large or divided lawns up to 1.25 acres that need all-wheel drive, 50-zone management, and LiDAR-backed NetRTK navigation without a perimeter wire.
-verdict: The 5000 Standard is the acre-class LUBA 3, but its $3,299 price and 1.0–2.7-inch cutting range make it a poor fit for smaller lawns or grass kept above 2.7 inches.
+verdict: The 5000 Standard is the acre-class LUBA 3, but its $3,299 price (sold out on 14 Oct 2026) and 1.0–2.7-inch cutting range make it a poor fit for smaller lawns or grass kept above 2.7 inches.
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985073443114
 image: /mowers/mammotion-luba-3-awd-5000.webp
@@ -37,7 +37,7 @@ Navigation combines 360° LiDAR, dual-camera AI vision, and NetRTK through Mammo
 
 Buy this model if your mowable area approaches an acre, is split across several zones, or includes steep and uneven ground. The 5000 supports **up to 50 mowing zones**, while Mammotion rates its AWD chassis for slopes up to **80% (38.6°)** inside the work area.
 
-Do not pay for the 5000 merely because it is the largest live US option. The cheaper 3000 is rated for 0.75 acre, and the 1500 covers 0.37 acre. Choose the High version instead only if your grass genuinely needs a 2.2–4.0-inch cut; that is a separate SKU and was out of stock when checked.
+Do not pay for the 5000 merely because it is the largest LUBA 3 here (it was sold out in the US store on 14 Oct 2026). The cheaper 3000 is rated for 0.75 acre, and the 1500 covers 0.37 acre. Choose the High version instead only if your grass genuinely needs a 2.2–4.0-inch cut; that is a separate SKU and was out of stock when checked.
 
 ## Standout details
 

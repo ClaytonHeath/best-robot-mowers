@@ -4,8 +4,8 @@ brand: Lymow
 slug: lymow-one-plus-10a
 model: One Plus 10A | 1.73 Acres/Day (LM1PLUSUS10A)
 status: published
-priceUsd: 2799
-priceNote: "Official US cart on 3 Oct 2026 (AWST) for variant 47332598743275 (SKU LM1PLUSUS10A, 10A | 1.73 Acres/Day): $2,799.00. Product compare-at is $3,199.00 (page shows Save $400.00). Guest cart currency USD; line price, original price, subtotal and total all $2,799.00 with no discount applied. Tax and shipping excluded (page advertises free shipping; US sales tax is added at checkout). The $50 first-order subscribe coupon is not in the cart. PDP also lists $0 gifts shipped separately (2 rotary blade sets, backpack, hat, tote, random skin wrap); they were not cart lines when this mower variant was added. Sibling 5A variant 47332598710507 (SKU LM1PLUSUS5A) cart-read the same day at $2,499.00, compare-at $2,999.00."
+priceUsd: 3199
+priceNote: "Official US cart on 14 Oct 2026 (AWST) for variant 47332598743275 (SKU LM1PLUSUS10A, 10A | 1.73 Acres/Day): $3,199.00. Product compare-at is now $3,199.00, the same as the price, so the earlier $2,799 sale (3 Oct 2026, against a $3,199 compare-at) has ended. Guest cart currency USD; line and original price $3,199.00 with no discount applied. Tax and shipping excluded (page advertises free shipping; US sales tax is added at checkout). The $50 first-order subscribe coupon is not in the cart. On 3 Oct 2026 the PDP also listed $0 gifts shipped separately (2 rotary blade sets, backpack, hat, tote, random skin wrap); they were not cart lines when this mower variant was added. Sibling 5A variant 47332598710507 (SKU LM1PLUSUS5A) cart-read the same day at $2,999.00, also with no markdown."
 coverageAcres: 1.73
 slopePercent: 100
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Steep, rough or overgrown lawns that need this 10A version's 1.73-acre-per-day rating and track drive (100% / 45°), rather than the slower-charging 5A at 1.1 acres per day. You still site and power the included RTK station, and the machine is 78.5 lb.
-verdict: "The One Plus 10A is $2,799 (compare-at $3,199) for the same tracked RTK + vision mower as the [One Plus 5A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-5a/) (`lymow-one-plus-5a`), with a 90-minute charge and a 1.73-acre-per-day rating. The catch is the RTK station and the $300 gap over the 5A's current $2,499 cart — pay it only if the lawn needs that daily rate."
+verdict: "The One Plus 10A is $3,199 (full price on 14 Oct 2026; the earlier $2,799 sale ended) for the same tracked RTK + vision mower as the [One Plus 5A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-5a/) (`lymow-one-plus-5a`), with a 90-minute charge and a 1.73-acre-per-day rating. The catch is the RTK station and the $200 gap over the 5A's $2,999 cart on 14 Oct 2026 — pay it only if the lawn needs that daily rate."
 affiliateUrl: ""
 officialUrl: https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower?variant=47332598743275
 image: /mowers/lymow-one-plus-10a.webp
-updated: 2026-10-03
+updated: 2026-10-14
 cuttingWidthIn: 16
 cuttingHeight: "1.2–4.0 in"
 weightLbs: 78.5
@@ -66,7 +66,7 @@ Lymow does not publish a maximum lawn size. `coverageAcres` uses the **1.73 acre
 - **Build:** A380 aluminum frame, **IPX6**, **78.5 lb ±1 lb**. No noise figure is published, so `noiseDb` is omitted.
 - **Security and connectivity:** geo-fence alerts, a device lock and live GPS tracking. Bluetooth, Wi-Fi and 4G. The same store sells Lymow 4G service plans ($22.90 for 6 months, $34.90 for 12 months). The product page does not say whether any data period is included.
 - **In the box:** mower, charging station, charging-station adaptor, 10 m charging-station extension cable, 4 ground stakes, RTK reference station, radio antenna, 2 mounting poles, wall-mount bracket, RTK ground stake, 4 expansion bolts, RTK power adaptor, 2 × 5 m RTK extension cables, user manual and quick start guide.
-- **Purchase terms on this date:** free shipping; estimated US ship time **1–3 business days**; **3-year** limited warranty; **30-day** returns. US sales tax is added at checkout (Lymow FAQ). Cart price **$2,799** against compare-at **$3,199**. A $50 subscribe coupon is offered and was not applied.
+- **Purchase terms on this date:** free shipping; estimated US ship time **1–3 business days**; **3-year** limited warranty; **30-day** returns. US sales tax is added at checkout (Lymow FAQ). Cart price **$3,199** with no markdown on 14 Oct 2026 (it was $2,799 against a $3,199 compare-at on 3 Oct 2026). A $50 subscribe coupon is offered and was not applied.
 
 Page conflicts (the spec table is used here):
 
@@ -79,6 +79,6 @@ Sources: [official Lymow US product page, 10A variant](https://www.lymow.com/pro
 
 ## Honest verdict
 
-At **$2,799** (compare-at **$3,199**), the 10A is the faster-charging One Plus: **90 minutes** from 10% to 90%, and a **1.73-acre-per-day** rating, on tracks rated for **100% (45°)** slopes, with a **16-inch** dual-blade cut and no boundary wire. What you still give up is the same as the [5A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-5a/) (`lymow-one-plus-5a`): you have to site and power the included RTK station, and the machine weighs **78.5 lb**.
+At **$3,199** (full price on 14 Oct 2026), the 10A is the faster-charging One Plus: **90 minutes** from 10% to 90%, and a **1.73-acre-per-day** rating, on tracks rated for **100% (45°)** slopes, with a **16-inch** dual-blade cut and no boundary wire. What you still give up is the same as the [5A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-5a/) (`lymow-one-plus-5a`): you have to site and power the included RTK station, and the machine weighs **78.5 lb**.
 
-The 5A cart on the same day is **$2,499** (compare-at **$2,999**), **$300** less, for a **150-minute** charge and a **1.1-acre-per-day** name. Buy the 10A if the lawn actually needs the higher daily figure. If it does not, the listed 5A is the same mower for less. The published 5A page still shows the older **$2,999 / $3,199** pair from 28 Sep 2026; those cart prices have moved.
+The 5A cart on 14 Oct 2026 is **$2,999**, **$200** less, for a **150-minute** charge and a **1.1-acre-per-day** name. Buy the 10A if the lawn actually needs the higher daily figure. If it does not, the listed 5A is the same mower for less. Both earlier sale prices ($2,499 and $2,799 on 3 Oct 2026) have ended.
