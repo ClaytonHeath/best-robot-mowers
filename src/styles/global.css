@@ -288,6 +288,14 @@ article.hub-copy {
   font-weight: 650;
 }
 
+.hub-copy td.price {
+  font-family: var(--font-stamp);
+  font-stretch: 72%;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
 .hub-copy code {
   font-family: ui-monospace, "Cascadia Code", "SFMono-Regular", Menlo, monospace;
   font-size: 0.86em;
