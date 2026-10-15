@@ -4,18 +4,18 @@ brand: Kress
 slug: kress-rtkn-kr161
 model: KR161
 status: published
-priceUsd: 1499.99
-priceNote: "Official US product page buy box on 5 Oct 2026 (AWST) for WooCommerce product id 1292954 (SKU KR161, simple product): sale $1,499.99, compare-at / struck price $2,099.99 (priceArticleDiscount $1,499.99; priceInvincl $2,099.99). schema.org Product Offer on the same US PDP: price 1499.99, priceCurrency USD, availability InStock, itemCondition NewCondition. Guest wc-ajax add_to_cart for product_id 1292954 succeeded (purchasable product-type-simple; mini-cart and Store API cart both returned SKU KR161, quantity 1, is_in_stock true). Tax and shipping excluded. Soft conflict: from this research host, WCML geo presentment remapped the live cart line to the en-gb twin (product 1292947) at €2,099.99 with no sale markdown; the US PDP HTML and USD Offer above are the US price used for this listing."
+priceUsd: 1050.99
+priceNote: "Official US product page buy box on 15 Oct 2026 (AWST) for WooCommerce product id 1292954 (SKU KR161, simple product): sale $1,050.99, compare-at / struck price $2,099.99 (priceArticleDiscount $1,050.99; priceInvincl $2,099.99), down from the $1,499.99 sale price recorded on 5 Oct 2026. schema.org Product Offer on the same US PDP on 15 Oct 2026: price 1050.99, priceCurrency USD, availability InStock, itemCondition NewCondition. Guest wc-ajax add_to_cart for product_id 1292954 succeeded (purchasable product-type-simple; mini-cart and Store API cart both returned SKU KR161, quantity 1, is_in_stock true). Tax and shipping excluded. Soft conflict: from this research host, WCML geo presentment remapped the live cart line to the en-gb twin (product 1292947) at €2,099.99 with no sale markdown; the US PDP HTML and USD Offer above are the US price used for this listing."
 coverageAcres: 0.25
 slopePercent: 40
 navigation: rtk
 wireFree: true
 whoItsFor: Lawns up to 0.25 acre that want satellite RTKⁿ without burying perimeter wire or siting a property base station, knowing the cut is a 7.87-inch disc, the published work-area slope is 40%, and you still place the charging base and mount the included RTK antenna.
-verdict: "At $1,499.99 on sale from $2,099.99, the KR161 is Kress's 0.25-acre Mission RTKⁿ: network RTK without a yard base station, no perimeter wire, a 7.87-inch cut, and a 40% work-area slope rating, with 4G on the spec table. The hard limit is that quarter-acre cap, the narrow deck, and a 40% slope that is well below the AWD class."
+verdict: "At $1,050.99 on sale from $2,099.99 (15 Oct 2026; it was $1,499.99 on 5 Oct), the KR161 is Kress's 0.25-acre Mission RTKⁿ: network RTK without a yard base station, no perimeter wire, a 7.87-inch cut, and a 40% work-area slope rating, with 4G on the spec table. The hard limit is that quarter-acre cap, the narrow deck, and a 40% slope that is well below the AWD class."
 affiliateUrl: ""
 officialUrl: https://www.kress.com/en-us/kress-rtk%E2%81%BF-%C2%BC-acre-robotic-lawn-mower-kr161/
 image: /mowers/kress-rtkn-kr161.webp
-updated: 2026-10-05
+updated: 2026-10-15
 cuttingWidthIn: 7.87
 cuttingHeight: "1.57–3.54 in"
 noiseDb: 59
@@ -61,7 +61,7 @@ Skip it if the grass area is past a quarter acre: step up the Mission RTKⁿ lin
 - **Drive and slope:** spec table lists **Front wheels: 2** and **Maximum slope 40%**. The page does not call this model AWD, so `driveType` is omitted. Manual: maximum slope **within the work surface** 40%.
 - **Navigation:** RTKⁿ without a property base station; dead reckoning under weak satellite signal is listed in the key-features copy; systematic parallel coverage; multi-zone. OAS (obstacle avoidance) is marketed on larger KR173/KR174 pages, not as a KR161 row.
 - **In the box (US page list):** Kress Mission RTKn 1000 KR161 ×1, charging base ×1, charging base fixing nails ×6, charging tower ×1, charger KA3732 ×1, battery pack KA3024 ×1, RTK antenna ×1, wrench for RTK antenna ×1, magnetic strip ×1, spare blades ×9, screws for fixing blades ×9, hex keys ×1, measurement gauge ×2. Pegs are also listed on the page packing block.
-- **Purchase terms on this date:** US buy box **$1,499.99** sale from **$2,099.99**; schema.org Offer **USD 1499.99**, **InStock**. Product is purchasable via the US storefront add-to-cart endpoint for product id **1292954**. Tax and shipping are excluded from that figure.
+- **Purchase terms (15 Oct 2026):** US buy box **$1,050.99** sale from **$2,099.99** (it was $1,499.99 on 5 Oct 2026); schema.org Offer **USD 1050.99**, **InStock**. Product is purchasable via the US storefront add-to-cart endpoint for product id **1292954**. Tax and shipping are excluded from that figure.
 
 Page / source notes:
 
@@ -74,6 +74,6 @@ Sources: [official Kress US product page, KR161](https://www.kress.com/en-us/kre
 
 ## Honest verdict
 
-At **$1,499.99** on sale from **$2,099.99**, the KR161 is the small end of Kress's US Mission RTKⁿ line: **up to 0.25 acre**, network **RTKⁿ** without a yard base station, **no perimeter wire**, a **7.87-inch** cut, and a **40%** work-area slope rating, with **4G** marked on the spec table. What you still give up is acreage headroom, deck width, and steep-hill capability.
+At **$1,050.99** on sale from **$2,099.99** (15 Oct 2026), the KR161 is the small end of Kress's US Mission RTKⁿ line: **up to 0.25 acre**, network **RTKⁿ** without a yard base station, **no perimeter wire**, a **7.87-inch** cut, and a **40%** work-area slope rating, with **4G** marked on the spec table. What you still give up is acreage headroom, deck width, and steep-hill capability.
 
 The hard limit is that **quarter-acre** cap and the **40%** slope. If the lawn is larger, the same US catalog steps to KR172 and above. If the yard is steep enough to want published AWD at 70%+, this is the wrong class. Buy the KR161 when the grass area is truly inside **0.25 acre** and the draw is wire-free RTKⁿ without siting your own reference station.
