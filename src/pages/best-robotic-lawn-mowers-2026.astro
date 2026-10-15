@@ -2,7 +2,9 @@
 import { getCollection, getEntry, render } from "astro:content";
 import ListingCard from "../components/ListingCard.astro";
 import HubLayout from "../components/HubLayout.astro";
+import { faqsFor2026Hub, statedPriceSummary, yardPriceRows } from "../lib/hubFaq";
 import { groupPublishedByYardFit } from "../lib/hubs";
+import { faqPageJsonLd } from "../lib/site";
 
 const hub = await getEntry("hubs", "best-robotic-lawn-mowers-2026");
 if (!hub || hub.data.status !== "published") {
@@ -13,6 +15,9 @@ const { Content } = await render(hub);
 const published = await getCollection("listings", ({ data }) => data.status === "published");
 const groups = groupPublishedByYardFit(published);
 const listings = groups.flatMap((group) => group.listings);
+const priceRows = yardPriceRows(published);
+const priceLead = statedPriceSummary(published);
+const faqs = faqsFor2026Hub(published);
 ---
 
 <HubLayout
@@ -22,8 +27,49 @@ const listings = groups.flatMap((group) => group.listings);
   kicker={`${published.length} published listings · yard-fit directory, not a ranked list`}
   listings={listings}
   listLabel="Published mower listings by yard size"
+  extraJsonLd={[faqPageJsonLd(faqs)]}
 >
+  <section aria-labelledby="us-prices-heading">
+    <h2 id="us-prices-heading">US prices</h2>
+    <p>{priceLead}</p>
+    {
+      priceRows.length > 0 && (
+        <table>
+          <thead>
+            <tr>
+              <th>Yard fit</th>
+              <th>Coverage</th>
+              <th>Listings</th>
+              <th>US price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {priceRows.map((row) => (
+              <tr>
+                <td>{row.heading}</td>
+                <td>{row.coverage}</td>
+                <td>{row.count}</td>
+                <td class="price">{row.price}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )
+    }
+    <p class="note">Figures are the prices recorded on the published listings. The price note on each listing says what the number is.</p>
+  </section>
   <Content />
+  <section id="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">FAQ</h2>
+    {
+      faqs.map((faq) => (
+        <section>
+          <h3>{faq.question}</h3>
+          <p>{faq.answer}</p>
+        </section>
+      ))
+    }
+  </section>
   <Fragment slot="listings">
     {
       groups.map((group) => (

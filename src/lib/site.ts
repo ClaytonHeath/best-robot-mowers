@@ -278,6 +278,27 @@ export function pageBreadcrumbJsonLd(name: string, path: string): Record<string,
   };
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+/** FAQPage for a visible FAQ. Question and answer strings must match the page text. */
+export function faqPageJsonLd(faqs: FaqItem[]): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
 /** Serialize JSON-LD so `</script>` in copy cannot break the tag. */
 export function stringifyJsonLd(data: unknown): string {
   return JSON.stringify(data).replace(/</g, "\\u003c");
