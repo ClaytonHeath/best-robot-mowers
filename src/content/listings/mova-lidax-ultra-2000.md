@@ -4,8 +4,8 @@ brand: MOVA
 slug: mova-lidax-ultra-2000
 model: LiDAX Ultra 2000
 status: published
-priceUsd: 1349
-priceNote: Official US cart price for LiDAX Ultra 2000 variant 47255944298732 (SKU 010901AA000181) on 24 Sep 2026 — $1,349.00 sale, $1,799.00 compare-at; tax excluded. Exact variant accepted into cart.
+priceUsd: 1199
+priceNote: Official US cart price for LiDAX Ultra 2000 variant 47255944298732 (SKU 010901AA000181) on 16 Oct 2026 (AWST) — $1,199.00 sale, $1,799.00 compare-at; tax excluded. Exact variant accepted into a USD guest cart with no discount. Down from the $1,349.00 sale recorded on 24 Sep 2026.
 coverageAcres: 0.5
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Half-acre suburban lawns that want wire-free 360° LiDAR + AI vision mapping without an RTK pole, and can live with rear-wheel drive inside the published 45% slope figure. Skip it for 0.75-acre AWD capacity, for AWD / steeper Ultra AWD climb, or if 0.25 acre is enough (Ultra 1000).
-verdict: A $1,349 wire-free 0.5-acre LiDAR Ultra SKU with a 7.9-inch cut, 5 Ah pack, and 45% RWD climb; it is not the 0.25-acre Ultra 1000 and not the Ultra 2000 AWD / Ultra 3000 AWD siblings.
+verdict: A $1,199 wire-free 0.5-acre LiDAR Ultra SKU with a 7.9-inch cut, 5 Ah pack, and 45% RWD climb; it is not the 0.25-acre Ultra 1000 and not the Ultra 2000 AWD / Ultra 3000 AWD siblings.
 affiliateUrl: ""
 officialUrl: https://us.mova.tech/products/mova-lidax-ultra-2000-robot-lawn-mower?variant=47255944298732
 image: /mowers/mova-lidax-ultra-2000.webp
-updated: 2026-09-24
+updated: 2026-10-16
 cuttingWidthIn: 7.9
 cuttingHeight: "1.2–3.9 in"
 noiseDb: 57
@@ -54,4 +54,4 @@ Sources: [official US PDP / exact variant](https://us.mova.tech/products/mova-li
 
 ## Honest verdict
 
-If the yard fits **0.5 acre**, you want **LiDAR + vision** without RTK hardware, and **45% RWD** is enough slope, the locked Ultra 2000 cart at **$1,349** ($1,799 compare-at) is the mid Ultra non-AWD. Treat **0.5 acre** as the mapping limit, budget docking cycles on the **5 Ah** pack, step down to Ultra 1000 when **0.25 acre** is enough, and step up to Ultra 2000 AWD / Ultra 3000 AWD when rated area, climb, or AWD traction outgrow this machine.
+If the yard fits **0.5 acre**, you want **LiDAR + vision** without RTK hardware, and **45% RWD** is enough slope, the Ultra 2000 cart at **$1,199** ($1,799 compare-at, 16 Oct 2026; it was $1,349 on 24 Sep 2026) is the mid Ultra non-AWD. Treat **0.5 acre** as the mapping limit, budget docking cycles on the **5 Ah** pack, step down to Ultra 1000 when **0.25 acre** is enough, and step up to Ultra 2000 AWD / Ultra 3000 AWD when rated area, climb, or AWD traction outgrow this machine.

@@ -4,8 +4,8 @@ brand: Dreame
 slug: dreame-a3-awd-1000
 model: A3 AWD 1000
 status: published
-priceUsd: 1599.99
-priceNote: Official US cart on 18 Sep 2026 for variant “A3 AWD 1000 - 0.25 Acre” (SKU 010901AA000225) — $1,599.99 sale, $1,999.99 compare-at. Not labeled MSRP.
+priceUsd: 1399.99
+priceNote: Official US cart on 16 Oct 2026 (AWST) for variant “A3 AWD 1000 - 0.25 Acre” (48479673352449, SKU 010901AA000225) — $1,399.99 sale, $1,999.99 compare-at; guest cart USD with no discount. Down from the $1,599.99 sale recorded on 18 Sep 2026. Not labeled MSRP.
 coverageAcres: 0.25
 slopePercent: 80
 navigation:
@@ -17,7 +17,7 @@ verdict: A wire-free non-Pro A3 AWD SKU with published 0.25-acre capacity, 80% s
 affiliateUrl: ""
 officialUrl: https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower?variant=48479673352449
 image: /mowers/dreame-a3-awd-1000.webp
-updated: 2026-09-18
+updated: 2026-10-16
 cuttingWidthIn: 7.9
 cuttingHeight: "1.2–3.9 in (3–10 cm)"
 noiseDb: 62.8
@@ -52,4 +52,4 @@ Sources: [Dreame A3 AWD US PDP / cart](https://yardcare.dreametech.com/products/
 
 ## Honest verdict
 
-Buy the A3 AWD 1000 cart if the yard is around or under **0.25 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware on a **7.9 in** deck. The locked official sale is **$1,599.99** ($1,999.99 compare-at on the same variant — not a labeled MSRP). Skip it for larger rated lawns (A3 AWD 2000 or A3 AWD Pro line), for a wider dual-disc cut, or if you need more than quarter-acre capacity.
+Buy the A3 AWD 1000 cart if the yard is around or under **0.25 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware on a **7.9 in** deck. The official sale on 16 Oct 2026 is **$1,399.99** (it was $1,599.99 on 18 Sep 2026) ($1,999.99 compare-at on the same variant — not a labeled MSRP). Skip it for larger rated lawns (A3 AWD 2000 or A3 AWD Pro line), for a wider dual-disc cut, or if you need more than quarter-acre capacity.

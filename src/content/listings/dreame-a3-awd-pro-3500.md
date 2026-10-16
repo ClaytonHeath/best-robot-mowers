@@ -4,8 +4,8 @@ brand: Dreame
 slug: dreame-a3-awd-pro-3500
 model: A3 AWD Pro 3500
 status: published
-priceUsd: 2399.99
-priceNote: Official US cart on 15 Sep 2026 for variant “A3 AWD Pro 3500 - 0.87 Acre” (SKU 010901AA000106) — $2,399.99 sale, $3,199.99 compare-at. Not labeled MSRP.
+priceUsd: 2599.99
+priceNote: Official US cart on 16 Oct 2026 (AWST) for variant “A3 AWD Pro 3500 - 0.87 Acre” (48120972116225, SKU 010901AA000106) — $2,599.99 sale, $3,199.99 compare-at; guest cart USD with no discount. Up from the $2,399.99 sale recorded on 15 Sep 2026. Not labeled MSRP.
 coverageAcres: 0.87
 slopePercent: 80
 navigation:
@@ -17,7 +17,7 @@ verdict: A wire-free AWD Pro SKU with published 0.87-acre capacity, 80% slope, a
 affiliateUrl: ""
 officialUrl: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972116225
 image: /mowers/dreame-a3-awd-pro-3500.webp
-updated: 2026-09-15
+updated: 2026-10-16
 cuttingWidthIn: 15.8
 cuttingHeight: 1.2–3.9 in (3–10 cm)
 noiseDb: 65
@@ -52,4 +52,4 @@ Sources: [Dreame A3 AWD Pro US PDP / cart](https://yardcare.dreametech.com/produ
 
 ## Honest verdict
 
-Buy the Pro 3500 cart if the yard is around or under **0.87 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware. The locked official sale is **$2,399.99** ($3,199.99 compare-at on the same variant — not a labeled MSRP). Skip it for larger rated lawns (Pro 5000), for RTK-first platforms, or for smaller lots better matched to the non-Pro A3 AWD 1000/2000.
+Buy the Pro 3500 cart if the yard is around or under **0.87 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware. The official sale on 16 Oct 2026 is **$2,599.99** (it was $2,399.99 on 15 Sep 2026) ($3,199.99 compare-at on the same variant — not a labeled MSRP). Skip it for larger rated lawns (Pro 5000), for RTK-first platforms, or for smaller lots better matched to the non-Pro A3 AWD 1000/2000.

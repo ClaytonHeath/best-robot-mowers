@@ -5,7 +5,7 @@ slug: sunseeker-x7-plus-gen-2
 model: X7 Plus Gen 2
 status: published
 priceUsd: 3299
-priceNote: "Official Sunseeker US store on 14 Oct 2026 (AWST) for Shopify product 15396832444733, variant 67587700293949 (Default Title, the only variant): $3,299.00. There is no compare-at price (product JSON compare_at_price null) and no markdown. A guest cart/add.js returned $3,299.00 USD for quantity 1 with no discount, and product.js reports the variant available. The PDP's schema.org Offer reads 3299.00 USD, InStock. The same page's comparison table also lists the X7 Plus Gen 2 at $3,299 and the X7 Gen 2 at $2,599. The variant publishes no SKU or barcode. Tax is excluded; shipping is free on orders over $99."
+priceNote: "Official Sunseeker US store on 14 Oct 2026 (AWST) for Shopify product 15396832444733, variant 67587700293949 (Default Title, the only variant): $3,299.00. There is no compare-at price (product JSON compare_at_price null) and no markdown. A guest cart/add.js returned $3,299.00 USD for quantity 1 with no discount, and product.js reports the variant available. The PDP's schema.org Offer reads 3299.00 USD, InStock. The same page's comparison table also lists the X7 Plus Gen 2 at $3,299 and the X7 Gen 2 at $2,599. The variant publishes no SKU or barcode. Tax is excluded; shipping is free on orders over $99. SOLD OUT on 16 Oct 2026 (AWST): a guest cart/add.js was refused as 'already sold out', product.js reports available=false, and the schema.org Offer reads OutOfStock. The listed $3,299 is the last US store price."
 coverageAcres: 1.5
 slopePercent: 70
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: "Mowable lawns up to 1.5 acres with slopes up to 70% (35°), tree cover, or several mowing areas, where wire-free RTK + vision navigation, AWD and built-in 4G-GPS anti-theft are wanted. You still complete mapping and a positioning setup and find spots for the charging station and positioning equipment. If your grass is 0.75 acre or less, the X7 Gen 2 has the same core hardware for $700 less."
-verdict: "At $3,299 with no markdown, the X7 Plus Gen 2 is Sunseeker's 1.5-acre AWD mower. It has RTK + VSLAM 2.0 navigation, a 14 in dual-disc cut, 0.8–4.0 in app height, a 70% (35°) slope rating, IPX5, 60 dB(A) and 4G-GPS anti-theft included. The catches are a positioning setup the FAQ requires even though the included list shows no reference station, possible edge trimming, and no published weight."
+verdict: "At $3,299 with no markdown (sold out on 16 Oct 2026), the X7 Plus Gen 2 is Sunseeker's 1.5-acre AWD mower. It has RTK + VSLAM 2.0 navigation, a 14 in dual-disc cut, 0.8–4.0 in app height, a 70% (35°) slope rating, IPX5, 60 dB(A) and 4G-GPS anti-theft included. The catches are a positioning setup the FAQ requires even though the included list shows no reference station, possible edge trimming, and no published weight."
 affiliateUrl: ""
 officialUrl: https://shopsunseekertech.com/products/sunseeker-x7-plus-gen-2-robot-lawn-mower-1-5-acre?variant=67587700293949
 image: /mowers/sunseeker-x7-plus-gen-2.webp
-updated: 2026-10-14
+updated: 2026-10-16
 cuttingWidthIn: 14
 cuttingHeight: "0.8–4.0 in"
 noiseDb: 60
@@ -58,10 +58,10 @@ Sources: [Sunseeker X7 Plus Gen 2 US product page](https://shopsunseekertech.com
 
 ## Honest verdict
 
-For a sloped lawn between about three-quarters of an acre and 1.5 acres, the X7 Plus Gen 2 is a strong buy at **$3,299**. It's AWD, rated for 70%, has wire-free RTK + vision, cuts 14 in, and includes 4G anti-theft. Other large-lawn listings:
-- The [dreame-a3-awd-pro-5000](https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972181761) costs $3,499.99 for 1.20 acres and 80% slopes, using LiDAR instead of RTK.
+For a sloped lawn between about three-quarters of an acre and 1.5 acres, the X7 Plus Gen 2 is a strong buy at **$3,299** (it was sold out on 16 Oct 2026). It's AWD, rated for 70%, has wire-free RTK + vision, cuts 14 in, and includes 4G anti-theft. Other large-lawn listings:
+- The [dreame-a3-awd-pro-5000](https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972181761) costs $2,999.99 (16 Oct 2026; it was $3,499.99) for 1.20 acres and 80% slopes, using LiDAR instead of RTK.
 - The [worx-landroid-vision-cloud-4wd-wr344](https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-acre) costs $2,999.99 for 1 acre and 84%.
 - The [segway-navimow-x390](https://navimow.com/products/segway-navimow-x390) covers 2.5 acres for $4,499 but is rated for only 50%.
-- If your grass is 0.75 acre or less, Sunseeker's own [sunseeker-x7-gen-2](https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661) is the same machine for $2,599.
+- If your grass is 0.75 acre or less, Sunseeker's own [sunseeker-x7-gen-2](https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661) is the same machine for $2,599 (also sold out on 16 Oct 2026).
 
 The limits are the positioning setup (the page doesn't fully explain the hardware), 4G features that depend on service terms, possible edge trimming, and a US page with no weight or run-time figures. Buy it if you have a hilly acre-plus lawn and want built-in anti-theft. Otherwise, save $700 with the X7 Gen 2.

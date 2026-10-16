@@ -35,7 +35,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 (sold out 9 Oct 2026) |
 | Vision + cloud RTK | [Worx Landroid Vision Cloud WR310.1](/mowers/worx-landroid-vision-cloud-wr310/) | 0.25 acre | 30% | Vision + RTK | Wire-free | $1,199.99 |
 | RTK + vision RWD | [Roborock RockNeo Q1](/mowers/roborock-rockneo-q1/) | 0.25 acre | 45% | RTK + vision | Wire-free | $1,299 |
-| Small AWD / steep patches | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) | 0.25 acre | 80% | LiDAR + vision | Wire-free | $1,599.99 |
+| Small AWD / steep patches | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) | 0.25 acre | 80% | LiDAR + vision | Wire-free | $1,399.99 |
 | Mid Genie (rec. 1/4 acre) | [Anthbot Genie 1000](/mowers/anthbot-genie-1000/) | 0.25 acre recommended (variant markets 0.49) | 45% | RTK + vision | Wire-free | $799 |
 
 **Yard-fit note:** If the lawn is truly ≤0.125 acre and relatively flat, i105 or M5 / Genie 600e are the catalog’s small end. If you need AWD toward 80% inside a quarter acre, Dreame A3 AWD 1000 is the small-yard AWD card — not the larger Pro or 2000 SKUs.
@@ -46,11 +46,11 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 
 | Fit | Listing | Coverage | Slope | Nav | Wire | Price (listing) |
 | --- | --- | --- | --- | --- | --- | --- |
-| Half-acre AWD LiDAR | [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/) | 0.5 acre | 80% | LiDAR + vision | Wire-free | $1,899.99 |
+| Half-acre AWD LiDAR | [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/) | 0.5 acre | 80% | LiDAR + vision | Wire-free | $1,699.99 |
 | Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | ~$2,599 street |
 | ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 |
 | ~3/4-acre LiDAR + trimmer | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | 0.75 acre | 50% (virtual boundary 20%) | LiDAR + vision | Wire-free | $2,499.99 |
-| ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $2,399.99 |
+| ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $2,599.99 |
 | ~0.37-acre AWD LiDAR | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 0.37 acre | 80% | LiDAR + vision | Wire-free | $2,399 (sold out 11 Oct 2026) |
 
 **Yard-fit note:** Genie 3000’s live cart is low relative to acreage peers, but use the **0.75-acre recommended** figure — not the 0.89-acre marketing label — the same way Genie 1000 uses 0.25 recommended vs 0.49 marketed. Husqvarna 410 iQ’s irregular capacity is half the systematic figure; messy layouts should size to 0.25 acre on that card.
@@ -64,7 +64,7 @@ Manufacturer slope % is **max inside the work area** unless the listing splits b
 | Fit | Listing | Slope | Coverage | Drive | Price (listing) |
 | --- | --- | --- | --- | --- | --- |
 | Highest published climb in catalog | [Segway Navimow X430](/mowers/segway-navimow-x430/) | 84% | 1 acre | AWD | $2,499 (sold out 27 Sep 2026) |
-| AWD LiDAR, no RTK pole | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) / [2000](/mowers/dreame-a3-awd-2000/) / [Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 80% | 0.25 / 0.5 / 0.87 acre | AWD | $1,599.99–$2,399.99 |
+| AWD LiDAR, no RTK pole | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) / [2000](/mowers/dreame-a3-awd-2000/) / [Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 80% | 0.25 / 0.5 / 0.87 acre | AWD | $1,399.99–$2,599.99 |
 | AWD LiDAR small yard | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 80% | 0.37 acre | AWD | $2,399 (sold out 11 Oct 2026) |
 | EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 70% in-lawn / 50% boundary | 1.3 systematic / 0.9 irregular | AWD | ~$4,799 street |
 | Wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 70% in-lawn / 50% at wire | 0.9 acre | AWD | ~$2,999 street |
