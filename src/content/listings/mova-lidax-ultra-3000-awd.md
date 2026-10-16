@@ -4,8 +4,8 @@ brand: MOVA
 slug: mova-lidax-ultra-3000-awd
 model: LiDAX Ultra 3000 AWD
 status: published
-priceUsd: 2699
-priceNote: Official US cart price for LiDAX Ultra 3000 AWD variant 47355510325484 (SKU 010901AA000205) on 25 Sep 2026 — $2,699.00 sale, $2,999.00 compare-at; tax and shipping excluded. Exact variant accepted into cart. A separate 【Live Only】 listing of the same SKU showed a different price and is not used here.
+priceUsd: 2399
+priceNote: Official US cart price for LiDAX Ultra 3000 AWD variant 47355510325484 (SKU 010901AA000205) on 16 Oct 2026 (AWST) — $2,399.00 sale, $2,999.00 compare-at; tax and shipping excluded. Exact variant accepted into a USD guest cart with no discount. Down from the $2,699.00 sale recorded on 25 Sep 2026. A separate 【Live Only】 listing of the same SKU showed a different price ($2,199 in products.json) and is not used here.
 coverageAcres: 0.75
 slopePercent: 80
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Three-quarter-acre lawns with steep or bumpy sections that want wire-free 360° LiDAR + AI dual-vision mapping and all-wheel drive without an RTK pole or boundary wire. The limit is 0.75 acre per map, and each charge covers only 0.2–0.25 acre, so a full pass of a large yard takes several dock-and-resume cycles.
-verdict: A $2,699 wire-free AWD LiDAR mower rated for 0.75 acre and 80% slopes; the catch is a 0.2–0.25-acre-per-charge pace on a 52 lb machine whose published hardware matches the 0.5-acre Ultra 2000 AWD.
+verdict: A $2,399 wire-free AWD LiDAR mower rated for 0.75 acre and 80% slopes; the catch is a 0.2–0.25-acre-per-charge pace on a 52 lb machine whose published hardware matches the 0.5-acre Ultra 2000 AWD.
 affiliateUrl: ""
 officialUrl: https://us.mova.tech/products/mova-lidax-ultra-3000-awd-robotic-lawn-mower?variant=47355510325484
 image: /mowers/mova-lidax-ultra-3000-awd.webp
-updated: 2026-09-25
+updated: 2026-10-16
 cuttingWidthIn: 15.8
 cuttingHeight: "1.2–3.9 in"
 weightLbs: 52
@@ -54,4 +54,4 @@ Sources: [official MOVA US product page](https://us.mova.tech/products/mova-lida
 
 ## Honest verdict
 
-If the yard runs up to **0.75 acre**, includes slopes a RWD mower can’t hold, and you want **LiDAR + vision** with no wire or RTK hardware, the Ultra 3000 AWD at **$2,699** ($2,999 compare-at) fits that yard. Plan for several dock-and-resume cycles per full pass at **0.2–0.25 acre per charge**, expect a **52 lb** machine to move, and confirm the lawn really exceeds **0.5 acre** before paying the extra over the Ultra 2000 AWD. MOVA publishes identical hardware specs for the two, and the mapping area is the only published difference.
+If the yard runs up to **0.75 acre**, includes slopes a RWD mower can’t hold, and you want **LiDAR + vision** with no wire or RTK hardware, the Ultra 3000 AWD at **$2,399** ($2,999 compare-at, 16 Oct 2026) fits that yard. Plan for several dock-and-resume cycles per full pass at **0.2–0.25 acre per charge**, expect a **52 lb** machine to move, and confirm the lawn really exceeds **0.5 acre** before paying the extra over the Ultra 2000 AWD. MOVA publishes identical hardware specs for the two, and the mapping area is the only published difference.

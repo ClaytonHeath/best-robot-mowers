@@ -58,15 +58,15 @@ Only models with published listings and supporting frontmatter are listed. Price
 ### 80% AWD LiDAR (no RTK on these SKUs)
 
 #### [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/)
-- **Slope:** 80% · **Coverage:** 0.25 acre · **Cut:** 7.9 in · **Price:** $1,599.99
+- **Slope:** 80% · **Coverage:** 0.25 acre · **Cut:** 7.9 in · **Price:** $1,399.99
 - Small-yard AWD card. Not the 2000 or Pro 3500.
 
 #### [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/)
-- **Slope:** 80% · **Coverage:** 0.5 acre · **Cut:** 7.9 in · **Price:** $1,899.99
+- **Slope:** 80% · **Coverage:** 0.5 acre · **Cut:** 7.9 in · **Price:** $1,699.99
 - Mid-yard non-Pro AWD. Hard limit is coverage and deck width vs Pro dual-disc.
 
 #### [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/)
-- **Slope:** 80% · **Coverage:** 0.87 acre · **Cut:** 15.8 in dual-disc · **Price:** $2,399.99
+- **Slope:** 80% · **Coverage:** 0.87 acre · **Cut:** 15.8 in dual-disc · **Price:** $2,599.99
 - Closest Dreame Pro SKU under an acre in the catalog. Not the 1.20-acre Pro 5000; no RTK on this platform.
 
 #### [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/)

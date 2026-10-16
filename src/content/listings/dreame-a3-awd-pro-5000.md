@@ -4,8 +4,8 @@ brand: Dreame
 slug: dreame-a3-awd-pro-5000
 model: A3 AWD Pro 5000
 status: published
-priceUsd: 3499.99
-priceNote: Official US cart on 20 Sep 2026 for variant “A3 AWD Pro 5000 - 1.20 Acre” (SKU 010901AA000212) — $3,499.99 cart; compare-at also $3,499.99 (no active discount). Not labeled MSRP.
+priceUsd: 2999.99
+priceNote: Official US cart on 16 Oct 2026 (AWST) for variant “A3 AWD Pro 5000 - 1.20 Acre” (48120972181761, SKU 010901AA000212) — $2,999.99 sale, $3,499.99 compare-at; guest cart USD with no discount. Down from the $3,499.99 cart (no discount) recorded on 20 Sep 2026. Not labeled MSRP.
 coverageAcres: 1.20
 slopePercent: 80
 navigation:
@@ -17,7 +17,7 @@ verdict: A wire-free AWD Pro SKU with published 1.20-acre capacity, 80% slope, a
 affiliateUrl: ""
 officialUrl: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972181761
 image: /mowers/dreame-a3-awd-pro-5000.webp
-updated: 2026-09-20
+updated: 2026-10-16
 cuttingWidthIn: 15.8
 cuttingHeight: "1.2–3.9 in (3–10 cm)"
 noiseDb: 65
@@ -53,4 +53,4 @@ Sources: [Dreame A3 AWD Pro US PDP / cart](https://yardcare.dreametech.com/produ
 
 ## Honest verdict
 
-Buy the Pro 5000 cart if the yard is around or under **1.20 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware plus the Pro series’ largest published battery. The locked official cart is **$3,499.99** (compare-at also $3,499.99 on the same variant — not a labeled MSRP). Skip it for larger-than-rated lawns, for RTK-first platforms, or for smaller lots better matched to Pro 2500/3500 or the non-Pro A3 AWD 1000/2000.
+Buy the Pro 5000 cart if the yard is around or under **1.20 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware plus the Pro series’ largest published battery. The official cart on 16 Oct 2026 is **$2,999.99** against a **$3,499.99** compare-at (it was $3,499.99 with no discount on 20 Sep 2026; not a labeled MSRP). Skip it for larger-than-rated lawns, for RTK-first platforms, or for smaller lots better matched to Pro 2500/3500 or the non-Pro A3 AWD 1000/2000.
