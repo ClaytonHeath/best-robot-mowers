@@ -4,8 +4,8 @@ brand: Sunseeker
 slug: sunseeker-s4
 model: S4 (SKU SKRMS4)
 status: published
-priceUsd: 999.99
-priceNote: "Official Sunseeker US store on 13 Oct 2026 (AWST), Shopify product 10220181815613, variant 51334659866941 (the only variant), SKU SKRMS4, barcode 850060195723: sale $999.99, compare-at $1,799.99. A guest cart/add.js returned $999.99 USD for quantity 1 with no discount, and product.js reports the variant available. The PDP's schema.org Offer reads 999.99 USD, InStock. Tax is excluded; shipping is free on orders over $99. The page's cost calculator lists an S4 'MSRP' of $1,799, $0.99 off the compare-at."
+priceUsd: 1279.99
+priceNote: "Official Sunseeker US store on 17 Oct 2026 (AWST), Shopify product 10220181815613, variant 51334659866941 (the only variant), SKU SKRMS4, barcode 850060195723: sale $1,279.99, compare-at $1,799.99. A guest cart/add.js returned $1,279.99 USD for quantity 1 with no discount, and product.js reports the variant available. Up from the $999.99 sale recorded on 13 Oct 2026. Tax is excluded; shipping is free on orders over $99. The page's cost calculator lists an S4 'MSRP' of $1,799, $0.99 off the compare-at."
 coverageAcres: 0.25
 slopePercent: 42
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: "Quarter-acre yards that are shaded, cluttered or split into zones, where you want wire-free navigation with no RTK antenna for about $1,000. Check the fit first: grass must not be Zoysia or St. Augustine, slopes must be under 42% (22°), and LiDAR needs fences, walls or trees around the lawn, with no single run longer than about 50 m."
-verdict: "At $999.99 (on sale from $1,799.99), the S4 is the cheapest 3D-LiDAR mower in our quarter-acre group. It has no wire and no antenna, handles 100 zones, and has an edge blade. The catches are a 7 in cut, rear-wheel drive limited to 42%, no mowing in rain or fog, and a US page that doesn't publish weight, noise or IP rating."
+verdict: "At $1,279.99 (on sale from $1,799.99 on 17 Oct 2026; it was $999.99 on 13 Oct 2026), the S4 is the cheapest 3D-LiDAR mower in our quarter-acre group. It has no wire and no antenna, handles 100 zones, and has an edge blade. The catches are a 7 in cut, rear-wheel drive limited to 42%, no mowing in rain or fog, and a US page that doesn't publish weight, noise or IP rating."
 affiliateUrl: ""
 officialUrl: https://shopsunseekertech.com/products/sunseeker-s4-wireless-robot-lawn-mower-l-0-25-acre?variant=51334659866941
 image: /mowers/sunseeker-s4.webp
-updated: 2026-10-13
+updated: 2026-10-17
 cuttingWidthIn: 7
 cuttingHeight: "1.6–3.2 in"
 driveType: Rear-wheel drive
@@ -60,6 +60,6 @@ Sources: [Sunseeker S4 US product page](https://shopsunseekertech.com/products/s
 
 ## Honest verdict
 
-For a shaded, cluttered quarter acre, the S4 is the cheapest true 3D-LiDAR option we list at **$999.99**. The [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro) costs $1,499.99. The [mova-lidax-ultra-1000](https://us.mova.tech/products/mova-lidax-ultra-1000-robot-lawn-mower?variant=47255944626412) is $999 (16 Oct 2026; it was $899) and rated for 45%. The [dreame-a3-awd-1000](https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower?variant=48479673352449) adds AWD and an 80% rating for $1,399.99 (16 Oct 2026; it was $1,599.99). If your yard has open sky and steeper ground, Sunseeker's [sunseeker-x5](https://shopsunseekertech.com/products/x5-wireless-robot-lawn-mower-0-5-acres?variant=50356347830589) uses RTK + vision with AWD for $1,399.99.
+For a shaded, cluttered quarter acre, the S4 is the cheapest true 3D-LiDAR option we list at **$1,279.99** (17 Oct 2026; it was $999.99 on 13 Oct 2026). The [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro) costs $1,499.99. The [mova-lidax-ultra-1000](https://us.mova.tech/products/mova-lidax-ultra-1000-robot-lawn-mower?variant=47255944626412) is $999 (16 Oct 2026; it was $899) and rated for 45%. The [dreame-a3-awd-1000](https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower?variant=48479673352449) adds AWD and an 80% rating for $1,399.99 (16 Oct 2026; it was $1,599.99). If your yard has open sky and steeper ground, Sunseeker's [sunseeker-x5](https://shopsunseekertech.com/products/x5-wireless-robot-lawn-mower-0-5-acres?variant=50356347830589) uses RTK + vision with AWD for $1,499.99 (17 Oct 2026; it was $1,399.99).
 
 The limits are real. The 7 in cut is narrow, the S4 is rear-wheel drive and rated for 42%, and it can't mow in rain or fog. Warm-season Zoysia and St. Augustine lawns are excluded, and open yards without fences or trees don't suit LiDAR. Returns are limited once the box is opened. Buy it if your lawn is a fenced or tree-lined quarter acre of cool-season grass. Otherwise, look at the Mova for a lower price or the Dreame for hills.
