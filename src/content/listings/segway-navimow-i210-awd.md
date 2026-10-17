@@ -4,8 +4,8 @@ brand: Segway Navimow
 slug: segway-navimow-i210-awd
 model: i210 AWD
 status: published
-priceUsd: 1049
-priceNote: Official US cart on 9 Oct 2026 (AWST) for variant 45014242853001 (SKU AA.12.07.02.0001, “Navimow i210 AWD | 0.25 acre”) — $1,049.00 sale, $1,299.00 compare-at (product.js compare_at_price 129900). Guest cart/add.js accepted the mower-only line at $1,049.00 with no discount (cart total $1,049.00 USD); available=true. Tax and shipping excluded. The separate i210 AWD with Garage Bundle product was $1,199 (compare-at $1,498.99) on the same date, a different cart line. This was $1,299 with no compare-at on 2 Oct 2026.
+priceUsd: 1299
+priceNote: Official US cart on 17 Oct 2026 (AWST) for variant 45014242853001 (SKU AA.12.07.02.0001, “Navimow i210 AWD | 0.25 acre”) — $1,299.00, no compare-at (product.js compare_at_price null; the sale has ended). Guest cart/add.js accepted the mower-only line at $1,299.00 with no discount (cart total USD); available=true. Tax and shipping excluded. Up from the $1,049.00 sale ($1,299.00 compare-at) recorded on 9 Oct 2026. On 9 Oct 2026 the separate i210 AWD with Garage Bundle product was $1,199 (compare-at $1,498.99), a different cart line.
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: US lawns up to about 0.25 acre that want wire-free Network RTK + vision with all-wheel drive and a published 45% climb — the same acreage band as the FWD i110, but for uneven or steeper yards. Skip it if 0.15 acre is enough for the cheaper i206 AWD, if the yard needs LiDAR or a wider deck (i215 LiDAR), or if you only need FWD on flatter grass.
-verdict: The US i210 AWD is the 0.25-acre all-wheel-drive i2 cart at $1,049 on sale (compare-at $1,299), with EFLS NRTK + VisionFence, a 5.1 Ah pack, 5 blades, and 45% work-area / boundary slopes; on 9 Oct 2026 that undercut the same-acreage FWD i110 ($1,099, sold out), so the catch is mainly the 0.25-acre ceiling and a sale price that may not last.
+verdict: The US i210 AWD is the 0.25-acre all-wheel-drive i2 cart at $1,299 with no compare-at on 17 Oct 2026 (it was $1,049 on sale on 9 Oct 2026), with EFLS NRTK + VisionFence, a 5.1 Ah pack, 5 blades, and 45% work-area / boundary slopes; on 9 Oct 2026 that undercut the same-acreage FWD i110 ($1,099, sold out), so the catch is mainly the 0.25-acre ceiling; on 17 Oct 2026 the sale had ended and it cost $200 more than the i110 list price.
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-i2-awd-robot-lawn-mower?variant=45014242853001
 image: /mowers/segway-navimow-i210-awd.webp
-updated: 2026-10-09
+updated: 2026-10-17
 cuttingWidthIn: 7.1
 cuttingHeight: 2–3.6 in, manual
 noiseDb: 59
@@ -46,14 +46,14 @@ Official US numbers for this SKU (NA user manual §2.3 column **i210 AWD**, plus
 
 Homeowners with about a **quarter acre** who want **AWD** traction on slopes, roots, or uneven paths, and who prefer **Network RTK + vision** so they do not have to bury a perimeter wire. Where Network RTK coverage exists, the US pages and NA manual treat the local antenna as **optional**; the antenna kit in the box is for areas without NRTK. Setup includes auto mapping, up to **20** zones, and weather-adaptive returns.
 
-It is a weaker match if the lawn is only **0.15 acre** — that is the sibling **i206 AWD** on the same PDP at **$849** (compare-at $999 on 9 Oct 2026) — or if the grass is flatter and you are fine with FWD at the same acreage: the listed [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`) is **$1,099** (sold out on 9 Oct 2026) with a **30%** work-area / **10%** boundary rating. Prefer the listed [i215 LiDAR](https://www.bestlawnrobots.com/mowers/segway-navimow-i215-lidar/) (`segway-navimow-i215-lidar`) if you want **0.37 acre**, an **8.66-inch** deck, and **LiDAR + vision** instead of AWD.
+It is a weaker match if the lawn is only **0.15 acre** — that is the sibling **i206 AWD** on the same PDP at **$999** (no compare-at on 17 Oct 2026; it was $849 on sale on 9 Oct 2026) — or if the grass is flatter and you are fine with FWD at the same acreage: the listed [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`) is **$1,099** (sold out on 9 Oct 2026) with a **30%** work-area / **10%** boundary rating. Prefer the listed [i215 LiDAR](https://www.bestlawnrobots.com/mowers/segway-navimow-i215-lidar/) (`segway-navimow-i215-lidar`) if you want **0.37 acre**, an **8.66-inch** deck, and **LiDAR + vision** instead of AWD.
 
 ## Standout details
 
 - **Coverage:** **0.25 acre** recommended on the variant title, NA manual, and US Specs & Comparison. Mapping footnote / 1.2× ≈ **0.30 acre**, layout-dependent; all zones share one map limit. FAQ also cites a **0.37 acre / 24 hours** daily mowing figure for both i206 and i210 with recharges — that is not the recommended lawn size; the **0.25 acre** column wins for this listing.
 - **Navigation:** **EFLS™ NRTK (Network RTK + Vision)** with **VisionFence™** 140° RGB (150+ obstacle types on the US pages). Not LiDAR. Lifetime free NRTK claimed on the FAQ; cellular data for NRTK described as free of charge where the service is available.
 - **How it differs from listed i110 (same acreage):** [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`) is **FWD**, **30%** work-area / **10%** boundary, **3 blades**, **24 lb**, **58 dB(A)**, **$1,099** (sold out on 9 Oct 2026), and sells built-in 4G / anti-theft as Access+ add-on story. i210 AWD keeps the **0.25 acre** / **7.1 in** / **2–3.6 in** / **5.1 Ah** band but moves to **AWD**, **45%/45%** slopes, **5 blades**, **27.12 lb**, **59 dB(A)**, built-in **4G**, auto mapping, and cart **$1,049** (compare-at $1,299, 9 Oct 2026).
-- **How it differs from listed i105 / i215 LiDAR:** [i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) (`segway-navimow-i105`) is **0.125 acre** FWD at **$799** (no compare-at, 9 Oct 2026). [i215 LiDAR](https://www.bestlawnrobots.com/mowers/segway-navimow-i215-lidar/) (`segway-navimow-i215-lidar`) is **0.37 acre**, **LiDAR + vision** (not AWD), **8.66 in** cut, **45%/25%** slopes, **$1,329** (compare-at $1,599, 9 Oct 2026).
+- **How it differs from listed i105 / i215 LiDAR:** [i105](https://www.bestlawnrobots.com/mowers/segway-navimow-i105/) (`segway-navimow-i105`) is **0.125 acre** FWD at **$799** (no compare-at, 9 Oct 2026). [i215 LiDAR](https://www.bestlawnrobots.com/mowers/segway-navimow-i215-lidar/) (`segway-navimow-i215-lidar`) is **0.37 acre**, **LiDAR + vision** (not AWD), **8.66 in** cut, **45%/25%** slopes, **$1,599** (no compare-at, 17 Oct 2026; it was $1,329 on sale on 9 Oct 2026).
 - **Drive and slope:** Officially **3 AWD** with ESC / Traction Control and **9.8 in** off-road wheels on the US pages; vertical step **1.57 in** (PDP footnote conditions). NA manual: max incline **45%** inside the work area **and** at the boundary.
 - **Cutting:** **7.1 in**, five blades, manual height **2–3.6 in**.
 - **Battery / runtime:** **5.1 Ah / 110 Wh**; ~**120 min** mow and ~**120 min** charge in the manual table (i206 sibling is 2.55 Ah / 60 min / 60 min).
@@ -71,4 +71,4 @@ Sources: [Navimow i2 AWD US product / cart page](https://navimow.com/products/na
 
 ## Honest verdict
 
-Pay the **$1,049** US cart (on sale from $1,299, 9 Oct 2026) if the lawn is actually around **0.25 acre** and you want **AWD** with a **45%** rating on the same Network RTK + vision stack as the smaller i series. On that date it cost less than the listed [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`, **$1,099** and sold out), so FWD only makes sense if the i110 comes back cheaper. Use the **i206 AWD** sibling on this PDP at **$849** (compare-at $999) only if **0.15 acre** is the real need. If you want **LiDAR** and a wider deck at **0.37 acre** instead of AWD, compare the listed [i215 LiDAR](https://www.bestlawnrobots.com/mowers/segway-navimow-i215-lidar/) (`segway-navimow-i215-lidar`) at **$1,329** (compare-at $1,599). Skip the Garage Bundle price if you only need the mower; that **$1,199** (compare-at $1,498.99) is a different cart line.
+Pay the **$1,299** US cart (no compare-at on 17 Oct 2026; it was $1,049 on sale on 9 Oct 2026) if the lawn is actually around **0.25 acre** and you want **AWD** with a **45%** rating on the same Network RTK + vision stack as the smaller i series. On 9 Oct 2026 it cost less than the listed [i110](https://www.bestlawnrobots.com/mowers/segway-navimow-i110/) (`segway-navimow-i110`, **$1,099** and sold out), so FWD only makes sense if the i110 comes back cheaper. Use the **i206 AWD** sibling on this PDP at **$999** (17 Oct 2026) only if **0.15 acre** is the real need. If you want **LiDAR** and a wider deck at **0.37 acre** instead of AWD, compare the listed [i215 LiDAR](https://www.bestlawnrobots.com/mowers/segway-navimow-i215-lidar/) (`segway-navimow-i215-lidar`) at **$1,599** (17 Oct 2026). Skip the Garage Bundle price if you only need the mower; that **$1,199** (compare-at $1,498.99 on 9 Oct 2026) is a different cart line.

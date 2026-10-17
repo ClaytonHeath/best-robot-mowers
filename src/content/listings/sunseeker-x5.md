@@ -4,8 +4,8 @@ brand: Sunseeker
 slug: sunseeker-x5
 model: X5 (SKU SKRMX5)
 status: published
-priceUsd: 1399.99
-priceNote: "Official Sunseeker US store on 12 Oct 2026 (AWST) for Shopify product 9946763100477, variant 50356347830589 (Default Title, mower only), SKU SKRMX5, GTIN 00850060195266: sale $1,399.99, compare-at $1,999.99 (the buy box shows '$600 Off'). A guest cart/add.js returned $1,399.99 USD for quantity 1 with no discount, and product.js reports the variant available. The schema.org Offer on the PDP reads price 1399.99 USD, InStock. Tax is excluded; shipping is free on orders over $99. The same page's cost calculator lists an X5 'MSRP' of $2,199, which does not match the $1,999.99 compare-at. The X5 bundles with garage and/or blade kit (also $1,399.99) are separate products and not this listing."
+priceUsd: 1499.99
+priceNote: "Official Sunseeker US store on 17 Oct 2026 (AWST) for Shopify product 9946763100477, variant 50356347830589 (Default Title, mower only), SKU SKRMX5, GTIN 00850060195266: sale $1,499.99, compare-at $1,999.99. A guest cart/add.js returned $1,499.99 USD for quantity 1 with no discount, and product.js reports the variant available. Up from the $1,399.99 sale recorded on 12 Oct 2026. Tax is excluded; shipping is free on orders over $99. The same page's cost calculator lists an X5 'MSRP' of $2,199, which does not match the $1,999.99 compare-at. The X5 bundles with garage and/or blade kit ($1,399.99 on 12 Oct 2026) are separate products and not this listing."
 coverageAcres: 0.5
 slopePercent: 60
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: "Half-acre lawns with slopes up to 60% (30°), trees, and several zones, where AWD and wire-free RTK + vision navigation are wanted for well under $2,000. You need a spot with a clear view of the sky for the RTK antenna and Wi-Fi at the charging base. The limits are the 0.5-acre rating, an 8.6 in cut, and a 1.6–3.2 in height range."
-verdict: "At $1,399.99 (on sale from $1,999.99), the X5 is an AWD, wire-free RTK + vision mower rated for half an acre and 60% (30°) slopes, with an offset edge blade and up to 100 zones. The catches are the narrow 8.6 in cut and the RTK antenna you have to site. Sunseeker's US page also doesn't publish weight, noise, battery, or ingress rating."
+verdict: "At $1,499.99 (on sale from $1,999.99 on 17 Oct 2026; it was $1,399.99 on 12 Oct 2026), the X5 is an AWD, wire-free RTK + vision mower rated for half an acre and 60% (30°) slopes, with an offset edge blade and up to 100 zones. The catches are the narrow 8.6 in cut and the RTK antenna you have to site. Sunseeker's US page also doesn't publish weight, noise, battery, or ingress rating."
 affiliateUrl: ""
 officialUrl: https://shopsunseekertech.com/products/x5-wireless-robot-lawn-mower-0-5-acres?variant=50356347830589
 image: /mowers/sunseeker-x5.webp
-updated: 2026-10-12
+updated: 2026-10-17
 cuttingWidthIn: 8.6
 cuttingHeight: "1.6–3.2 in"
 driveType: All-wheel drive
@@ -54,6 +54,6 @@ Sources: [Sunseeker X5 US product page](https://shopsunseekertech.com/products/x
 
 ## Honest verdict
 
-For a sloped half-acre, the X5 is strong value at **$1,399.99**. You get AWD, a 60% slope rating, wire-free RTK + vision navigation, 100 zones, and an edge blade. Among other half-acre listings, the [mova-lidax-ultra-2000](https://us.mova.tech/products/mova-lidax-ultra-2000-robot-lawn-mower?variant=47255944298732) is $200.99 cheaper at $1,199 (16 Oct 2026), but it is rear-wheel drive and rated for 45%. The [dreame-a3-awd-2000](https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower?variant=48479673385217) climbs 80% with LiDAR and no RTK antenna, but it lists at $1,699.99 (16 Oct 2026; it was $1,899.99). Sunseeker's own [sunseeker-x7-gen-2](https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661) adds a quarter acre, a 14 in cut, and a 70% rating for $2,599 (sold out on 16 Oct 2026).
+For a sloped half-acre, the X5 is strong value at **$1,499.99** (17 Oct 2026; it was $1,399.99 on 12 Oct 2026). You get AWD, a 60% slope rating, wire-free RTK + vision navigation, 100 zones, and an edge blade. Among other half-acre listings, the [mova-lidax-ultra-2000](https://us.mova.tech/products/mova-lidax-ultra-2000-robot-lawn-mower?variant=47255944298732) is $300.99 cheaper at $1,199 (16 Oct 2026), but it is rear-wheel drive and rated for 45%. The [dreame-a3-awd-2000](https://yardcare.dreametech.com/products/a3-awd-robot-lawn-mower?variant=48479673385217) climbs 80% with LiDAR and no RTK antenna, but it lists at $1,699.99 (16 Oct 2026; it was $1,899.99). Sunseeker's own [sunseeker-x7-gen-2](https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661) adds a quarter acre, a 14 in cut, and a 70% rating for $2,599 (sold out on 16 Oct 2026).
 
 The limits are the 0.5-acre rating, an 8.6 in cut that means long mowing cycles on a full half acre, a 3.2 in maximum height, and a US page that leaves out weight, noise, battery, and IP rating. Buy it if your lawn is a hilly half acre with open sky for the antenna. Otherwise, pick a LiDAR mower for heavy shade, or step up to the X7 Gen 2 for a bigger lawn.
