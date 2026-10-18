@@ -767,6 +767,7 @@ article.hub-copy {
 
 .prose {
   max-width: 42rem;
+  min-width: 0;
 }
 
 .prose h2 {
@@ -782,6 +783,56 @@ article.hub-copy {
 
 .prose ul {
   padding-left: 1.15rem;
+}
+
+.prose .table-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  margin: 0.85rem 0 1.25rem;
+}
+
+.prose .table-scroll table {
+  width: 100%;
+  min-width: 40rem;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+.prose .table-scroll caption {
+  caption-side: top;
+  text-align: left;
+  font-family: var(--font-stamp);
+  font-stretch: 72%;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rust);
+  font-weight: 650;
+  padding: 0 0 0.55rem;
+}
+
+.prose .table-scroll th,
+.prose .table-scroll td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5rem 0.55rem;
+  border-bottom: 1px solid var(--steel-hair);
+}
+
+.prose .table-scroll thead th {
+  font-family: var(--font-stamp);
+  font-stretch: 72%;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 650;
+}
+
+.prose .table-scroll tbody th {
+  font-weight: 650;
+  color: var(--ink);
 }
 
 .side {

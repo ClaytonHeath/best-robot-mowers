@@ -47,6 +47,162 @@ People with up to one-eighth acre of lawn who want to skip a boundary wire and d
 
 Sources: [Navimow i105 product / cart page](https://navimow.com/products/navimow-i105), [i-series page](https://navimow.com/pages/navimow-i), and [i-series spec compare](https://navimow.com/pages/navimow-i-specs), checked 3 Sep 2026.
 
+## Compared with other Navimow listings
+
+The i105 is listed here next to three other Navimow models: the [i110](/mowers/segway-navimow-i110/), the [H210](/mowers/segway-navimow-h210/), and the [H220](/mowers/segway-navimow-h220/). Every cell below is copied from that model’s listing. Prices are the amounts on those listings, with the date each one was checked. “Not listed” means that listing does not state the value. All four are wire-free. Each listing’s current price has no compare-at.
+
+<div class="table-scroll">
+<table>
+  <caption>Listing specs for the i105, i110, H210, and H220</caption>
+  <thead>
+    <tr>
+      <th scope="col">Spec</th>
+      <th scope="col">i105</th>
+      <th scope="col"><a href="/mowers/segway-navimow-i110/">i110</a></th>
+      <th scope="col"><a href="/mowers/segway-navimow-h210/">H210</a></th>
+      <th scope="col"><a href="/mowers/segway-navimow-h220/">H220</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">US price</th>
+      <td>$799 (9 Oct 2026)</td>
+      <td>$1,099 (9 Oct 2026)</td>
+      <td>$1,799 (16 Oct 2026)</td>
+      <td>$2,199 (9 Oct 2026)</td>
+    </tr>
+    <tr>
+      <th scope="row">Stock</th>
+      <td>Available (9 Oct 2026)</td>
+      <td>Sold out (9 Oct 2026)</td>
+      <td>Available (16 Oct 2026)</td>
+      <td>Available (9 Oct 2026)</td>
+    </tr>
+    <tr>
+      <th scope="row">Recommended area</th>
+      <td>0.125 acre</td>
+      <td>0.25 acre</td>
+      <td>about 0.25 acre</td>
+      <td>about 0.5 acre</td>
+    </tr>
+    <tr>
+      <th scope="row">Work-area slope</th>
+      <td>30% (17°)</td>
+      <td>30% (17°)</td>
+      <td>45% (24°)</td>
+      <td>45% (24°)</td>
+    </tr>
+    <tr>
+      <th scope="row">Boundary slope</th>
+      <td>10% (6°)</td>
+      <td>10% (6°)</td>
+      <td>25%</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <th scope="row">Navigation</th>
+      <td>RTK + vision</td>
+      <td>RTK + vision</td>
+      <td>LiDAR + RTK + vision</td>
+      <td>LiDAR + RTK + vision</td>
+    </tr>
+    <tr>
+      <th scope="row">Antenna</th>
+      <td>Local GNSS antenna if Network RTK is unavailable</td>
+      <td>Local GNSS antenna if Network RTK is unavailable</td>
+      <td>None</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <th scope="row">Cutting width</th>
+      <td>7.1 in</td>
+      <td>7.1 in</td>
+      <td>8.66 in</td>
+      <td>8.66 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Cutting height</th>
+      <td>2–3.6 in, manual</td>
+      <td>2–3.6 in, manual</td>
+      <td>2–4 in</td>
+      <td>2–4 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Battery</th>
+      <td>2.55 Ah</td>
+      <td>5.1 Ah</td>
+      <td>5.1 Ah / 110 Wh</td>
+      <td>10 Ah / 216 Wh</td>
+    </tr>
+    <tr>
+      <th scope="row">Mowing time per charge</th>
+      <td>about 60 min</td>
+      <td>about 120 min</td>
+      <td>about 110 min</td>
+      <td>about 220 min</td>
+    </tr>
+    <tr>
+      <th scope="row">Charge time</th>
+      <td>about 90 min</td>
+      <td>about 120 min</td>
+      <td>about 70 min</td>
+      <td>about 120 min (10–100%)</td>
+    </tr>
+    <tr>
+      <th scope="row">Area per hour</th>
+      <td>60–100 m² (0.015–0.025 acre)</td>
+      <td>80–120 m² (0.02–0.03 acre)</td>
+      <td>2,045 ft²</td>
+      <td>2,637 ft²</td>
+    </tr>
+    <tr>
+      <th scope="row">Noise</th>
+      <td>58 dB(A)</td>
+      <td>58 dB(A)</td>
+      <td>60 dB(A)</td>
+      <td>60 dB(A)</td>
+    </tr>
+    <tr>
+      <th scope="row">Weight</th>
+      <td>24 lb</td>
+      <td>24 lb</td>
+      <td>34.5 lb</td>
+      <td>35.82 lb</td>
+    </tr>
+    <tr>
+      <th scope="row">Size</th>
+      <td>21.4 × 15.1 × 11.2 in</td>
+      <td>21.4 × 15.1 × 11.2 in</td>
+      <td>24.6 × 17.5 × 11.6 in</td>
+      <td>24.6 × 17.5 × 11.6 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Drive</th>
+      <td>Front-wheel drive</td>
+      <td>Front-wheel drive</td>
+      <td>not listed</td>
+      <td>not listed</td>
+    </tr>
+    <tr>
+      <th scope="row">Ingress rating</th>
+      <td>IP66</td>
+      <td>IP66</td>
+      <td>IP66</td>
+      <td>IP66</td>
+    </tr>
+    <tr>
+      <th scope="row">4G</th>
+      <td>Access+ module, sold separately</td>
+      <td>Access+ module, sold separately</td>
+      <td>Connect+ free for 1 year, then $32.90 a year</td>
+      <td>Connect+ free for 1 year, then $32.90 a year</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+The recommended-area row is each listing’s coverage figure. The i105 listing also records a layout-dependent maximum of about 0.15 acre, the i110 about 0.3 acre, and the H220 up to 0.6 acre. The H210 listing does not state a higher maximum. The H220 listing also records 0.8–2.8 in with the included low-cutting kit. The H210 listing includes a low-cutting kit and does not list that shorter range. H210 and H220 also list IP67 for the power supply; the i105 and i110 listings do not.
+
 ## Honest verdict
 
 Pay the $799 US cart (9 Oct 2026, no sale or compare-at) if the lawn is actually 0.125 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you need 0.25 acre (i110, $1,099 but sold out on 9 Oct 2026), X-series coverage or AWD, or a path narrower than the published 100 cm passage.
