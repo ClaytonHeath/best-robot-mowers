@@ -15,7 +15,7 @@ wireFree: true
 whoItsFor: Mowable lawns up to 0.75 acre with slopes or tree cover that want wire-free RTK plus vision and AWD rated to 70% (35°), knowing you still place the charging station and the positioning equipment, and that 4G anti-theft is optional on this model.
 verdict: "At $2,599 with no compare-at (sold out on 16 Oct 2026), the X7 Gen 2 is the 0.75-acre AWD version: RTK plus vision, a 14-inch dual-disc cut, and a 70% (35°) slope rating, with no boundary wire. The hard limit is that acre rating, a positioning setup the FAQ still requires even though the included list shows no reference station, and 4G tracking that is optional here rather than included as on the $3,299 X7 Plus Gen 2 (1.5 acres)."
 affiliateUrl: ""
-officialUrl: https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661
+officialUrl: https://sunseekerelite.com/us/x7-gen-2
 image: /mowers/sunseeker-x7-gen-2.webp
 updated: 2026-10-16
 cuttingWidthIn: 14
@@ -72,7 +72,7 @@ Page conflicts (the spec table is used for the fields above):
 - **Brush:** spec table says **brush kit included**; the box list says **clean brush ×1**. Treated as the same included brush.
 - **Shipping:** the product area and footer advertise free shipping. The shipping policy also prints a **$15.99** standard line, then free over **$99**. Cart proof excludes tax and shipping either way.
 
-Sources: [official Sunseeker US product page, X7 Gen 2](https://shopsunseekertech.com/products/sunseeker-x7-gen-2-robot-lawn-mower-0-75-acre?variant=67587699769661), including the spec table, FAQ, What's Included list and shipping/return policy, plus Shopify product JSON and a guest cart add for variant 67587699769661, checked **4 Oct 2026** (AWST). The instruction manual is an in-box item; no separate spec PDF was used. Store footer identifies Sunseeker North America, Inc., and prices are USD.
+Sources: [official Sunseeker US product page, X7 Gen 2](https://sunseekerelite.com/us/x7-gen-2), including the spec table, FAQ, What's Included list and shipping/return policy, plus Shopify product JSON and a guest cart add for variant 67587699769661, checked **4 Oct 2026** (AWST). The instruction manual is an in-box item; no separate spec PDF was used. Store footer identifies Sunseeker North America, Inc., and prices are USD.
 
 ## Honest verdict
 
