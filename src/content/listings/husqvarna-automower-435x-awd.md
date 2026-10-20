@@ -5,7 +5,7 @@ slug: husqvarna-automower-435x-awd
 model: Automower 435X AWD
 status: published
 priceUsd: 2999
-priceNote: US street about $2,999.99 on 27 Aug 2026 at multiple dealers; Safford shows a $1,499 sale vs $2,999.99 regular (verify). No official price on husqvarna.com. Check the live cart.
+priceNote: "US street about $2,999.99 on 27 Aug 2026 at multiple dealers; Safford showed a $1,499 sale vs $2,999.99 regular (not rechecked). On 20 Oct 2026 (AWST) The Power Tool Store (guest cart $2,999.99 USD) and MOWbotic Solutions were still $2,999.99. husqvarna.com now lists a $2,999.99 MSRP for SKU 967853305, marked in-store only (no online cart). Dealer prices are indicative. Check the live cart."
 coverageAcres: 0.9
 slopePercent: 70
 navigation:
@@ -16,7 +16,7 @@ verdict: AWD and a 70% in-lawn slope rating for medium yards that still need phy
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435x-awd/
 image: /mowers/husqvarna-automower-435x-awd.webp
-updated: 2026-08-27
+updated: 2026-10-20
 cuttingWidthIn: 8.7
 cuttingHeight: 1.2–2.8 in, electric
 noiseDb: 60
@@ -29,7 +29,7 @@ driveType: All-wheel drive
 
 Husqvarna Automower 435X AWD is a residential, all-wheel-drive robot mower for lawns up to **0.9 acre (±20%)**. The US SKU is **967 85 33-05**. Husqvarna lists the boundary type as **physical wire**. This is not the 435 iQ AWD: no EPOS virtual mapping, no satellite boundary. A buried (or pegged) perimeter loop defines the work area.
 
-The box includes the mower, charging station, power supply, 33 ft low-voltage cable, and 6 extra blades. **Loop wire and stakes are not included.** US dealer carts were about **$2,999.99** on 27 Aug 2026; husqvarna.com does not publish a list price.
+The box includes the mower, charging station, power supply, 33 ft low-voltage cable, and 6 extra blades. **Loop wire and stakes are not included.** US dealer carts were about **$2,999.99** on 27 Aug 2026; husqvarna.com now lists a **$2,999.99 MSRP**, in-store only (20 Oct 2026).
 
 ## Who it's for
 
@@ -37,7 +37,7 @@ Yards that are medium in area and awkward in terrain — slopes, obstacles, a pi
 
 ## Standout details
 
-- **Price:** US street about $2,999.99 on 27 Aug 2026 at multiple dealer carts (SKU 967853305). Not an official Husqvarna MSRP. One dealer (Safford) showed a $1,499 sale vs $2,999.99 regular; verify the live cart. Wire and stakes are extra.
+- **Price:** US street about $2,999.99 on 27 Aug 2026 at multiple dealer carts (SKU 967853305). The Power Tool Store and MOWbotic Solutions were still $2,999.99 on 20 Oct 2026. Dealer prices are indicative. husqvarna.com now lists a **$2,999.99 MSRP** for SKU 967853305, in-store only (no online cart), on 20 Oct 2026. One dealer (Safford) showed a $1,499 sale vs $2,999.99 regular on 27 Aug 2026 (not rechecked); verify the live cart. Wire and stakes are extra.
 - **Coverage:** 0.9 acre recommended (±20%).
 - **Navigation:** Physical perimeter wire. Spec table lists Follow guide: 3. App-side Automower Zone Control can add work areas and temporary stay-out zones *inside* that wired perimeter. Ultrasonic sensors are listed for object detection, not as the boundary system.
 - **Drive and slope:** All-wheel drive with a pivoting rear body. 70% in-lawn / 50% at the wire.

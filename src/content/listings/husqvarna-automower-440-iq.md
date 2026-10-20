@@ -5,7 +5,7 @@ slug: husqvarna-automower-440-iq
 model: Automower 440 iQ
 status: published
 priceUsd: 4299
-priceNote: US street $4,299.99 on 30 Aug 2026 at Safford, The Power Tool Store, and Georgetown Small Engines (SKU 970727601). husqvarna.com has no visible cart. Not official MSRP. Check the live cart.
+priceNote: "US street $3,399.00–$4,299.99 on 20 Oct 2026 (AWST). $4,299.99 at The Power Tool Store (SKU 970727601; guest cart $4,299.99 USD) and Georgetown Small Engines (out of stock); $3,399.00 sale at Safford (regular $4,299.99). All three were $4,299.99 on 30 Aug 2026. husqvarna.com now lists an MSRP and an official cart — $4,299.99 MSRP for SKU 970727601, but it showed Out of Stock with Add To Cart disabled on 20 Oct 2026. Dealer prices are indicative, not official MSRP. Check the live cart."
 coverageAcres: 2
 slopePercent: 45
 navigation:
@@ -16,7 +16,7 @@ verdict: Wire-free EPOS for up to 2-acre systematic mowing — 1-acre irregular 
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/
 image: /mowers/husqvarna-automower-440-iq.webp
-updated: 2026-08-30
+updated: 2026-10-20
 cuttingWidthIn: 9.4
 cuttingHeight: 1–4 in (approximate), electric
 noiseDb: 62
@@ -28,7 +28,7 @@ ipRating: IPX5
 
 Husqvarna Automower 440 iQ is a residential, EPOS satellite-mapped robot mower. The US/CA SKU is **970 72 76-01**. Husqvarna leads with **2 acre lawn size (±20%)** — the same figure as **area capacity — systematic**. **Area capacity — irregular** is **1 acre**. Boundary type is **virtual wire or physical wire**. A normal install does not require buried loop wire.
 
-The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** US dealer carts were **$4,299.99** on 30 Aug 2026. husqvarna.com has no visible cart.
+The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** US dealer prices on 20 Oct 2026 ranged **$3,399.00–$4,299.99** (all $4,299.99 on 30 Aug 2026). husqvarna.com now lists a **$4,299.99 MSRP** but showed it out of stock (20 Oct 2026).
 
 ## Who it's for
 
@@ -36,7 +36,7 @@ Large yards that will use EPOS virtual mapping — stay-out zones, transport pat
 
 ## Standout details
 
-- **Price:** US street $4,299.99 on 30 Aug 2026 at [Safford Equipment](https://saffordequipment.com/product/husqvarna-440-iq-automower-970727601/), [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970727601) (Shopify JSON sku 970727601), and [Georgetown Small Engines](https://www.georgetownsmallengines.org/product-page/automower-440-iq). Not an official visible MSRP. Check the live cart.
+- **Price:** US street $3,399.00–$4,299.99 on 20 Oct 2026 (AWST) at [Safford Equipment](https://saffordequipment.com/product/husqvarna-440-iq-automower-970727601/) ($3,399.00 sale, $4,299.99 regular), [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970727601) (Shopify JSON sku 970727601, $4,299.99 guest cart), and [Georgetown Small Engines](https://www.georgetownsmallengines.org/product-page/automower-440-iq) ($4,299.99, out of stock). All three were $4,299.99 on 30 Aug 2026. Dealer prices are indicative, not official MSRP. husqvarna.com now lists **$4,299.99 MSRP** but showed **Out of Stock** with Add To Cart disabled on 20 Oct 2026. Check the live cart.
 - **Coverage:** 2 acre recommended lawn size (±20%) and systematic capacity; **1 acre irregular**.
 - **Navigation:** EPOS satellite positioning (centimeter-accurate location via satellites plus cellular / the included reference station). Virtual boundaries in the Automower Connect app. Physical wire is supported if you choose it. Object detection is **radar**, not the boundary system.
 - **Slope:** 45% inside the installation; 15% at the boundary.

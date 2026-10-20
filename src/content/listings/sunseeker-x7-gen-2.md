@@ -4,8 +4,8 @@ brand: Sunseeker
 slug: sunseeker-x7-gen-2
 model: X7 Gen 2
 status: published
-priceUsd: 2599
-priceNote: "Official US cart on 4 Oct 2026 (AWST) for variant 67587699769661 (Shopify product 15396832313661, Default Title): $2,599.00. No compare-at (product JSON compare_at_price null; buy box shows $2,599.00 with no sale markdown). Guest cart currency USD; line price, original price, final price and total all 259900 cents with no discount. Tax and shipping excluded. The variant publishes no SKU (product JSON sku null; cart-add sku empty string) and no barcode. Same-page comparison table lists this model at $2,599 and X7 Plus Gen 2 at $3,299. PDP showed Available in stock (100) on 4 Oct 2026. SOLD OUT on 16 Oct 2026 (AWST): a guest cart/add.js was refused as 'already sold out', product.js reports available=false, and the schema.org Offer reads OutOfStock. The listed $2,599 is the last US store price."
+priceUsd: 2499
+priceNote: "Official Sunseeker US product page (sunseekerelite.com/us/x7-gen-2) on 20 Oct 2026 (AWST): X7 Gen 2 (0.75 acre) listed at USD 2499 and X7 Plus Gen 2 (1.5 acres) at USD 2999. Buy Now links to the Where to Buy dealer locator; there is no official cart on that site. The old shopsunseekertech.com variant 67587699769661 no longer exists (guest cart/add.js returned 'Cannot find variant' on 20 Oct 2026). History: official cart $2,599.00 USD on 4 Oct 2026 (no compare-at, no discount); sold out on 16 Oct 2026. Tax and shipping excluded."
 coverageAcres: 0.75
 slopePercent: 70
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Mowable lawns up to 0.75 acre with slopes or tree cover that want wire-free RTK plus vision and AWD rated to 70% (35°), knowing you still place the charging station and the positioning equipment, and that 4G anti-theft is optional on this model.
-verdict: "At $2,599 with no compare-at (sold out on 16 Oct 2026), the X7 Gen 2 is the 0.75-acre AWD version: RTK plus vision, a 14-inch dual-disc cut, and a 70% (35°) slope rating, with no boundary wire. The hard limit is that acre rating, a positioning setup the FAQ still requires even though the included list shows no reference station, and 4G tracking that is optional here rather than included as on the $3,299 X7 Plus Gen 2 (1.5 acres)."
+verdict: "At USD 2,499 on the official US page on 20 Oct 2026 (dealer purchase only; it was $2,599 in the official store, sold out on 16 Oct 2026), the X7 Gen 2 is the 0.75-acre AWD version: RTK plus vision, a 14-inch dual-disc cut, and a 70% (35°) slope rating, with no boundary wire. The hard limit is that acre rating, a positioning setup the FAQ still requires even though the included list shows no reference station, and 4G tracking that is optional here rather than included as on the USD 2,999 X7 Plus Gen 2 (1.5 acres)."
 affiliateUrl: ""
 officialUrl: https://sunseekerelite.com/us/x7-gen-2
 image: /mowers/sunseeker-x7-gen-2.webp
-updated: 2026-10-16
+updated: 2026-10-20
 cuttingWidthIn: 14
 cuttingHeight: "0.8–4.0 in"
 noiseDb: 60
@@ -52,7 +52,7 @@ This fits a lawn whose **mowable grass is within 0.75 acre**, with slopes, tree 
 
 Plan the install before you buy. There is **no boundary wire**, but the FAQ says you still complete mapping and a positioning setup, and that you need suitable places for the **charging station** and **positioning equipment**. The published included list does not show a reference station (see conflicts below). The **4G-GPS** tracker is **not in this cart**. Wi-Fi and Bluetooth are the connectivity row for this model.
 
-Skip it if the grass area is closer to **1.5 acres** and you want 4G in the box: that is the X7 Plus Gen 2 at **$3,299** on the same page, not this variant. Skip it if you need a published weight or a separate boundary-slope number. Neither is on the spec table. No weight is published, so `weightLbs` is omitted.
+Skip it if the grass area is closer to **1.5 acres** and you want 4G in the box: that is the X7 Plus Gen 2 at **USD 2,999** on the same page (20 Oct 2026; it was $3,299), not this variant. Skip it if you need a published weight or a separate boundary-slope number. Neither is on the spec table. No weight is published, so `weightLbs` is omitted.
 
 ## Standout details
 
@@ -62,7 +62,7 @@ Skip it if the grass area is closer to **1.5 acres** and you want 4G in the box:
 - **Zones and app:** spec table says **no limit** on mowing zones. The app is described for virtual boundaries, schedules, cutting height, spot cutting, and return modes. Alexa and Google Home are marked on the spec table.
 - **Battery and weather:** **10 Ah**. No runtime or charge-time figure is in the spec table, so none is stated here. **IPX5**. Rain sensor is marked. Noise **60 dB(A)**.
 - **In the box (page list):** robotic lawn mower ×1, charging station ×1, charger for the charging station ×1, spare blades ×24, spare screws ×24, nails for the charging station ×8, clean brush ×1, quick start guide ×1, instruction manual ×1. The diagram labels the mower as X7 / X7 Plus Gen 2. No 4G module and no RTK reference station are on that list.
-- **Purchase terms on this date:** cart **$2,599**, no compare-at, in stock on 4 Oct 2026; **sold out on 16 Oct 2026** (cart refused, Offer OutOfStock). **2-year** warranty. Returns: **30 days** and **unopened** only, unless the unit is faulty or incorrect. Shipping policy: contiguous United States only (not Alaska, Hawaii, Puerto Rico or Guam), estimated **5–8 business days**. The policy table lists standard shipping at **$15.99** and **free shipping on orders over $99**. The cart total does not include tax or shipping.
+- **Purchase terms on this date:** cart **$2,599**, no compare-at, in stock on 4 Oct 2026; **sold out on 16 Oct 2026** (cart refused, Offer OutOfStock). On **20 Oct 2026** the official US page lists **USD 2,499** and sends buyers to a dealer locator; the old store variant no longer exists. **2-year** warranty. Returns: **30 days** and **unopened** only, unless the unit is faulty or incorrect. Shipping policy: contiguous United States only (not Alaska, Hawaii, Puerto Rico or Guam), estimated **5–8 business days**. The policy table lists standard shipping at **$15.99** and **free shipping on orders over $99**. The cart total does not include tax or shipping.
 
 Page conflicts (the spec table is used for the fields above):
 
@@ -76,6 +76,6 @@ Sources: [official Sunseeker US product page, X7 Gen 2](https://sunseekerelite.c
 
 ## Honest verdict
 
-At **$2,599** with **no compare-at** (sold out on 16 Oct 2026), the X7 Gen 2 is the smaller of the two new AWD models: **up to 0.75 acre** of mowable grass, **RTK + VSLAM**, a **14-inch** dual-disc cut, and a **70% (35°)** slope rating, with no boundary wire. What you still give up is the acre cap, the positioning setup, and 4G.
+At **USD 2,499** on the official US page (20 Oct 2026; dealer purchase only, it was $2,599 and sold out on 16 Oct 2026), the X7 Gen 2 is the smaller of the two new AWD models: **up to 0.75 acre** of mowable grass, **RTK + VSLAM**, a **14-inch** dual-disc cut, and a **70% (35°)** slope rating, with no boundary wire. What you still give up is the acre cap, the positioning setup, and 4G.
 
 The FAQ still tells you to place **positioning equipment**, and the included list does not show a reference station. **4G-GPS anti-theft is optional** on this variant. The same page prices **X7 Plus Gen 2** at **$3,299** for **up to 1.5 acres** with that module included. Buy this Gen 2 if the grass area is inside **0.75 acre** and you do not need 4G in the box. The return window is **30 days and unopened**, unless the mower is faulty or incorrect.
