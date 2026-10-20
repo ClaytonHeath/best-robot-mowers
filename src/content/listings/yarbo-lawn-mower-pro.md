@@ -42,6 +42,108 @@ Owners with large residential or estate lawns near Yarbo’s **Max Mowing Size o
 - **Cut:** Width **20 in (500 mm)**; height **0.8–4.0 in (20–102 mm)**; **Cutting System: Dual Straight-Blade**; **Cutting Motors: 2×300W**.
 - **Build / power:** **Weight 216.4 lbs (98.2 kg)**; waterproof **IPX6**; **Battery Capacity 36 V 38.4 Ah**; charge **90 min (20%–80%)**; **Auto-recharge Yes**; connectivity **4G, Wi-Fi, Bluetooth, Wi-Fi HaLow**; **Rain Detection Yes**; **Teleoperation Yes**; operating temperature **-13°F to 113°F (-25°C to 45°C)**.
 
+## Compared with other larger-yard listings
+
+The Lawn Mower Pro is listed here next to the other published listings in the larger-yards band (published coverage over 1.5 acres): the [Navimow X390](/mowers/segway-navimow-x390/), the [Automower 440 iQ](/mowers/husqvarna-automower-440-iq/), and the [Lymow One Plus 10A](/mowers/lymow-one-plus-10a/). Every cell below is copied from that model’s listing. Prices are the amounts on those listings, with the date each one was checked. “Not listed” means that listing does not state the value. There is no ranking.
+
+<div class="table-scroll">
+<table>
+  <caption>Listing specs for larger-yard mowers (coverage over 1.5 acres)</caption>
+  <thead>
+    <tr>
+      <th scope="col">Spec</th>
+      <th scope="col">Lawn Mower Pro</th>
+      <th scope="col"><a href="/mowers/segway-navimow-x390/">Navimow X390</a></th>
+      <th scope="col"><a href="/mowers/husqvarna-automower-440-iq/">Automower 440 iQ</a></th>
+      <th scope="col"><a href="/mowers/lymow-one-plus-10a/">Lymow One Plus 10A</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">US price</th>
+      <td>$5,499 (8 Sep 2026)</td>
+      <td>$4,499 (9 Oct 2026)</td>
+      <td>$4,299.99 (20 Oct 2026)</td>
+      <td>$3,199 (14 Oct 2026)</td>
+    </tr>
+    <tr>
+      <th scope="row">Stock</th>
+      <td>In stock (8 Sep 2026)</td>
+      <td>In stock (9 Oct 2026)</td>
+      <td>Out of stock (20 Oct 2026)</td>
+      <td>not listed</td>
+    </tr>
+    <tr>
+      <th scope="row">Coverage</th>
+      <td>6 acres</td>
+      <td>2.5 acres</td>
+      <td>2 acres</td>
+      <td>1.73 acres per day</td>
+    </tr>
+    <tr>
+      <th scope="row">Work-area slope</th>
+      <td>70% (35°)</td>
+      <td>50% (27°)</td>
+      <td>45%</td>
+      <td>100% (45°)</td>
+    </tr>
+    <tr>
+      <th scope="row">Navigation</th>
+      <td>RTK + Vision</td>
+      <td>RTK + Vision</td>
+      <td>RTK</td>
+      <td>RTK + Vision</td>
+    </tr>
+    <tr>
+      <th scope="row">Boundary</th>
+      <td>Wire-free</td>
+      <td>Wire-free</td>
+      <td>Wire-free</td>
+      <td>Wire-free</td>
+    </tr>
+    <tr>
+      <th scope="row">Cutting width</th>
+      <td>20 in</td>
+      <td>9.3 in</td>
+      <td>9.4 in</td>
+      <td>16 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Cutting height</th>
+      <td>0.8–4.0 in (20–102 mm)</td>
+      <td>2–4 in, automatic</td>
+      <td>1–4 in (approximate), electric</td>
+      <td>1.2–4.0 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Drive</th>
+      <td>Dual drive motors</td>
+      <td>Rear-wheel drive</td>
+      <td>not listed</td>
+      <td>Tracked (heavy-duty track drive)</td>
+    </tr>
+    <tr>
+      <th scope="row">Weight</th>
+      <td>216.4 lb</td>
+      <td>43.9 lb</td>
+      <td>39 lb</td>
+      <td>78.5 lb</td>
+    </tr>
+    <tr>
+      <th scope="row">Ingress rating</th>
+      <td>IPX6</td>
+      <td>IP66</td>
+      <td>IPX5</td>
+      <td>IPX6</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+The coverage row is each listing’s coverage figure. For the Lawn Mower Pro that figure is Max Mowing Size; the same listing also records 1.7 acres per day. The 440 iQ figure is systematic capacity; that listing rates irregular layouts at 1 acre. The One Plus 10A listing does not publish a maximum lawn size, and its 1.73-acre figure is acres per day. The X390 listing also notes map storage up to about 1.2× the recommended area, depending on layout.
+
+Slope in the table is the work-area figure. The X390 listing also records 25% (14°) at the boundary, and the 440 iQ listing records 15% at the boundary. The Lawn Mower Pro and One Plus 10A listings do not state a separate boundary slope. The 440 iQ listing has no drive type. It says a normal install does not require buried loop wire, and that physical wire is supported if you choose it. The Lawn Mower Pro price had a $5,999 compare-at on 8 Sep 2026. The X390 listing also records a $4,999 MSRP; the cell above is the store price. The 440 iQ was out of stock on husqvarna.com on 20 Oct 2026. The One Plus 10A listing records the cart price and does not state a stock status.
+
 ## Honest verdict
 
 A serious large-yard modular mower with a live official US price and published 6-acre / 70% yard-fit numbers — buy it for Core + Lawn Mower Pro capability and RTK + vision navigation, not as a compact one-box robot. Hard limits remain the **6-acre** max mowing size, **70%** climb rating, and the **~$5.5k** modular system cost/weight.
