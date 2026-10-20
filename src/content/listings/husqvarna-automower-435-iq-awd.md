@@ -4,8 +4,8 @@ brand: Husqvarna
 slug: husqvarna-automower-435-iq-awd
 model: Automower 435 iQ AWD
 status: published
-priceUsd: 4799
-priceNote: US street $4,599.99–$4,999.99 on 1 Sep 2026. $4,799.95 at Safford (MPN 970745205); $4,999.99 at The Power Tool Store (SKU 970745205) and Nebraska Furniture Mart (Model AM 435 iQ AWD); $4,599.99 at RIPSAW (spec table SKU 970 74 52-05). Rechecked 20 Oct 2026 (AWST) — unchanged at all four (RIPSAW guest cart $4,599.99 USD). husqvarna.com now lists an MSRP and an official cart since then — $4,999.99 MSRP for SKU 970745205, Available online, official guest cart $4,999.99 USD on 20 Oct 2026. Dealer prices are indicative, not official MSRP. Check the live cart.
+priceUsd: 4999.99
+priceNote: "Official husqvarna.com US price on 20 Oct 2026 (09:23–09:25 AWST) for SKU 970745205: $4,999.99 MSRP, Available online; the official guest cart returned $4,999.99 USD. Tax and shipping excluded. Check the live cart."
 coverageAcres: 1.3
 slopePercent: 70
 navigation:
@@ -29,7 +29,7 @@ driveType: AWD
 
 Husqvarna Automower 435 iQ AWD is a residential, all-wheel-drive, EPOS satellite-mapped robot mower. The US/CA SKU is **970 74 52-05** (AM435iQAWD US, CA). Husqvarna leads with **1.3 acre Lawn Size (±20%)** — the same figure as **area capacity — systematic**. **Area capacity — irregular** is **0.9 acre**. Boundary type is **Virtual wire, Physical wire**. A normal install does not require buried loop wire.
 
-The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, and EPOS Reference station. US dealer carts on 1 Sep 2026 ranged **$4,599.99–$4,999.99**. They were unchanged on 20 Oct 2026, when husqvarna.com listed a **$4,999.99 MSRP** and its official cart returned $4,999.99 USD.
+The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, and EPOS Reference station. husqvarna.com lists it at **$4,999.99** and its official cart returned that price on 20 Oct 2026.
 
 This is not the Automower **435X AWD** (physical-wire AWD, already listed), not the **410 iQ** (970 72 74-01), and not the **440 iQ** (970 72 76-01).
 
@@ -39,7 +39,7 @@ Yards around **1.3 acres** when mowed systematically — **0.9 acre if the layou
 
 ## Standout details
 
-- **Price:** US street $4,599.99–$4,999.99 on 1 Sep 2026 at [Safford Equipment](https://saffordequipment.com/product/husqvarna-435iq-awd-automower-970745205/) ($4,799.95, MPN 970745205), [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970745205) (SKU 970745205, $4,999.99), [Nebraska Furniture Mart](https://www.nfm.com/husqvarna-automower-435iq-69832046/69832046.html) ($4,999.99, Model AM 435 iQ AWD), and [RIPSAW](https://ripsaw.shop/products/husqvarna-automower-435-iq-awd) ($4,599.99 cart; $4,999.99 featured; spec table SKU 970 74 52-05). All four were unchanged on 20 Oct 2026. Dealer prices are indicative, not official MSRP. husqvarna.com now lists **$4,999.99 MSRP**, "Available online", and its official cart returned **$4,999.99 USD** on 20 Oct 2026. Check the live cart.
+- **Price:** **$4,999.99** official husqvarna.com US price for SKU 970745205 on 20 Oct 2026 (AWST), "Available online"; the official guest cart returned **$4,999.99 USD**. Check the live cart.
 - **Coverage:** 1.3 acre recommended lawn size (±20%) and systematic capacity; **0.9 acre irregular**. The FAQ line “up to 0.9 acres” matches the irregular rating, not the 1.3-acre lead figure on the same page.
 - **Navigation:** EPOS satellite positioning (centimeter-accurate location via satellites plus the national cellular network / the included reference station). Virtual boundaries in the Automower Connect app. Physical wire is supported if you choose it. Object detection is **ultrasonic**.
 - **Drive / slope:** All-wheel drive with pivoting rear axle. **70%** inside the installation; **50%** at the boundary.
@@ -49,7 +49,7 @@ Yards around **1.3 acres** when mowed systematically — **0.9 acre if the layou
 - **Connectivity:** Cellular, Bluetooth; Automower Connect app; Smart Home integration: Yes; firmware over the air. GPS theft tracking, GeoFence, PIN, alarm, lift and tilt sensors. Color display TFT 2.8" QVGA plus jogwheel.
 - **In the box:** Charging station, 6 extra blades, 33 ft low-voltage cable, PSU, EPOS Reference station.
 
-Source: [Husqvarna Automower 435 iQ AWD](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435-iq-awd/), checked 1 Sep 2026. Street price from dealer carts the same day.
+Source: [Husqvarna Automower 435 iQ AWD](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-435-iq-awd/), checked 1 Sep 2026. Price from the official husqvarna.com US page and cart on 20 Oct 2026 (AWST).
 
 ## Honest verdict
 

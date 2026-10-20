@@ -47,7 +47,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | Fit | Listing | Coverage | Slope | Nav | Wire | Price (listing) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Half-acre AWD LiDAR | [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/) | 0.5 acre | 80% | LiDAR + vision | Wire-free | $1,699.99 |
-| Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | ~$2,599 street |
+| Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | $2,599.99 (husqvarna.com) |
 | ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 |
 | ~3/4-acre LiDAR + trimmer | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | 0.75 acre | 50% (virtual boundary 20%) | LiDAR + vision | Wire-free | $2,499.99 |
 | ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $2,599.99 |
@@ -66,8 +66,8 @@ Manufacturer slope % is **max inside the work area** unless the listing splits b
 | Highest published climb in catalog | [Segway Navimow X430](/mowers/segway-navimow-x430/) | 84% | 1 acre | AWD | $2,499 (sold out 27 Sep 2026) |
 | AWD LiDAR, no RTK pole | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) / [2000](/mowers/dreame-a3-awd-2000/) / [Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 80% | 0.25 / 0.5 / 0.87 acre | AWD | $1,399.99–$2,599.99 |
 | AWD LiDAR small yard | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 80% | 0.37 acre | AWD | $2,399 (sold out 11 Oct 2026) |
-| EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 70% in-lawn / 50% boundary | 1.3 systematic / 0.9 irregular | AWD | ~$4,799 street |
-| Wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 70% in-lawn / 50% at wire | 0.9 acre | AWD | ~$2,999 street |
+| EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 70% in-lawn / 50% boundary | 1.3 systematic / 0.9 irregular | AWD | $4,999.99 (husqvarna.com) |
+| Wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 70% in-lawn / 50% at wire | 0.9 acre | AWD | $2,999.99 (husqvarna.com, in-store only) |
 | Modular large / tracked core | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 70% | 6 acres max | Dual drive motors | $5,499 |
 
 **Yard-fit note:** A published 80% or 84% is not a promise on wet turf or at a cliff edge. Prefer AWD cards when grade is the reason you are shopping; rear- or front-wheel machines with 30–50% caps are weaker matches for real hills.
@@ -97,7 +97,7 @@ These listings require a physical perimeter loop (`wireFree: false`). Pegs/wire 
 | Eighth-acre wire | [Worx Landroid S WR165](/mowers/worx-landroid-s-wr165/) | 0.125 acre | 30% | $999.99 (out of stock 6 Sep 2026) |
 | Quarter-acre wire | [Worx Landroid M WR147](/mowers/worx-landroid-m-wr147/) | 0.25 acre | 30% | $1,199.99 (out of stock 5 Sep 2026) |
 | Half-acre wire | [Worx Landroid L WR155](/mowers/worx-landroid-l-wr155/) | 0.5 acre | 30% | $699.99 sale (out of stock 28 Aug 2026) |
-| Hilly wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 0.9 acre | 70% | ~$2,999 street; loop wire/stakes sold separately |
+| Hilly wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 0.9 acre | 70% | $2,999.99 (husqvarna.com, in-store only); loop wire/stakes sold separately |
 
 **Yard-fit note:** A simple open rectangle can still be a better match for boundary wire than a wire-free kit that needs clear sky or camera sight lines. Stock and street prices move — confirm the live cart on the official URL in each listing.
 
@@ -110,8 +110,8 @@ Catalog support above ~1 acre is real but thinner than the small-yard shelf.
 | Fit | Listing | Coverage | Slope | Wire | Price (listing) |
 | --- | --- | --- | --- | --- | --- |
 | 1-acre AWD RTK | [Segway Navimow X430](/mowers/segway-navimow-x430/) | 1 acre | 84% | Wire-free | $2,499 (sold out 27 Sep 2026) |
-| ~1.3-acre EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 1.3 systematic / 0.9 irregular | 70% | Wire-free | ~$4,799 street |
-| ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | ~$4,299 street |
+| ~1.3-acre EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 1.3 systematic / 0.9 irregular | 70% | Wire-free | $4,999.99 (husqvarna.com) |
+| ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | $4,299.99 (husqvarna.com, out of stock 20 Oct 2026) |
 | 2.5-acre RTK | [Segway Navimow X390](/mowers/segway-navimow-x390/) | 2.5 acres | 50% | Wire-free | $4,499 ($4,999 MSRP) |
 | Estate modular | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 6 acres max | 70% | Wire-free | $5,499 |
 

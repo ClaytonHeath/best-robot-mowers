@@ -4,15 +4,15 @@ brand: Husqvarna
 slug: husqvarna-automower-420-iq
 model: Automower 420 iQ
 status: published
-priceUsd: 3299
-priceNote: "US street $3,195.00–$3,299.99 on 20 Oct 2026 (AWST). $3,299.99 at The Power Tool Store (SKU 970727501; guest cart $3,299.99 USD, in stock) and $3,195.00 at Georgetown Small Engines (in stock). Indicative, not official MSRP. husqvarna.com separately lists a $3,299.99 MSRP for SKU 970727501, but on 20 Oct 2026 it showed Out of Stock with Add To Cart disabled. Check the live cart."
+priceUsd: 3299.99
+priceNote: "Official husqvarna.com US price on 20 Oct 2026 (09:23–09:25 AWST) for SKU 970727501: $3,299.99 MSRP. Out of Stock on husqvarna.com that day, with Add To Cart disabled, so no official cart total. Check the live page."
 coverageAcres: 1
 slopePercent: 45
 navigation:
   - rtk
 wireFree: true
 whoItsFor: "Lawns of about one acre mowed systematically, or about half an acre with an irregular layout, that will use EPOS virtual mapping instead of buried wire, either through Husqvarna Cloud where it is offered or the included reference station. The hard limit: Husqvarna rates it for 45% inside the work area but only 15% at the boundary, and it is not all-wheel drive."
-verdict: "The 420 iQ is the one-acre iQ Automower: EPOS virtual mapping, radar object detection, a 9.4 in deck with 1–4 in electric height, IPX5 and a 4-year warranty, at about $3,195–$3,299.99 from US dealers on 20 Oct 2026. The catch: the irregular-layout rating halves to 0.5 acre, slopes are 45% in-lawn and 15% at the boundary, and husqvarna.com itself showed it out of stock."
+verdict: "The 420 iQ is the one-acre iQ Automower: EPOS virtual mapping, radar object detection, a 9.4 in deck with 1–4 in electric height, IPX5 and a 4-year warranty, at a $3,299.99 official husqvarna.com price on 20 Oct 2026. The catch: the irregular-layout rating halves to 0.5 acre, slopes are 45% in-lawn and 15% at the boundary, and husqvarna.com showed it out of stock."
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-420-iq/
 image: /mowers/husqvarna-automower-420-iq.webp
@@ -44,7 +44,7 @@ It is the wrong machine if:
 
 ## Standout details
 
-- **Price:** US street $3,195.00–$3,299.99 on 20 Oct 2026 (AWST) at [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970727501) ($3,299.99, SKU 970727501; guest cart $3,299.99 USD, in stock) and [Georgetown Small Engines](https://www.georgetownsmallengines.org/product-page/automower-420-iq) ($3,195.00, in stock). Indicative, not official MSRP. husqvarna.com lists a **$3,299.99 MSRP** but showed the 420 iQ **Out of Stock** with Add To Cart disabled on the same date. Check the live cart.
+- **Price:** **$3,299.99** official husqvarna.com US price for SKU 970727501 on 20 Oct 2026 (AWST). It showed **Out of Stock** with Add To Cart disabled, so there was no official cart total. Check the live page.
 - **Coverage:** 1 acre recommended lawn size (±20%) and systematic capacity; **0.5 acre irregular**.
 - **Navigation:** EPOS satellite positioning, which Husqvarna describes as centimeter-accurate location from multiple satellites plus the cellular network, via Husqvarna Cloud or the included reference station. Virtual boundaries and stay-out zones are set in the Automower Connect app, and physical wire is supported if you choose it. Object detection is **radar**. Up to 3 follow-guide paths.
 - **Slope:** 45% inside the installation; 15% at the boundary.
@@ -55,7 +55,7 @@ It is the wrong machine if:
 - **Warranty and extras:** 4-year warranty; Husqvarna includes a year of free replacement blades. Professional installation is offered.
 - **Page note:** the kit line on the 420 iQ page says "1 x Automower® 410iQ robotic mower". This listing treats that as a page copy error, because the spec table, SKU 970 72 75-01 and the studio still all identify the 420 iQ.
 
-Source: [Husqvarna Automower 420 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-420-iq/) (specifications, features, "Price Includes" box list and studio still), checked 20 Oct 2026 (AWST). The street price comes from the dealer pages above on the same day.
+Source: [Husqvarna Automower 420 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-420-iq/) (specifications, features, "Price Includes" box list, studio still and price), checked 20 Oct 2026 (AWST).
 
 ## Honest verdict
 
@@ -75,4 +75,4 @@ This is the one-acre iQ Automower for a **systematic lawn of about an acre**. It
 
 The 420 iQ shares the 410 iQ's chassis, deck, 5 Ah pack and slope ratings. It doubles the rated area and recharges in half the time (4.2 A vs 2.2 A charge current). The 440 iQ adds a larger pack and twice the area again. The two 435 models trade the 1–4 in deck for AWD and a 70% slope rating.
 
-The limits are the halved irregular-layout rating, the 15% boundary slope, a typical 84-minute run per charge on a full acre, and stock. husqvarna.com showed it out of stock on 20 Oct 2026, so the purchase today is through dealers. Buy the 420 iQ for an open, moderately sloped lawn of about an acre. Choose an AWD model if the edges are steep.
+The limits are the halved irregular-layout rating, the 15% boundary slope, a typical 84-minute run per charge on a full acre, and stock. husqvarna.com showed it out of stock at $3,299.99 on 20 Oct 2026, so check availability before planning around it. Buy the 420 iQ for an open, moderately sloped lawn of about an acre. Choose an AWD model if the edges are steep.

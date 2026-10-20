@@ -40,14 +40,14 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 ### [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/)
 - **Coverage:** **1.3 acre** systematic / **0.9 acre irregular**
 - **Slope:** 70% in-lawn / 50% boundary · **Drive:** AWD · **Nav:** EPOS RTK · wire-free
-- **Price:** ~$4,799 street (1 Sep 2026 range on listing)
+- **Price:** $4,999.99 official husqvarna.com price (20 Oct 2026)
 - **Who it’s for (listing):** Steep ~1.3-acre systematic lawns (~0.9 if irregular) that need AWD and virtual boundaries.
 - **What breaks the deal:** Irregular layouts over ~0.9 acre; need for hose-wash underside (IPX4); refusing the EPOS reference-station install story.
 
 ### [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/)
 - **Coverage:** **2 acre** systematic / **1 acre irregular**
 - **Slope:** 45% in-lawn / 15% boundary · **Nav:** EPOS RTK · wire-free (not AWD)
-- **Price:** ~$4,299 street (30 Aug 2026)
+- **Price:** $4,299.99 official husqvarna.com price (out of stock on 20 Oct 2026)
 - **Who it’s for (listing):** Up to 2-acre systematic mowing; about 1 acre if the layout is irregular.
 - **What breaks the deal:** Messy acre-plus when you only looked at the 2-acre headline; steep banks better served by AWD SKUs; hills over 45%.
 

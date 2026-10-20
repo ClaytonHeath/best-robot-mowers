@@ -78,13 +78,13 @@ Only models with published listings and supporting frontmatter are listed. Price
 #### [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/)
 - **Slope:** 70% in-lawn / 50% boundary · **Coverage:** 1.3 acre systematic / **0.9 acre irregular**
 - **Nav:** EPOS RTK · wire-free · **Drive:** AWD
-- **Price (listing):** ~$4,799 street (range $4,599.99–$4,999.99 on 1 Sep 2026)
+- **Price (listing):** $4,999.99 official husqvarna.com price (20 Oct 2026)
 - **Catch:** Irregular capacity, IPX4 (underside not hose-wash), included EPOS reference station.
 
 #### [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/)
 - **Slope:** 70% in-lawn / 50% at wire · **Coverage:** 0.9 acre
 - **Nav:** Boundary wire (`wireFree: false`) · **Drive:** AWD
-- **Price (listing):** ~$2,999 street · loop wire and stakes sold separately
+- **Price (listing):** $2,999.99 official husqvarna.com price (in-store only, 20 Oct 2026) · loop wire and stakes sold separately
 - Fits hilly yards that will bury wire and do not want an RTK pole.
 
 #### [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/)
