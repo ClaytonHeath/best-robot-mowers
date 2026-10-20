@@ -4,8 +4,8 @@ brand: Husqvarna
 slug: husqvarna-automower-410-iq
 model: Automower 410 iQ
 status: published
-priceUsd: 2599
-priceNote: "US street $1,999.00–$2,599.99 on 20 Oct 2026 (AWST). $2,599.99 at The Power Tool Store (sku 970727401; guest cart $2,599.99 USD) and Georgetown Small Engines (SKU 970727401; was $2,999.99 on 31 Aug 2026); $1,999.00 sale at Safford (MPN 970727401; regular $2,599.99). CPO Outlets ($2,499.99 on 31 Aug 2026) returned Site Offline on 20 Oct 2026. husqvarna.com now lists an MSRP and an official cart for SKU 970727401 — $2,599.99 MSRP, Available online, guest cart $2,599.99 USD on 20 Oct 2026. Dealer prices are indicative, not official MSRP. Check the live cart."
+priceUsd: 2599.99
+priceNote: "Official husqvarna.com US price on 20 Oct 2026 (09:23–09:25 AWST) for SKU 970727401: $2,599.99 MSRP, Available online; the official guest cart returned $2,599.99 USD. Tax and shipping excluded. Check the live cart."
 coverageAcres: 0.5
 slopePercent: 45
 navigation:
@@ -28,7 +28,7 @@ ipRating: IPX5
 
 Husqvarna Automower 410 iQ is a residential, EPOS satellite-mapped robot mower. The US/CA SKU is **970 72 74-01**. Husqvarna leads with **0.5 acre lawn size (±20%)** — the same figure as **area capacity — systematic**. **Area capacity — irregular** is **0.25 acre**. Boundary type is **Physical wire, Virtual wire**. A normal install does not require buried loop wire.
 
-The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** US dealer prices on 20 Oct 2026 ranged **$1,999.00–$2,599.99** (they were $2,499.99–$2,999.99 on 31 Aug 2026). husqvarna.com now lists a **$2,599.99 MSRP** with an official cart (20 Oct 2026).
+The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** husqvarna.com lists it at **$2,599.99** and its official cart returned that price on 20 Oct 2026.
 
 ## Who it's for
 
@@ -36,7 +36,7 @@ Suburban lawns around **half an acre** when mowed systematically — **a quarter
 
 ## Standout details
 
-- **Price:** US street $1,999.00–$2,599.99 on 20 Oct 2026 (AWST) at [Safford Equipment](https://saffordequipment.com/product/husqvarna-410iq-automower-970727401/) ($1,999.00 sale, $2,599.99 regular, MPN 970727401), [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970727401) (sku 970727401, $2,599.99 guest cart), and [Georgetown Small Engines](https://www.georgetownsmallengines.org/product-page/automower-410-iq) ($2,599.99, SKU 970727401; it was $2,999.99 on 31 Aug 2026). CPO Outlets ($2,499.99 on 31 Aug 2026) returned "Site Offline" on 20 Oct 2026. Dealer prices are indicative, not official MSRP. husqvarna.com itself now lists **$2,599.99 MSRP**, "Available online", and its official cart returned **$2,599.99 USD** on 20 Oct 2026. Check the live cart.
+- **Price:** **$2,599.99** official husqvarna.com US price for SKU 970727401 on 20 Oct 2026 (AWST), "Available online"; the official guest cart returned **$2,599.99 USD**. Check the live cart.
 - **Coverage:** 0.5 acre recommended lawn size (±20%) and systematic capacity; **0.25 acre irregular**.
 - **Navigation:** EPOS satellite positioning (centimeter-accurate location via satellites plus cellular / the included reference station, or Husqvarna Cloud where coverage exists). Virtual boundaries in the Automower Connect app. Physical wire is supported if you choose it. Object detection is **radar**, not the boundary system.
 - **Slope:** 45% inside the installation; 15% at the boundary.
@@ -46,7 +46,7 @@ Suburban lawns around **half an acre** when mowed systematically — **a quarter
 - **Connectivity:** Cellular, Wi-Fi, Bluetooth; Automower Connect app; Smart Home integration: Yes; firmware over the air. GPS theft tracking, GeoFence, PIN, alarm, lift and tilt sensors. Color display TFT 2.8" QVGA plus jogwheel.
 - **In the box / not in the box:** Charging station, 6 extra blades, 33 ft low-voltage cable, PSU, 100 stakes, EPOS Plug-in, EPOS Reference station. Loop wire sold separately.
 
-Source: [Husqvarna Automower 410 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/), checked 31 Aug 2026. Street price from dealer carts the same day.
+Source: [Husqvarna Automower 410 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/), checked 31 Aug 2026. Price from the official husqvarna.com US page and cart on 20 Oct 2026 (AWST).
 
 ## Honest verdict
 
