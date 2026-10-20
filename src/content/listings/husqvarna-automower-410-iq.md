@@ -5,7 +5,7 @@ slug: husqvarna-automower-410-iq
 model: Automower 410 iQ
 status: published
 priceUsd: 2599
-priceNote: US street $2,499.99–$2,999.99 on 31 Aug 2026. $2,599.99 at Safford (MPN 970727401) and The Power Tool Store (sku 970727401); $2,499.99 at CPO Outlets; $2,999.99 at Georgetown Small Engines (SKU 970727401). husqvarna.com has no visible cart. Not official MSRP. Check the live cart.
+priceNote: "US street $1,999.00–$2,599.99 on 20 Oct 2026 (AWST). $2,599.99 at The Power Tool Store (sku 970727401; guest cart $2,599.99 USD) and Georgetown Small Engines (SKU 970727401; was $2,999.99 on 31 Aug 2026); $1,999.00 sale at Safford (MPN 970727401; regular $2,599.99). CPO Outlets ($2,499.99 on 31 Aug 2026) returned Site Offline on 20 Oct 2026. husqvarna.com now lists an MSRP and an official cart for SKU 970727401 — $2,599.99 MSRP, Available online, guest cart $2,599.99 USD on 20 Oct 2026. Dealer prices are indicative, not official MSRP. Check the live cart."
 coverageAcres: 0.5
 slopePercent: 45
 navigation:
@@ -16,7 +16,7 @@ verdict: Wire-free EPOS for 0.5-acre systematic mowing — 0.25-acre irregular r
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/
 image: /mowers/husqvarna-automower-410-iq.webp
-updated: 2026-08-31
+updated: 2026-10-20
 cuttingWidthIn: 9.4
 cuttingHeight: 1–4 in (approximate), electric
 noiseDb: 62
@@ -28,7 +28,7 @@ ipRating: IPX5
 
 Husqvarna Automower 410 iQ is a residential, EPOS satellite-mapped robot mower. The US/CA SKU is **970 72 74-01**. Husqvarna leads with **0.5 acre lawn size (±20%)** — the same figure as **area capacity — systematic**. **Area capacity — irregular** is **0.25 acre**. Boundary type is **Physical wire, Virtual wire**. A normal install does not require buried loop wire.
 
-The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** US dealer carts on 31 Aug 2026 ranged **$2,499.99–$2,999.99**. husqvarna.com has no visible cart.
+The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** US dealer prices on 20 Oct 2026 ranged **$1,999.00–$2,599.99** (they were $2,499.99–$2,999.99 on 31 Aug 2026). husqvarna.com now lists a **$2,599.99 MSRP** with an official cart (20 Oct 2026).
 
 ## Who it's for
 
@@ -36,7 +36,7 @@ Suburban lawns around **half an acre** when mowed systematically — **a quarter
 
 ## Standout details
 
-- **Price:** US street $2,499.99–$2,999.99 on 31 Aug 2026 at [Safford Equipment](https://saffordequipment.com/product/husqvarna-410iq-automower-970727401/) ($2,599.99, MPN 970727401), [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970727401) (sku 970727401, $2,599.99), [CPO Outlets](https://www.cpooutlets.com/husqvarna-970727401-automower-410-iq-0.5-acre-electric-residential-robotic-lawn-mower/hqvn970727401.html) ($2,499.99; $2,999.00 strikethrough), and [Georgetown Small Engines](https://www.georgetownsmallengines.org/product-page/automower-410-iq) ($2,999.99, SKU 970727401). Not an official visible MSRP. Check the live cart.
+- **Price:** US street $1,999.00–$2,599.99 on 20 Oct 2026 (AWST) at [Safford Equipment](https://saffordequipment.com/product/husqvarna-410iq-automower-970727401/) ($1,999.00 sale, $2,599.99 regular, MPN 970727401), [The Power Tool Store](https://thepowertoolstore.com/products/husqvarna-970727401) (sku 970727401, $2,599.99 guest cart), and [Georgetown Small Engines](https://www.georgetownsmallengines.org/product-page/automower-410-iq) ($2,599.99, SKU 970727401; it was $2,999.99 on 31 Aug 2026). CPO Outlets ($2,499.99 on 31 Aug 2026) returned "Site Offline" on 20 Oct 2026. Dealer prices are indicative, not official MSRP. husqvarna.com itself now lists **$2,599.99 MSRP**, "Available online", and its official cart returned **$2,599.99 USD** on 20 Oct 2026. Check the live cart.
 - **Coverage:** 0.5 acre recommended lawn size (±20%) and systematic capacity; **0.25 acre irregular**.
 - **Navigation:** EPOS satellite positioning (centimeter-accurate location via satellites plus cellular / the included reference station, or Husqvarna Cloud where coverage exists). Virtual boundaries in the Automower Connect app. Physical wire is supported if you choose it. Object detection is **radar**, not the boundary system.
 - **Slope:** 45% inside the installation; 15% at the boundary.
