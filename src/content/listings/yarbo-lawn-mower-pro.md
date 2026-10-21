@@ -4,8 +4,8 @@ brand: Yarbo
 slug: yarbo-lawn-mower-pro
 model: Lawn Mower Pro (Y40 / YAR-Y40-LM)
 status: published
-priceUsd: 5499
-priceNote: Official Yarbo US cart/list $5,499.00 for Yarbo Lawn Mower Pro (SKU YAR-Y40-LM, variant 44007678672993) on 8 Sep 2026; compare-at $5,999.00 on the same PDP. JSON-LD Offer InStock price 5499.0 USD. This SKU is the Yarbo Core + Lawn Mower Pro module bundle (not the $7,199 All-Season Pro 4-in-1).
+priceUsd: 5999
+priceNote: "Official Yarbo US cart on 21 Oct 2026 (AWST) for Yarbo Lawn Mower Pro (SKU YAR-Y40-LM, variant 44007678672993): $5,999.00 with no compare-at; guest cart USD, no discount, product JSON available. It was $5,499.00 against a $5,999.00 compare-at on 8 Sep 2026, so that sale has ended. This SKU is the Yarbo Core + Lawn Mower Pro module bundle (not the $7,199 All-Season Pro 4-in-1, not rechecked)."
 coverageAcres: 6
 slopePercent: 70
 navigation:
@@ -17,7 +17,7 @@ verdict: A modular tracked-core + Lawn Mower Pro deck for very large lawns with 
 affiliateUrl: ""
 officialUrl: https://www.yarbo.com/products/yarbo-lawn-mower-pro
 image: /mowers/yarbo-lawn-mower-pro.webp
-updated: 2026-09-08
+updated: 2026-10-21
 cuttingWidthIn: 20
 cuttingHeight: 0.8–4.0 in (20–102 mm)
 weightLbs: 216.4
@@ -27,7 +27,7 @@ driveType: Dual drive motors
 
 ## What it is
 
-Yarbo **Lawn Mower Pro** is the official US lawn-mower SKU built as a **modular Yarbo Core + Lawn Mower Pro module** (SKU **YAR-Y40-LM**), not a single sealed mower body. On 8 Sep 2026 the official US cart is live at **$5,499.00** (compare-at **$5,999.00**), **InStock**. The same PDP lists dual **300W** cutting motors, a **20 in (500 mm)** dual straight-blade deck, and app/auto height from **0.8–4.0 in (20–102 mm)**. Navigation is marketed as **PPVS / RTK + multi-sensor** with **binocular cameras**, ultrasonic sensors, and a bumper; official copy describes the setup as **wire-free**. What’s included on the PDP includes Yarbo Core, Lawn Mower Pro Module, docking station, Y Series battery, wired charger, Data Center, installation/tool kit, tow hitch, and straight blades.
+Yarbo **Lawn Mower Pro** is the official US lawn-mower SKU built as a **modular Yarbo Core + Lawn Mower Pro module** (SKU **YAR-Y40-LM**), not a single sealed mower body. On 21 Oct 2026 the official US cart is live at **$5,999.00** with no compare-at (it was **$5,499.00** against a $5,999.00 compare-at on 8 Sep 2026). The same PDP lists dual **300W** cutting motors, a **20 in (500 mm)** dual straight-blade deck, and app/auto height from **0.8–4.0 in (20–102 mm)**. Navigation is marketed as **PPVS / RTK + multi-sensor** with **binocular cameras**, ultrasonic sensors, and a bumper; official copy describes the setup as **wire-free**. What’s included on the PDP includes Yarbo Core, Lawn Mower Pro Module, docking station, Y Series battery, wired charger, Data Center, installation/tool kit, tow hitch, and straight blades.
 
 ## Who it's for
 
@@ -35,7 +35,7 @@ Owners with large residential or estate lawns near Yarbo’s **Max Mowing Size o
 
 ## Standout details
 
-- **Price:** Official US cart **$5,499.00** (compare-at **$5,999.00**) on 8 Sep 2026; JSON-LD Offer **InStock**, price **5499.0** USD, SKU **YAR-Y40-LM**.
+- **Price:** Official US cart **$5,999.00** (no compare-at; product JSON available) on 21 Oct 2026, SKU **YAR-Y40-LM**. It was **$5,499.00** (compare-at $5,999.00, JSON-LD InStock) on 8 Sep 2026.
 - **Coverage:** Specs **Max Mowing Size = Y40: 6 acres (25,000 m²)** — used for `coverageAcres`. Same table also publishes **Mowing Area Per Day = Y40: 1.7 acres (6,880 m²)** and **Mowing Time Per Charge = 120 min**.
 - **Navigation:** Official PDP markets **Precision Navigation: RTK + multi-sensor system** and a **PPVS** diagram alt text citing **RTK-GPS, dual vision cameras, and onboard sensors**; specs list **Smart Object Detection: Binocular Cameras, Ultrasonic Sensors, Bumper**. Meta description calls navigation **wire-free**. Bundle includes **Data Center** (PDP: local RTK base station).
 - **Slope / terrain:** **Max Climbing Ability 70% (35°)**; **Vertical Obstacle Clearance 2 in (50 mm)**; **Driving System: Dual Drive Motors**.

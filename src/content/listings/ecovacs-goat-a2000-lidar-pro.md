@@ -4,8 +4,8 @@ brand: ECOVACS
 slug: ecovacs-goat-a2000-lidar-pro
 model: GOAT A2000 LiDAR PRO (MR2507C, SKU GA2000LP)
 status: published
-priceUsd: 1452
-priceNote: "Official US cart price on 30 Sep 2026 (AWST) for the mower-only GOAT A2000 LiDAR PRO (SKU GA2000LP, UPC 850077202339, ECOVACS product id 1192): $1,452.00 present / $1,999.99 origin (compare-at), off $548.00. Cart subtotal and total both $1,452.00 with quantity 1 and an empty additional_list (no Care Kit, garage, blade kit, or accessories). Tax and shipping are excluded. The same page also sells 'A2000 LiDAR PRO & Accessories' ($1,490.00), 'A2000 LiDAR PRO & Garage' ($1,459.00), and 'A2000 LiDAR PRO & Blade Kit' ($1,379.00). None of those bundles is this listing."
+priceUsd: 1999.99
+priceNote: "Official US cart price on 21 Oct 2026 (AWST) for the mower-only GOAT A2000 LiDAR PRO (SKU GA2000LP, ECOVACS product id 1192): $1,999.99 present / $1,999.99 origin, off $0.00, no coupons. Cart line quantity 1 with no extended warranty or accessories added. Tax and shipping are excluded. It was $1,452.00 present against $1,999.99 origin on 30 Sep 2026, so that promotion has ended. Bundle rows on the same page are not this listing."
 coverageAcres: 0.5
 slopePercent: 50
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: "Half-acre lawns (up to about 2,000 m²) that want wire-free LiDAR mapping and a built-in edge trimmer, with no RTK antenna to install. The limits are the 1/2-acre rating, a 50% (27°) work-area slope, a 20% virtual-boundary slope, and a ~13 in dual-disc cut on a 3.0 Ah battery."
-verdict: "A $1,452 promotional dual-LiDAR mower ($1,999.99 origin) with TruEdge, no RTK station or perimeter wire, rated for 1/2 acre and 50% (27°) work slopes. Against its sibling ecovacs-goat-a3000-lidar-pro it covers less lawn (1/2 vs 3/4 acre), runs a smaller 3.0 Ah battery (~50 min per charge vs 7.5 Ah / 160 min), and costs far less; cut width, slope ratings, IPX6, and TruEdge match."
+verdict: "A $1,999.99 dual-LiDAR mower (full origin price in the official US cart on 21 Oct 2026; the $1,452 promo of 30 Sep 2026 has ended) with TruEdge, no RTK station or perimeter wire, rated for 1/2 acre and 50% (27°) work slopes. Against its sibling ecovacs-goat-a3000-lidar-pro it covers less lawn (1/2 vs 3/4 acre), runs a smaller 3.0 Ah battery (~50 min per charge vs 7.5 Ah / 160 min), and costs $500 less; cut width, slope ratings, IPX6, and TruEdge match."
 affiliateUrl: ""
 officialUrl: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro
 image: /mowers/ecovacs-goat-a2000-lidar-pro.webp
-updated: 2026-09-30
+updated: 2026-10-21
 cuttingWidthIn: 12.96
 cuttingHeight: "1.18–3.54 in (30–90 mm), electric adjustment"
 noiseDb: 62
@@ -33,7 +33,7 @@ The GOAT A2000 LiDAR PRO is ECOVACS' mid-size LiDAR mower in the US A-series. It
 
 **In the box (US product-page Inbox / spec table):** the mower with 6 blades and screws pre-installed, a lens cover, and 3 m of trimmer line; a trimmer module, trimmer screws, and trimmer brush (2 pcs) to install; charging station with a 10 m power cable, charging-station pile, 8 fastening nails, power adapter, and Allen key; spare blade kit (12 blades + 12 screws) and a spare 3 m trimmer line; quick start guide and manual.
 
-This is the smaller sibling of the listed [ecovacs-goat-a3000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro), not a renamed twin. Both share the 32 V dual-disc platform, TruEdge, HoloScope LiDAR, 50% / 20% slope pair, and IPX6 body. The hard differences are **coverage** (A2000 **1/2 acre / 2,000 m²** vs A3000 **3/4 acre / 3,000 m²**), **battery** (**3,000 mAh / 3.0 Ah** and about **50 min** mowing per charge vs **7,500 mAh / 7.5 Ah** and **160 min**), **charge time** (**50±5 min** vs **70±5 min**), **weight** (**39.24 lb** vs **40.34 lb**), **model number** (**MR2507C** vs **MR2507G**), and **price** ($1,452 promo / $1,999.99 origin on 30 Sep 2026 vs the A3000's $2,499.99 list in that listing). Cutting width is the same dual-disc setup: the A2000 page spec table lists **12.96 in**; the shared manual lists **33 cm (13.0")** for both.
+This is the smaller sibling of the listed [ecovacs-goat-a3000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro), not a renamed twin. Both share the 32 V dual-disc platform, TruEdge, HoloScope LiDAR, 50% / 20% slope pair, and IPX6 body. The hard differences are **coverage** (A2000 **1/2 acre / 2,000 m²** vs A3000 **3/4 acre / 3,000 m²**), **battery** (**3,000 mAh / 3.0 Ah** and about **50 min** mowing per charge vs **7,500 mAh / 7.5 Ah** and **160 min**), **charge time** (**50±5 min** vs **70±5 min**), **weight** (**39.24 lb** vs **40.34 lb**), **model number** (**MR2507C** vs **MR2507G**), and **price** ($1,999.99 cart on 21 Oct 2026, after a $1,452 promo on 30 Sep 2026, vs the A3000's $2,499.99 list in that listing). Cutting width is the same dual-disc setup: the A2000 page spec table lists **12.96 in**; the shared manual lists **33 cm (13.0")** for both.
 
 ## Who it's for
 
@@ -56,4 +56,4 @@ Sources: [GOAT A2000 LiDAR PRO US product page and spec table](https://www.ecova
 
 ## Honest verdict
 
-For a half-acre lawn that needs edges trimmed, this is the A-series LiDAR package without stepping up to the A3000's price or battery. It maps with dual LiDAR, needs no RTK station or wire, is rated IPX6, and trims edges automatically. The published limits are coverage (1/2 acre), a 20% virtual-boundary slope, a ~50-minute runtime on the 3.0 Ah pack, and a trimmer that runs at 82 dB(A). Against the listed [ecovacs-goat-a3000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro) you give up 1/4 acre of rating and most of the battery (3.0 Ah / ~50 min vs 7.5 Ah / 160 min) for a cart price of $1,452 on 30 Sep 2026 versus that listing's $2,499.99. Against the smaller listed [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro) ($1,499.99, 1/4 acre, 18 V, 8.66 in cut) this is the wider dual-disc 32 V machine with twice the rated area. If the lawn is closer to three-quarters of an acre, the A3000 is the matching sibling; if it is a quarter acre, the O1000 is the closer fit on coverage.
+For a half-acre lawn that needs edges trimmed, this is the A-series LiDAR package without stepping up to the A3000's price or battery. It maps with dual LiDAR, needs no RTK station or wire, is rated IPX6, and trims edges automatically. The published limits are coverage (1/2 acre), a 20% virtual-boundary slope, a ~50-minute runtime on the 3.0 Ah pack, and a trimmer that runs at 82 dB(A). Against the listed [ecovacs-goat-a3000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro) you give up 1/4 acre of rating and most of the battery (3.0 Ah / ~50 min vs 7.5 Ah / 160 min) for a cart price of $1,999.99 on 21 Oct 2026 (the $1,452 promo of 30 Sep 2026 has ended) versus that listing's $2,499.99. Against the smaller listed [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro) ($1,499.99, 1/4 acre, 18 V, 8.66 in cut) this is the wider dual-disc 32 V machine with twice the rated area. If the lawn is closer to three-quarters of an acre, the A3000 is the matching sibling; if it is a quarter acre, the O1000 is the closer fit on coverage.

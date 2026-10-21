@@ -4,8 +4,8 @@ brand: Lymow
 slug: lymow-one-plus-5a
 model: One Plus 5A | 1.1 Acres/Day (LM1PLUSUS5A)
 status: published
-priceUsd: 2999
-priceNote: "Official US cart price on 14 Oct 2026 (AWST) for variant 47332598710507 (SKU LM1PLUSUS5A, 5A | 1.1 Acres/Day): $2,999.00. Lymow product data now shows compare-at $2,999.00, the same as the price, so the earlier $2,499 sale (3 Oct 2026, against a $2,999 compare-at) has ended. Guest cart currency USD; line and original price $2,999.00 with no discount. Tax and shipping excluded (the page advertises free shipping, and US sales tax is added at checkout). The 10A version (variant 47332598743275, SKU LM1PLUSUS10A) cart-read the same day at $3,199.00, also with no markdown. A $50 first-order coupon for newsletter sign-ups is offered on the page; it is not applied in the cart."
+priceUsd: 2499
+priceNote: "Official US cart price on 21 Oct 2026 (AWST) for variant 47332598710507 (SKU LM1PLUSUS5A, 5A | 1.1 Acres/Day): $2,499.00 sale against a $2,999.00 compare-at in Lymow product data. Guest cart currency USD; line price $2,499.00 with no discount code applied. Tax and shipping excluded (the page advertises free shipping, and US sales tax is added at checkout). History: $2,499 sale on 3 Oct 2026, $2,999 full price on 14 Oct 2026. The 10A version (variant 47332598743275, SKU LM1PLUSUS10A) cart-read the same day at $2,599.00 against a $3,199.00 compare-at. A $50 first-order coupon for newsletter sign-ups is offered on the page; it is not applied in the cart."
 coverageAcres: 1.1
 slopePercent: 100
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Steep, rough or overgrown lawns that fit within this 5A version's 1.1-acre-per-day rating and need tracks rather than wheels, since the mower is rated for 100% (45°) slopes. The limits are the RTK reference station you have to mount and power (it's in the box), a 78.5 lb machine, and a daily rate in place of a published maximum lawn size.
-verdict: "A $2,999 tracked RTK + vision mower (no markdown as of 14 Oct 2026; the earlier $2,499 sale ended) with dual rotary blades, a 16-inch cut, and ratings of 100% (45°) slopes and 1.1 acres per day on the 5A charger. The catch is that it depends on its RTK station (Lymow lists only 0.025–0.037 acre, or about 10 minutes, of mowing without RTK). The [One Plus 10A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-10a/) (`lymow-one-plus-10a`) is $3,199 and is rated for 1.73 acres per day with a 90-minute charge."
+verdict: "A $2,499 tracked RTK + vision mower (sale against a $2,999 compare-at in the official US cart on 21 Oct 2026) with dual rotary blades, a 16-inch cut, and ratings of 100% (45°) slopes and 1.1 acres per day on the 5A charger. The catch is that it depends on its RTK station (Lymow lists only 0.025–0.037 acre, or about 10 minutes, of mowing without RTK). The [One Plus 10A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-10a/) (`lymow-one-plus-10a`) is $2,599 (sale, 21 Oct 2026) and is rated for 1.73 acres per day with a 90-minute charge."
 affiliateUrl: ""
 officialUrl: https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower?variant=47332598710507
 image: /mowers/lymow-one-plus-5a.webp
-updated: 2026-10-14
+updated: 2026-10-21
 cuttingWidthIn: 16
 cuttingHeight: "1.2–4.0 in"
 weightLbs: 78.5
@@ -27,7 +27,7 @@ driveType: Tracked (heavy-duty track drive)
 
 ## What it is
 
-The Lymow One Plus is a wire-free robot mower that runs on **crawler tracks** instead of wheels and cuts with **two rotary mulching blades**. It navigates with **RTK satellite positioning plus VSLAM camera mapping**. This listing is locked to the US **5A** version: variant **47332598710507**, SKU **LM1PLUSUS5A**, titled "5A | 1.1 Acres/Day". The only other US variant is the **10A** version (variant 47332598743275, SKU LM1PLUSUS10A, $3,199). Both versions share one spec table and the same 15 Ah battery. The table only separates them on charging: the 5A charges from 10% to 90% in 150 minutes at 39 V, and the 10A does it in 90 minutes at 40.5 V. The variant names put the 5A at 1.1 acres per day and the 10A at 1.73 acres per day. The One Plus is not the earlier Lymow One, and Lymow says the two models' blades and batteries are not interchangeable.
+The Lymow One Plus is a wire-free robot mower that runs on **crawler tracks** instead of wheels and cuts with **two rotary mulching blades**. It navigates with **RTK satellite positioning plus VSLAM camera mapping**. This listing is locked to the US **5A** version: variant **47332598710507**, SKU **LM1PLUSUS5A**, titled "5A | 1.1 Acres/Day". The only other US variant is the **10A** version (variant 47332598743275, SKU LM1PLUSUS10A, $2,599 sale against a $3,199 compare-at on 21 Oct 2026). Both versions share one spec table and the same 15 Ah battery. The table only separates them on charging: the 5A charges from 10% to 90% in 150 minutes at 39 V, and the 10A does it in 90 minutes at 40.5 V. The variant names put the 5A at 1.1 acres per day and the 10A at 1.73 acres per day. The One Plus is not the earlier Lymow One, and Lymow says the two models' blades and batteries are not interchangeable.
 
 From the official US spec table:
 
@@ -80,4 +80,4 @@ Sources: [official Lymow US product page, 5A variant](https://www.lymow.com/prod
 
 ## Honest verdict
 
-For **$2,999** (full price on 14 Oct 2026; the earlier $2,499 sale ended), the One Plus 5A offers a steep, rough or overgrown yard a tracked chassis rated for 100% (45°) slopes, twin rotary blades and a 16-inch cut, with no boundary wire. What you give up is simplicity. You have to site and power the included RTK reference station, the machine weighs 78.5 lb, and Lymow rates it by acres per day (1.1 on the 5A) rather than giving a maximum lawn size. Buy the 5A if your lawn is well under that daily figure. For about an acre or more a day, the [One Plus 10A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-10a/) (`lymow-one-plus-10a`) is **$3,199**, **$200** more, rated for 1.73 acres per day, and recharges in 90 minutes instead of 150.
+For **$2,499** (sale against a $2,999 compare-at on 21 Oct 2026), the One Plus 5A offers a steep, rough or overgrown yard a tracked chassis rated for 100% (45°) slopes, twin rotary blades and a 16-inch cut, with no boundary wire. What you give up is simplicity. You have to site and power the included RTK reference station, the machine weighs 78.5 lb, and Lymow rates it by acres per day (1.1 on the 5A) rather than giving a maximum lawn size. Buy the 5A if your lawn is well under that daily figure. For about an acre or more a day, the [One Plus 10A](https://www.bestlawnrobots.com/mowers/lymow-one-plus-10a/) (`lymow-one-plus-10a`) is **$2,599**, **$100** more, rated for 1.73 acres per day, and recharges in 90 minutes instead of 150.
