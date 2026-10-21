@@ -61,14 +61,14 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
   <tbody>
     <tr>
       <th scope="row">US price</th>
-      <td>$5,499 (8 Sep 2026)</td>
+      <td>$5,999 (21 Oct 2026)</td>
       <td>$4,499 (9 Oct 2026)</td>
       <td>$4,299.99 (20 Oct 2026)</td>
       <td>$3,199 (14 Oct 2026)</td>
     </tr>
     <tr>
       <th scope="row">Stock</th>
-      <td>In stock (8 Sep 2026)</td>
+      <td>not listed</td>
       <td>In stock (9 Oct 2026)</td>
       <td>Out of stock (20 Oct 2026)</td>
       <td>not listed</td>
@@ -142,7 +142,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
 
 The coverage row is each listing’s coverage figure. For the Lawn Mower Pro that figure is Max Mowing Size; the same listing also records 1.7 acres per day. The 440 iQ figure is systematic capacity; that listing rates irregular layouts at 1 acre. The One Plus 10A listing does not publish a maximum lawn size, and its 1.73-acre figure is acres per day. The X390 listing also notes map storage up to about 1.2× the recommended area, depending on layout.
 
-Slope in the table is the work-area figure. The X390 listing also records 25% (14°) at the boundary, and the 440 iQ listing records 15% at the boundary. The Lawn Mower Pro and One Plus 10A listings do not state a separate boundary slope. The 440 iQ listing has no drive type. It says a normal install does not require buried loop wire, and that physical wire is supported if you choose it. The Lawn Mower Pro price had a $5,999 compare-at on 8 Sep 2026. The X390 listing also records a $4,999 MSRP; the cell above is the store price. The 440 iQ was out of stock on husqvarna.com on 20 Oct 2026. The One Plus 10A listing records the cart price and does not state a stock status.
+Slope in the table is the work-area figure. The X390 listing also records 25% (14°) at the boundary, and the 440 iQ listing records 15% at the boundary. The Lawn Mower Pro and One Plus 10A listings do not state a separate boundary slope. The 440 iQ listing has no drive type. It says a normal install does not require buried loop wire, and that physical wire is supported if you choose it. The Lawn Mower Pro price is $5,999 on 21 Oct 2026 with no compare-at. It was $5,499.00 against a $5,999.00 compare-at on 8 Sep 2026, and that sale has ended. Stock is not listed. The X390 listing also records a $4,999 MSRP; the cell above is the store price. The 440 iQ was out of stock on husqvarna.com on 20 Oct 2026. The One Plus 10A listing records the cart price and does not state a stock status.
 
 ## Honest verdict
 

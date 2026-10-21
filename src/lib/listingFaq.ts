@@ -26,6 +26,13 @@ function mustInclude(source: string, phrase: string, where: string): void {
   }
 }
 
+/** Stock wording from the price note only. Historical body text is not a current claim. */
+function stockSentence(note: string): string {
+  if (note.includes("InStock") || /\bin stock\b/i.test(note)) return " The offer was in stock.";
+  if (/\b(sold out|out of stock)\b/i.test(note)) return " The offer was out of stock.";
+  return "";
+}
+
 function listingBody(listing: Listing): string {
   const body = listing.body;
   if (!body) throw new Error("Yarbo listing body is missing; FAQ cannot be checked against it.");
@@ -64,12 +71,14 @@ function yarboFaqs(listing: Listing): FaqItem[] {
 
   const checked = formatChecked(data.updated);
   mustInclude(note, "$5,999.00", "priceNote");
-  mustInclude(note, "InStock", "priceNote");
+  mustInclude(note, "no compare-at", "priceNote");
+  mustInclude(note, "$5,499.00", "priceNote");
+  mustInclude(note, "sale has ended", "priceNote");
   mustInclude(note, "YAR-Y40-LM", "priceNote");
   mustInclude(note, "$7,199", "priceNote");
   mustInclude(note, "All-Season Pro", "priceNote");
   mustInclude(note, "8 Sep 2026", "priceNote");
-  if (checked !== "8 Sep 2026") throw new Error(`Yarbo FAQ price date is ${checked}, not the price-note date`);
+  mustInclude(note, checked, "priceNote");
 
   mustInclude(body, "Max Mowing Size of 6 acres (25,000 m²)", "body");
   mustInclude(body, "1.7 acres (6,880 m²)", "body");
@@ -95,7 +104,7 @@ function yarboFaqs(listing: Listing): FaqItem[] {
   return [
     {
       question: "How much does the Yarbo Lawn Mower Pro cost?",
-      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU YAR-Y40-LM, the Yarbo Core plus Lawn Mower Pro module. The same product page showed a $5,999 compare-at, and the offer was in stock. This SKU is not the $7,199 All-Season Pro 4-in-1 (Lawn Mower Pro + Snow Blower + Blower).`,
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU YAR-Y40-LM, the Yarbo Core plus Lawn Mower Pro module. There is no compare-at. It was $5,499.00 against a $5,999.00 compare-at on 8 Sep 2026, so that sale has ended.${stockSentence(note)} This SKU is not the $7,199 All-Season Pro 4-in-1 (Lawn Mower Pro + Snow Blower + Blower).`,
     },
     {
       question: "How large a lawn is the Yarbo Lawn Mower Pro rated for?",
