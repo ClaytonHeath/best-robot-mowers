@@ -4,8 +4,8 @@ brand: Anthbot
 slug: anthbot-m9
 model: M9
 status: published
-priceUsd: 699
-priceNote: Official Anthbot US cart/list $699.00 for base M9 (SKU 105010084, variant id 51871726960942, Package option “M9”) on 12 Sep 2026; compare-at $899.00 on the same PDP. product:price:amount meta is 699.00 USD. Sibling package rows on the same PDP that day — M9 + Garage $769 (SKU M9US-MGV04-BUNDLE) and M9 + Blades + RTK Wall Mount Kit $769 (SKU M9US-ACC-BUNDLE) — are not this SKU’s price. Distinct product line from listed Genie 600e / 1000 / 3000 and base M5.
+priceUsd: 769
+priceNote: "Official Anthbot US cart on 21 Oct 2026 (AWST) for base M9 (SKU 105010084, variant id 51871726960942, Package option 'M9'): $769.00 against an $899.00 compare-at; guest cart USD, no discount. It was $699.00 (compare-at $899.00) on 12 Sep 2026. Sibling package rows on the same PDP on 21 Oct 2026, M9 + Garage $849 (SKU M9US-MGV04-BUNDLE) and M9 + Blades + RTK Wall Mount Kit $849 (SKU M9US-ACC-BUNDLE), are not this SKU's price. Distinct product line from listed Genie 600e / 1000 / 3000 and base M5."
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Compact-to-mid urban/suburban wire-free yards around Anthbot’s published M9 recommended footprint of 1000 m² (~0.25 acre / 1/4 acre) that want Full-Band RTK + dual vision, built-in 4G / Network RTK, and a small chassis for narrow passages — hard limits are that 1000 m² ceiling and 45% max slope; not a Genie-series SKU and not the listed base M5 or M5 LiDAR sibling.
-verdict: A live-cart M-series step up from M5 with a $699 US base price, published 1000 m² / 1/4-acre recommended yard, 7.9 in cut, and 45% slope — the catch is staying inside that 1000 m² ceiling and not mixing garage/accessory bundle rows or Genie / M5 SKUs into this listing.
+verdict: A live-cart M-series step up from M5 with a $769 US base price (21 Oct 2026), published 1000 m² / 1/4-acre recommended yard, 7.9 in cut, and 45% slope — the catch is staying inside that 1000 m² ceiling and not mixing garage/accessory bundle rows or Genie / M5 SKUs into this listing.
 affiliateUrl: ""
 officialUrl: https://anthbot.com/products/m9-robot-lawn-mower
 image: /mowers/anthbot-m9.webp
-updated: 2026-09-12
+updated: 2026-10-21
 cuttingWidthIn: 7.9
 cuttingHeight: 3–7 cm (1.2–2.8 in), app-adjusted
 noiseDb: 58
@@ -28,7 +28,7 @@ driveType: 2 rear wheels
 
 ## What it is
 
-Anthbot **M9** is the **$699** base wire-free SKU on the official US M9 PDP (Shopify Package option **M9**, SKU **105010084**, variant id **51871726960942**). Cart accepted this base line at **$699.00** on 12 Sep 2026. Navigation is **Full-Band RTK + NRTK + Dual Vision** (150° HDR AI vision) with **built-in 4G** and no perimeter wire. This is the **M9 / M-series** product line — not a Genie variant and not the already-listed **Anthbot M5** (`anthbot-m5`). Do not confuse it with listed **Genie 600e (4G)**, **Genie 1000**, or **Genie 3000**. The same M9 PDP also sells accessory bundles; this listing locks the **base M9** cart line only (not M9 + Garage, not M9 + Blades + RTK Wall Mount Kit, and not **M5**, **M5 LiDAR**, or Genie SKUs).
+Anthbot **M9** is the **$769** base wire-free SKU on the official US M9 PDP (Shopify Package option **M9**, SKU **105010084**, variant id **51871726960942**). The cart accepted this base line at **$769.00** on 21 Oct 2026 ($699.00 on 12 Sep 2026). Navigation is **Full-Band RTK + NRTK + Dual Vision** (150° HDR AI vision) with **built-in 4G** and no perimeter wire. This is the **M9 / M-series** product line — not a Genie variant and not the already-listed **Anthbot M5** (`anthbot-m5`). Do not confuse it with listed **Genie 600e (4G)**, **Genie 1000**, or **Genie 3000**. The same M9 PDP also sells accessory bundles; this listing locks the **base M9** cart line only (not M9 + Garage, not M9 + Blades + RTK Wall Mount Kit, and not **M5**, **M5 LiDAR**, or Genie SKUs).
 
 ## Who it's for
 
@@ -36,7 +36,7 @@ Urban and suburban lawns near Anthbot’s published **Recommended Mowing Area of
 
 ## Standout details
 
-- **Price:** Official US cart accepted base **M9** at **$699.00** (compare-at **$899.00**) on 12 Sep 2026; parent PDP `product:price:amount` is **699.00** USD — do not use bundle row prices ($769).
+- **Price:** Official US cart accepted base **M9** at **$769.00** (compare-at **$899.00**) on 21 Oct 2026; it was $699.00 on 12 Sep 2026. Do not use bundle row prices ($849).
 - **Coverage:** Specs comparison **Recommended Mowing Area = 1000 m² (1/4 Acres)** ≈ **0.25 acre**; mega-menu / model line labels **M9 1000㎡ | Full-Band RTK + Dual Vision | 4G**; PDP intro **up to 1000 m²** — used for `coverageAcres`. No separate higher marketed acre ceiling is published on this PDP the way Genie SKUs split recommended vs. variant label.
 - **Navigation:** **Full-Band RTK + NRTK + Dual Vision**; visual odometry when satellites are obstructed; AI obstacle recognition (PDP/specs: 1000+). Wire-free. Marketing states **Network RTK** via built-in 4G is included at no extra cost; specs also list **4G Service: 3 Months Free** and **Connect+ (Cellular Connection): 3 Months Free, renewable annually at $39.90**. Optional physical RTK station / NetRTK accessory paths are marketed on the same page.
 - **4G / app:** Built-in 4G for remote app control, GPS tracking, and security alerts; specs **Multi-zone Management: 30**; OTA updates; rain detection via weather forecast + rain sensor + intelligent schedule.
@@ -48,4 +48,4 @@ Source: [ANTHBOT M9](https://anthbot.com/products/m9-robot-lawn-mower), checked 
 
 ## Honest verdict
 
-M9 is the mid M-series live-cart Anthbot for a **published recommended 1000 m² (~0.25 acre / 1/4 acre)** wire-free yard with **RTK + dual vision**, **4G**, a **7.9 in** disc, and a **45%** slope limit at **$699**. Buy it for yards that outgrow the listed **M5** footprint but stay inside **1000 m²** — not as a Genie substitute, and not if you mix in the garage/accessory bundle rows or the **M5 LiDAR** sibling.
+M9 is the mid M-series live-cart Anthbot for a **published recommended 1000 m² (~0.25 acre / 1/4 acre)** wire-free yard with **RTK + dual vision**, **4G**, a **7.9 in** disc, and a **45%** slope limit at **$769** (21 Oct 2026). Buy it for yards that outgrow the listed **M5** footprint but stay inside **1000 m²** — not as a Genie substitute, and not if you mix in the garage/accessory bundle rows or the **M5 LiDAR** sibling.

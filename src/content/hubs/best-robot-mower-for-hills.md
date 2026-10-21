@@ -90,7 +90,7 @@ Only models with published listings and supporting frontmatter are listed. Price
 #### [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/)
 - **Slope:** 70% (35°) max climbing ability · **Coverage:** 6 acres max
 - **Nav:** RTK + vision · wire-free · **Drive:** Dual drive motors (modular Core + deck)
-- **Price (listing):** $5,499
+- **Price (listing):** $5,999
 - Estate / very large lawn fit. Modular system weight (~216 lb) and Core-plus-module purchase model are the other gates.
 
 ### High slope without AWD (weaker hillside match)
