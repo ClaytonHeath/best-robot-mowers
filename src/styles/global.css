@@ -776,6 +776,12 @@ article.hub-copy {
   margin: 1.7rem 0 0.5rem;
 }
 
+.prose h3 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 1.25rem 0 0.35rem;
+}
+
 .prose p,
 .prose li {
   color: var(--ink-soft);

@@ -4,8 +4,10 @@ import ProductPhoto from "../../components/ProductPhoto.astro";
 import RelatedListings from "../../components/RelatedListings.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { assertLargerYardPeers, faqsForListing } from "../../lib/listingFaq";
 import { pickRelatedListings } from "../../lib/related";
 import {
+  faqPageJsonLd,
   formatAcres,
   formatPrice,
   formatUpdated,
@@ -35,6 +37,10 @@ const related = pickRelatedListings(
   d,
   published.map((item) => item.data),
 );
+const faqs = faqsForListing(listing);
+if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
+const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
+if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
 ---
 
 <BaseLayout
@@ -43,7 +49,7 @@ const related = pickRelatedListings(
   canonicalPath={`mowers/${d.slug}`}
   type="article"
   ogImage={photo}
-  jsonLd={[productJsonLd(d), listingBreadcrumbJsonLd(d)]}
+  jsonLd={jsonLd}
 >
   <div class="wrap">
     <header class="listing-hero">
@@ -62,6 +68,19 @@ const related = pickRelatedListings(
     <div class="listing-layout">
       <article class="prose">
         <Content />
+        {
+          faqs.length > 0 && (
+            <section id="faq" aria-labelledby="faq-heading">
+              <h2 id="faq-heading">FAQ</h2>
+              {faqs.map((faq) => (
+                <section>
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </section>
+              ))}
+            </section>
+          )
+        }
       </article>
       <aside class="side">
         <SpecTable listing={listing} />
