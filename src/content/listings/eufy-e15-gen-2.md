@@ -14,7 +14,7 @@ verdict: "At $1,799.99, the E15 Gen 2 is a vision-only eufy mower rated for 0.25
 affiliateUrl: ""
 officialUrl: https://www.eufy.com/products/t280l1a1
 image: /mowers/eufy-e15-gen-2.webp
-updated: 2026-10-19
+updated: 2026-10-22
 cuttingWidthIn: 8
 cuttingHeight: "1–3 in"
 noiseDb: 56
@@ -78,7 +78,7 @@ At **$1,799.99**, the E15 Gen 2 is a camera-only mower for a flat quarter acre. 
 
 | | E15 Gen 2 | [E15](/mowers/eufy-e15/) |
 |---|---|---|
-| Price | $1,799.99 (19 Oct 2026 cart) | $1,799.99 list (19 Oct 2026 cart, no code; $1,399.99 with an auto-applied $400 code on 20 Oct 2026) |
+| Price | $1,799.99 (19 Oct 2026 cart) | $1,799.99 list (19 Oct 2026 cart, no code; $1,399.99 with an auto-applied $400 code on 20 Oct 2026; $1,099.99 with the same code at $700 off on 22 Oct 2026) |
 | Recommended area | 1,000 m² (0.25 acre) | 800 m² (0.2 acre) |
 | Mapping | maps while mowing ("Zero Wait") | 3–4 hours first (eufy's comparison table) |
 | Obstacle detection | 500+ types | "General 3D Perception" |
