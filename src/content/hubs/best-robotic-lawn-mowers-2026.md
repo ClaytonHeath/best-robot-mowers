@@ -48,12 +48,12 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | --- | --- | --- | --- | --- | --- | --- |
 | Half-acre AWD LiDAR | [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/) | 0.5 acre | 80% | LiDAR + vision | Wire-free | $1,699.99 |
 | Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | $2,599.99 (husqvarna.com) |
-| ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 |
+| ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 (sold out 22 Oct 2026) |
 | ~3/4-acre LiDAR + trimmer | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | 0.75 acre | 50% (virtual boundary 20%) | LiDAR + vision | Wire-free | $2,499.99 |
 | ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $2,599.99 |
 | ~0.37-acre AWD LiDAR | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 0.37 acre | 80% | LiDAR + vision | Wire-free | $2,399 (sold out 11 Oct 2026) |
 
-**Yard-fit note:** Genie 3000’s live cart is low relative to acreage peers, but use the **0.75-acre recommended** figure — not the 0.89-acre marketing label — the same way Genie 1000 uses 0.25 recommended vs 0.49 marketed. Husqvarna 410 iQ’s irregular capacity is half the systematic figure; messy layouts should size to 0.25 acre on that card.
+**Yard-fit note:** Genie 3000’s $899 cart is low relative to acreage peers (sold out on 22 Oct 2026), but use the **0.75-acre recommended** figure — not the 0.89-acre marketing label — the same way Genie 1000 uses 0.25 recommended vs 0.49 marketed. Husqvarna 410 iQ’s irregular capacity is half the systematic figure; messy layouts should size to 0.25 acre on that card.
 
 ---
 

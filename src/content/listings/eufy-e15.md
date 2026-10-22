@@ -5,16 +5,16 @@ slug: eufy-e15
 model: Robot Lawn Mower E15 (T28801A1)
 status: published
 priceUsd: 1799.99
-priceNote: "Official eufy US store on 20 Oct 2026 (AWST) for Shopify product 8071515832506, variant 44697729269946 (Gray), SKU T28801A1: list price $1,799.99, and this listing uses that list price. In a guest Add to Cart on 20 Oct 2026, the Storefront cart line was $1,799.99, but eufy auto-applied discount code WS24T28801A11 ($400 off), so the cart total was $1,399.99 USD. The same code was applied on 15 Oct 2026 and was gone on 17–19 Oct 2026 (cart $1,799.99, no code). The earlier $110 'FPD_2026' fall promo (cart $1,689.99 on 10 Oct 2026) is not applied. Temporary promo prices are not used as the listing price. Tax is calculated at checkout."
+priceNote: "Official eufy US store on 22 Oct 2026 (AWST) for Shopify product 8071515832506, variant 44697729269946 (Gray), SKU T28801A1: list price $1,799.99, and this listing uses that list price. In a guest Add to Cart on 22 Oct 2026, the Storefront cart line was $1,799.99, but eufy auto-applied discount code WS24T28801A11, now $700 off, so the cart total was $1,099.99 USD. The same code took $400 off (cart $1,399.99) on 15 and 20 Oct 2026 and was absent on 17–19 Oct 2026 (cart $1,799.99, no code). The earlier $110 'FPD_2026' fall promo (cart $1,689.99 on 10 Oct 2026) is not applied. Temporary promo prices are not used as the listing price. Tax is calculated at checkout."
 coverageAcres: 0.2
 navigation: vision
 wireFree: true
 whoItsFor: Small, flat lawns up to 0.2 acre (8,700 sq ft) with grass other than St. Augustine or dense Zoysia, where the owner wants camera-only mapping with no boundary wire, no RTK antenna to site, and a five-minute setup.
-verdict: "At its $1,799.99 list price (on 20 Oct 2026 an auto-applied $400 code, WS24T28801A11, brought the guest cart to $1,399.99; it was absent on 17–19 Oct 2026), the E15 is a vision-only mower: no wire and no RTK, with an 8-inch cut and 1–3 in height. The catch is how narrow the fit is. It is rated for 0.2 acre, slopes under 18°, and mostly flat ground (bumps under 1.2 in), and eufy says it is not suitable for St. Augustine or dense Zoysia."
+verdict: "At its $1,799.99 list price (on 22 Oct 2026 the auto-applied code WS24T28801A11 took $700 off, bringing the guest cart to $1,099.99; it was $400 off on 20 Oct 2026 and absent on 17–19 Oct 2026), the E15 is a vision-only mower: no wire and no RTK, with an 8-inch cut and 1–3 in height. The catch is how narrow the fit is. It is rated for 0.2 acre, slopes under 18°, and mostly flat ground (bumps under 1.2 in), and eufy says it is not suitable for St. Augustine or dense Zoysia."
 affiliateUrl: ""
 officialUrl: https://www.eufy.com/products/t28801a1?variant=44697729269946
 image: /mowers/eufy-e15.webp
-updated: 2026-10-20
+updated: 2026-10-22
 cuttingWidthIn: 8
 cuttingHeight: "1–3 in"
 noiseDb: 56
@@ -58,7 +58,7 @@ Skip it if the lawn is over 0.2 acre, hilly, or bumpy, or if you mow St. Augusti
 - **Cut:** **8-inch (203 mm)** width, **1–3 in** height set in the app, parallel striping, and **ride-on-edge** trimming. Smart coverage detection re-mows missed patches.
 - **Runtime:** **93.24 Wh** pack, **90–110 min** mowing and **90–110 min** charging. eufy's FAQ puts one charge at roughly **100–150 m²**, and the mower resumes the job after recharging.
 - **Build and safety:** **27 lbs**, **IPX6** on both the mower and the base, **< 56 dB**. It returns to base by itself in rain or low light. Anti-theft uses built-in **GPS and 4G**, and the app shows a live map.
-- **Purchase terms (20 Oct 2026):** list **$1,799.99**, which is the price this listing uses. In a guest cart on 20 Oct 2026, eufy auto-applied code **WS24T28801A11** for **$400 off**, bringing the total to **$1,399.99 USD**, with tax at checkout. The same code applied on 15 Oct 2026 and was absent on 17–19 Oct 2026 (cart $1,799.99); a $110 fall promo brought the cart to $1,689.99 on 10 Oct 2026.
+- **Purchase terms (22 Oct 2026):** list **$1,799.99**, which is the price this listing uses. In a guest cart on 22 Oct 2026, eufy auto-applied code **WS24T28801A11** for **$700 off**, bringing the total to **$1,099.99 USD**, with tax at checkout. The same code took $400 off on 15 and 20 Oct 2026 and was absent on 17–19 Oct 2026 (cart $1,799.99); a $110 fall promo brought the cart to $1,689.99 on 10 Oct 2026.
 
 Page and source notes:
 
@@ -69,6 +69,6 @@ Sources: [official eufy US product page, Robot Lawn Mower E15](https://www.eufy.
 
 ## Honest verdict
 
-At **$1,799.99** list (on 20 Oct 2026 an auto-applied $400 code, WS24T28801A11, brought the guest cart to $1,399.99; it was absent on 17–19 Oct 2026), the E15 is a camera-only robot mower for **0.2 acre** or less. Nothing goes in the ground and there is no RTK antenna to place. It has an **8-inch** cut, **1–3 in** height, **IPX6**, **< 56 dB**, and GPS/4G anti-theft. For a small, flat, open yard, that is a simple setup.
+At **$1,799.99** list (on 22 Oct 2026 the auto-applied code WS24T28801A11 took $700 off, bringing the guest cart to $1,099.99; it was $400 off on 20 Oct 2026 and absent on 17–19 Oct 2026), the E15 is a camera-only robot mower for **0.2 acre** or less. Nothing goes in the ground and there is no RTK antenna to place. It has an **8-inch** cut, **1–3 in** height, **IPX6**, **< 56 dB**, and GPS/4G anti-theft. For a small, flat, open yard, that is a simple setup.
 
 The limits are the fine print eufy prints itself. The maximum is **0.2 acre** and the slope rating is **under 18°**. The ground has to be mostly flat, with bumps under **1.2 in**. Grass must be under **3.5 in**, and **St. Augustine and dense Zoysia** are excluded. Each charge covers only about **100–150 m²**, so it mows in short cycles. At $1,799.99 it also costs more than several listed RTK and LiDAR mowers with bigger ratings, so the case for it rests on the no-antenna, camera-only setup. Buy it if the lawn really is small, level, and a compatible grass. Otherwise, a machine with RTK or LiDAR and a stronger slope rating will fit better.
