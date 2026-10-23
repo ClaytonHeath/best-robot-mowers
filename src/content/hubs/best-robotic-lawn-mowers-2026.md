@@ -31,7 +31,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | --- | --- | --- | --- | --- | --- | --- |
 | Tight urban | [Anthbot M5](/mowers/anthbot-m5/) | 0.12 acre | 45% | RTK + vision | Wire-free | $679 |
 | Small RTK Genie | [Anthbot Genie 600e (4G)](/mowers/anthbot-genie/) | 0.15 acre recommended (variant markets 0.22) | 45% | RTK + vision | Wire-free | $699 |
-| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $799 |
+| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $669 |
 | Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 (sold out 9 Oct 2026) |
 | Vision + cloud RTK | [Worx Landroid Vision Cloud WR310.1](/mowers/worx-landroid-vision-cloud-wr310/) | 0.25 acre | 30% | Vision + RTK | Wire-free | $1,199.99 |
 | RTK + vision RWD | [Roborock RockNeo Q1](/mowers/roborock-rockneo-q1/) | 0.25 acre | 45% | RTK + vision | Wire-free | $1,299 |
@@ -68,7 +68,7 @@ Manufacturer slope % is **max inside the work area** unless the listing splits b
 | AWD LiDAR small yard | [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/) | 80% | 0.37 acre | AWD | $2,399 (sold out 11 Oct 2026) |
 | EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 70% in-lawn / 50% boundary | 1.3 systematic / 0.9 irregular | AWD | $4,999.99 (husqvarna.com) |
 | Wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 70% in-lawn / 50% at wire | 0.9 acre | AWD | $2,999.99 (husqvarna.com, in-store only) |
-| Modular large / tracked core | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 70% | 6 acres max | Dual drive motors | $5,999 |
+| Modular large / tracked core | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 70% | 6 acres max | Dual drive motors | $5,399 |
 
 **Yard-fit note:** A published 80% or 84% is not a promise on wet turf or at a cliff edge. Prefer AWD cards when grade is the reason you are shopping; rear- or front-wheel machines with 30–50% caps are weaker matches for real hills.
 
@@ -113,7 +113,7 @@ Catalog support above ~1 acre is real but thinner than the small-yard shelf.
 | ~1.3-acre EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 1.3 systematic / 0.9 irregular | 70% | Wire-free | $4,999.99 (husqvarna.com) |
 | ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | $4,299.99 (husqvarna.com, out of stock 20 Oct 2026) |
 | 2.5-acre RTK | [Segway Navimow X390](/mowers/segway-navimow-x390/) | 2.5 acres | 50% | Wire-free | $4,499 ($4,999 MSRP) |
-| Estate modular | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 6 acres max | 70% | Wire-free | $5,999 |
+| Estate modular | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 6 acres max | 70% | Wire-free | $5,399 |
 
 **Yard-fit note:** Husqvarna publishes separate **systematic** vs **irregular** capacities — size to the irregular number if beds, trees, and islands dominate. Yarbo is a Core + Lawn Mower Pro module system, not a one-piece suburban robot. For a dedicated 1-acre framing, see [best robot mower for 1 acre](/best-robot-mower-for-1-acre/).
 

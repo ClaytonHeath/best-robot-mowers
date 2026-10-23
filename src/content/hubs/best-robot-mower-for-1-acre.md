@@ -61,7 +61,7 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 ### [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/)
 - **Coverage:** **6 acres** max mowing size (also publishes 1.7 acres per day on the listing)
 - **Slope:** 70% · **Nav:** RTK + vision · wire-free · modular Core + deck
-- **Price:** $5,999
+- **Price:** $5,399 (sale from $5,999, 23 Oct 2026)
 - **Who it’s for (listing):** Very large wire-free yards toward that 6-acre ceiling.
 - **What breaks the deal:** You wanted a compact one-piece suburban robot; weight (~216 lb) and modular system cost.
 
