@@ -2,7 +2,9 @@
 import { getCollection, getEntry, render } from "astro:content";
 import ListingCard from "../components/ListingCard.astro";
 import HubLayout from "../components/HubLayout.astro";
+import { faqsForAcreHub } from "../lib/hubFaq";
 import { listingsForAcreNearMiss, listingsForAcrePlus } from "../lib/hubs";
+import { faqPageJsonLd } from "../lib/site";
 
 const hub = await getEntry("hubs", "best-robot-mower-for-1-acre");
 if (!hub || hub.data.status !== "published") {
@@ -14,6 +16,7 @@ const published = await getCollection("listings", ({ data }) => data.status === 
 const acrePlus = listingsForAcrePlus(published);
 const nearMiss = listingsForAcreNearMiss(published);
 const listings = [...acrePlus, ...nearMiss];
+const faqs = faqsForAcreHub(published);
 ---
 
 <HubLayout
@@ -24,8 +27,20 @@ const listings = [...acrePlus, ...nearMiss];
   listings={listings}
   listLabel="1-acre and near-miss mower listings"
   emptyMessage="No published mowers with about 1 acre of published coverage yet."
+  extraJsonLd={[faqPageJsonLd(faqs)]}
 >
   <Content />
+  <section id="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">FAQ</h2>
+    {
+      faqs.map((faq) => (
+        <section>
+          <h3>{faq.question}</h3>
+          <p>{faq.answer}</p>
+        </section>
+      ))
+    }
+  </section>
   <Fragment slot="listings">
     <section class="hub-section" id="acre-plus" aria-labelledby="acre-plus-heading">
       <h2 id="acre-plus-heading">Published coverage 1 acre+</h2>

@@ -2,11 +2,11 @@
 title: Best robot mower for 1 acre
 description: Robot lawn mowers whose published coverage fits about one acre. Marketed vs recommended coverage called out; thin shelf above 1 acre stated plainly.
 slug: best-robot-mower-for-1-acre
-updated: 2026-09-18
+updated: 2026-10-23
 status: published
 ---
 
-One acre of **grass** (not lot size) sits at the awkward middle of the robot-mower market: many machines top out under 0.5–0.75 acre, and only a handful of published listings on this site are rated at **about 1 acre or above**. This page curates those listings and the closest undersize fits. It is directory yard-fit, not a ranked “best 1-acre mower” badge.
+One acre of **grass** (not lot size) sits at the awkward middle of the robot-mower market: many machines top out under 0.5–0.75 acre, and fewer published listings on this site are rated at **about 1 acre or above** than in the smaller bands. This page curates those listings and the closest undersize fits. It is directory yard-fit, not a ranked “best 1-acre mower” badge. The FAQ counts the current shelf from published listing data.
 
 Measure the lawn. If you are actually at 0.6 acre, a 0.75–0.87 acre card may be enough. If you are at a messy 1.1 acre with islands and beds, prefer models that publish a lower **irregular** capacity — or step up.
 
@@ -24,11 +24,13 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 | **~1.0–1.5 acre** | Primary 1-acre fit from the live catalog |
 | **Above ~1.5 acre** | Estate / large systematic — overkill for a true 1.0 acre but listed so you do not undersize upward |
 
-**Catalog honesty:** Only a few published SKUs hit **≥1.0 acre** recommended coverage. The small- and mid-yard shelf is much thicker. If few models fit, that is the market state of this directory as of 18 Sep 2026 — not a reason to invent acreage.
+**Catalog honesty:** Published **≥1.0 acre** recommended coverage is a thinner shelf than the small- and mid-yard bands. The FAQ below counts the current published listings from `coverageAcres`. If few models fit, that is the market state of this directory — not a reason to invent acreage.
 
 ---
 
 ## Models at or above ~1 acre (primary fits)
+
+The cards and the FAQ list every published listing at this coverage. The notes below are patterns already on those listings. They are not the whole shelf.
 
 ### [Segway Navimow X430](/mowers/segway-navimow-x430/)
 - **Coverage:** **1.0 acre** recommended (map storage footnote up to ~1.2× on the listing)
@@ -69,7 +71,7 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 
 ## Closest fits under 1 acre (near-misses)
 
-Use these when measured grass is **under** one acre, or when budget/nav preference beats a strict 1.0 label. Do **not** treat them as guaranteed full-acre machines.
+Use these when measured grass is **under** one acre, or when budget/nav preference beats a strict 1.0 label. Do **not** treat them as guaranteed full-acre machines. The near-miss cards and the FAQ list every published listing in this band. The table below calls out patterns already on some of those listings.
 
 | Listing | Recommended coverage | Slope | Notes |
 | --- | --- | --- | --- |
@@ -89,21 +91,15 @@ Use these when measured grass is **under** one acre, or when budget/nav preferen
 3. **Slope vs coverage mismatch** — LUBA 3 AWD 1500 has 80% slope but only **0.37 acre**; it is not a 1-acre hill machine in this catalog.
 4. **Passage width / body width** — X430’s 24-inch body is an explicit listing limit.
 5. **Wire appetite** — 435X AWD can cover ~0.9 acre on hills but requires physical wire; acre-class iQ / Navimow / Yarbo stay wire-free at higher price.
-6. **Unpublished larger siblings** — Listings mention Pro 5000, X450, larger LUBA SKUs as *not this page*. This directory only links **published** slugs. Do not assume those siblings are for sale here until they have listings.
+6. **Unpublished larger siblings** — A listing can name a larger sibling that still has no page here (the X430 listing points at X450). This directory only links **published** slugs. Do not assume an unpublished sibling is for sale here.
 
 ---
 
 ## Thin catalog above 1 acre — what to do
 
-As of 18 Sep 2026, published **≥1.0 acre recommended** cards are essentially:
+The live **≥1.0 acre** set is the **Published coverage 1 acre+** cards and the FAQ, both taken from published `coverageAcres`. It is not limited to the notes above.
 
-1. Navimow X430 (1.0)
-2. Automower 435 iQ AWD (1.3 systematic)
-3. Automower 440 iQ (2.0 systematic / 1.0 irregular)
-4. Navimow X390 (2.5)
-5. Yarbo Lawn Mower Pro (6.0 max)
-
-If none of those fit budget, drive type, or install constraints:
+If none of those cards fit budget, drive type, or install constraints:
 
 - Drop to **0.75–0.87** near-misses only if the measured lawn is actually under 1.0.
 - Use homepage filters (`?coverage=0.5-1.5` / `over-1.5`) on [bestlawnrobots.com](/).
@@ -124,4 +120,4 @@ If none of those fit budget, drive type, or install constraints:
 
 Related: [2026 yard-fit roundup](/best-robotic-lawn-mowers-2026/) · [Hills / slope hub](/best-robot-mower-for-hills/) · [Wire-free catalog](/wire-free/)
 
-*Hub drafted 18 Sep 2026 from published listing frontmatter only.*
+*Hub drafted 18 Sep 2026 from published listing frontmatter. The FAQ is generated from the current published listings.*
