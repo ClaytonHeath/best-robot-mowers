@@ -96,7 +96,7 @@ These listings require a physical perimeter loop (`wireFree: false`). Pegs/wire 
 | --- | --- | --- | --- | --- |
 | Eighth-acre wire | [Worx Landroid S WR165](/mowers/worx-landroid-s-wr165/) | 0.125 acre | 30% | $999.99 (out of stock 6 Sep 2026) |
 | Quarter-acre wire | [Worx Landroid M WR147](/mowers/worx-landroid-m-wr147/) | 0.25 acre | 30% | $1,199.99 (out of stock 5 Sep 2026) |
-| Half-acre wire | [Worx Landroid L WR155](/mowers/worx-landroid-l-wr155/) | 0.5 acre | 30% | $699.99 sale (out of stock 28 Aug 2026) |
+| Half-acre wire | [Worx Landroid L WR155](/mowers/worx-landroid-l-wr155/) | 0.5 acre | 30% | $699.99 last cart ($1,499.99 list; sold out 26 Oct 2026) |
 | Hilly wire AWD | [Husqvarna Automower 435X AWD](/mowers/husqvarna-automower-435x-awd/) | 0.9 acre | 70% | $2,999.99 (husqvarna.com, in-store only); loop wire/stakes sold separately |
 
 **Yard-fit note:** A simple open rectangle can still be a better match for boundary wire than a wire-free kit that needs clear sky or camera sight lines. Stock and street prices move — confirm the live cart on the official URL in each listing.

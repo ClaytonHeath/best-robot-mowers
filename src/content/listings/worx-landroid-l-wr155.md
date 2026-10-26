@@ -5,7 +5,7 @@ slug: worx-landroid-l-wr155
 model: WR155
 status: published
 priceUsd: 699
-priceNote: Official Worx US cart $699.99 for WR155 on 28 Aug 2026, against a $1,499.99 regular on the same PDP. Temporarily out of stock. Same URL also sells WR147 and WR165. A related-products block still shows $1,149.99 for WR155 — use the selected-SKU cart, not that block.
+priceNote: "Official Worx US cart $699.99 for WR155 on 28 Aug 2026, against a $1,499.99 regular on the same PDP. SOLD OUT on 26 Oct 2026 (AWST): the selected WR155 SKU (productId 3074457345616683691) reads 'Not available' / 'SOLD OUT' on worx.com, inventoryavailability returns Unavailable (availableQuantity 0.0), and the unavailable SKU now displays $1,499.99 for both Display and Offer (no $699.99 sale active while out of stock). The listed $699 is the last cart-verified price. Same configurable S/M/L PDP also sells WR147 ($1,199.99) and WR165 ($999.99)."
 coverageAcres: 0.5
 slopePercent: 30
 navigation:
@@ -16,7 +16,7 @@ verdict: A wire-install half-acre Landroid with the pegs in the box — 30% slop
 affiliateUrl: ""
 officialUrl: https://www.worx.com/landroid-l-1-2-acre-20v-cordless-robotic-lawn-mower-wr155.html
 image: /mowers/worx-landroid-l-wr155.webp
-updated: 2026-08-28
+updated: 2026-10-26
 cuttingWidthIn: 8
 cuttingHeight: 1.5–3.5 in, manual
 noiseDb: 59
@@ -27,7 +27,7 @@ weightLbs: 25.8
 
 Worx Landroid L WR155 is a **boundary-wire** robot mower for lawns up to **½ acre (21,780 sq ft)**. It is not the Vision Cloud line: no cameras, no RTK Cloud, no virtual map. A buried (or pegged) loop defines the work area. Worx’s AIA turning is for narrow passages *inside* that loop — the page says it can go through gaps as narrow as the mower without a separate guide wire.
 
-The US box includes the mower, a **5.0 Ah** PowerShare battery (WA3671), charging station (WA0464), **820 ft of boundary wire**, **340 pegs**, connectors, blades, and hardware. Official cart on 28 Aug 2026 was **$699.99** for this SKU, **temporarily out of stock**.
+The US box includes the mower, a **5.0 Ah** PowerShare battery (WA3671), charging station (WA0464), **820 ft of boundary wire**, **340 pegs**, connectors, blades, and hardware. Official cart on 28 Aug 2026 was **$699.99** for this SKU (against $1,499.99 regular); on **26 Oct 2026** it remained **sold out** (`Unavailable`, qty 0) with the unavailable page showing **$1,499.99**.
 
 ## Who it's for
 
@@ -35,7 +35,7 @@ Flat-to-moderate suburban lawns around **half an acre** where the owner will ins
 
 ## Standout details
 
-- **Price:** $699.99 on the official Worx US cart for WR155 (Landroid L – 1/2 Acre) on 28 Aug 2026, against $1,499.99 regular on that selected SKU. Temporarily out of stock. The PDP is a configurable S/M/L page (WR165 1/8 acre, WR147 1/4 acre, WR155 1/2 acre). A related-products block on the same page still shows $1,149.99 for WR155 — ignore it and use the selected-SKU cart.
+- **Price:** $699.99 on the official Worx US cart for WR155 (Landroid L – 1/2 Acre) on 28 Aug 2026, against $1,499.99 regular on that selected SKU. On 26 Oct 2026, the selected WR155 SKU remained **sold out** (`inventoryStatus: Unavailable`, `availableQuantity: 0.0`) and showed $1,499.99 Display/Offer with no active sale while out of stock; $699 is kept as the last cart-verified price. The PDP is a configurable S/M/L page (WR165 1/8 acre, WR147 1/4 acre, WR155 1/2 acre). A related-products block on the same page still shows $1,149.99 for WR155 — ignore it and use the selected-SKU cart.
 - **Coverage:** Recommended lawn size **1/2 acre** in the spec table (also written 21,780 sq ft).
 - **Navigation:** Physical boundary wire. AIA for narrow paths; Cut-to-Edge offset blade; app multi-zone. Bluetooth and Wi-Fi; LCD plus Landroid app; OTA (and USB) updates.
 - **Slope / terrain:** Maximum slope **30%**. Self-leveling / floating blade disc. Rain sensor (can be disabled in the app).
@@ -44,7 +44,7 @@ Flat-to-moderate suburban lawns around **half an acre** where the owner will ins
 - **Build:** 24.65 × 18.11 × 10.43 in; **25.8 lb without battery**. Spec-table noise **59 dB** (a marketing block on the same page says 60 dB). Hose-washable underside. No IP rating published.
 - **In the box:** Landroid L WR155, 5.0 Ah battery, charging station, 820 ft wire, 340 pegs, 2 wire connectors, 8 base screws, 9 blades, 9 blade screws, hex key.
 
-Source: [Worx Landroid L WR155](https://www.worx.com/landroid-l-1-2-acre-20v-cordless-robotic-lawn-mower-wr155.html), checked 28 Aug 2026.
+Source: [Worx Landroid L WR155](https://www.worx.com/landroid-l-1-2-acre-20v-cordless-robotic-lawn-mower-wr155.html), checked 28 Aug 2026 and re-checked 26 Oct 2026 (AWST).
 
 ## Honest verdict
 

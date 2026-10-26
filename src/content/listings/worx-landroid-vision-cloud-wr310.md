@@ -5,7 +5,7 @@ slug: worx-landroid-vision-cloud-wr310
 model: WR310.1
 status: published
 priceUsd: 1199.99
-priceNote: "Official Worx US store on 6 Oct 2026 (AWST) for partNumber / SKU WR310.1 (Landroid Vision Cloud ¼ Acre), catalog entry id 3074457345616683946: Display $1,199.99 and Offer $1,199.99 in USD, so there is no separate compare-at or struck price, and Worx's catalog marked it buyable. Worx's US inventory endpoint returned inventoryStatus Available (availableQuantity 192) for WR310.1 the same morning. No cart line was possible from the research host, so this price comes from Worx's US catalog and inventory data. Tax and shipping excluded."
+priceNote: "Official Worx US cart on 26 Oct 2026 (AWST) for partNumber / SKU WR310.1 (Landroid Vision Cloud ¼ Acre), catalog entry id 3074457345616683946: $1,199.99 USD in a live guest cart (/wcs/resources/store/716000101/cart/@self unitPrice 1199.99 USD, quantity 1), matching the $1,199.99 Display and Offer on the page with no separate compare-at or struck price. Worx's US inventory endpoint returned inventoryStatus Available (availableQuantity 200.0) for WR310.1 the same morning. Tax and shipping excluded."
 coverageAcres: 0.25
 slopePercent: 30
 navigation:
@@ -17,7 +17,7 @@ verdict: Easy wire-free setup and cloud RTK without a yard pole, but 0.25 acre a
 affiliateUrl: ""
 officialUrl: https://www.worx.com/en-us/worxus/landroid-vision-cloud-1-4-acre
 image: /mowers/worx-landroid-vision-cloud-wr310.webp
-updated: 2026-10-06
+updated: 2026-10-26
 cuttingWidthIn: 8.7
 cuttingHeight: 1.57–3.54 in, electric
 weightLbs: 30.9
@@ -43,7 +43,7 @@ Homeowners with about **0.25 acre** of grass, mixed hardscape edges, and a prefe
 - **Other listed features:** Multi-zone management, rain sensor, hose-washable deck, Bluetooth and Wi-Fi, over-the-air updates. Night vision (FiatLux) is optional on the line, not listed as standard on WR310.1.
 - **In the box:** Mower, charging station, charger, 20 V battery, spare blades, a short “No-Go Line” (19.7 ft) and stakes — a physical assist, not a full boundary wire.
 
-Sources: [Worx Landroid Vision Cloud WR310.1](https://www.worx.com/en-us/worxus/landroid-vision-cloud-1-4-acre), checked 26 Aug 2026 and re-checked against the official US spec block on 6 Oct 2026, plus the [WR310 / WR310.1 / WR320 / WR320.1 owner's manual](https://www.worx.com/media/wysiwyg/pdp-pages/manuals/Manual-WR310.pdf) linked from that page, which gives the IPX6 rating and the 15° Cut-to-Zero slope note. Neither source states noise, per-charge coverage, or drive type, so those are omitted.
+Sources: [Worx Landroid Vision Cloud WR310.1](https://www.worx.com/en-us/worxus/landroid-vision-cloud-1-4-acre), checked 26 Aug 2026 and re-checked against the official US spec block and live US guest cart on 26 Oct 2026 (AWST), plus the [WR310 / WR310.1 / WR320 / WR320.1 owner's manual](https://www.worx.com/media/wysiwyg/pdp-pages/manuals/Manual-WR310.pdf) linked from that page, which gives the IPX6 rating and the 15° Cut-to-Zero slope note. Neither source states noise, per-charge coverage, or drive type, so those are omitted.
 
 ## Honest verdict
 

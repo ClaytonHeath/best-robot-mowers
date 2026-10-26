@@ -5,7 +5,7 @@ slug: worx-landroid-vision-cloud-4wd-wr344
 model: WR344
 status: published
 priceUsd: 2999.99
-priceNote: "Official Worx US store on 6 Oct 2026 (AWST) for partNumber / SKU WR344 (Landroid Vision Cloud 4WD 1 Acre), catalog entry id 3074457345616683941 (parent product 3074457345616683236): Display $2,999.99 and Offer $2,999.99 in USD, so there is no separate compare-at or struck price. Worx's own catalog API marked the item buyable, and the US inventory endpoint returned inventoryStatus Available (availableQuantity 97) for WR344 the same morning. Tax and shipping excluded."
+priceNote: "Official Worx US cart on 26 Oct 2026 (AWST) for partNumber / SKU WR344 (Landroid Vision Cloud 4WD 1 Acre), catalog entry id 3074457345616683941 (parent product 3074457345616683236): $2,999.99 USD in a live guest cart (/wcs/resources/store/716000101/cart/@self unitPrice 2999.99 USD, quantity 1), matching the $2,999.99 Display and Offer on the page with no separate compare-at or struck price. Worx's US inventory endpoint returned inventoryStatus Available (availableQuantity 95.0) for WR344 the same morning. Tax and shipping excluded."
 coverageAcres: 1
 slopePercent: 84
 navigation:
@@ -17,7 +17,7 @@ verdict: "At $2,999.99, the WR344 is Worx's 1-acre Vision Cloud 4WD: RTK Cloud p
 affiliateUrl: ""
 officialUrl: https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-acre
 image: /mowers/worx-landroid-vision-cloud-4wd-wr344.webp
-updated: 2026-10-06
+updated: 2026-10-26
 cuttingWidthIn: 8.7
 cuttingHeight: "1.57–3.54 in"
 weightLbs: 39.9
@@ -62,7 +62,7 @@ Skip it if the grass area is over an acre (Worx sells WR346 for 1½ acres), if R
 - **Battery platform:** the mower runs on a standard Worx **20 V PowerShare** pack (5 Ah WA3675), the same system as Worx cordless tools. Charge time is **60 minutes**.
 - **In the box (US page):** Worx Landroid Vision Cloud 4WD WR344 ×1, charging station ×1, charger ×1, 20 V battery ×1, spare blade kits ×8, hex key ×1, screws ×8, No-Go Line 19.7 ft, stakes ×10, manuals. The manual's accessory list also names a charging tower, charging base plate, Cut-to-Zero module, and FiatLux light.
 - **Warranty and returns:** 3-year limited warranty and a 30-day money-back guarantee on the official listing.
-- **Purchase terms on this date:** $2,999.99 Display and Offer on the official US store, with no compare-at price. The item is marked buyable and the WR344 inventory read **Available**. Tax and shipping are excluded.
+- **Purchase terms on this date:** $2,999.99 Display and Offer on the official US store, with no compare-at price. A guest cart accepted partNumber WR344 at **$2,999.99 USD** on 26 Oct 2026, and the WR344 inventory read **Available** (qty 95). Tax and shipping are excluded.
 
 Page / source notes:
 
@@ -70,7 +70,7 @@ Page / source notes:
 - **Slope:** the 84% headline and the 15° Cut-to-Zero caution both come from Worx. `slopePercent` is the published **84**. The 15° limit is about running with the edge module fitted.
 - **Noise:** no sound level is published on the US page or in the manual's technical data, so `noiseDb` is omitted.
 
-Sources: [official Worx US product page, Landroid Vision Cloud 4WD 1 Acre (WR344)](https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-acre), including the specifications, What's included, key features, and the linked [WR344/WR346 owner's manual](https://www.worx.com/media/wysiwyg/pdp-pages/manuals/Manual-WR344.pdf), plus Worx's US catalog price and inventory responses for partNumber WR344, checked **6 Oct 2026** (AWST).
+Sources: [official Worx US product page, Landroid Vision Cloud 4WD 1 Acre (WR344)](https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-acre), including the specifications, What's included, key features, and the linked [WR344/WR346 owner's manual](https://www.worx.com/media/wysiwyg/pdp-pages/manuals/Manual-WR344.pdf), plus Worx's live US guest cart, catalog price, and inventory responses for partNumber WR344, checked **6 Oct 2026** and re-checked **26 Oct 2026** (AWST).
 
 ## Honest verdict
 
