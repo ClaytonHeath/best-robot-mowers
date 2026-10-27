@@ -5,7 +5,7 @@ slug: ecovacs-goat-a3000-lidar-pro
 model: A3000 LiDAR PRO (MR2507G)
 status: published
 priceUsd: 2499.99
-priceNote: List price on the official US product page on 26 Aug 2026.
+priceNote: "Official US cart price on 27 Oct 2026 (AWST) for the mower-only GOAT A3000 LiDAR PRO (MR2507G, SKU GA3000LP, ECOVACS product id 1191): $2,499.99 present / $2,499.99 origin, off $0.00, no coupons. Cart subtotal and total both $2,499.99 for quantity 1 with no extended warranty or accessories added, matching the $2,499.99 list price on 26 Aug 2026. Tax and shipping are excluded."
 coverageAcres: 0.75
 slopePercent: 50
 navigation:
@@ -17,7 +17,7 @@ verdict: A well-documented LiDAR flagship with a real edge trimmer and a 50% wor
 affiliateUrl: ""
 officialUrl: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro
 image: /mowers/ecovacs-goat-a3000-lidar-pro.webp
-updated: 2026-08-26
+updated: 2026-10-27
 cuttingWidthIn: 13
 cuttingHeight: 1.18–3.54 in (30–90 mm), 7 steps
 noiseDb: 62
@@ -46,7 +46,7 @@ People with up to about three-quarters of an acre who want a wire-free install t
 - **Connectivity:** Bluetooth and Wi-Fi. Cellular / GNSS are listed in the manual as **purchased** options; the US store sells a GOAT Cellular Module Pro separately.
 - **Catch on the same page:** do not treat the leftover “15°” Key Features line as the slope spec.
 
-Sources: [GOAT A3000 LiDAR PRO US product page](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro), [GOAT series page](https://www.ecovacs.com/us/goat-robotic-lawn-mower) (A3000 LIDAR PRO disclaimer), and the [US instruction manual](https://site-static.ecovacs.com/upload/us/file/support/2026/02/11/075033_8248$GOATA3000LiDARPROInstructionManual.pdf), checked 26 Aug 2026.
+Sources: [GOAT A3000 LiDAR PRO US product page](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a3000-lidar-pro) and live US guest cart (`product_id: 1191`, SKU `GA3000LP`), [GOAT series page](https://www.ecovacs.com/us/goat-robotic-lawn-mower) (A3000 LIDAR PRO disclaimer), and the [US instruction manual](https://site-static.ecovacs.com/upload/us/file/support/2026/02/11/075033_8248$GOATA3000LiDARPROInstructionManual.pdf), checked 26 Aug 2026 and re-checked 27 Oct 2026 (AWST).
 
 ## Honest verdict
 
