@@ -5,7 +5,7 @@ slug: worx-landroid-m-wr147
 model: WR147
 status: published
 priceUsd: 1199
-priceNote: Official Worx US Display/Offer $1,199.99 for WR147 (Landroid M – 1/4 Acre) on 5 Sep 2026; list and offer are the same on the selected SKU. Inventory API reports Unavailable (qty 0) — out of stock, but the official price is published. Same configurable S/M/L PDP also sells WR165 ($999.99) and WR155 ($1,499.99 list). Parent “as low as” $999.99 is WR165 — use the WR147 selected-SKU price, not the family floor.
+priceNote: Official Worx US Display/Offer $1,199.99 for WR147 (Landroid M – 1/4 Acre, catalog entry 3074457345616683690) on 27 Oct 2026 (AWST), unchanged from 5 Sep 2026; list and offer are the same on the selected SKU. Inventory API reports Unavailable (availableQuantity 0.0) — out of stock, but the official price is published. Same configurable S/M/L PDP also sells WR165 ($999.99) and WR155 ($1,499.99 list). Parent “as low as” $999.99 is WR165 — use the WR147 selected-SKU price, not the family floor.
 coverageAcres: 0.25
 slopePercent: 30
 navigation:
@@ -16,7 +16,7 @@ verdict: A wire-install quarter-acre Landroid with pegs in the box — 30% slope
 affiliateUrl: ""
 officialUrl: https://www.worx.com/landroid-m-1-4-acre-20v-cordless-robotic-lawn-mower-wr147.html
 image: /mowers/worx-landroid-m-wr147.webp
-updated: 2026-09-05
+updated: 2026-10-27
 cuttingHeight: 30–60 mm, manual
 noiseDb: 59
 ---
@@ -25,7 +25,7 @@ noiseDb: 59
 
 Worx Landroid M WR147 is a **boundary-wire** robot mower for lawns up to **¼ acre**. It is not the Vision Cloud line: no cameras, no RTK Cloud, no virtual map. A buried (or pegged) loop defines the work area. Worx’s AIA turning is for narrow passages *inside* that loop.
 
-The US product identity on the official page is **Landroid M – 1/4 Acre** (page title, configurable option, SEO slug, and a gallery graphic labeled “1/4 ACRE”). Official Display/Offer on 5 Sep 2026 was **$1,199.99** for this SKU; inventory was **Unavailable** (qty 0).
+The US product identity on the official page is **Landroid M – 1/4 Acre** (page title, configurable option, SEO slug, and a gallery graphic labeled “1/4 ACRE”). Official Display/Offer on 27 Oct 2026 (AWST) remained **$1,199.99** for this SKU (unchanged from 5 Sep 2026); inventory remained **Unavailable** (qty 0).
 
 ## Who it's for
 
@@ -33,7 +33,7 @@ Flat-to-moderate suburban lawns around **a quarter acre** where the owner will i
 
 ## Standout details
 
-- **Price:** $1,199.99 Display and Offer on the official Worx US catalog for partNumber **WR147** on 5 Sep 2026 (productPrice list=offer=1199.99). Out of stock online (inventoryStatus Unavailable, availableQuantity 0). The PDP is a configurable S/M/L page (WR165 1/8 acre, WR147 1/4 acre, WR155 1/2 acre). Ignore the parent product’s $999.99 floor — that is WR165.
+- **Price:** $1,199.99 Display and Offer on the official Worx US catalog for partNumber **WR147** on 27 Oct 2026 (unchanged from 5 Sep 2026; productPrice list=offer=1199.99). Out of stock online (`inventoryStatus: Unavailable`, `availableQuantity: 0.0`). The PDP is a configurable S/M/L page (WR165 1/8 acre, WR147 1/4 acre, WR155 1/2 acre). Ignore the parent product’s $999.99 floor — that is WR165.
 - **Coverage:** **1/4 acre** from the WR147 product name, page title (“Landroid M 20V 4.0Ah Robotic Lawn Mower (1/4 Acre)”), meta description (“Mow up to 1/4 acre”), CONFIGURABLE_OPTION (“WR147 - Landroid M - 1/4 Acre”), and gallery still labeled “1/4 ACRE”. The shared INFO_SPECS row still says “Recommended lawn size|1/2 Acre” on WR147 — that is CMS contamination from the L SKU; do not use it for this listing.
 - **Navigation:** Physical boundary wire. AIA for narrow paths; Cut-to-Edge; app multi-zone. Bluetooth and Wi-Fi; LCD plus Landroid app; OTA (and USB) updates.
 - **Slope / terrain:** Maximum slope **30%** on the WR147 INFO_SPECS block. Self-leveling / floating blade disc. Rain sensor.
@@ -42,7 +42,7 @@ Flat-to-moderate suburban lawns around **a quarter acre** where the owner will i
 - **Build:** Spec-table noise **59 dB**. Hose-washable underside. No IP rating published on the page. Weight omitted — WR147 attributes disagree (INFO_SPECS 13.5 kg without battery vs WEIGHT 24.25).
 - **In the box (WR147 attribute identifiers):** 6.0 Ah battery (WA3671), charging station (WA0464), **820 ft** boundary wire, **340** pegs, 2 wire connectors, 8 base screws, 9 blades, 9 blade screws, hex key. (The first what’s-included line incorrectly says “Landroid L 1/2 Acre” — CMS error; this SKU is Landroid M WR147.)
 
-Source: [Worx Landroid M WR147](https://www.worx.com/landroid-m-1-4-acre-20v-cordless-robotic-lawn-mower-wr147.html), checked 5 Sep 2026.
+Source: [Worx Landroid M WR147](https://www.worx.com/landroid-m-1-4-acre-20v-cordless-robotic-lawn-mower-wr147.html), checked 5 Sep 2026 and re-checked 27 Oct 2026 (AWST).
 
 ## Honest verdict
 

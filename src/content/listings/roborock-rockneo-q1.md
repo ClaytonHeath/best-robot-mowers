@@ -5,7 +5,7 @@ slug: roborock-rockneo-q1
 model: RockNeo Q110H
 status: published
 priceUsd: 1299
-priceNote: "Official US list on garden.roborock.com RockNeo Q1 specs ('Current Price: $1,299.00' for US SKU RockNeo Q110H; Nuxt payload MSRP 129900 cents) on 25 Oct 2026 (AWST), unchanged from 16 Sep 2026. On 25 Oct 2026, the RockNeo Q1 PDP hero banner reads 'From $999' (was 'From $1,299' on 16 Sep 2026) and the US specs page adds a second SKU option, RockNeo Q110N, with no price shown on its spec card. Still no first-party cart on garden.roborock.com/us: Where to Buy points only to Amazon ASIN B0GRVYN12B, which showed 'Temporarily out of stock' with no buy-box price for a US delivery ZIP (10001) on 25 Oct 2026 (it was 'Currently unavailable' on 16 Sep 2026)."
+priceNote: "Official US list on garden.roborock.com RockNeo Q1 specs ('Current Price: $1,299.00' for US SKU RockNeo Q110H; Nuxt payload MSRP 129900 cents) on 27 Oct 2026 (AWST), unchanged from 16 Sep 2026. The RockNeo Q1 PDP hero banner reads 'From $999' (was 'From $1,299' on 16 Sep 2026) and the US specs page includes a second SKU option, RockNeo Q110N, with no price shown on its spec card. Still no first-party cart on garden.roborock.com/us: Where to Buy points only to Amazon ASIN B0GRVYN12B, which had no new featured/buy-box offer ('See 1 options with no featured offers'; only a single Used - Like New unit from Amazon Resale at $664.99) for a US delivery ZIP (10001) on 27 Oct 2026."
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
@@ -17,7 +17,7 @@ verdict: A wire-free US Q110H SKU with published ~0.25-acre capacity, 45% max sl
 affiliateUrl: ""
 officialUrl: https://garden.roborock.com/us/products/roborock-rockneo-q1
 image: /mowers/roborock-rockneo-q1.webp
-updated: 2026-10-25
+updated: 2026-10-27
 cuttingWidthIn: 8.7
 weightLbs: 27.1
 ipRating: IPX6
@@ -45,8 +45,8 @@ Homeowners with up to about **0.25 acre** who want a wire-free install with RTK 
 - **Cutting:** Width **22 cm / 8.7 in**, three blades (DE + Amazon). PreciEdge™ optional for closer edges (US: sold separately).
 - **Other verified:** **IPX6**; rain sensing returns to dock; weight **12.3 kg / ~27.1 lb** (DE Q110); Amazon item weight **27 pounds**. Optional 4G + anti-theft module sold separately.
 
-Sources: [Roborock RockNeo Q1 US PDP](https://garden.roborock.com/us/products/roborock-rockneo-q1), [US specs (Current Price)](https://garden.roborock.com/us/products/roborock-rockneo-q1/specs), [official where-to-buy → Amazon B0GRVYN12B](https://www.amazon.com/dp/B0GRVYN12B?th=1), [DE Q110 specs](https://garden.roborock.com/de/store/products/roborock-rockneo-q110/specs), [Roborock Help Center Q vs S](https://garden-support.roborock.com/hc/en-150/articles/15315106149391-Q1-What-are-the-major-differences-between-Q-series-and-S-series), checked **16 Sep 2026** and re-checked **25 Oct 2026**.
+Sources: [Roborock RockNeo Q1 US PDP](https://garden.roborock.com/us/products/roborock-rockneo-q1), [US specs (Current Price)](https://garden.roborock.com/us/products/roborock-rockneo-q1/specs), [official where-to-buy → Amazon B0GRVYN12B](https://www.amazon.com/dp/B0GRVYN12B?th=1), [DE Q110 specs](https://garden.roborock.com/de/store/products/roborock-rockneo-q110/specs), [Roborock Help Center Q vs S](https://garden-support.roborock.com/hc/en-150/articles/15315106149391-Q1-What-are-the-major-differences-between-Q-series-and-S-series), checked **16 Sep 2026** and re-checked **27 Oct 2026** (AWST).
 
 ## Honest verdict
 
-Buy the Q110H if the yard is around or under **0.25 acre**, slopes stay inside the published **45%** figure on **RWD**, and you want **RTK + vision** without burying wire. Official US list is **$1,299** for the Q110H on the US specs page (the PDP banner now says "From $999" after adding a Q110N option, and Amazon ASIN B0GRVYN12B remained temporarily out of stock with no live cart price on 25 Oct 2026). Skip it for larger rated lawns, AWD / steeper terrain, or LiDAR-first RockMow siblings.
+Buy the Q110H if the yard is around or under **0.25 acre**, slopes stay inside the published **45%** figure on **RWD**, and you want **RTK + vision** without burying wire. Official US list is **$1,299** for the Q110H on the US specs page (the PDP banner says "From $999" after adding a Q110N option, and Amazon ASIN B0GRVYN12B had no new buy-box offer on 27 Oct 2026, showing only a single Used - Like New Amazon Resale unit at $664.99). Skip it for larger rated lawns, AWD / steeper terrain, or LiDAR-first RockMow siblings.
