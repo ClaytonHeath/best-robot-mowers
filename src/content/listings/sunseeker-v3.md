@@ -57,8 +57,8 @@ Sources: [Sunseeker V3 US product page](https://shopsunseekertech.com/products/v
 ## Honest verdict
 
 For a small lawn with clear edges, the V3 does the job at **$799.99**. You get camera navigation with no wire or antenna, a 42% slope rating, 55 dB operation and 100 zones, and magnetic strips are included for the tricky edges. It isn't the cheapest small-yard option we list:
-- The [roboup-raccoon-2-se](https://us.iroboup.com/products/roboup-raccoon-2-se-robot-mower?variant=52045493076262) is also vision-only and rated 0.15 acre, for $579, but it climbs only 36%.
+- The [roboup-raccoon-2-se](https://us.iroboup.com/products/roboup-raccoon-2-se-robot-mower?variant=52045493076262) is also vision-only and rated 0.15 acre, for $579 (sold out on 28 Oct 2026), and climbs only 36%.
 - The [anthbot-genie](https://www.anthbot.com/products/genie-robot-lawn-mower) costs $699, also covers 0.15 acre, and adds RTK + vision with a 45% rating.
 - The camera-only [eufy-e15](https://www.eufy.com/products/t28801a1?variant=44697729269946) covers a bit more (0.2 acre) but lists at $1,799.99 and is rated for slopes under 18°.
 
-The limits are the 0.15-acre rating, a camera system Sunseeker recommends for daylight and tidy lawns, and a US page with no cutting width, height range, weight or battery figures. The sale price also moves: it was $599.99 two days earlier. Buy it if your lawn is small, simple and sloped. Wait for a lower price if you're not in a hurry, and choose the Raccoon 2 SE if price matters most.
+The limits are the 0.15-acre rating, a camera system Sunseeker recommends for daylight and tidy lawns, and a US page with no cutting width, height range, weight or battery figures. The sale price also moves: it was $599.99 two days earlier. Buy it if your lawn is small, simple and sloped. Wait for a lower price if you're not in a hurry, and choose the Raccoon 2 SE when it is in stock if price matters most.
