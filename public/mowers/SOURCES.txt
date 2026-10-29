@@ -318,3 +318,7 @@ worx-landroid-vision-cloud-4wd-wr341.webp
   Page: https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-4-acre
   File: https://www.worx.com/WorxGlobalCAS/w/r/wr341_wr342_view1.jpg
   (Official Worx catalog "Landroid Vision Cloud 4WD ¼ Acre Main Image", served as 1200x1200 RGB WebP despite the .jpg URL; identical bytes to the wr341_wr342_view1_1.jpg studio asset shared with the WR342 listing. Whole machine, studio on white, no badges or text overlays. Native machine-crop MAG≈4.04. Trimmed and padded centered on white to 1400x1400 RGB WebP without upscaling the machine. SKU lock: WR341 / catalog entry 3074457345616683942 only, not WR342, WR344 or WR346, and not the 2WD Vision Cloud WR310.1/WR320.1/WR340. Checked 28 Oct 2026 AWST.)
+worx-landroid-vision-cloud-4wd-wr346.webp
+  Page: https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-1-2-acre
+  File: https://www.worx.com/WorxGlobalCAS/w/r/wr344_wr346_view1.jpg
+  (Official Worx catalog "Landroid Vision Cloud 4WD 1½ Acre Main Image", served as 1200x1200 RGB WebP despite the .jpg URL. Whole machine, studio on white, no badges or text overlays. Native machine-crop MAG≈2.74. Trimmed and padded centered on white to 1400x1400 RGB WebP without upscaling the machine. SKU lock: WR346 / catalog entry 3074457345616683944 only, not WR341, WR342 or WR344, and not the 2WD Vision Cloud WR310.1/WR320.1/WR340. Checked 29 Oct 2026 AWST.)
