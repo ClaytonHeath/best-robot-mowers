@@ -20,9 +20,9 @@ function formatChecked(date: Date): string {
   return `${date.getUTCDate()} ${MONTHS[date.getUTCMonth()]} ${date.getUTCFullYear()}`;
 }
 
-function mustInclude(source: string, phrase: string, where: string): void {
+function mustInclude(source: string, phrase: string, where: string, label = "Yarbo FAQ"): void {
   if (!source.includes(phrase)) {
-    throw new Error(`Yarbo FAQ expected ${JSON.stringify(phrase)} in ${where}`);
+    throw new Error(`${label} expected ${JSON.stringify(phrase)} in ${where}`);
   }
 }
 
@@ -125,8 +125,73 @@ function yarboFaqs(listing: Listing): FaqItem[] {
   ];
 }
 
+function i110Faqs(listing: Listing): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("i110 listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "i110 FAQ";
+  if (data.priceUsd !== 1099) throw new Error(`${label} expected priceUsd 1099`);
+  if (data.coverageAcres !== 0.25) throw new Error(`${label} expected coverageAcres 0.25`);
+  if (data.slopePercent !== 30) throw new Error(`${label} expected slopePercent 30`);
+  if (data.cuttingWidthIn !== 7.1) throw new Error(`${label} expected cuttingWidthIn 7.1`);
+  if (data.cuttingHeight !== "2–3.6 in, manual") throw new Error(`${label} expected cuttingHeight`);
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "Front-wheel drive") throw new Error(`${label} expected front-wheel drive`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$1,099.00", "priceNote", label);
+  mustInclude(note, "no compare-at", "priceNote", label);
+  mustInclude(note, "SOLD OUT", "priceNote", label);
+  mustInclude(note, "AA.12.02.03.0003", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "1.2× the recommended area (0.3 acre here, layout-dependent)", "body", label);
+  mustInclude(body, "30% (17°)", "body", label);
+  mustInclude(body, "10% (6°)", "body", label);
+  mustInclude(body, "work-area slopes over 30%", "body", label);
+  mustInclude(body, "EFLS 2.0 (Network RTK plus Visual SLAM)", "body", label);
+  mustInclude(body, "140° VisionFence", "body", label);
+  mustInclude(body, "A local antenna remains part of the install story when Network RTK is not available.", "body", label);
+  mustInclude(body, "4G connectivity and anti-theft/GPS tracking require a separate Navimow Access+ 4G module.", "body", label);
+  mustInclude(body, "three blades", "body", label);
+  mustInclude(body, "5.1 Ah", "body", label);
+  mustInclude(body, "about 120 minutes to charge", "body", label);
+  mustInclude(body, "about 120 minutes of mowing", "body", label);
+  mustInclude(body, "manual height 2–3.6 in", "body", label);
+  mustInclude(body, data.driveType.toLowerCase(), "body", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "How much does the Segway Navimow i110 cost?",
+      answer: `The official US store price recorded here is ${price} on ${checked} for SKU AA.12.02.03.0003, Navimow i110 | 0.25 acre. There is no compare-at.${stockSentence(note)}`,
+    },
+    {
+      question: "How large a lawn is the Segway Navimow i110 rated for?",
+      answer: `The coverage figure is ${coverage}. That number is the recommended mowing area. The same listing also records a mapping footnote of up to 1.2× the recommended area (0.3 acre here, layout-dependent).`,
+    },
+    {
+      question: "Can the Segway Navimow i110 handle steep hills?",
+      answer: `Work-area slope is ${data.slopePercent}% (17°). Boundary slope is 10% (6°). Drive is ${data.driveType.toLowerCase()}. The listing says it is a weaker match for work-area slopes over 30%.`,
+    },
+    {
+      question: "Does the Segway Navimow i110 need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records EFLS 2.0 (Network RTK plus Visual SLAM) and a 140° VisionFence camera. A local antenna remains part of the install story when Network RTK is not available. 4G connectivity and anti-theft/GPS tracking require a separate Navimow Access+ 4G module.`,
+    },
+    {
+      question: "What cutting width and height does the Segway Navimow i110 have?",
+      answer: `Cutting width is ${data.cuttingWidthIn} in. Cutting height is ${data.cuttingHeight}. The cutting system is three blades. The battery is 5.1 Ah, with about 120 minutes of mowing and about 120 minutes to charge.`,
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
 export function faqsForListing(listing: Listing): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
+  if (listing.data.slug === "segway-navimow-i110") return i110Faqs(listing);
   return [];
 }
