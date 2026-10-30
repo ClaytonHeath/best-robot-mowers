@@ -4,8 +4,8 @@ brand: MOVA
 slug: mova-lidax-pro-800
 model: LiDAX Pro 800
 status: published
-priceUsd: 899
-priceNote: Official US cart price for LiDAX Pro 800 variant 47666572099820 (SKU 010901AA000250) on 16 Oct 2026 (AWST) — $899.00 sale, $1,099.00 compare-at; tax and shipping excluded. Exact variant accepted into a USD guest cart with no discount. Down from the $999.00 sale recorded on 26 Sep 2026. Single-variant product (0.2 acre).
+priceUsd: 949
+priceNote: Official US cart price for LiDAX Pro 800 variant 47666572099820 (SKU 010901AA000250) on 30 Oct 2026 (AWST) — $949.00 sale, $1,099.00 compare-at; tax and shipping excluded. Exact variant accepted into a USD guest cart at $949.00 with no discount. Up from the $899.00 sale recorded on 16 Oct 2026 (it was $999.00 on 26 Sep 2026). Single-variant product (0.2 acre).
 coverageAcres: 0.2
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Small, fairly flat suburban lawns up to 0.2 acre that want wire-free 360° LiDAR + AI vision mapping with no RTK antenna or boundary wire. The limits are 0.2 acre per map, 45% slopes on rear-wheel drive, and a published edge gap of under 4.3 inches, so plan to string-trim the borders.
-verdict: A $899 wire-free LiDAR mower for 0.2-acre yards with a 7.9-inch cut and a 45% climb rating. The catch is that MOVA's own LiDAX Ultra 1000 ($999 in the same US cart on 16 Oct 2026, $100 more) is rated for 0.25 acre with an edge gap under 2 inches.
+verdict: A $949 wire-free LiDAR mower for 0.2-acre yards with a 7.9-inch cut and a 45% climb rating. The catch is that MOVA's own LiDAX Ultra 1000 ($1,049 in the same US cart on 30 Oct 2026, $100 more) is rated for 0.25 acre with an edge gap under 2 inches.
 affiliateUrl: ""
 officialUrl: https://us.mova.tech/products/mova-lidax-pro-800-robotic-lawn-mower?variant=47666572099820
 image: /mowers/mova-lidax-pro-800.webp
-updated: 2026-10-16
+updated: 2026-10-30
 cuttingWidthIn: 7.9
 cuttingHeight: "1.2–3.9 in"
 weightLbs: 28.6
@@ -79,4 +79,4 @@ Sources: [official MOVA US product page](https://us.mova.tech/products/mova-lida
 
 ## Honest verdict
 
-The Pro 800 at **$899** ($1,099 compare-at, 16 Oct 2026) fits a yard of up to **0.2 acre** with gentle slopes, if you want **LiDAR + vision** mapping with no wire or RTK hardware. On MOVA's own spec tables, it shares the Ultra 1000's dimensions, 7.9" cut, 45% RWD climb, 4 Ah battery and 60–80 min runtime. The Pro 800 is 1.6 lbs lighter, but it's rated for less area (0.2 vs 0.25 acre) and leaves a wider uncut edge (< 4.3" vs < 2"). On 26 Sep 2026 the Ultra 1000 was $100 cheaper in MOVA's US cart; on 16 Oct 2026 it was **$100 more** ($999 vs $899). Check both carts before buying, because MOVA's sale prices move often.
+The Pro 800 at **$949** ($1,099 compare-at, 30 Oct 2026; it was $899 on 16 Oct 2026) fits a yard of up to **0.2 acre** with gentle slopes, if you want **LiDAR + vision** mapping with no wire or RTK hardware. On MOVA's own spec tables, it shares the Ultra 1000's dimensions, 7.9" cut, 45% RWD climb, 4 Ah battery and 60–80 min runtime. The Pro 800 is 1.6 lbs lighter, but it's rated for less area (0.2 vs 0.25 acre) and leaves a wider uncut edge (< 4.3" vs < 2"). On 26 Sep 2026 the Ultra 1000 was $100 cheaper in MOVA's US cart; on 16 Oct 2026 and again on 30 Oct 2026 it was **$100 more** ($1,049 vs $949 on 30 Oct 2026). Check both carts before buying, because MOVA's sale prices move often.

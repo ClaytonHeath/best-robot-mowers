@@ -31,12 +31,12 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | --- | --- | --- | --- | --- | --- | --- |
 | Tight urban | [Anthbot M5](/mowers/anthbot-m5/) | 0.12 acre | 45% | RTK + vision | Wire-free | $679 |
 | Small RTK Genie | [Anthbot Genie 600e (4G)](/mowers/anthbot-genie/) | 0.15 acre recommended (variant markets 0.22) | 45% | RTK + vision | Wire-free | $699 |
-| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $669 |
+| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $799 (30 Oct 2026; was $669 on sale 23 Oct) |
 | Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 (sold out 9 Oct 2026) |
 | Vision + cloud RTK | [Worx Landroid Vision Cloud WR310.1](/mowers/worx-landroid-vision-cloud-wr310/) | 0.25 acre | 30% | Vision + RTK | Wire-free | $1,199.99 |
 | RTK + vision RWD | [Roborock RockNeo Q1](/mowers/roborock-rockneo-q1/) | 0.25 acre | 45% | RTK + vision | Wire-free | $1,299 |
 | Small AWD / steep patches | [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/) | 0.25 acre | 80% | LiDAR + vision | Wire-free | $1,399.99 |
-| Mid Genie (rec. 1/4 acre) | [Anthbot Genie 1000](/mowers/anthbot-genie-1000/) | 0.25 acre recommended (variant markets 0.49) | 45% | RTK + vision | Wire-free | $799 |
+| Mid Genie (rec. 1/4 acre) | [Anthbot Genie 1000](/mowers/anthbot-genie-1000/) | 0.25 acre recommended (variant markets 0.49) | 45% | RTK + vision | Wire-free | $799 (30 Oct 2026; was $669 on sale 23 Oct) |
 
 **Yard-fit note:** If the lawn is truly ≤0.125 acre and relatively flat, i105 or M5 / Genie 600e are the catalog’s small end. If you need AWD toward 80% inside a quarter acre, Dreame A3 AWD 1000 is the small-yard AWD card — not the larger Pro or 2000 SKUs.
 
