@@ -47,6 +47,122 @@ People with up to one-quarter acre of lawn who want to skip a boundary wire and 
 
 Sources: [Navimow i110 product / cart page](https://navimow.com/products/navimow-i110), [i-series page](https://navimow.com/pages/navimow-i), and [i-series spec compare](https://navimow.com/pages/navimow-i-specs), checked 4 Sep 2026.
 
+## Compared with the Navimow X330
+
+The i110 is listed here next to the [X330](/mowers/segway-navimow-x330/). Every cell below is copied from that model’s listing. Prices are the amounts on those listings, with the date each one was checked. “Not listed” means that listing does not state the value. Both are wire-free. Each listing’s current price has no compare-at.
+
+<div class="table-scroll">
+<table>
+  <caption>Listing specs for the i110 and X330</caption>
+  <thead>
+    <tr>
+      <th scope="col">Spec</th>
+      <th scope="col">i110</th>
+      <th scope="col"><a href="/mowers/segway-navimow-x330/">X330</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">US price</th>
+      <td>$1,099 (9 Oct 2026)</td>
+      <td>$2,299 (17 Oct 2026)</td>
+    </tr>
+    <tr>
+      <th scope="row">Stock</th>
+      <td>Sold out (9 Oct 2026)</td>
+      <td>Available (17 Oct 2026)</td>
+    </tr>
+    <tr>
+      <th scope="row">Recommended area</th>
+      <td>0.25 acre</td>
+      <td>1 acre</td>
+    </tr>
+    <tr>
+      <th scope="row">Work-area slope</th>
+      <td>30% (17°)</td>
+      <td>50%</td>
+    </tr>
+    <tr>
+      <th scope="row">Boundary slope</th>
+      <td>10% (6°)</td>
+      <td>25%</td>
+    </tr>
+    <tr>
+      <th scope="row">Navigation</th>
+      <td>EFLS 2.0 (Network RTK plus Visual SLAM), 140° VisionFence</td>
+      <td>EFLS 3.0 (RTK + VSLAM + VIO); 3 HD cameras with a 300° field of view and a ToF camera</td>
+    </tr>
+    <tr>
+      <th scope="row">Antenna</th>
+      <td>Local GNSS antenna if Network RTK is unavailable</td>
+      <td>Included GNSS antenna if Network RTK is unavailable; second antenna sold separately</td>
+    </tr>
+    <tr>
+      <th scope="row">Cutting width</th>
+      <td>7.1 in</td>
+      <td>9.33 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Cutting height</th>
+      <td>2–3.6 in, manual</td>
+      <td>2–4 in, set electronically</td>
+    </tr>
+    <tr>
+      <th scope="row">Battery</th>
+      <td>5.1 Ah</td>
+      <td>8 Ah / 173 Wh</td>
+    </tr>
+    <tr>
+      <th scope="row">Mowing time per charge</th>
+      <td>about 120 minutes</td>
+      <td>about 160 min</td>
+    </tr>
+    <tr>
+      <th scope="row">Charge time</th>
+      <td>about 120 minutes</td>
+      <td>about 65 min</td>
+    </tr>
+    <tr>
+      <th scope="row">Area per hour</th>
+      <td>80–120 m² (0.02–0.03 acre)</td>
+      <td>about 0.074 acre</td>
+    </tr>
+    <tr>
+      <th scope="row">Noise</th>
+      <td>58 dB(A)</td>
+      <td>60 dB(A)</td>
+    </tr>
+    <tr>
+      <th scope="row">Weight</th>
+      <td>24 lb</td>
+      <td>43.74 lbs</td>
+    </tr>
+    <tr>
+      <th scope="row">Size</th>
+      <td>21.4 × 15.1 × 11.2 in</td>
+      <td>27.5 × 21.7 × 12.1 in</td>
+    </tr>
+    <tr>
+      <th scope="row">Drive</th>
+      <td>Front-wheel drive</td>
+      <td>Rear-wheel drive</td>
+    </tr>
+    <tr>
+      <th scope="row">Ingress rating</th>
+      <td>IP66</td>
+      <td>IP66</td>
+    </tr>
+    <tr>
+      <th scope="row">4G</th>
+      <td>Access+ module, sold separately</td>
+      <td>not listed</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+The recommended-area row is each listing’s coverage figure. The i110 listing also records a layout-dependent maximum of about 0.3 acre. The X330 listing does not state a higher maximum. The i110 listing records three blades; the X330 listing records 6 blades. The X330 noise cell is the 60 dB(A) sound-power figure on that listing; the same listing also records 52 dB(A) sound pressure. The i110 listing states 58 dB(A) and does not split those. The X330 listing also records IP66 for the charging station and power supply; the i110 listing does not. The X330 listing does not publish Connect+ / 4G terms.
+
 ## Honest verdict
 
 Pay the $1,099 US price (sold out on 9 Oct 2026; no compare-at) if the lawn is actually 0.25 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you only need 0.125 acre (i105), X-series coverage or AWD, or a path narrower than the published 100 cm passage. While it is out of stock, the same-acreage [i210 AWD](https://www.bestlawnrobots.com/mowers/segway-navimow-i210-awd/) (`segway-navimow-i210-awd`) was $1,049 on sale in the same store.
