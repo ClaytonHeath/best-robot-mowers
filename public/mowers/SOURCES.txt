@@ -322,3 +322,7 @@ worx-landroid-vision-cloud-4wd-wr346.webp
   Page: https://www.worx.com/en-us/worxus/landroid-vision-cloud-4wd-1-1-2-acre
   File: https://www.worx.com/WorxGlobalCAS/w/r/wr344_wr346_view1.jpg
   (Official Worx catalog "Landroid Vision Cloud 4WD 1½ Acre Main Image", served as 1200x1200 RGB WebP despite the .jpg URL. Whole machine, studio on white, no badges or text overlays. Native machine-crop MAG≈2.74. Trimmed and padded centered on white to 1400x1400 RGB WebP without upscaling the machine. SKU lock: WR346 / catalog entry 3074457345616683944 only, not WR341, WR342 or WR344, and not the 2WD Vision Cloud WR310.1/WR320.1/WR340. Checked 29 Oct 2026 AWST.)
+anthbot-m9-pro.webp
+  Page: https://anthbot.com/products/m9-pro-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/m-pro-product-v_1.png?v=1791626832
+  (Official Anthbot "ANTHBOT M9 PRO" PDP first gallery image, 1500x1500 RGBA PNG studio cutout on transparent background. Whole machine, no badges or text overlays. The M Pro chassis image is shared by M5 Pro and M9 Pro on the official store. Alpha-trimmed to 1132x1121 and centered on white at 1400x1400 RGB WebP without upscaling. SKU lock: M9 Pro, SKU 105010110 / variant 67689364193582 only, not base M9 (105010084), M5 Pro (105010114) or M5 LiDAR. Checked 30 Oct 2026 AWST.)
