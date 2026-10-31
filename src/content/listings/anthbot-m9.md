@@ -12,8 +12,8 @@ navigation:
   - rtk
   - vision
 wireFree: true
-whoItsFor: Compact-to-mid urban/suburban wire-free yards around Anthbot’s published M9 recommended footprint of 1000 m² (~0.25 acre / 1/4 acre) that want Full-Band RTK + dual vision, built-in 4G / Network RTK, and a small chassis for narrow passages — hard limits are that 1000 m² ceiling and 45% max slope; not a Genie-series SKU and not the listed base M5 or M5 LiDAR sibling.
-verdict: A live-cart M-series step up from M5 with a $769 US base price (21 Oct 2026), published 1000 m² / 1/4-acre recommended yard, 7.9 in cut, and 45% slope — the catch is staying inside that 1000 m² ceiling and not mixing garage/accessory bundle rows or Genie / M5 SKUs into this listing.
+whoItsFor: Compact-to-mid urban/suburban wire-free yards around Anthbot’s published M9 recommended footprint of 1000 m² (~0.25 acre / 1/4 acre) that want Full-Band RTK + dual vision, built-in 4G / Network RTK, and a small chassis for narrow passages — hard limits are that 1000 m² ceiling and 45% max slope; not a Genie-series SKU, not the listed base M5 or M5 LiDAR sibling, and not the separate M9 Pro PDP.
+verdict: A live-cart M-series step up from M5 with a $769 US base price (21 Oct 2026), published 1000 m² / 1/4-acre recommended yard, 7.9 in cut, and 45% slope — the catch is staying inside that 1000 m² ceiling and not mixing garage/accessory bundle rows or Genie / M5 / M9 Pro SKUs into this listing.
 affiliateUrl: ""
 officialUrl: https://anthbot.com/products/m9-robot-lawn-mower
 image: /mowers/anthbot-m9.webp
@@ -28,11 +28,11 @@ driveType: 2 rear wheels
 
 ## What it is
 
-Anthbot **M9** is the **$769** base wire-free SKU on the official US M9 PDP (Shopify Package option **M9**, SKU **105010084**, variant id **51871726960942**). The cart accepted this base line at **$769.00** on 21 Oct 2026 ($699.00 on 12 Sep 2026). Navigation is **Full-Band RTK + NRTK + Dual Vision** (150° HDR AI vision) with **built-in 4G** and no perimeter wire. This is the **M9 / M-series** product line — not a Genie variant and not the already-listed **Anthbot M5** (`anthbot-m5`). Do not confuse it with listed **Genie 600e (4G)**, **Genie 1000**, or **Genie 3000**. The same M9 PDP also sells accessory bundles; this listing locks the **base M9** cart line only (not M9 + Garage, not M9 + Blades + RTK Wall Mount Kit, and not **M5**, **M5 LiDAR**, or Genie SKUs).
+Anthbot **M9** is the **$769** base wire-free SKU on the official US M9 PDP (Shopify Package option **M9**, SKU **105010084**, variant id **51871726960942**). The cart accepted this base line at **$769.00** on 21 Oct 2026 ($699.00 on 12 Sep 2026). Navigation is **Full-Band RTK + NRTK + Dual Vision** (150° HDR AI vision) with **built-in 4G** and no perimeter wire. This is the **M9 / M-series** product line — not a Genie variant and not the already-listed **Anthbot M5** (`anthbot-m5`). Do not confuse it with listed **Genie 600e (4G)**, **Genie 1000**, or **Genie 3000**, or with the separate **M9 Pro** PDP ([Anthbot M9 Pro](/mowers/anthbot-m9-pro/), SKU **105010110**, 360° LiDAR + RTK/NetRTK + vision). The same M9 PDP also sells accessory bundles; this listing locks the **base M9** cart line only (not M9 + Garage, not M9 + Blades + RTK Wall Mount Kit, not **M5**, **M5 LiDAR**, **M9 Pro**, or Genie SKUs).
 
 ## Who it's for
 
-Urban and suburban lawns near Anthbot’s published **Recommended Mowing Area of 1000 m² (1/4 Acres)** ≈ **0.25 acre** (PDP body also says designed for lawns **up to 1000 m²**) where the owner wants a **10-minute wire-free** RTK setup, app cutting-height control, on-edge mowing in a compact chassis for narrow passages/footpaths, and **4G** for remote app control / Network RTK. Official **Maximum Slope Ability** is **24° / 45%**. Wrong machine if the measured yard is past **1000 m²**, if you only need the smaller listed **M5** (500 m² / ~0.12 acre class), if you specifically want **M5 LiDAR**, or if you actually need a listed **Genie** SKU.
+Urban and suburban lawns near Anthbot’s published **Recommended Mowing Area of 1000 m² (1/4 Acres)** ≈ **0.25 acre** (PDP body also says designed for lawns **up to 1000 m²**) where the owner wants a **10-minute wire-free** RTK setup, app cutting-height control, on-edge mowing in a compact chassis for narrow passages/footpaths, and **4G** for remote app control / Network RTK. Official **Maximum Slope Ability** is **24° / 45%**. Wrong machine if the measured yard is past **1000 m²**, if you only need the smaller listed **M5** (500 m² / ~0.12 acre class), if you specifically want **M5 LiDAR** or the LiDAR **M9 Pro**, or if you actually need a listed **Genie** SKU.
 
 ## Standout details
 
@@ -44,8 +44,8 @@ Urban and suburban lawns near Anthbot’s published **Recommended Mowing Area of
 - **Build (published on PDP / specs):** Noise **≤ 58 dB**; waterproof **IPX6**; net weight **10.1 kg (22.3 lbs)**; drive **2 rear wheels**; size **49.8 × 39.2 × 25.1 cm**.
 - **In the box (PDP “Whats in the box”):** M9, one set of blades, charging station, charging pile adapter / extension cable, plus RTK reference hardware as listed on that packaging section (not the paid Garage bundle).
 
-Source: [ANTHBOT M9](https://anthbot.com/products/m9-robot-lawn-mower), checked 12 Sep 2026. Distinct from listed [Anthbot M5](https://www.bestlawnrobots.com/mowers/anthbot-m5/) (`anthbot-m5`), [Anthbot Genie 600e (4G)](https://www.bestlawnrobots.com/mowers/anthbot-genie/) (`anthbot-genie`), [Anthbot Genie 1000](https://www.bestlawnrobots.com/mowers/anthbot-genie-1000/) (`anthbot-genie-1000`), and [Anthbot Genie 3000](https://www.bestlawnrobots.com/mowers/anthbot-genie-3000/) (`anthbot-genie-3000`).
+Source: [ANTHBOT M9](https://anthbot.com/products/m9-robot-lawn-mower), checked 12 Sep 2026. Distinct from listed [Anthbot M5](https://www.bestlawnrobots.com/mowers/anthbot-m5/) (`anthbot-m5`), [Anthbot M9 Pro](/mowers/anthbot-m9-pro/) (`anthbot-m9-pro`), [Anthbot Genie 600e (4G)](https://www.bestlawnrobots.com/mowers/anthbot-genie/) (`anthbot-genie`), [Anthbot Genie 1000](https://www.bestlawnrobots.com/mowers/anthbot-genie-1000/) (`anthbot-genie-1000`), and [Anthbot Genie 3000](https://www.bestlawnrobots.com/mowers/anthbot-genie-3000/) (`anthbot-genie-3000`).
 
 ## Honest verdict
 
-M9 is the mid M-series live-cart Anthbot for a **published recommended 1000 m² (~0.25 acre / 1/4 acre)** wire-free yard with **RTK + dual vision**, **4G**, a **7.9 in** disc, and a **45%** slope limit at **$769** (21 Oct 2026). Buy it for yards that outgrow the listed **M5** footprint but stay inside **1000 m²** — not as a Genie substitute, and not if you mix in the garage/accessory bundle rows or the **M5 LiDAR** sibling.
+M9 is the mid M-series live-cart Anthbot for a **published recommended 1000 m² (~0.25 acre / 1/4 acre)** wire-free yard with **RTK + dual vision**, **4G**, a **7.9 in** disc, and a **45%** slope limit at **$769** (21 Oct 2026). Buy it for yards that outgrow the listed **M5** footprint but stay inside **1000 m²** — not as a Genie substitute, and not if you mix in the garage/accessory bundle rows, the **M5 LiDAR** sibling, or the separate **M9 Pro**.
