@@ -325,4 +325,8 @@ worx-landroid-vision-cloud-4wd-wr346.webp
 anthbot-m9-pro.webp
   Page: https://anthbot.com/products/m9-pro-robot-lawn-mower
   File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/m-pro-product-v_1.png?v=1791626832
-  (Official Anthbot "ANTHBOT M9 PRO" PDP first gallery image, 1500x1500 RGBA PNG studio cutout on transparent background. Whole machine, no badges or text overlays. The M Pro chassis image is shared by M5 Pro and M9 Pro on the official store. Alpha-trimmed to 1132x1121 and centered on white at 1400x1400 RGB WebP without upscaling. SKU lock: M9 Pro, SKU 105010110 / variant 67689364193582 only, not base M9 (105010084), M5 Pro (105010114) or M5 LiDAR. Checked 30 Oct 2026 AWST.)
+  (Official Anthbot "ANTHBOT M9 PRO" PDP first gallery image, 1500x1500 RGBA PNG studio cutout on transparent background. Whole machine, no badges or text overlays. The M Pro chassis image is shared by M5 Pro and M9 Pro on the official store. Alpha-trimmed to 1132x1121 and centered on white at 1400x1400 RGB WebP without upscaling. SKU lock: M9 Pro, SKU 105010110 / variant 67889022042414 (was 67689364193582 until re-issued by 1 Nov 2026) only, not M9 PRO + Garage M (M9PRO-MGV04-US), not base M9 (105010084), M5 Pro (105010114) or M5 LiDAR. Checked 30 Oct 2026 AWST.)
+anthbot-m5-pro.webp
+  Page: https://anthbot.com/products/m5-pro-robot-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0761/6403/8958/files/m-pro-product-v_1.png?v=1791626832
+  (Official Anthbot "ANTHBOT M5 PRO" PDP first gallery image, 1500x1500 RGBA PNG studio cutout on transparent background. Whole machine, no badges or text overlays. The M Pro chassis image is shared by M5 Pro and M9 Pro on the official store. Alpha-trimmed to 1132x1121 and centered on white at 1400x1400 RGB WebP without upscaling. SKU lock: M5 Pro, SKU 105010114 / variant 67889017880878 only, not M5 PRO + Garage M (M5PRO-MGV04-US), M9 Pro (105010110), base M5 or M5 LiDAR. Checked 1 Nov 2026 AWST.)
