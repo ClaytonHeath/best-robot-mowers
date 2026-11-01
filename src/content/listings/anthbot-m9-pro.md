@@ -5,7 +5,7 @@ slug: anthbot-m9-pro
 model: M9 Pro
 status: published
 priceUsd: 1399
-priceNote: "Official Anthbot US store on 30 Oct 2026 (AWST) for ANTHBOT M9 PRO (Shopify product 15415826743598, variant 67689364193582, SKU 105010110): $1,399.00 sale price with no compare-at, in stock (not marked preorder); a guest cart/add.js returned $1,399.00 USD with no discount. us.anthbot.com now 301-redirects to anthbot.com (same US/USD store). Not the base M9 ($769, SKU 105010084) and not the M5 Pro ($1,099 preorder)."
+priceNote: "Official Anthbot US store on 1 Nov 2026 (AWST) for ANTHBOT M9 PRO, Package 'M9 PRO' (Shopify product 15415826743598, variant 67889022042414, SKU 105010110): $1,399.00 sale price with no compare-at, in stock (not marked preorder); a guest cart/add.js returned $1,399.00 USD with no discount, unchanged from 30 Oct 2026. Anthbot re-issued the variant ids by 1 Nov 2026: the old variant 67689364193582 is gone, and the PDP now also sells an M9 PRO + Garage M package ($1,499, compare-at $1,598, SKU M9PRO-MGV04-US), which is not this listing. us.anthbot.com 301-redirects to anthbot.com (same US/USD store). Not the base M9 ($769, SKU 105010084) and not the M5 Pro ($1,099, no longer marked preorder on 1 Nov 2026)."
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
@@ -18,7 +18,7 @@ verdict: A $1,399 (30 Oct 2026) live-cart step up from the base M9 that adds 360
 affiliateUrl: ""
 officialUrl: https://anthbot.com/products/m9-pro-robot-lawn-mower
 image: /mowers/anthbot-m9-pro.webp
-updated: 2026-10-30
+updated: 2026-11-01
 cuttingWidthIn: 7.9
 cuttingHeight: 3–7 cm (1.2–2.8 in)
 noiseDb: 58
@@ -27,11 +27,11 @@ ipRating: IPX6
 
 ## What it is
 
-Anthbot **M9 Pro** is the 1000 m² model in Anthbot's new **M PRO Series**. It sells on the official US store (Shopify product **15415826743598**, variant **67689364193582**, SKU **105010110**) for **$1,399.00** with no compare-at price. On 30 Oct 2026 (AWST) the listing was in stock, not marked preorder, and a guest cart accepted it at **$1,399.00 USD**. Navigation is **HoloSense Quad-Fusion Positioning**: 360° LiDAR plus RTK/NetRTK plus AI vision, with no perimeter wire. Anthbot says that if RTK fails, LiDAR keeps positioning so mowing continues. It is a different SKU from the listed base **Anthbot M9** (`anthbot-m9`, RTK + dual vision, $769) and the **M5 LiDAR** (`anthbot-m5-lidar`, LiDAR + dual vision, 500 m²). The **M5 Pro** sibling ($1,099, preorder) is the 500 m² version of this same chassis.
+Anthbot **M9 Pro** is the 1000 m² model in Anthbot's new **M PRO Series**. It sells on the official US store (Shopify product **15415826743598**, variant **67889022042414**, SKU **105010110**; package **M9 PRO**) for **$1,399.00** with no compare-at price. On 30 Oct and 1 Nov 2026 (AWST) the listing was in stock, not marked preorder, and a guest cart accepted it at **$1,399.00 USD**. The **M9 PRO + Garage M** package ($1,499) on the same page is not this listing. Navigation is **HoloSense Quad-Fusion Positioning**: 360° LiDAR plus RTK/NetRTK plus AI vision, with no perimeter wire. Anthbot says that if RTK fails, LiDAR keeps positioning so mowing continues. It is a different SKU from the listed base **Anthbot M9** (`anthbot-m9`, RTK + dual vision, $769) and the **M5 LiDAR** (`anthbot-m5-lidar`, LiDAR + dual vision, 500 m²). The [M5 Pro](https://www.bestlawnrobots.com/mowers/anthbot-m5-pro/) sibling (`anthbot-m5-pro`, $1,099; no longer marked preorder on 1 Nov 2026) is the 500 m² version of this same chassis.
 
 ## Who it's for
 
-It suits lawns up to Anthbot's published **recommended mowing area of 1000 m² (1/4 acre)**, especially ones with trees, buildings or fences where a satellite-only mower loses its fix. Owners who want app-only setup will like it: Anthbot markets "no wire, no RTK station, 3 min" setup on NetRTK. The **65 cm (25.6 in)** narrowest passage fits side yards, and the official max slope is **24° / 45%**. It is the wrong buy if your lawn is past 1000 m², if open sky makes the $769 base M9 good enough, or if 500 m² is enough and the cheaper M5 Pro preorder fits.
+It suits lawns up to Anthbot's published **recommended mowing area of 1000 m² (1/4 acre)**, especially ones with trees, buildings or fences where a satellite-only mower loses its fix. Owners who want app-only setup will like it: Anthbot markets "no wire, no RTK station, 3 min" setup on NetRTK. The **65 cm (25.6 in)** narrowest passage fits side yards, and the official max slope is **24° / 45%**. It is the wrong buy if your lawn is past 1000 m², if open sky makes the $769 base M9 good enough, or if 500 m² is enough and the cheaper [M5 Pro](https://www.bestlawnrobots.com/mowers/anthbot-m5-pro/) ($1,099, no longer a preorder on 1 Nov 2026) fits.
 
 ## Standout details
 
@@ -43,7 +43,7 @@ It suits lawns up to Anthbot's published **recommended mowing area of 1000 m² (
 - **Cut:** It has a **20 cm (7.9 in)** blade disc and mows in U-shaped paths. Cutting height is **3–7 cm (1.2–2.8 in)**.
 - **Build:** Noise is **≤ 58 dB** and the body is rated **IPX6**. Anthbot publishes no weight, battery capacity or drive layout for the M Pro series, so those fields are left out.
 
-Source: [ANTHBOT M9 PRO](https://anthbot.com/products/m9-pro-robot-lawn-mower), checked 30 Oct 2026 (AWST). This is a different SKU from the listed [Anthbot M9](https://www.bestlawnrobots.com/mowers/anthbot-m9/) (`anthbot-m9`), [Anthbot M5 LiDAR](https://www.bestlawnrobots.com/mowers/anthbot-m5-lidar/) (`anthbot-m5-lidar`) and [Anthbot M5](https://www.bestlawnrobots.com/mowers/anthbot-m5/) (`anthbot-m5`).
+Source: [ANTHBOT M9 PRO](https://anthbot.com/products/m9-pro-robot-lawn-mower), checked 30 Oct 2026 and 1 Nov 2026 (AWST). This is a different SKU from the listed [Anthbot M9](https://www.bestlawnrobots.com/mowers/anthbot-m9/) (`anthbot-m9`), [Anthbot M5 LiDAR](https://www.bestlawnrobots.com/mowers/anthbot-m5-lidar/) (`anthbot-m5-lidar`) and [Anthbot M5](https://www.bestlawnrobots.com/mowers/anthbot-m5/) (`anthbot-m5`).
 
 ## Honest verdict
 
