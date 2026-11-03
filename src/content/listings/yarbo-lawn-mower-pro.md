@@ -44,7 +44,7 @@ Owners with large residential or estate lawns near Yarbo’s **Max Mowing Size o
 
 ## Compared with other larger-yard listings
 
-The Lawn Mower Pro is listed here next to the other published listings in the larger-yards band (published coverage over 1.5 acres): the [Navimow X390](/mowers/segway-navimow-x390/), the [Automower 440 iQ](/mowers/husqvarna-automower-440-iq/), and the [Lymow One Plus 10A](/mowers/lymow-one-plus-10a/). Every cell below is copied from that model’s listing. Prices are the amounts on those listings, with the date each one was checked. “Not listed” means that listing does not state the value. There is no ranking.
+The Lawn Mower Pro is listed here next to the other published listings in the larger-yards band (published coverage over 1.5 acres): the [Navimow X390](/mowers/segway-navimow-x390/), the [Automower 440 iQ](/mowers/husqvarna-automower-440-iq/), the [Lymow One Plus 10A](/mowers/lymow-one-plus-10a/), and the [Yarbo Y40P Lawn Mower Pro](/mowers/yarbo-y40p-lawn-mower-pro/), which uses the same Lawn Mower Pro Module on the newer Y40P Core (added 3 Nov 2026). Every cell below is copied from that model’s listing. Prices are the amounts on those listings, with the date each one was checked. “Not listed” means that listing does not state the value. There is no ranking.
 
 <div class="table-scroll">
 <table>
@@ -56,6 +56,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <th scope="col"><a href="/mowers/segway-navimow-x390/">Navimow X390</a></th>
       <th scope="col"><a href="/mowers/husqvarna-automower-440-iq/">Automower 440 iQ</a></th>
       <th scope="col"><a href="/mowers/lymow-one-plus-10a/">Lymow One Plus 10A</a></th>
+      <th scope="col"><a href="/mowers/yarbo-y40p-lawn-mower-pro/">Y40P Lawn Mower Pro</a></th>
     </tr>
   </thead>
   <tbody>
@@ -64,13 +65,15 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>$5,399 (23 Oct 2026)</td>
       <td>$4,499 (9 Oct 2026)</td>
       <td>$4,299.99 (20 Oct 2026)</td>
-      <td>$3,199 (14 Oct 2026)</td>
+      <td>$2,599 (21 Oct 2026)</td>
+      <td>$7,099 (3 Nov 2026)</td>
     </tr>
     <tr>
       <th scope="row">Stock</th>
       <td>not listed</td>
       <td>In stock (9 Oct 2026)</td>
       <td>Out of stock (20 Oct 2026)</td>
+      <td>not listed</td>
       <td>not listed</td>
     </tr>
     <tr>
@@ -79,6 +82,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>2.5 acres</td>
       <td>2 acres</td>
       <td>1.73 acres per day</td>
+      <td>7 acres per week</td>
     </tr>
     <tr>
       <th scope="row">Work-area slope</th>
@@ -86,6 +90,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>50% (27°)</td>
       <td>45%</td>
       <td>100% (45°)</td>
+      <td>70% (35°)</td>
     </tr>
     <tr>
       <th scope="row">Navigation</th>
@@ -93,9 +98,11 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>RTK + Vision</td>
       <td>RTK</td>
       <td>RTK + Vision</td>
+      <td>RTK + Vision</td>
     </tr>
     <tr>
       <th scope="row">Boundary</th>
+      <td>Wire-free</td>
       <td>Wire-free</td>
       <td>Wire-free</td>
       <td>Wire-free</td>
@@ -107,6 +114,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>9.3 in</td>
       <td>9.4 in</td>
       <td>16 in</td>
+      <td>not listed</td>
     </tr>
     <tr>
       <th scope="row">Cutting height</th>
@@ -114,6 +122,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>2–4 in, automatic</td>
       <td>1–4 in (approximate), electric</td>
       <td>1.2–4.0 in</td>
+      <td>0.8–4.0 in (2–10 cm)</td>
     </tr>
     <tr>
       <th scope="row">Drive</th>
@@ -121,6 +130,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>Rear-wheel drive</td>
       <td>not listed</td>
       <td>Tracked (heavy-duty track drive)</td>
+      <td>Brushless hub motors</td>
     </tr>
     <tr>
       <th scope="row">Weight</th>
@@ -128,6 +138,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>43.9 lb</td>
       <td>39 lb</td>
       <td>78.5 lb</td>
+      <td>not listed</td>
     </tr>
     <tr>
       <th scope="row">Ingress rating</th>
@@ -135,12 +146,13 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>IP66</td>
       <td>IPX5</td>
       <td>IPX6</td>
+      <td>not listed</td>
     </tr>
   </tbody>
 </table>
 </div>
 
-The coverage row is each listing’s coverage figure. For the Lawn Mower Pro that figure is Max Mowing Size; the same listing also records 1.7 acres per day. The 440 iQ figure is systematic capacity; that listing rates irregular layouts at 1 acre. The One Plus 10A listing does not publish a maximum lawn size, and its 1.73-acre figure is acres per day. The X390 listing also notes map storage up to about 1.2× the recommended area, depending on layout.
+The coverage row is each listing’s coverage figure. For the Lawn Mower Pro that figure is Max Mowing Size; the same listing also records 1.7 acres per day. The 440 iQ figure is systematic capacity; that listing rates irregular layouts at 1 acre. The One Plus 10A listing does not publish a maximum lawn size, and its 1.73-acre figure is acres per day. The X390 listing also notes map storage up to about 1.2× the recommended area, depending on layout. The Y40P figure is Yarbo’s twice-weekly rating; that listing also records 2 acres per day and 0.3 acre per charge.
 
 Slope in the table is the work-area figure. The X390 listing also records 25% (14°) at the boundary, and the 440 iQ listing records 15% at the boundary. The Lawn Mower Pro and One Plus 10A listings do not state a separate boundary slope. The 440 iQ listing has no drive type. It says a normal install does not require buried loop wire, and that physical wire is supported if you choose it. The Lawn Mower Pro price is $5,999 on 21 Oct 2026 with no compare-at. It was $5,499.00 against a $5,999.00 compare-at on 8 Sep 2026, and that sale has ended. Stock is not listed. The X390 listing also records a $4,999 MSRP; the cell above is the store price. The 440 iQ was out of stock on husqvarna.com on 20 Oct 2026. The One Plus 10A listing records the cart price and does not state a stock status.
 
