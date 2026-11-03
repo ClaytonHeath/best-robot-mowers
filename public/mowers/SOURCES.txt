@@ -334,3 +334,7 @@ segway-navimow-i206-awd.webp
   Page: https://navimow.com/products/navimow-i2-awd-robot-lawn-mower?variant=45014242820233
   File: https://cdn.shopify.com/s/files/1/0676/6896/7561/files/Nav_Bar_i206_AWD_Front45.png?v=1766658863
   (Official i206 AWD Front45 studio still from the US i2 AWD PDP: first gallery image and the variant-linked featured image for 45014242820233. 1500x1500 RGBA PNG cutout on transparent background, whole machine with the i206 AWD model mark and orange AWD tires, no badges or text overlays. Not the i210 AWD Front45 still used by segway-navimow-i210-awd. Alpha-trimmed to 1069x822 and centered on white at 1400x1400 RGB WebP without upscaling. SKU lock: i206 AWD, SKU AA.12.07.01.0002 / variant 45014242820233 only. Checked 2 Nov 2026 AWST.)
+yarbo-y40p-lawn-mower-pro.webp
+  Page: https://www.yarbo.com/products/yarbo-y40p-core-with-lawn-mower-pro-module
+  File: https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Yarbo_Lawn_Mower_Pro_40p.jpg?v=1789029904
+  (Official Y40P Lawn Mower Pro studio still: featured (first) product image for SKU YAR-Y40P-LM. Whole Y40P Core + Lawn Mower Pro Module on a plain light-grey studio background, no badges or text overlays. Not the Y40 still used by yarbo-lawn-mower-pro. 1120x1394 RGB JPEG centered on matching #F2F2F2 at 1400x1400 RGB WebP without upscaling. Checked 3 Nov 2026 AWST.)
