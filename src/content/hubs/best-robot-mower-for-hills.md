@@ -66,7 +66,7 @@ Only models with published listings and supporting frontmatter are listed. Price
 - Mid-yard non-Pro AWD. Hard limit is coverage and deck width vs Pro dual-disc.
 
 #### [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/)
-- **Slope:** 80% · **Coverage:** 0.87 acre · **Cut:** 15.8 in dual-disc · **Price:** $2,599.99
+- **Slope:** 80% · **Coverage:** 0.87 acre · **Cut:** 15.8 in dual-disc · **Price:** $2,399.99
 - Closest Dreame Pro SKU under an acre in the catalog. Not the 1.20-acre Pro 5000; no RTK on this platform.
 
 #### [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/)
