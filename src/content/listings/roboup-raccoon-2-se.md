@@ -4,18 +4,18 @@ brand: RoboUP
 slug: roboup-raccoon-2-se
 model: Raccoon 2 SE (SKU Raccoon2SE-RobotLawnMower)
 status: published
-priceUsd: 579
-priceNote: "Official RoboUP US store on 29 Oct 2026 (AWST) for Shopify product 10274819146022, variant 52045493076262 (option Raccoon 2 SE, mower only), SKU Raccoon2SE-RobotLawnMower, GTIN 6976332010151: back in stock at sale $579.00, compare-at $699.00 (it was sold out on 28 Oct 2026; last in stock at $579.00 on 11 Oct 2026). A guest cart/add.js on 29 Oct 2026 returned $579.00 USD for quantity 1 with no discount applied, product.js reports available: true, and the schema.org Offer on the US PDP reads price 579.0 USD, InStock. The four bundle variants on the same page ($608.99–$668.99) are not this listing. Tax is excluded; the store advertises free shipping over $99."
+priceUsd: 521
+priceNote: "Official RoboUP US store on 5 Nov 2026 (AWST) for Shopify product 10274819146022, variant 52045493076262 (option Raccoon 2 SE, mower only), SKU Raccoon2SE-RobotLawnMower, GTIN 6976332010151: sale $521.00, compare-at $699.00 (product JSON available=true). A guest cart/add.js on 5 Nov 2026 returned $521.00 USD for quantity 1 with no discount. It was $579.00 against $699.00 on 29 Oct 2026 (back in stock that day after sold out on 28 Oct 2026). The accessory-add variants on the same page ($550.99–$610.99 on 5 Nov) are not this listing. Tax is excluded; the store advertises free shipping over $99."
 coverageAcres: 0.15
 slopePercent: 36
 navigation: vision
 wireFree: true
 whoItsFor: "Small, clearly bordered lawns up to 0.15 acre (about 6,500 sq ft) where the cheapest wire-free, antenna-free mower matters more than coverage, straight stripes, or steep-slope ability. The limits are the 0.15-acre rating, a 36% (20°) slope, a 7.9 in cut, and random-pattern mowing by default."
-verdict: "At $579 (on sale from $699; back in stock on the official RoboUP US store on 29 Oct 2026 after being sold out on 28 Oct 2026), the Raccoon 2 SE is a camera-only, wire-free mower with no RTK antenna, rated for 0.15 acre and 36% (20°) slopes, with electric height adjustment and a 150-minute run time. The catch is that it is built for small lawns with clear edges: open lawns need optional boundary stakes, and it mows in random patterns unless you set up systematic or target-area mowing."
+verdict: "At $521 (on sale from $699 on 5 Nov 2026; it was $579 against $699 on 29 Oct 2026), the Raccoon 2 SE is a camera-only, wire-free mower with no RTK antenna, rated for 0.15 acre and 36% (20°) slopes, with electric height adjustment and a 150-minute run time. The catch is that it is built for small lawns with clear edges: open lawns need optional boundary stakes, and it mows in random patterns unless you set up systematic or target-area mowing."
 affiliateUrl: ""
 officialUrl: https://us.iroboup.com/products/roboup-raccoon-2-se-robot-mower?variant=52045493076262
 image: /mowers/roboup-raccoon-2-se.webp
-updated: 2026-10-29
+updated: 2026-11-05
 cuttingWidthIn: 7.9
 cuttingHeight: "1.2–3.1 in (30–80 mm), electric adjustment"
 noiseDb: 56
@@ -53,4 +53,4 @@ Sources: [RoboUP Raccoon 2 SE US product page, spec table and FAQ](https://us.ir
 
 ## Honest verdict
 
-For a small lawn with clear borders, this is the cheapest wire-free mower on the site: **$579** on sale from $699 (back in a working US cart on 29 Oct 2026 after being sold out on 28 Oct 2026), with no RTK pole, no wire, electric height adjustment, IPX6, and a 150-minute run time. The published limits are a 0.15-acre rating, a 36% (20°) slope, a 7.9 in cut, and camera-based boundaries that need stakes on open lawns. Against its sibling, the listed [roboup-tm01-t1200pro](https://us.iroboup.com/products/roboup-tm01-t1200-pro-robot-lawn-mower?variant=52962413871398) ($799 sale from $1,549; back in a working US guest cart on 30 Oct 2026 after a 422 sold-out response on 29 Oct 2026) costs $220 more and adds RTK, a 0.37-acre rating, and 45% slopes. The listed [eufy-e15](https://www.eufy.com/products/t28801a1?variant=44697729269946) is also camera-only, but it lists at $1,799.99 for a 0.2-acre rating. Buy the Raccoon 2 SE if the lawn really is small and bordered. Otherwise, the extra coverage and RTK on the T1200Pro is worth the step up.
+For a small lawn with clear borders, this is the cheapest wire-free mower on the site: **$521** on sale from $699 (official US cart on 5 Nov 2026; it was $579 against $699 on 29 Oct 2026), with no RTK pole, no wire, electric height adjustment, IPX6, and a 150-minute run time. The published limits are a 0.15-acre rating, a 36% (20°) slope, a 7.9 in cut, and camera-based boundaries that need stakes on open lawns. Against its sibling, the listed [roboup-tm01-t1200pro](https://us.iroboup.com/products/roboup-tm01-t1200-pro-robot-lawn-mower?variant=52962413871398) ($799 sale from $1,549; back in a working US guest cart on 30 Oct 2026 after a 422 sold-out response on 29 Oct 2026) costs $278 more and adds RTK, a 0.37-acre rating, and 45% slopes. The listed [eufy-e15](https://www.eufy.com/products/t28801a1?variant=44697729269946) is also camera-only, but it lists at $1,799.99 for a 0.2-acre rating. Buy the Raccoon 2 SE if the lawn really is small and bordered. Otherwise, the extra coverage and RTK on the T1200Pro is worth the step up.
