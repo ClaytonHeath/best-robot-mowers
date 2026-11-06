@@ -111,7 +111,7 @@ Catalog support above ~1 acre is real but thinner than the small-yard shelf.
 | --- | --- | --- | --- | --- | --- |
 | 1-acre AWD RTK | [Segway Navimow X430](/mowers/segway-navimow-x430/) | 1 acre | 84% | Wire-free | $2,499 (sold out 27 Sep 2026) |
 | ~1.3-acre EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 1.3 systematic / 0.9 irregular | 70% | Wire-free | $4,999.99 (husqvarna.com) |
-| ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | $4,299.99 (husqvarna.com, out of stock 20 Oct 2026) |
+| ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | $4,299.99 (husqvarna.com guest cart, 6 Nov 2026) |
 | 2.5-acre RTK | [Segway Navimow X390](/mowers/segway-navimow-x390/) | 2.5 acres | 50% | Wire-free | $4,499 ($4,999 MSRP) |
 | Estate modular | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 6 acres max | 70% | Wire-free | $5,999 |
 | Estate modular, faster Core | [Yarbo Y40P Lawn Mower Pro](/mowers/yarbo-y40p-lawn-mower-pro/) | 7 acres per week | 70% | Wire-free | $7,599 |
