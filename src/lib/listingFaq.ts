@@ -190,9 +190,81 @@ function i110Faqs(listing: Listing): FaqItem[] {
   ];
 }
 
+function a2000Faqs(listing: Listing): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("A2000 listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "A2000 FAQ";
+  if (data.priceUsd !== 1999.99) throw new Error(`${label} expected priceUsd 1999.99`);
+  if (data.coverageAcres !== 0.5) throw new Error(`${label} expected coverageAcres 0.5`);
+  if (data.slopePercent !== 50) throw new Error(`${label} expected slopePercent 50`);
+  if (data.cuttingWidthIn !== 12.96) throw new Error(`${label} expected cuttingWidthIn 12.96`);
+  if (data.cuttingHeight !== "1.18–3.54 in (30–90 mm), electric adjustment") {
+    throw new Error(`${label} expected cuttingHeight`);
+  }
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType) throw new Error(`${label} expected no published driveType`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$1,999.99", "priceNote", label);
+  mustInclude(note, "GA2000LP", "priceNote", label);
+  mustInclude(note, "off $0.00", "priceNote", label);
+  mustInclude(note, "no coupons", "priceNote", label);
+  mustInclude(note, "$1,452.00", "priceNote", label);
+  mustInclude(note, "promotion has ended", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "2,000 m² (1/2 acre)", "body", label);
+  mustInclude(body, "50% (27°)", "body", label);
+  mustInclude(body, "Maximum virtual-boundary slope", "body", label);
+  mustInclude(body, "slopes above 50%", "body", label);
+  mustInclude(body, "ECOVACS does not publish a drive type", "body", label);
+  mustInclude(body, "HoloScope 360 Dual-LiDAR", "body", label);
+  mustInclude(body, "360° rotating LiDAR plus a 3D time-of-flight LiDAR", "body", label);
+  mustInclude(body, "AI camera (AIVI 3D)", "body", label);
+  mustInclude(body, "No perimeter wire, RTK antenna, or RTK reference station in the box.", "body", label);
+  mustInclude(body, "purchased", "body", label);
+  mustInclude(body, "GOAT Cellular Module Pro separately for A-series models.", "body", label);
+  mustInclude(body, "12.96 in", "body", label);
+  mustInclude(body, "1.18–3.54 in", "body", label);
+  mustInclude(body, "dual blade discs", "body", label);
+  mustInclude(body, "3,000 mAh / 3.0 Ah", "body", label);
+  mustInclude(body, "50 min", "body", label);
+  mustInclude(body, "50±5 min", "body", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "How much does the ECOVACS GOAT A2000 LiDAR PRO cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU GA2000LP, the mower-only GOAT A2000 LiDAR PRO. Present and origin are both ${price}, off $0.00, with no coupons.${stockSentence(note)} It was $1,452.00 present against $1,999.99 origin on 30 Sep 2026, so that promotion has ended.`,
+    },
+    {
+      question: "How large a lawn is the ECOVACS GOAT A2000 LiDAR PRO rated for?",
+      answer: `The coverage figure is ${coverage}. That number is ECOVACS' 1/2-acre figure for a working capacity of 2,000 m² (1/2 acre).`,
+    },
+    {
+      question: "Can the ECOVACS GOAT A2000 LiDAR PRO handle steep hills?",
+      answer: `Work-area slope is ${data.slopePercent}% (27°). Virtual-boundary slope is 20%. ECOVACS does not publish a drive type for this SKU. The listing says to look elsewhere if the mowing area includes slopes above 50%.`,
+    },
+    {
+      question: "Does the ECOVACS GOAT A2000 LiDAR PRO need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records HoloScope 360 Dual-LiDAR: a 360° rotating LiDAR plus a 3D time-of-flight LiDAR, with an AI camera (AIVI 3D). No perimeter wire, RTK antenna, or RTK reference station is in the box. Cellular / GNSS appear in the manual as purchased options; the US store sells a GOAT Cellular Module Pro separately for A-series models.`,
+    },
+    {
+      question: "What cutting width and height does the ECOVACS GOAT A2000 LiDAR PRO have?",
+      answer: `Cutting width is ${data.cuttingWidthIn} in. Cutting height is ${data.cuttingHeight}. The cutting system is dual blade discs. The battery is 3,000 mAh / 3.0 Ah, with 50 min of mowing per charge on the page spec table and a manual charging time of 50±5 min.`,
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
 export function faqsForListing(listing: Listing): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
   if (listing.data.slug === "segway-navimow-i110") return i110Faqs(listing);
+  if (listing.data.slug === "ecovacs-goat-a2000-lidar-pro") return a2000Faqs(listing);
   return [];
 }
