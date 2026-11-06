@@ -5,7 +5,7 @@ slug: husqvarna-automower-440-iq
 model: Automower 440 iQ
 status: published
 priceUsd: 4299.99
-priceNote: "Official husqvarna.com US price on 20 Oct 2026 (09:23–09:25 AWST) for SKU 970727601: $4,299.99 MSRP. Out of Stock on husqvarna.com that day, with Add To Cart disabled, so no official cart total. Check the live page."
+priceNote: "Official husqvarna.com US price on 6 Nov 2026 (AWST) for SKU 970727601: $4,299.99 MSRP, Available online (schema.org InStock; hasInventory true). Official guest cart on shop.husqvarna.com (store 11251) returned $4,299.99 USD with orderItemInventoryStatus Available. It was Out of Stock with Add To Cart disabled on 20 Oct 2026. Tax and shipping excluded. Check the live cart."
 coverageAcres: 2
 slopePercent: 45
 navigation:
@@ -16,7 +16,7 @@ verdict: Wire-free EPOS for up to 2-acre systematic mowing — 1-acre irregular 
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/
 image: /mowers/husqvarna-automower-440-iq.webp
-updated: 2026-10-20
+updated: 2026-11-06
 cuttingWidthIn: 9.4
 cuttingHeight: 1–4 in (approximate), electric
 noiseDb: 62
@@ -28,7 +28,7 @@ ipRating: IPX5
 
 Husqvarna Automower 440 iQ is a residential, EPOS satellite-mapped robot mower. The US/CA SKU is **970 72 76-01**. Husqvarna leads with **2 acre lawn size (±20%)** — the same figure as **area capacity — systematic**. **Area capacity — irregular** is **1 acre**. Boundary type is **virtual wire or physical wire**. A normal install does not require buried loop wire.
 
-The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** husqvarna.com lists it at **$4,299.99** but showed it out of stock on 20 Oct 2026.
+The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** husqvarna.com lists it at **$4,299.99**, Available online on 6 Nov 2026; the official guest cart returned that price (it was out of stock on 20 Oct 2026).
 
 ## Who it's for
 
@@ -36,7 +36,7 @@ Large yards that will use EPOS virtual mapping — stay-out zones, transport pat
 
 ## Standout details
 
-- **Price:** **$4,299.99** official husqvarna.com US price for SKU 970727601 on 20 Oct 2026 (AWST). It showed **Out of Stock** with Add To Cart disabled, so there was no official cart total. Check the live page.
+- **Price:** **$4,299.99** official husqvarna.com US price for SKU 970727601 on 6 Nov 2026 (AWST), Available online; the official guest cart returned **$4,299.99 USD**. It was Out of Stock with Add To Cart disabled on 20 Oct 2026. Check the live cart.
 - **Coverage:** 2 acre recommended lawn size (±20%) and systematic capacity; **1 acre irregular**.
 - **Navigation:** EPOS satellite positioning (centimeter-accurate location via satellites plus cellular / the included reference station). Virtual boundaries in the Automower Connect app. Physical wire is supported if you choose it. Object detection is **radar**, not the boundary system.
 - **Slope:** 45% inside the installation; 15% at the boundary.
@@ -46,7 +46,7 @@ Large yards that will use EPOS virtual mapping — stay-out zones, transport pat
 - **Connectivity:** Cellular, Wi-Fi, Bluetooth; Automower Connect app; Smart Home integration: Yes; firmware over the air. GPS theft tracking, GeoFence, PIN, alarm, lift and tilt sensors. Color display TFT 2.8" QVGA plus jogwheel.
 - **In the box / not in the box:** Charging station, 6 extra blades, 33 ft low-voltage cable, PSU, 100 stakes, EPOS Plug-in, EPOS Reference station. Loop wire sold separately.
 
-Source: [Husqvarna Automower 440 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/), checked 30 Aug 2026. Price from the official husqvarna.com US page on 20 Oct 2026 (AWST).
+Source: [Husqvarna Automower 440 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-440-iq/), checked 30 Aug 2026. Price and stock from the official husqvarna.com US page and guest cart on 6 Nov 2026 (AWST).
 
 ## Honest verdict
 

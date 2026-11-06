@@ -49,7 +49,7 @@ The cards and the FAQ list every published listing at this coverage. The notes b
 ### [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/)
 - **Coverage:** **2 acre** systematic / **1 acre irregular**
 - **Slope:** 45% in-lawn / 15% boundary · **Nav:** EPOS RTK · wire-free (not AWD)
-- **Price:** $4,299.99 official husqvarna.com price (out of stock on 20 Oct 2026)
+- **Price:** $4,299.99 official husqvarna.com price (guest cart $4,299.99 on 6 Nov 2026; was out of stock on 20 Oct 2026)
 - **Who it’s for (listing):** Up to 2-acre systematic mowing; about 1 acre if the layout is irregular.
 - **What breaks the deal:** Messy acre-plus when you only looked at the 2-acre headline; steep banks better served by AWD SKUs; hills over 45%.
 
