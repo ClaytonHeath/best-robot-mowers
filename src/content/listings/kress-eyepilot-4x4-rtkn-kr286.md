@@ -38,7 +38,7 @@ As with the two-wheel-drive [KR276](/mowers/kress-eyepilot-rtkn-kr276/), the "2.
 - Steep, bumpy or uneven lawns of about **1.5 acres per day**, or up to **2.5 acres** across a 48-hour cycle, with an **84% (≈40°)** slope rating and **2.4 in** vertical obstacle clearance.
 - Owners who want four-wheel drive and front-wheel steering that turns without tearing turf.
 - Yards where cleaner edges matter (**ZeroTrim**) and where burying perimeter wire or siting an RTK base station is unwelcome, provided Wi-Fi or 4G reaches the lawn.
-- Not for flat multi-acre yards where the **$3,599.99** two-wheel-drive [KR276](/mowers/kress-eyepilot-rtkn-kr276/) delivers the same 1.5-acre daily capacity for $700 less, or steep 1-acre yards where the **$3,599.99** [KR284](/mowers/kress-eyepilot-4x4-rtkn-kr284/) already fits.
+- Not for flat multi-acre yards where the **$3,599.99** two-wheel-drive [KR276](/mowers/kress-eyepilot-rtkn-kr276/) delivers the same 1.5-acre daily capacity for $700 less (23 Oct 2026 price; its US product page returned 404 on 7 Nov 2026), or steep 1-acre yards where the **$3,599.99** [KR284](/mowers/kress-eyepilot-4x4-rtkn-kr284/) already fits.
 
 ## Standout details
 

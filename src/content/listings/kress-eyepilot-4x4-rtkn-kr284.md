@@ -37,7 +37,7 @@ It is not the ½-acre [KR282](/mowers/kress-eyepilot-4x4-rtkn-kr282/) or the 2.5
 - Steep, bumpy or uneven lawns up to about **1 acre**. Kress gives the KR284 a 24-hour mowing capacity of up to **1 acre**, with an **84% (≈40°)** slope rating and **2.4 in** vertical obstacle clearance.
 - Owners who want four-wheel drive and front-wheel steering that turns without tearing turf.
 - Yards where cleaner edges matter (**ZeroTrim**) and where burying perimeter wire or siting an RTK base station is unwelcome, provided Wi-Fi or 4G reaches the lawn.
-- Not for flat multi-acre yards where the same-price [KR276](/mowers/kress-eyepilot-rtkn-kr276/) covers 1.5 acres per day (2.5 acres in 48 hours) on two-wheel drive.
+- Not for flat multi-acre yards where the same-price [KR276](/mowers/kress-eyepilot-rtkn-kr276/) covers 1.5 acres per day (2.5 acres in 48 hours) on two-wheel drive (its US product page returned 404 on 7 Nov 2026).
 
 ## Standout details
 
@@ -62,4 +62,4 @@ Source: [Kress EyePilot 4×4 RTKⁿ KR284 US product page](https://www.kress.com
 
 At **$3,599.99** (25 Oct 2026), the KR284 is the sweet-spot spec in Kress's EyePilot 4×4 line. Compared with the ½-acre [KR282](/mowers/kress-eyepilot-4x4-rtkn-kr282/) (**$2,999.99**), spending $600 more doubles the 24-hour capacity to **1 acre**, widens the deck from 8.7 in (3 blades) to **9.5 in (4 blades)**, and bumps charging current from 3 A to **5 A**, while keeping the **84%** four-wheel-drive chassis, **ZeroTrim** edging, **IPX6** and **4G** with no ongoing fee.
 
-The catch is the trade-off against Kress's own two-wheel-drive [KR276](/mowers/kress-eyepilot-rtkn-kr276/), which costs the exact same **$3,599.99** and shares the 9.5 in 4-blade deck and 5 A charging, but covers **1.5 acres in 24 hours** (2.5 acres in 48 hours) at a **40%** slope limit. Buy the KR284 when an acre of lawn has real hills or rough transitions that need AWD; on flatter ground over an acre, the KR276 gives you more daily capacity for the same money, and on a steep half-acre the KR282 saves $600.
+The catch is the trade-off against Kress's own two-wheel-drive [KR276](/mowers/kress-eyepilot-rtkn-kr276/), which cost the exact same **$3,599.99** on 23 Oct 2026 (its US product page returned 404 on 7 Nov 2026) and shares the 9.5 in 4-blade deck and 5 A charging, but covers **1.5 acres in 24 hours** (2.5 acres in 48 hours) at a **40%** slope limit. Buy the KR284 when an acre of lawn has real hills or rough transitions that need AWD; on flatter ground over an acre, the KR276 gives you more daily capacity for the same money, and on a steep half-acre the KR282 saves $600.
