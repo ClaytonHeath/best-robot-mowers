@@ -42,7 +42,7 @@ const listings = defineCollection({
     whoItsFor: z.string().min(1),
     verdict: z.string().min(1),
     affiliateUrl: optionalUrl,
-    officialUrl: z.url(),
+    officialUrl: optionalUrl,
     image: z.string().optional(),
     updated: z.coerce.date(),
     // Optional extras for the spec table. Omit rather than guess.
