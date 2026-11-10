@@ -157,7 +157,7 @@ export interface ListingJsonLdInput {
   slug: string;
   image?: string;
   priceUsd?: number;
-  officialUrl: string;
+  officialUrl?: string;
 }
 
 /** Product + Offer only. No Review, aggregateRating, reviewRating, Person, or FAQPage. */
