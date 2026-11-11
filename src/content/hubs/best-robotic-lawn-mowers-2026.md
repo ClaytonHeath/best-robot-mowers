@@ -29,7 +29,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 
 | Fit | Listing | Coverage | Slope | Nav | Wire | Price (listing) |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tight urban | [Anthbot M5](/mowers/anthbot-m5/) | 0.12 acre | 45% | RTK + vision | Wire-free | $679 |
+| Tight urban | [Anthbot M5](/mowers/anthbot-m5/) | 0.12 acre | 45% | RTK + vision | Wire-free | $549 (11 Nov 2026) |
 | Small RTK Genie | [Anthbot Genie 600e (4G)](/mowers/anthbot-genie/) | 0.15 acre recommended (variant markets 0.22) | 45% | RTK + vision | Wire-free | $699 |
 | Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $799 (30 Oct 2026; was $669 on sale 23 Oct) |
 | Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 (sold out 9 Oct 2026) |
@@ -47,7 +47,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | Fit | Listing | Coverage | Slope | Nav | Wire | Price (listing) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Half-acre AWD LiDAR | [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/) | 0.5 acre | 80% | LiDAR + vision | Wire-free | $1,699.99 |
-| Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | $2,599.99 (husqvarna.com guest cart, 10 Nov 2026; PDP OutOfStock that morning) |
+| Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | $2,599.99 (husqvarna.com, Available online 11 Nov 2026) |
 | ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 (sold out 22 Oct 2026) |
 | ~3/4-acre LiDAR + trimmer | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | 0.75 acre | 50% (virtual boundary 20%) | LiDAR + vision | Wire-free | $2,499.99 |
 | ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $2,399.99 |
