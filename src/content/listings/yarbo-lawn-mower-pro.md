@@ -65,7 +65,7 @@ The Lawn Mower Pro is listed here next to the other published listings in the la
       <td>$5,999 (4 Nov 2026)</td>
       <td>$4,499 (9 Oct 2026)</td>
       <td>$4,299.99 (20 Oct 2026)</td>
-      <td>$2,599 (21 Oct 2026)</td>
+      <td>$2,499 (11 Nov 2026)</td>
       <td>$7,599 (4 Nov 2026)</td>
     </tr>
     <tr>

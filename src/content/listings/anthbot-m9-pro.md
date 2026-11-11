@@ -4,8 +4,8 @@ brand: Anthbot
 slug: anthbot-m9-pro
 model: M9 Pro
 status: published
-priceUsd: 1399
-priceNote: "Official Anthbot US store on 1 Nov 2026 (AWST) for ANTHBOT M9 PRO, Package 'M9 PRO' (Shopify product 15415826743598, variant 67889022042414, SKU 105010110): $1,399.00 sale price with no compare-at, in stock (not marked preorder); a guest cart/add.js returned $1,399.00 USD with no discount, unchanged from 30 Oct 2026. Anthbot re-issued the variant ids by 1 Nov 2026: the old variant 67689364193582 is gone, and the PDP now also sells an M9 PRO + Garage M package ($1,499, compare-at $1,598, SKU M9PRO-MGV04-US), which is not this listing. us.anthbot.com 301-redirects to anthbot.com (same US/USD store). Not the base M9 ($699 on 2 Nov 2026, SKU 105010084) and not the M5 Pro ($1,099, no longer marked preorder on 1 Nov 2026)."
+priceUsd: 1199
+priceNote: "Official Anthbot US store on 11 Nov 2026 (AWST) for ANTHBOT M9 PRO, Package 'M9 PRO' (Shopify product 15415826743598, variant 67889022042414, SKU 105010110): $1,199.00 with no compare-at, in stock (not marked preorder); a guest cart/add.js returned $1,199.00 USD with no discount. It was $1,399.00 with no compare-at on 30 Oct and 1 Nov 2026. Anthbot re-issued the variant ids by 1 Nov 2026: the old variant 67689364193582 is gone, and the PDP now also sells an M9 PRO + Garage M package ($1,499, compare-at $1,598, SKU M9PRO-MGV04-US on 1 Nov 2026), which is not this listing. us.anthbot.com 301-redirects to anthbot.com (same US/USD store). Not the base M9 ($649 on 11 Nov 2026, SKU 105010084) and not the M5 Pro ($1,099, no longer marked preorder on 1 Nov 2026)."
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
@@ -14,11 +14,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Wire-free yards up to Anthbot's published 1000 m² (1/4 acre) that have trees, walls, or other spots where RTK alone drops out, and want 360° LiDAR + NetRTK + AI vision with 4G, a 65 cm (25.6 in) narrowest passage and a 45% slope limit. Not for yards past 1000 m², and not the cheaper RTK + vision base M9.
-verdict: A $1,399 (30 Oct 2026) live-cart step up from the base M9 that adds 360° LiDAR to RTK/NetRTK and vision for shaded yards up to 1/4 acre, with the same 7.9 in disc and 45% slope. The catch is that it costs $630 more than the base M9 for the same 1000 m² ceiling, and Anthbot publishes no weight or battery specs for it.
+verdict: A $1,199 (11 Nov 2026; it was $1,399 on 30 Oct 2026) live-cart step up from the base M9 that adds 360° LiDAR to RTK/NetRTK and vision for shaded yards up to 1/4 acre, with the same 7.9 in disc and 45% slope. The catch is that it costs $550 more than the base M9 for the same 1000 m² ceiling, and Anthbot publishes no weight or battery specs for it.
 affiliateUrl: ""
 officialUrl: https://anthbot.com/products/m9-pro-robot-lawn-mower
 image: /mowers/anthbot-m9-pro.webp
-updated: 2026-11-01
+updated: 2026-11-11
 cuttingWidthIn: 7.9
 cuttingHeight: 3–7 cm (1.2–2.8 in)
 noiseDb: 58
@@ -27,15 +27,15 @@ ipRating: IPX6
 
 ## What it is
 
-Anthbot **M9 Pro** is the 1000 m² model in Anthbot's new **M PRO Series**. It sells on the official US store (Shopify product **15415826743598**, variant **67889022042414**, SKU **105010110**; package **M9 PRO**) for **$1,399.00** with no compare-at price. On 30 Oct and 1 Nov 2026 (AWST) the listing was in stock, not marked preorder, and a guest cart accepted it at **$1,399.00 USD**. The **M9 PRO + Garage M** package ($1,499) on the same page is not this listing. Navigation is **HoloSense Quad-Fusion Positioning**: 360° LiDAR plus RTK/NetRTK plus AI vision, with no perimeter wire. Anthbot says that if RTK fails, LiDAR keeps positioning so mowing continues. It is a different SKU from the listed base **Anthbot M9** (`anthbot-m9`, RTK + dual vision, $699 on 2 Nov 2026) and the **M5 LiDAR** (`anthbot-m5-lidar`, LiDAR + dual vision, 500 m²). The [M5 Pro](https://www.bestlawnrobots.com/mowers/anthbot-m5-pro/) sibling (`anthbot-m5-pro`, $1,099; no longer marked preorder on 1 Nov 2026) is the 500 m² version of this same chassis.
+Anthbot **M9 Pro** is the 1000 m² model in Anthbot's new **M PRO Series**. It sells on the official US store (Shopify product **15415826743598**, variant **67889022042414**, SKU **105010110**; package **M9 PRO**) for **$1,199.00** with no compare-at price. On 11 Nov 2026 (AWST) the listing was in stock, not marked preorder, and a guest cart accepted it at **$1,199.00 USD**. It was **$1,399.00** on 30 Oct and 1 Nov 2026. The **M9 PRO + Garage M** package ($1,499) on the same page is not this listing. Navigation is **HoloSense Quad-Fusion Positioning**: 360° LiDAR plus RTK/NetRTK plus AI vision, with no perimeter wire. Anthbot says that if RTK fails, LiDAR keeps positioning so mowing continues. It is a different SKU from the listed base **Anthbot M9** (`anthbot-m9`, RTK + dual vision, $649 on 11 Nov 2026) and the **M5 LiDAR** (`anthbot-m5-lidar`, LiDAR + dual vision, 500 m², $759 on 11 Nov 2026). The [M5 Pro](https://www.bestlawnrobots.com/mowers/anthbot-m5-pro/) sibling (`anthbot-m5-pro`, $1,099; no longer marked preorder on 1 Nov 2026) is the 500 m² version of this same chassis.
 
 ## Who it's for
 
-It suits lawns up to Anthbot's published **recommended mowing area of 1000 m² (1/4 acre)**, especially ones with trees, buildings or fences where a satellite-only mower loses its fix. Owners who want app-only setup will like it: Anthbot markets "no wire, no RTK station, 3 min" setup on NetRTK. The **65 cm (25.6 in)** narrowest passage fits side yards, and the official max slope is **24° / 45%**. It is the wrong buy if your lawn is past 1000 m², if open sky makes the $699 base M9 (2 Nov 2026) good enough, or if 500 m² is enough and the cheaper [M5 Pro](https://www.bestlawnrobots.com/mowers/anthbot-m5-pro/) ($1,099, no longer a preorder on 1 Nov 2026) fits.
+It suits lawns up to Anthbot's published **recommended mowing area of 1000 m² (1/4 acre)**, especially ones with trees, buildings or fences where a satellite-only mower loses its fix. Owners who want app-only setup will like it: Anthbot markets "no wire, no RTK station, 3 min" setup on NetRTK. The **65 cm (25.6 in)** narrowest passage fits side yards, and the official max slope is **24° / 45%**. It is the wrong buy if your lawn is past 1000 m², if open sky makes the $649 base M9 (11 Nov 2026) good enough, or if 500 m² is enough and the cheaper [M5 Pro](https://www.bestlawnrobots.com/mowers/anthbot-m5-pro/) ($1,099, no longer a preorder on 1 Nov 2026) fits.
 
 ## Standout details
 
-- **Price:** The official US store cart showed **$1,399.00 USD** (no compare-at, no discount) on 30 Oct 2026 (AWST). us.anthbot.com now 301-redirects to anthbot.com, which is the same USD store.
+- **Price:** The official US store cart showed **$1,199.00 USD** (no compare-at, no discount) on 11 Nov 2026 (AWST). It was $1,399.00 on 30 Oct and 1 Nov 2026. us.anthbot.com now 301-redirects to anthbot.com, which is the same USD store.
 - **Coverage:** The specs comparison lists **Recommended Mowing Area 1000 ㎡ (1/4 Acres)**, and the PDP says "Mowing up to 1000㎡ (1/4 acres)". That is the source for `coverageAcres: 0.25`.
 - **Navigation:** HoloSense Fusion (360° LiDAR + NetRTK/RTK + vision), with AI recognition of 1,000+ obstacles, one-tap auto-mapping, and EdgeWiz edge mowing. Anthbot markets 1-year free 4G + NetRTK.
 - **Box contents vs. marketing:** The "What's in the Box" list still includes an **RTK reference station**, mounting pole and tripod stake, even though Anthbot says you can skip installing the physical station when you use NetRTK.
@@ -47,4 +47,4 @@ Source: [ANTHBOT M9 PRO](https://anthbot.com/products/m9-pro-robot-lawn-mower), 
 
 ## Honest verdict
 
-M9 Pro is Anthbot's best-equipped in-stock compact mower: **LiDAR + RTK/NetRTK + vision** for yards up to **1000 m² (1/4 acre)**, with a **45%** slope limit and a **7.9 in** disc, at **$1,399** (30 Oct 2026). Pay the premium only if trees or buildings break RTK on your lawn. Under open sky, the base M9 covers the same footprint for $630 less, and neither Pro model publishes weight or battery figures yet.
+M9 Pro is Anthbot's best-equipped in-stock compact mower: **LiDAR + RTK/NetRTK + vision** for yards up to **1000 m² (1/4 acre)**, with a **45%** slope limit and a **7.9 in** disc, at **$1,199** (11 Nov 2026). Pay the premium only if trees or buildings break RTK on your lawn. Under open sky, the base M9 covers the same footprint for $550 less, and neither Pro model publishes weight or battery figures yet.

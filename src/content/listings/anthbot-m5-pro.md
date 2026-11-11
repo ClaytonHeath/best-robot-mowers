@@ -14,7 +14,7 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Small wire-free yards up to Anthbot's published 500 m² (1/8 acre) with trees, walls or fences that can break an RTK fix, where the owner wants 360° LiDAR + NetRTK + AI vision, a 65 cm (25.6 in) narrowest passage and a 45% slope limit. Not for lawns past 500 m², which is the M9 Pro's job.
-verdict: At $1,099 (1 Nov 2026) the M5 Pro puts LiDAR, RTK/NetRTK and vision on a 1/8-acre mower with a 7.9 in disc and a 45% slope limit. The catch is price per square metre. The M9 Pro doubles the rated area for $300 more, the M5 LiDAR covers the same 500 m² for $949 (2 Nov 2026), and Anthbot publishes no weight or battery figures.
+verdict: At $1,099 (1 Nov 2026) the M5 Pro puts LiDAR, RTK/NetRTK and vision on a 1/8-acre mower with a 7.9 in disc and a 45% slope limit. The catch is price per square metre. The M9 Pro doubles the rated area for $100 more, the M5 LiDAR covers the same 500 m² for $759 (11 Nov 2026), and Anthbot publishes no weight or battery figures.
 affiliateUrl: ""
 officialUrl: https://anthbot.com/products/m5-pro-robot-lawn-mower
 image: /mowers/anthbot-m5-pro.webp
@@ -47,4 +47,4 @@ Source: [ANTHBOT M5 PRO](https://anthbot.com/products/m5-pro-robot-lawn-mower), 
 
 ## Honest verdict
 
-The M5 Pro is Anthbot's full-fusion mower for small lawns: **LiDAR + RTK/NetRTK + vision** for up to **500 m² (1/8 acre)**, with a **45%** slope limit and a **7.9 in** disc, at **$1,099** (1 Nov 2026). Buy it if your small yard is shaded or cluttered enough to need both LiDAR and RTK. If one sensor type is enough, the M5 LiDAR covers the same area for $150 less ($949 on 2 Nov 2026). If you are close to 500 m², spend the extra $300 on the M9 Pro for twice the rated area.
+The M5 Pro is Anthbot's full-fusion mower for small lawns: **LiDAR + RTK/NetRTK + vision** for up to **500 m² (1/8 acre)**, with a **45%** slope limit and a **7.9 in** disc, at **$1,099** (1 Nov 2026). Buy it if your small yard is shaded or cluttered enough to need both LiDAR and RTK. If one sensor type is enough, the M5 LiDAR covers the same area for $340 less ($759 on 11 Nov 2026). If you are close to 500 m², spend the extra $100 on the M9 Pro for twice the rated area.

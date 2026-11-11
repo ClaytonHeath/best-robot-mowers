@@ -4,8 +4,8 @@ brand: Mammotion
 slug: mammotion-luba-3-awd-3000
 model: LUBA 3 AWD 3000
 status: published
-priceUsd: 2799
-priceNote: "Official US cart price on 9 Oct 2026 (AWST) for the Standard Version (variant 50985073410346, SKU MTLA25LU33KNA, 1.0–2.7 in cut): $2,799, with no compare-at price, tax excluded. The earlier $2,109 sale (against a $2,799 compare-at) has ended. A guest cart/add.js accepted this variant at $2,799.00 with no discount, and the schema.org Offer reads 2799.0 USD, InStock. The High Version (variant 50985057288490, SKU MTLA25LU33KHNA) lists the same $2,799 but was sold out on 9 Oct 2026."
+priceUsd: 1999
+priceNote: "Official US cart price on 11 Nov 2026 (AWST) for the Standard Version (variant 50985073410346, SKU MTLA25LU33KNA, 1.0–2.7 in cut): $1,999 sale against a $2,799 compare-at, tax excluded. A guest cart accepted this variant at $1,999.00 with no discount. It was $2,799 with no compare-at on 9 Oct 2026 (the earlier $2,109 sale against a $2,799 compare-at had ended by then). The High Version (variant 50985057288490, SKU MTLA25LU33KHNA) still lists $2,799 and was sold out on 11 Nov 2026."
 coverageAcres: 0.75
 slopePercent: 80
 navigation:
@@ -18,7 +18,7 @@ verdict: The 3000 is the mid-size LUBA 3 — 0.75-acre rating, Tri-Fusion with N
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower?variant=50985073410346
 image: /mowers/mammotion-luba-3-awd-3000.webp
-updated: 2026-10-09
+updated: 2026-11-11
 cuttingWidthIn: 15.7
 cuttingHeight: "1.0–2.7 in Standard (this SKU); 2.2–4.0 in High (H) version"
 noiseDb: 70
@@ -42,7 +42,7 @@ Yards that sit between small-lot and full-acre machines — roughly up to **0.75
 - **Coverage:** 0.75 acre on the 3000 / 3000H. Distinct from the 0.37-acre 1500 and 1.25-acre 5000 on the same US PDP.
 - **Navigation:** Tri-Fusion — 360° × 59° LiDAR (up to 70 m range, 200,000 points/second on the series page), dual-camera AI vision, and NetRTK via iNavi (±0.4 in precision claimed for the Tri-Fusion system). No perimeter wire; no RTK antenna install required per PDP/FAQ.
 - **Drive:** AWD; published series slope **80% (38.6°)**.
-- **Cut:** 400 mm (**15.7 in**) dual cutting discs with two 165W motors. This listing locks **Standard** cutting height **1.0–2.7 in**; High (H) is **2.2–4.0 in** at the same cart price.
+- **Cut:** 400 mm (**15.7 in**) dual cutting discs with two 165W motors. This listing locks **Standard** cutting height **1.0–2.7 in** at the $1,999 cart; High (H) is **2.2–4.0 in** and still lists $2,799, sold out on 11 Nov 2026.
 - **Zones:** Official model guide — **30-zone** management on the 3000 (15 on 1500; 50 on 5000).
 - **Build:** **41 lb**, **IPX6**, noise **≤70 dB** on the US product page. Fits passages as narrow as **70 cm (27.6 in)** per series copy.
 - **Connectivity:** Built-in 4G with three years included; Mammotion’s FAQ says a subscription is required after that. Live streaming is advertised for yard monitoring.

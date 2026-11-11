@@ -5,7 +5,7 @@ slug: husqvarna-automower-410-iq
 model: Automower 410 iQ
 status: published
 priceUsd: 2599.99
-priceNote: "Official husqvarna.com US price on 10 Nov 2026 (AWST) for SKU 970727401: $2,599.99 MSRP. The PDP schema.org Offer read OutOfStock / hasInventory false that morning (no Available online badge), but shop.husqvarna.com inventoryavailability returned Available and the official guest cart (store 11251) accepted the SKU at $2,599.99 USD with orderItemInventoryStatus Available. It was Available online with a $2,599.99 guest cart on 20 Oct 2026. Tax and shipping excluded. Check the live cart."
+priceNote: "Official husqvarna.com US price on 11 Nov 2026 (AWST) for SKU 970727401: $2,599.99 MSRP, Available online (schema.org InStock; hasInventory true). On 10 Nov 2026 the PDP schema.org Offer read OutOfStock / hasInventory false (no Available online badge), but shop.husqvarna.com inventoryavailability returned Available and the official guest cart (store 11251) accepted the SKU at $2,599.99 USD with orderItemInventoryStatus Available. It was Available online with a $2,599.99 guest cart on 20 Oct 2026. Tax and shipping excluded. Check the live cart."
 coverageAcres: 0.5
 slopePercent: 45
 navigation:
@@ -16,7 +16,7 @@ verdict: Wire-free EPOS for 0.5-acre systematic mowing — 0.25-acre irregular r
 affiliateUrl: ""
 officialUrl: https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/
 image: /mowers/husqvarna-automower-410-iq.webp
-updated: 2026-11-10
+updated: 2026-11-11
 cuttingWidthIn: 9.4
 cuttingHeight: 1–4 in (approximate), electric
 noiseDb: 62
@@ -28,7 +28,7 @@ ipRating: IPX5
 
 Husqvarna Automower 410 iQ is a residential, EPOS satellite-mapped robot mower. The US/CA SKU is **970 72 74-01**. Husqvarna leads with **0.5 acre lawn size (±20%)** — the same figure as **area capacity — systematic**. **Area capacity — irregular** is **0.25 acre**. Boundary type is **Physical wire, Virtual wire**. A normal install does not require buried loop wire.
 
-The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** husqvarna.com lists it at **$2,599.99**; on 10 Nov 2026 the PDP showed Out of Stock while the official guest cart still returned that price (it was Available online on 20 Oct 2026).
+The box includes the mower, charging station, 6 extra blades, 33 ft low-voltage cable, power supply, 100 stakes, EPOS Plug-in, and EPOS Reference station. **Loop wire is not included.** husqvarna.com lists it at **$2,599.99**, Available online on 11 Nov 2026 (the PDP had shown Out of Stock on 10 Nov 2026 while the official guest cart still returned that price; it was Available online on 20 Oct 2026).
 
 ## Who it's for
 
@@ -36,7 +36,7 @@ Suburban lawns around **half an acre** when mowed systematically — **a quarter
 
 ## Standout details
 
-- **Price:** **$2,599.99** official husqvarna.com US price for SKU 970727401 on 10 Nov 2026 (AWST); the official guest cart returned **$2,599.99 USD** (inventory Available) even though the PDP schema.org Offer read OutOfStock that morning. It was Available online with a matching cart on 20 Oct 2026. Check the live cart.
+- **Price:** **$2,599.99** official husqvarna.com US price for SKU 970727401 on 11 Nov 2026 (AWST), Available online (schema.org InStock; hasInventory true). On 10 Nov 2026 the PDP schema.org Offer read OutOfStock while the official guest cart still returned **$2,599.99 USD** (inventory Available). It was Available online with a matching cart on 20 Oct 2026. Check the live cart.
 - **Coverage:** 0.5 acre recommended lawn size (±20%) and systematic capacity; **0.25 acre irregular**.
 - **Navigation:** EPOS satellite positioning (centimeter-accurate location via satellites plus cellular / the included reference station, or Husqvarna Cloud where coverage exists). Virtual boundaries in the Automower Connect app. Physical wire is supported if you choose it. Object detection is **radar**, not the boundary system.
 - **Slope:** 45% inside the installation; 15% at the boundary.
@@ -46,7 +46,7 @@ Suburban lawns around **half an acre** when mowed systematically — **a quarter
 - **Connectivity:** Cellular, Wi-Fi, Bluetooth; Automower Connect app; Smart Home integration: Yes; firmware over the air. GPS theft tracking, GeoFence, PIN, alarm, lift and tilt sensors. Color display TFT 2.8" QVGA plus jogwheel.
 - **In the box / not in the box:** Charging station, 6 extra blades, 33 ft low-voltage cable, PSU, 100 stakes, EPOS Plug-in, EPOS Reference station. Loop wire sold separately.
 
-Source: [Husqvarna Automower 410 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/), checked 31 Aug 2026. Price and stock from the official husqvarna.com US page and guest cart on 10 Nov 2026 (AWST).
+Source: [Husqvarna Automower 410 iQ](https://www.husqvarna.com/us/robotic-lawn-mowers/automower-410-iq/), checked 31 Aug 2026. Price and stock from the official husqvarna.com US page on 11 Nov 2026 (AWST), and the official guest cart on 10 Nov 2026 (AWST).
 
 ## Honest verdict
 
