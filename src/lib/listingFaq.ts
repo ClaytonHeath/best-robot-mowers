@@ -13,6 +13,7 @@ export const LARGER_YARD_COMPARISON_SLUGS = [
   "husqvarna-automower-440-iq",
   "lymow-one-plus-10a",
   "yarbo-y40p-lawn-mower-pro",
+  "mammotion-luba-2-awd-10000hx",
 ] as const;
 
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
