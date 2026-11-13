@@ -338,3 +338,7 @@ yarbo-y40p-lawn-mower-pro.webp
   Page: https://www.yarbo.com/products/yarbo-y40p-core-with-lawn-mower-pro-module
   File: https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Yarbo_Lawn_Mower_Pro_40p.jpg?v=1789029904
   (Official Y40P Lawn Mower Pro studio still: featured (first) product image for SKU YAR-Y40P-LM. Whole Y40P Core + Lawn Mower Pro Module on a plain light-grey studio background, no badges or text overlays. Not the Y40 still used by yarbo-lawn-mower-pro. 1120x1394 RGB JPEG centered on matching #F2F2F2 at 1400x1400 RGB WebP without upscaling. Checked 3 Nov 2026 AWST.)
+mammotion-luba-2-awd-10000hx.webp
+  Page: https://us.mammotion.com/products/luba-2-awd-robot-lawn-mower?variant=49781963522346
+  File: https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA-X-H.webp?v=1741313360
+  (Official US LUBA 2 AWD H Version studio still, first gallery image; 2000×2000 official file, resized down to 1400×1400 RGB WebP, no upscaling, no OG crop.)
