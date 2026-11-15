@@ -342,3 +342,7 @@ mammotion-luba-2-awd-10000hx.webp
   Page: https://us.mammotion.com/products/luba-2-awd-robot-lawn-mower?variant=49781963522346
   File: https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA-X-H.webp?v=1741313360
   (Official US LUBA 2 AWD H Version studio still, first gallery image; 2000×2000 official file, resized down to 1400×1400 RGB WebP, no upscaling, no OG crop.)
+gardena-sileno-flex.webp
+  Page: https://us.gardena.com/products/2025-sileno-flex-robotic-lawn-mower
+  File: https://cdn.shopify.com/s/files/1/0616/1668/5243/files/BF-415553.png?v=1737012018
+  (Official US SILENO flex studio still, first gallery / featured image, mower on the charging station against a white background; official file padded/downscaled to 1400×1400 RGB WebP, no upscaling, no OG crop.)
