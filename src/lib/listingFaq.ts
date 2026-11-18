@@ -262,10 +262,93 @@ function a2000Faqs(listing: Listing): FaqItem[] {
   ];
 }
 
+function m5LidarFaqs(listing: Listing): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("M5 LiDAR listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "M5 LiDAR FAQ";
+  if (data.priceUsd !== 759) throw new Error(`${label} expected priceUsd 759`);
+  if (data.coverageAcres !== 0.12) throw new Error(`${label} expected coverageAcres 0.12`);
+  if (data.slopePercent !== 45) throw new Error(`${label} expected slopePercent 45`);
+  if (data.cuttingWidthIn !== 7.9) throw new Error(`${label} expected cuttingWidthIn 7.9`);
+  if (data.cuttingHeight !== "3–7 cm (1.2–2.8 in), app-adjusted") {
+    throw new Error(`${label} expected cuttingHeight`);
+  }
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "2 rear wheels") throw new Error(`${label} expected 2 rear wheels`);
+  if (data.navigation.join(",") !== "lidar,vision") throw new Error(`${label} expected lidar + vision`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$759.00", "priceNote", label);
+  mustInclude(note, "$949.00", "priceNote", label);
+  mustInclude(note, "105010083", "priceNote", label);
+  mustInclude(note, "2 Nov 2026", "priceNote", label);
+  mustInclude(note, "$799.00", "priceNote", label);
+  mustInclude(note, "21 Oct 2026", "priceNote", label);
+  mustInclude(note, "had ended by 2 Nov", "priceNote", label);
+  mustInclude(note, "compare-at also $949.00 (no sale)", "priceNote", label);
+  mustInclude(note, "M5 LiDAR + Garage", "priceNote", label);
+  mustInclude(note, "not this SKU's price", "priceNote", label);
+  mustInclude(note, "105010082", "priceNote", label);
+  mustInclude(note, "$549 on 11 Nov 2026", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "no perimeter wire and no RTK station required", "body", label);
+  mustInclude(body, "360° LiDAR + Dual Vision", "body", label);
+  mustInclude(body, "Recommended Mowing Area of 500 m² (1/8 Acres)", "body", label);
+  mustInclude(body, "0.12 acre", "body", label);
+  mustInclude(body, "up to 500 m²", "body", label);
+  mustInclude(body, "Same published footprint class as listed base M5", "body", label);
+  mustInclude(body, "M9’s 1000 m² class", "body", label);
+  mustInclude(body, "Full-Band RTK + Dual Vision", "body", label);
+  mustInclude(body, "105010082", "body", label);
+  mustInclude(body, "$549 on 11 Nov 2026", "body", label);
+  mustInclude(body, "24° / 45%", "body", label);
+  mustInclude(body, "20 cm (7.9 in)", "body", label);
+  mustInclude(body, "3–7 cm (1.2–2.8 in)", "body", label);
+  mustInclude(body, "2 rear wheels", "body", label);
+  mustInclude(body, "different brand/product from listed", "body", label);
+  mustInclude(body, "ECOVACS GOAT A3000 LiDAR PRO", "body", label);
+  mustInclude(body, "listed **Anthbot M9**", "body", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "Does the Anthbot M5 LiDAR need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records 360° LiDAR + Dual Vision, with no perimeter wire and no RTK station required.`,
+    },
+    {
+      question: "How large a lawn is the Anthbot M5 LiDAR rated for?",
+      answer: `The coverage figure is ${coverage}. That number is Anthbot's published Recommended Mowing Area of 500 m² (1/8 Acres). The same listing records compact gardens up to 500 m², the same published footprint class as the listed base M5, and not M9’s 1000 m² class.`,
+    },
+    {
+      question: "How much does the Anthbot M5 LiDAR cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU 105010083, against a $949.00 compare-at. It was $949.00 with compare-at also $949.00 (no sale) on 2 Nov 2026. The $799.00 sale against a $949.00 compare-at seen on 21 Oct 2026 had ended by 2 Nov. The M5 LiDAR + Garage bundle is not this SKU's price.`,
+    },
+    {
+      question: "How does the Anthbot M5 LiDAR compare with the listed RTK base M5?",
+      answer: `The listed base Anthbot M5 is Full-Band RTK + Dual Vision, SKU 105010082, at $549 on 11 Nov 2026. This listing records the same published footprint class (up to 500 m²) and navigation of ${nav}: 360° LiDAR + Dual Vision, with no perimeter wire and no RTK station required. The M5 LiDAR price recorded here is ${price} on ${checked}.`,
+    },
+    {
+      question: "What slope and cut does the Anthbot M5 LiDAR publish?",
+      answer: `Maximum slope ability is 24° / 45%. Drive is ${data.driveType}. Cutting width is ${data.cuttingWidthIn} in (20 cm). Cutting height is ${data.cuttingHeight}.`,
+    },
+    {
+      question: "Is the Anthbot M5 LiDAR the listed Anthbot M9 or ECOVACS GOAT A3000 LiDAR PRO?",
+      answer: `No. This listing says it is not the listed Anthbot M9 (not M9’s 1000 m² class) and is a different brand and product from the listed ECOVACS GOAT A3000 LiDAR PRO.`,
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
 export function faqsForListing(listing: Listing): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
   if (listing.data.slug === "segway-navimow-i110") return i110Faqs(listing);
   if (listing.data.slug === "ecovacs-goat-a2000-lidar-pro") return a2000Faqs(listing);
+  if (listing.data.slug === "anthbot-m5-lidar") return m5LidarFaqs(listing);
   return [];
 }
