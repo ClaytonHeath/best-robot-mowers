@@ -5,7 +5,7 @@ slug: mammotion-luba-2-awd-3000hx
 model: LUBA 2 AWD 3000HX (H Version)
 status: published
 priceUsd: 2599
-priceNote: "Official US cart price on 17 Nov 2026 (AWST) for LUBA 2 AWD 3000HX | 0.75 acre (variant 49781894185258, SKU MTL24LUX1HUS02, H Version 2.2–4.0 in cut): $2,599.00 with no compare-at, tax excluded. A guest cart accepted this variant at $2,599.00 USD with no discount, and the PDP schema.org Offer for this variant reads InStock (priceValidUntil 2026-11-26). This SKU was sold out on 13 Nov 2026. Sibling 10000HX (2.5 acres, $4,499) remains InStock on the same PDP; sibling 5000HX (1.25 acres, $2,999) was still sold out on 17 Nov 2026."
+priceNote: "Official US cart price on 18 Nov 2026 (AWST) for LUBA 2 AWD 3000HX | 0.75 acre (variant 49781894185258, SKU MTL24LUX1HUS02, H Version 2.2–4.0 in cut): $2,599.00 with no compare-at, tax excluded, unchanged from 17 Nov 2026. A guest cart accepted this variant at $2,599.00 USD with no discount, and the PDP schema.org Offer for this variant still reads InStock. This SKU was sold out on 13 Nov 2026. Sibling 10000HX (2.5 acres, $4,499) remains InStock on the same PDP. Sibling 5000HX (1.25 acres, $2,999, variant 49781894218026, SKU MTL24LUX2HUS02) was back InStock in the official guest cart on 18 Nov 2026 after being sold out on 17 Nov 2026."
 coverageAcres: 0.75
 slopePercent: 80
 navigation:
@@ -17,7 +17,7 @@ verdict: The 3000HX is the 0.75-acre LUBA 2 H Version now back in the official U
 affiliateUrl: ""
 officialUrl: https://us.mammotion.com/products/luba-2-awd-robot-lawn-mower?variant=49781894185258
 image: /mowers/mammotion-luba-2-awd-3000hx.webp
-updated: 2026-11-17
+updated: 2026-11-18
 cuttingWidthIn: 15.7
 cuttingHeight: "2.2–4.0 in (H Version, this SKU)"
 driveType: All-wheel drive
@@ -25,7 +25,7 @@ driveType: All-wheel drive
 
 ## What it is
 
-Mammotion **LUBA 2 AWD 3000HX** is the **H Version** of LUBA 2 AWD sold on the official US store, locked to variant **49781894185258**, SKU **MTL24LUX1HUS02**, titled "LUBA 2 AWD 3000HX | 0.75 acre". On 17 Nov 2026 (AWST) the official guest cart accepted that line at **$2,599.00 USD** with no compare-at and no discount. It had been sold out on 13 Nov 2026. The same PDP also sells the listed [LUBA 2 AWD 10000HX](/mowers/mammotion-luba-2-awd-10000hx/) (2.5 acres, $4,499, InStock on this date) and **5000HX** (1.25 acres, $2,999), which was still sold out on 17 Nov 2026.
+Mammotion **LUBA 2 AWD 3000HX** is the **H Version** of LUBA 2 AWD sold on the official US store, locked to variant **49781894185258**, SKU **MTL24LUX1HUS02**, titled "LUBA 2 AWD 3000HX | 0.75 acre". On 18 Nov 2026 (AWST) the official guest cart still accepted that line at **$2,599.00 USD** with no compare-at and no discount, as on 17 Nov 2026. It had been sold out on 13 Nov 2026. The same PDP also sells the listed [LUBA 2 AWD 10000HX](/mowers/mammotion-luba-2-awd-10000hx/) (2.5 acres, $4,499, InStock on this date) and **5000HX** (1.25 acres, $2,999), which was back in the official guest cart on 18 Nov 2026 after being sold out on 17 Nov 2026.
 
 It is a wire-free, four-wheel-drive robot mower. Navigation on this page is **UltraSense AI Vision** plus an **RTK reference station that ships in the box** (station, antenna, power supply, and a 10 m extension cable), so you do not bury perimeter wire, but you do have to site and power the RTK hardware. This is **LUBA 2**, not the listed [LUBA 3 AWD 3000](/mowers/mammotion-luba-3-awd-3000/) (same 0.75-acre size class, newer line) and not [LUBA mini 2 AWD 1500H](/mowers/mammotion-luba-mini-2-awd-1500h/). The page itself links "View the All-New LUBA 3 AWD".
 
@@ -46,11 +46,11 @@ The box list on the page includes the mower, charging station and its power supp
 
 Yards that actually fit the **0.75-acre** rating, with slopes or uneven ground that need **AWD** toward the **80%** figure, and an owner willing to mount and power the included RTK station. The **2.2 in** minimum cut on this H Version suits lawns kept at that height or taller.
 
-It is the wrong listing if a listed LUBA 3 already covers the lawn, if you wanted LiDAR instead of this LUBA 2's vision + RTK setup, or if you need the 2.5-acre [10000HX](/mowers/mammotion-luba-2-awd-10000hx/) on the same PDP. The 1.25-acre 5000HX sibling was still sold out in the US store on 17 Nov 2026.
+It is the wrong listing if a listed LUBA 3 already covers the lawn, if you wanted LiDAR instead of this LUBA 2's vision + RTK setup, or if you need a larger sibling on the same PDP — the 2.5-acre [10000HX](/mowers/mammotion-luba-2-awd-10000hx/) remains in the official US cart at $4,499, and the 1.25-acre 5000HX sibling was back in that cart at $2,999 on 18 Nov 2026.
 
 ## Standout details
 
-- **Price:** Official US guest cart accepted **3000HX** at **$2,599.00 USD** (no compare-at, no discount) on 17 Nov 2026 (AWST), variant **49781894185258**, SKU **MTL24LUX1HUS02**. It was sold out on 13 Nov 2026. Do not use the still-sold-out 5000HX ($2,999) row, or the 2.5-acre 10000HX ($4,499) row, as this listing's price.
+- **Price:** Official US guest cart accepted **3000HX** at **$2,599.00 USD** (no compare-at, no discount) on 17 Nov 2026 (AWST), and again on 18 Nov 2026, variant **49781894185258**, SKU **MTL24LUX1HUS02**. It was sold out on 13 Nov 2026. Do not use the 5000HX ($2,999, back in the official cart on 18 Nov 2026) or 2.5-acre 10000HX ($4,499) rows on the same PDP as this listing's price.
 - **Coverage:** this variant is named and sold as **0.75 acre**. The same marketing page still quotes **1.25 acres/day** as a series performance figure; treat 0.75 acre as the rated area, not a guaranteed daily throughput.
 - **Drive and slope:** AWD, published **80% (38.6°)** climb, **3.2 in** vertical obstacle claim.
 - **Cut:** **15.7 in** dual discs, **165W** motors, H Version height **2.2–4.0 in**.
@@ -58,7 +58,7 @@ It is the wrong listing if a listed LUBA 3 already covers the lawn, if you wante
 - **Not published for this SKU:** weight, IP rating, and noise. A 15 Ah battery headline is series copy, not a per-SKU table row, so it is omitted here.
 - **Purchase terms on this date:** free shipping, 30-day returns, 3-year warranty; tax excluded in the cart.
 
-Sources: [official Mammotion US product page, 3000HX variant](https://us.mammotion.com/products/luba-2-awd-robot-lawn-mower?variant=49781894185258), including the on-page feature copy, What's in the Box list, and a guest cart add for variant 49781894185258, checked **17 Nov 2026** (AWST).
+Sources: [official Mammotion US product page, 3000HX variant](https://us.mammotion.com/products/luba-2-awd-robot-lawn-mower?variant=49781894185258), including the on-page feature copy, What's in the Box list, and a guest cart add for variant 49781894185258, checked **17 Nov 2026** (AWST). Sibling stock rechecked **18 Nov 2026** (AWST).
 
 ## Honest verdict
 
