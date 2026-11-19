@@ -344,11 +344,104 @@ function m5LidarFaqs(listing: Listing): FaqItem[] {
   ];
 }
 
+function genie3000Faqs(listing: Listing): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("Genie 3000 listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "Genie 3000 FAQ";
+  if (data.priceUsd !== 899) throw new Error(`${label} expected priceUsd 899`);
+  if (data.coverageAcres !== 0.75) throw new Error(`${label} expected coverageAcres 0.75`);
+  if (data.slopePercent !== 45) throw new Error(`${label} expected slopePercent 45`);
+  if (data.cuttingWidthIn !== 7.9) throw new Error(`${label} expected cuttingWidthIn 7.9`);
+  if (data.cuttingHeight !== "3–7 cm (1.2–2.8 in), app/auto") {
+    throw new Error(`${label} expected cuttingHeight`);
+  }
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "2 rear wheels") throw new Error(`${label} expected 2 rear wheels`);
+  if (data.navigation.join(",") !== "rtk,vision") throw new Error(`${label} expected rtk + vision`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$899.00", "priceNote", label);
+  mustInclude(note, "105010042", "priceNote", label);
+  mustInclude(note, "$1,599.00", "priceNote", label);
+  mustInclude(note, "SOLD OUT", "priceNote", label);
+  mustInclude(note, "22 Oct 2026", "priceNote", label);
+  mustInclude(note, "already sold out", "priceNote", label);
+  mustInclude(note, "10 Sep 2026", "priceNote", label);
+  mustInclude(note, "Genie 600 $799", "priceNote", label);
+  mustInclude(note, "Genie 600e(4G) $699", "priceNote", label);
+  mustInclude(note, "Genie 1000 $799", "priceNote", label);
+  mustInclude(note, "are not this SKU's price", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "no perimeter wire", "body", label);
+  mustInclude(body, "full-band RTK + 3D vision (4 cameras)", "body", label);
+  mustInclude(body, "RTK reference station", "body", label);
+  mustInclude(body, "Recommended Mowing Area of 3000㎡ (3/4 Acres)", "body", label);
+  mustInclude(body, "0.75 acre", "body", label);
+  mustInclude(body, "0.89 acre / up to 3600 m²", "body", label);
+  mustInclude(body, "marketed ceiling", "body", label);
+  mustInclude(body, "recommended yard-fit", "body", label);
+  mustInclude(body, "~3000 m² / 3/4 acre", "body", label);
+  mustInclude(body, "Genie 600e (4G)", "body", label);
+  mustInclude(body, "105010062", "body", label);
+  mustInclude(body, "$699", "body", label);
+  mustInclude(body, "recommended ~600 m²", "body", label);
+  mustInclude(body, "105010025", "body", label);
+  mustInclude(body, "$799", "body", label);
+  mustInclude(body, "recommended ~1000 m² / 1/4 acre", "body", label);
+  mustInclude(body, "Anti-Theft Digital Fence", "body", label);
+  mustInclude(body, "exclusive to Genie 1000 & Genie 3000", "body", label);
+  mustInclude(body, "24° / 45%", "body", label);
+  mustInclude(body, "2 Rear Wheels", "body", label);
+  mustInclude(body, "20 cm (7.9 inch)", "body", label);
+  mustInclude(body, "3–7 cm (1.2–2.8 in)", "body", label);
+  mustInclude(body, "1 year free", "body", label);
+  mustInclude(body, "4G / Connect+", "body", label);
+  mustInclude(body, "$39.90", "body", label);
+  mustInclude(body, "GPS Tracking", "body", label);
+  mustInclude(body, "Out-of-Boundary Alarm", "body", label);
+  mustInclude(body, "Find My", "body", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "How much does the Anthbot Genie 3000 cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU 105010042, Genie 3000 | 0.89 acre, against a $1,599.00 compare-at.${stockSentence(note)} Sibling variants on the same configurable product on 10 Sep 2026 (Genie 600 $799, Genie 600e(4G) $699, Genie 1000 $799) are not this SKU's price.`,
+    },
+    {
+      question: "How large a lawn is the Anthbot Genie 3000 rated for?",
+      answer: `The coverage figure is ${coverage}. That number is Anthbot’s Recommended Mowing Area of 3000㎡ (3/4 Acres), the recommended yard-fit. The same listing records a marketed ceiling of 0.89 acre / up to 3600 m², which is not the recommended yard-fit.`,
+    },
+    {
+      question: "Does the Anthbot Genie 3000 need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records full-band RTK + 3D vision (4 cameras), with no perimeter wire. The packaging list includes an RTK reference station.`,
+    },
+    {
+      question: "How does the Anthbot Genie 3000 compare with the listed Genie 600e and Genie 1000?",
+      answer: `The listed Genie 600e (4G) is SKU 105010062 at $699, with a recommended ~600 m² area. The listed Genie 1000 is SKU 105010025 at $799, with a recommended ~1000 m² / 1/4 acre area. This listing’s recommended area is ~3000 m² / 3/4 acre, and its marketed ceiling is 0.89 acre / up to 3600 m². The price recorded here is ${price} on ${checked}. Anti-Theft Digital Fence is called out as exclusive to Genie 1000 & Genie 3000.`,
+    },
+    {
+      question: "What slope and cut does the Anthbot Genie 3000 publish?",
+      answer: `Maximum slope ability is 24° / 45%. Driving engine is 2 Rear Wheels. Cutting width is 20 cm (7.9 inch). Cutting height is ${data.cuttingHeight}.`,
+    },
+    {
+      question: "Does the Anthbot Genie 3000 include 4G?",
+      answer: `Yes. Specs list 1 year free 4G / Connect+ (renewable annually at $39.90). GPS Tracking, Out-of-Boundary Alarm, and Find My are Y on Genie 3000.`,
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
 export function faqsForListing(listing: Listing): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
   if (listing.data.slug === "segway-navimow-i110") return i110Faqs(listing);
   if (listing.data.slug === "ecovacs-goat-a2000-lidar-pro") return a2000Faqs(listing);
   if (listing.data.slug === "anthbot-m5-lidar") return m5LidarFaqs(listing);
+  if (listing.data.slug === "anthbot-genie-3000") return genie3000Faqs(listing);
   return [];
 }
