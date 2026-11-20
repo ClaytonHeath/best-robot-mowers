@@ -5,7 +5,7 @@ slug: segway-navimow-i110
 model: i110
 status: published
 priceUsd: 1099
-priceNote: Official US store on 9 Oct 2026 (AWST) for Navimow i110 | 0.25 acre (product 7975879901321, variant 43296343621769, SKU AA.12.02.03.0003) — $1,099.00, no compare-at; SOLD OUT on 9 Oct 2026 (product.js available=false; guest cart/add.js rejected the variant with "already sold out"). Price unchanged from the 4 Sep 2026 cart. Not labeled MSRP.
+priceNote: Official US store on 20 Nov 2026 (AWST) for Navimow i110 | 0.25 acre (product 7975879901321, variant 43296343621769, SKU AA.12.02.03.0003) — $1,099.00, no compare-at; a guest cart/add.js accepted this variant at $1,099.00 USD with no discount, so it is in stock in the official guest cart, even though product.js still reports available=false. It was SOLD OUT on 9 Oct 2026 (product.js available=false; guest cart/add.js rejected the variant with "already sold out"). Price unchanged from the 9 Oct 2026 and 4 Sep 2026 carts. Not labeled MSRP.
 coverageAcres: 0.25
 slopePercent: 30
 navigation:
@@ -17,7 +17,7 @@ verdict: The US i110 is the 0.25-acre i-series cart at $1,099, with RTK plus 140
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-i110
 image: /mowers/segway-navimow-i110.webp
-updated: 2026-10-09
+updated: 2026-11-20
 cuttingWidthIn: 7.1
 cuttingHeight: 2–3.6 in, manual
 noiseDb: 58
@@ -64,12 +64,12 @@ The i110 is listed here next to the [X330](/mowers/segway-navimow-x330/). Every 
   <tbody>
     <tr>
       <th scope="row">US price</th>
-      <td>$1,099 (9 Oct 2026)</td>
+      <td>$1,099 (20 Nov 2026)</td>
       <td>$2,299 (17 Oct 2026)</td>
     </tr>
     <tr>
       <th scope="row">Stock</th>
-      <td>Sold out (9 Oct 2026)</td>
+      <td>Guest cart accepted (20 Nov 2026); product.js unavailable</td>
       <td>Available (17 Oct 2026)</td>
     </tr>
     <tr>
@@ -165,4 +165,4 @@ The recommended-area row is each listing’s coverage figure. The i110 listing a
 
 ## Honest verdict
 
-Pay the $1,099 US price (sold out on 9 Oct 2026; no compare-at) if the lawn is actually 0.25 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you only need 0.125 acre (i105), X-series coverage or AWD, or a path narrower than the published 100 cm passage. While it is out of stock, the same-acreage [i210 AWD](https://www.bestlawnrobots.com/mowers/segway-navimow-i210-awd/) (`segway-navimow-i210-awd`) was $1,049 on sale in the same store.
+Pay the $1,099 US price (guest cart accepted 20 Nov 2026, even though product.js still reports available=false; no compare-at; it was sold out on 9 Oct 2026) if the lawn is actually 0.25 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you only need 0.125 acre (i105), X-series coverage or AWD, or a path narrower than the published 100 cm passage. The same-acreage [i210 AWD](https://www.bestlawnrobots.com/mowers/segway-navimow-i210-awd/) (`segway-navimow-i210-awd`) is $999 on sale in the same store on 20 Nov 2026.

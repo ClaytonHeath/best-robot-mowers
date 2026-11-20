@@ -106,7 +106,7 @@ function yarboFaqs(listing: Listing): FaqItem[] {
   return [
     {
       question: "How much does the Yarbo Lawn Mower Pro cost?",
-      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU YAR-Y40-LM, the Yarbo Core plus Lawn Mower Pro module. There is no compare-at. It was $5,499.00 against a $5,999.00 compare-at on 8 Sep 2026, so that sale has ended.${stockSentence(note)} This SKU is not the $7,199 All-Season Pro 4-in-1 (Lawn Mower Pro + Snow Blower + Blower).`,
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU YAR-Y40-LM, the Yarbo Core plus Lawn Mower Pro module, against a $5,999.00 compare-at. It was $5,999.00 with no compare-at on 4 Nov 2026. It was $5,499.00 against a $5,999.00 compare-at on 8 Sep 2026, so that sale has ended.${stockSentence(note)} This SKU is not the $7,199 All-Season Pro 4-in-1 (Lawn Mower Pro + Snow Blower + Blower).`,
     },
     {
       question: "How large a lawn is the Yarbo Lawn Mower Pro rated for?",
@@ -197,7 +197,7 @@ function a2000Faqs(listing: Listing): FaqItem[] {
   if (!body) throw new Error("A2000 listing body is missing; FAQ cannot be checked against it.");
   const note = data.priceNote;
   const label = "A2000 FAQ";
-  if (data.priceUsd !== 1999.99) throw new Error(`${label} expected priceUsd 1999.99`);
+  if (data.priceUsd !== 1329) throw new Error(`${label} expected priceUsd 1329`);
   if (data.coverageAcres !== 0.5) throw new Error(`${label} expected coverageAcres 0.5`);
   if (data.slopePercent !== 50) throw new Error(`${label} expected slopePercent 50`);
   if (data.cuttingWidthIn !== 12.96) throw new Error(`${label} expected cuttingWidthIn 12.96`);
@@ -241,7 +241,7 @@ function a2000Faqs(listing: Listing): FaqItem[] {
   return [
     {
       question: "How much does the ECOVACS GOAT A2000 LiDAR PRO cost?",
-      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU GA2000LP, the mower-only GOAT A2000 LiDAR PRO. Present and origin are both ${price}, off $0.00, with no coupons.${stockSentence(note)} It was $1,452.00 present against $1,999.99 origin on 30 Sep 2026, so that promotion has ended.`,
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU GA2000LP, the mower-only GOAT A2000 LiDAR PRO. Present is ${price} against a $1,999.99 origin, off $671.00, with no coupons.${stockSentence(note)} It was $1,999.99 present and origin, off $0.00, with no coupons on 21 Oct 2026. It was $1,452.00 present against $1,999.99 origin on 30 Sep 2026, so that promotion has ended.`,
     },
     {
       question: "How large a lawn is the ECOVACS GOAT A2000 LiDAR PRO rated for?",

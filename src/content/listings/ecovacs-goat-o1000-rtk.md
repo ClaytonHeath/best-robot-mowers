@@ -4,8 +4,8 @@ brand: ECOVACS
 slug: ecovacs-goat-o1000-rtk
 model: GOAT O1000 RTK (sold as the O1000 RTK Care Kit, SKU GO1000RK)
 status: published
-priceUsd: 999.99
-priceNote: "Official US cart price on 10 Oct 2026 (AWST) for the GOAT O1000 RTK Care Kit (SKU GO1000RK, UPC 850066858103, ECOVACS product id 1264): $999.99 present / $999.99 original, off $0.00. Cart subtotal and total both $999.99 with quantity 1, an empty additional_list, and no coupons. Tax and shipping are excluded. The Care Kit is the complete O1000 RTK mower (with RTK reference station and charging station) plus a spare blade kit of 45 blades and 45 screws. The mower-only O1000 RTK page (SKU GO-1000R, product id 1063) lists the same $999.99 but was out of stock and could not be added to the cart on 10 Oct 2026."
+priceUsd: 630
+priceNote: "Official US cart price on 20 Nov 2026 (AWST) for the GOAT O1000 RTK Care Kit (SKU GO1000RK, UPC 850066858103, ECOVACS product id 1264): $630.00 present / $999.99 origin, off $370.00, no coupons, can_add_cart Y. Tax and shipping are excluded. The Care Kit is the complete O1000 RTK mower (with RTK reference station and charging station) plus a spare blade kit of 45 blades and 45 screws. It was $999.99 present / $999.99 original, off $0.00, on 10 Oct 2026."
 coverageAcres: 0.25
 slopePercent: 45
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: "Small lawns up to about a quarter acre with open sky for an RTK antenna, where a sub-$1,000 wire-free mower with 3D obstacle avoidance and 2.3 ft narrow-path handling matters more than a wide cut or a long run time. The limits are the 1/4-acre rating, a 17% virtual-boundary slope, an 8.66 in cut, and about 65 minutes per charge."
-verdict: "A $999.99 RTK + camera + 3D ToF mower for quarter-acre lawns, rated for 45% (24°) work-area slopes and sold with 45 spare blades. The catches are the RTK antenna you have to mount, a 17% boundary-slope limit, and a 65-minute run time."
+verdict: "A $630.00 RTK + camera + 3D ToF mower for quarter-acre lawns, rated for 45% (24°) work-area slopes and sold with 45 spare blades. The catches are the RTK antenna you have to mount, a 17% boundary-slope limit, and a 65-minute run time."
 affiliateUrl: ""
 officialUrl: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-rtk
 image: /mowers/ecovacs-goat-o1000-rtk.webp
-updated: 2026-10-10
+updated: 2026-11-20
 cuttingWidthIn: 8.66
 cuttingHeight: "1.2–3.2 in, manual adjustment"
 noiseDb: 57
@@ -29,7 +29,7 @@ ipRating: IPX6
 
 The GOAT O1000 RTK is ECOVACS' entry-price wire-free mower in the US and the RTK sibling of the listed [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro). It positions itself with **RTK satellite navigation** from an included reference station. ECOVACS calls the setup LiDAR-enhanced RTK (LELS). The US spec table lists navigation as **RTK + Camera + 3D ToF** and obstacle avoidance as **3D ToF + Camera (AIVI 3D)**, so there is no rotating LiDAR on this model.
 
-**How it's sold:** In the US store, the purchasable version is the **O1000 RTK Care Kit** (SKU GO1000RK). It is the full mower kit plus a spare blade kit of 45 blades and 45 screws. The mower-only page (SKU GO-1000R) shows the same $999.99 price but was out of stock on 10 Oct 2026. Both pages carry the same UPC (850066858103).
+**How it's sold:** In the US store, the purchasable version is the **O1000 RTK Care Kit** (SKU GO1000RK). It is the full mower kit plus a spare blade kit of 45 blades and 45 screws. The official Care Kit price on 20 Nov 2026 is **$630.00** against a **$999.99** origin. The mower-only page (SKU GO-1000R) showed the same $999.99 price but was out of stock on 10 Oct 2026. Both pages carry the same UPC (850066858103).
 
 **Setup:** No perimeter wire. You do need to install the RTK reference station on its mounting pole, with a 10 m power cable. ECOVACS says setup takes about 5 minutes with automatic mapping, and that no signal beacons are needed.
 
@@ -54,4 +54,4 @@ Sources: [GOAT O1000 RTK Care Kit US product page and spec table](https://www.ec
 
 ## Honest verdict
 
-For a quarter-acre lawn with open sky, this is the cheapest way into ECOVACS' wire-free lineup. At $999.99 you get RTK positioning, 3D obstacle avoidance, a 45% work-area slope rating, and a pile of spare blades. The published limits are a 1/4-acre rating (or 8,600 sq ft by one ECOVACS figure), a 17% virtual-boundary slope, an 8.66 in cut, and about 65 minutes of run time. Its sibling the [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro) costs $1,499.99 for the same 1/4-acre and 45% ratings. That $500 buys dual LiDAR with no antenna, a TruEdge string trimmer, electric height adjustment, and 90 minutes per charge. Against other RTK + vision quarter-acre mowers, the listed [roborock-rockneo-q1](https://garden.roborock.com/us/products/roborock-rockneo-q1) had a $1,299 US list price, and the listed [segway-navimow-i210-awd](https://navimow.com/products/navimow-i2-awd-robot-lawn-mower?variant=45014242853001) was $1,049 in Navimow's US cart on 10 Oct 2026 with all-wheel drive. The O1000 RTK wins on price. It gives up a published drive type and run time.
+For a quarter-acre lawn with open sky, this is the cheapest way into ECOVACS' wire-free lineup. At $630.00 you get RTK positioning, 3D obstacle avoidance, a 45% work-area slope rating, and a pile of spare blades. The published limits are a 1/4-acre rating (or 8,600 sq ft by one ECOVACS figure), a 17% virtual-boundary slope, an 8.66 in cut, and about 65 minutes of run time. Its sibling the [ecovacs-goat-o1000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro) costs $949.00 for the same 1/4-acre and 45% ratings. That gap buys dual LiDAR with no antenna, a TruEdge string trimmer, electric height adjustment, and 90 minutes per charge. Against other RTK + vision quarter-acre mowers, the listed [roborock-rockneo-q1](https://garden.roborock.com/us/products/roborock-rockneo-q1) had a $1,299 US list price, and the listed [segway-navimow-i210-awd](https://navimow.com/products/navimow-i2-awd-robot-lawn-mower?variant=45014242853001) was $999 in Navimow's US cart on 20 Nov 2026 with all-wheel drive. The O1000 RTK wins on price. It gives up a published drive type and run time.
