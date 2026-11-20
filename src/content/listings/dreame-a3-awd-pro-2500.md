@@ -4,8 +4,8 @@ brand: Dreame
 slug: dreame-a3-awd-pro-2500
 model: A3 AWD Pro 2500
 status: published
-priceUsd: 2249.99
-priceNote: Official US cart on 19 Sep 2026 for variant “A3 AWD Pro 2500 - 0.62 Acre” (SKU 010901AA000110) — $2,249.99 sale, $3,099.99 compare-at. Not labeled MSRP. SOLD OUT on 16 Oct 2026 (AWST) — a guest cart/add.js for variant 48120972148993 was refused as "already sold out" and product.js reports it unavailable (the store now shows $1,699.99 against $3,099.99 for the unavailable variant). The listed $2,249.99 is the last price this listing cart-verified.
+priceUsd: 1799.99
+priceNote: Official US cart on 20 Nov 2026 (AWST) for variant “A3 AWD Pro 2500 - 0.62 Acre” (48120972148993, SKU 010901AA000110) — $1,799.99 sale, $3,099.99 compare-at; a guest cart/add.js accepted this variant at $1,799.99 USD with no discount, even though product.js still reports it unavailable. Not labeled MSRP. It had been SOLD OUT on 16 Oct 2026 (AWST), when a guest cart/add.js was refused as "already sold out" and the store showed $1,699.99 against $3,099.99 for the unavailable variant; the last cart-verified price before that was $2,249.99 on 19 Sep 2026.
 coverageAcres: 0.62
 slopePercent: 80
 navigation:
@@ -17,7 +17,7 @@ verdict: A wire-free AWD Pro SKU with published 0.62-acre capacity, 80% slope, a
 affiliateUrl: ""
 officialUrl: https://yardcare.dreametech.com/products/a3-awd-pro-robot-lawn-mower?variant=48120972148993
 image: /mowers/dreame-a3-awd-pro-2500.webp
-updated: 2026-10-16
+updated: 2026-11-20
 cuttingWidthIn: 15.8
 cuttingHeight: "1.2–3.9 in (3–10 cm)"
 noiseDb: 65
@@ -52,4 +52,4 @@ Sources: [Dreame A3 AWD Pro US PDP / cart](https://yardcare.dreametech.com/produ
 
 ## Honest verdict
 
-Buy the Pro 2500 cart if the yard is around or under **0.62 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware. The locked official sale was **$2,249.99** ($3,099.99 compare-at on the same variant — not a labeled MSRP); the variant was **sold out** in the US store on 16 Oct 2026. Skip it for larger rated lawns (Pro 3500 / Pro 5000), for RTK-first platforms, or for smaller lots better matched to the non-Pro A3 AWD 1000/2000.
+Buy the Pro 2500 cart if the yard is around or under **0.62 acre**, needs **AWD** toward the **80%** slope claim, and you want **LiDAR + vision** without RTK hardware. The official sale on 20 Nov 2026 is **$1,799.99** ($3,099.99 compare-at on the same variant — not a labeled MSRP); product.js still reports the variant unavailable, but a guest cart accepted it at that price. It was sold out on 16 Oct 2026, when the last cart-verified price had been **$2,249.99**. Skip it for larger rated lawns (Pro 3500 / Pro 5000), for RTK-first platforms, or for smaller lots better matched to the non-Pro A3 AWD 1000/2000.

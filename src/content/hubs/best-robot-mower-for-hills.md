@@ -58,19 +58,19 @@ Only models with published listings and supporting frontmatter are listed. Price
 ### 80% AWD LiDAR (no RTK on these SKUs)
 
 #### [Dreame A3 AWD 1000](/mowers/dreame-a3-awd-1000/)
-- **Slope:** 80% · **Coverage:** 0.25 acre · **Cut:** 7.9 in · **Price:** $1,399.99
+- **Slope:** 80% · **Coverage:** 0.25 acre · **Cut:** 7.9 in · **Price:** $1,099.99
 - Small-yard AWD card. Not the 2000 or Pro 3500.
 
 #### [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/)
-- **Slope:** 80% · **Coverage:** 0.5 acre · **Cut:** 7.9 in · **Price:** $1,699.99
+- **Slope:** 80% · **Coverage:** 0.5 acre · **Cut:** 7.9 in · **Price:** $1,459.99
 - Mid-yard non-Pro AWD. Hard limit is coverage and deck width vs Pro dual-disc.
 
 #### [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/)
-- **Slope:** 80% · **Coverage:** 0.87 acre · **Cut:** 15.8 in dual-disc · **Price:** $2,399.99
+- **Slope:** 80% · **Coverage:** 0.87 acre · **Cut:** 15.8 in dual-disc · **Price:** $1,889.99
 - Closest Dreame Pro SKU under an acre in the catalog. Not the 1.20-acre Pro 5000; no RTK on this platform.
 
 #### [Mammotion LUBA 3 AWD 1500](/mowers/mammotion-luba-3-awd-1500/)
-- **Slope:** 80% · **Coverage:** 0.37 acre · **Cut:** 15.7 in · **Price:** $2,399 (sold out 11 Oct 2026)
+- **Slope:** 80% · **Coverage:** 0.37 acre · **Cut:** 15.7 in · **Price:** $2,399 (guest cart accepted 20 Nov 2026; product.js unavailable)
 - Small-yard LUBA 3 — AWD and 360° LiDAR without a required RTK antenna on this SKU. Will disappoint anyone who assumed every LUBA covers an acre.
 
 ### ~70% AWD / dual-drive
@@ -90,7 +90,7 @@ Only models with published listings and supporting frontmatter are listed. Price
 #### [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/)
 - **Slope:** 70% (35°) max climbing ability · **Coverage:** 6 acres max
 - **Nav:** RTK + vision · wire-free · **Drive:** Dual drive motors (modular Core + deck)
-- **Price (listing):** $5,999, no compare-at (4 Nov 2026; $5,399 on sale on 23 Oct 2026)
+- **Price (listing):** $4,899 against a $5,999 compare-at (20 Nov 2026; it was $5,999 with no compare-at on 4 Nov 2026, and $5,399 on sale on 23 Oct 2026)
 - Estate / very large lawn fit. Modular system weight (~216 lb) and Core-plus-module purchase model are the other gates.
 
 ### High slope without AWD (weaker hillside match)

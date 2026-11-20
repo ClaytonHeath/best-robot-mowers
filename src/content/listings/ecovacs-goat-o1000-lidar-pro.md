@@ -4,18 +4,18 @@ brand: ECOVACS
 slug: ecovacs-goat-o1000-lidar-pro
 model: GOAT O1000 LiDAR PRO (MR2508C, SKU GO1000LP)
 status: published
-priceUsd: 1499.99
-priceNote: "Official US cart price on 29 Sep 2026 for the mower-only GOAT O1000 LiDAR PRO (SKU GO1000LP, UPC 850077202353, ECOVACS product id 1193): $1,499.99. The cart showed $1,499.99 for both original and present price, with no discount or coupon applied, and ECOVACS' product data lists the same $1,499.99 as its origin (compare-at) price, so there is no markdown. Tax and shipping are excluded. The same page also sells an 'O1000 LiDAR PRO & Accessories' bundle ($1,690.00) and the separate O1000 RTK Care Kit, which is the RTK-navigation O1000 plus a spare blade kit ($999.99 in ECOVACS' US store on 10 Oct 2026). Neither is this listing."
+priceUsd: 949
+priceNote: "Official US cart price on 20 Nov 2026 (AWST) for the mower-only GOAT O1000 LiDAR PRO (SKU GO1000LP, UPC 850077202353, ECOVACS product id 1193): $949.00 present / $1,499.99 origin, off $551.00, no coupons, can_add_cart Y. Tax and shipping are excluded. It was $1,499.99 for both original and present price, with no discount, on 29 Sep 2026. The same page also sells an 'O1000 LiDAR PRO & Accessories' bundle and the separate O1000 RTK Care Kit, which is the RTK-navigation O1000 plus a spare blade kit ($630.00 in ECOVACS' US store on 20 Nov 2026, against a $999.99 origin). Neither is this listing."
 coverageAcres: 0.25
 slopePercent: 45
 navigation: lidar
 wireFree: true
 whoItsFor: "Small lawns up to about a quarter acre (1,000 m²) that want wire-free LiDAR mapping and a built-in edge trimmer, with no RTK antenna to install. The limits are the 0.25-acre rating, a 45% (24°) work-area slope, and an 8.66 in cut."
-verdict: "A $1,499.99 dual-LiDAR mower with a TruEdge string trimmer and no RTK station or perimeter wire, rated for 1/4 acre and 45% (24°) slopes. The catch is price per acre: the listed ecovacs-goat-a2000-lidar-pro was $1,999.99 for a 1/2-acre rating on 21 Oct 2026 (its $1,452 promo of 30 Sep 2026 has ended)."
+verdict: "A $949.00 dual-LiDAR mower with a TruEdge string trimmer and no RTK station or perimeter wire, rated for 1/4 acre and 45% (24°) slopes. The catch is price per acre: the listed ecovacs-goat-a2000-lidar-pro was $1,329.00 for a 1/2-acre rating on 20 Nov 2026 (against a $1,999.99 origin; its $1,452 promo of 30 Sep 2026 has ended)."
 affiliateUrl: ""
 officialUrl: https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-o1000-lidar-pro
 image: /mowers/ecovacs-goat-o1000-lidar-pro.webp
-updated: 2026-10-21
+updated: 2026-11-20
 cuttingWidthIn: 8.66
 cuttingHeight: "1.18–3.15 in (30–80 mm), electric adjustment"
 noiseDb: 61
@@ -54,4 +54,4 @@ Sources: [GOAT O1000 LiDAR PRO US product page and spec table](https://www.ecova
 
 ## Honest verdict
 
-For a quarter-acre lawn that needs edges trimmed, this is a complete package. It maps with LiDAR, needs no RTK station or wire, is rated IPX6, and trims edges automatically. The published limits are small coverage (1/4 acre), a 17% virtual-boundary slope, an 8.66 in cut, and a trimmer that runs at 81 dB(A). On price, its sibling the listed [ecovacs-goat-a2000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro) had a 1/2-acre rating and was $1,999.99 in ECOVACS' US store cart on 21 Oct 2026; its $1,452 promotional price of 30 Sep 2026 has ended. The listed [roborock-rockneo-q1](https://garden.roborock.com/us/products/roborock-rockneo-q1) is also rated for 1/4 acre and 45% slopes, with a $1,299 US list price in that listing, but it uses RTK + vision with a reference station in the box rather than LiDAR. The O1000's advantages are antenna-free mapping and the edge trimmer.
+For a quarter-acre lawn that needs edges trimmed, this is a complete package. It maps with LiDAR, needs no RTK station or wire, is rated IPX6, and trims edges automatically. The published limits are small coverage (1/4 acre), a 17% virtual-boundary slope, an 8.66 in cut, and a trimmer that runs at 81 dB(A). On price, its sibling the listed [ecovacs-goat-a2000-lidar-pro](https://www.ecovacs.com/us/shop/goat-robotic-lawn-mower/goat-a2000-lidar-pro) had a 1/2-acre rating and was $1,329.00 in ECOVACS' US store cart on 20 Nov 2026 (against a $1,999.99 origin; its $1,452 promotional price of 30 Sep 2026 has ended). The listed [roborock-rockneo-q1](https://garden.roborock.com/us/products/roborock-rockneo-q1) is also rated for 1/4 acre and 45% slopes, with a $1,299 US list price in that listing, but it uses RTK + vision with a reference station in the box rather than LiDAR. The O1000's advantages are antenna-free mapping and the edge trimmer.
