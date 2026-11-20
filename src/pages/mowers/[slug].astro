@@ -4,7 +4,7 @@ import ProductPhoto from "../../components/ProductPhoto.astro";
 import RelatedListings from "../../components/RelatedListings.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { m5LidarComparison } from "../../lib/listingCompare";
+import { a3Awd1000Comparison, m5LidarComparison } from "../../lib/listingCompare";
 import { assertLargerYardPeers, faqsForListing } from "../../lib/listingFaq";
 import { pickRelatedListings } from "../../lib/related";
 import {
@@ -39,7 +39,12 @@ const related = pickRelatedListings(
   published.map((item) => item.data),
 );
 const faqs = faqsForListing(listing);
-const comparison = d.slug === "anthbot-m5-lidar" ? m5LidarComparison(published) : null;
+const comparison =
+  d.slug === "anthbot-m5-lidar"
+    ? m5LidarComparison(published)
+    : d.slug === "dreame-a3-awd-1000"
+      ? a3Awd1000Comparison(published)
+      : null;
 if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
 const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
 if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
@@ -73,10 +78,9 @@ if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
         {
           comparison && (
             <section id="comparison" aria-labelledby="comparison-heading">
-              <h2 id="comparison-heading">Compared with other LiDAR robot mowers</h2>
+              <h2 id="comparison-heading">{comparison.heading}</h2>
               <p>
-                The M5 LiDAR is listed here next to other published LiDAR listings, not every LiDAR model in this
-                directory:{" "}
+                {comparison.lead}{" "}
                 {comparison.peers.map((peer, index) => {
                   const last = index === comparison.peers.length - 1;
                   const separator = index === 0 ? "" : last ? ", and " : ", ";
@@ -92,9 +96,10 @@ if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
                 the date each one was checked. “Not listed” means that listing does not state the value. There is no
                 ranking.
               </p>
+              {comparison.note && <p>{comparison.note}</p>}
               <div class="table-scroll">
                 <table>
-                  <caption>Listing specs for the M5 LiDAR and other published LiDAR mowers</caption>
+                  <caption>{comparison.caption}</caption>
                   <thead>
                     <tr>
                       <th scope="col">Spec</th>
