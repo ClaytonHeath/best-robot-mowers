@@ -199,3 +199,45 @@ export function a3Awd1000Comparison(listings: Listing[]): ListingComparison {
     },
   );
 }
+
+/**
+ * Anthbot siblings for the Genie 3000 page. Same-PDP Genie SKUs first, then
+ * the other published Anthbot lines named for this refresh. Cells are listing
+ * fields only. The build fails if a slug is missing or is no longer Anthbot.
+ * M5 Pro and M9 Pro stay off this table: they are the LiDAR + RTK variants of
+ * the M5 and M9 size classes already included.
+ */
+export const GENIE_3000_SLUG = "anthbot-genie-3000";
+
+export const GENIE_3000_PEER_SLUGS = [
+  "anthbot-genie-1000",
+  "anthbot-genie",
+  "anthbot-n8",
+  "anthbot-m9",
+  "anthbot-m5",
+  "anthbot-m5-lidar",
+] as const;
+
+function requireAnthbot(item: Listing, role: "subject" | "peer"): void {
+  if (item.data.brand !== "Anthbot") {
+    throw new Error(`Genie 3000 comparison ${role} ${item.data.slug} is not an Anthbot listing`);
+  }
+}
+
+/** Spec table for the Genie 3000 page. Values come from published listing fields. */
+export function genie3000Comparison(listings: Listing[]): ListingComparison {
+  const subject = listings.find((item) => item.data.slug === GENIE_3000_SLUG);
+  if (!subject?.body) {
+    throw new Error("Genie 3000 comparison missing the subject listing body");
+  }
+  if (!subject.body.includes("0.89 acre / up to 3600 m²") || !subject.body.includes("recommended yard-fit")) {
+    throw new Error("Genie 3000 comparison note expected the marketed-ceiling wording in the listing body");
+  }
+  const coverage = formatAcres(subject.data.coverageAcres);
+  return buildComparison(listings, GENIE_3000_SLUG, GENIE_3000_PEER_SLUGS, "Genie 3000", requireAnthbot, {
+    heading: "Compared with other Anthbot robot mowers",
+    lead: "The Genie 3000 is listed here next to other published Anthbot listings, not every Anthbot model in this directory:",
+    caption: "Listing specs for the Genie 3000 and other published Anthbot mowers",
+    note: `Coverage in this table is each listing’s coverage figure. For the Genie 3000, that figure is the recommended coverage (${coverage}). The marketed ceiling on this listing is 0.89 acre / up to 3600 m², not the recommended yard-fit.`,
+  });
+}
