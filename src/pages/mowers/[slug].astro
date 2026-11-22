@@ -38,7 +38,7 @@ const related = pickRelatedListings(
   d,
   published.map((item) => item.data),
 );
-const faqs = faqsForListing(listing);
+const faqs = faqsForListing(listing, published);
 const comparison =
   d.slug === "anthbot-m5-lidar"
     ? m5LidarComparison(published)
