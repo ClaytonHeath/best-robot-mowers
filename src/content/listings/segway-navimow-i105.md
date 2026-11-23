@@ -36,6 +36,8 @@ Official US numbers published for this SKU: recommended mowing area 0.125 acre (
 
 People with up to one-eighth acre of lawn who want to skip a boundary wire and do not need an X-series deck or all-wheel drive. Antenna-free setup is available where Network RTK coverage exists; the i-series pages still describe a local GNSS antenna and an antenna-location finder as the fallback install. It is a weaker match for 0.25-acre lots (that is the i110), for anything in X3/X4 acreage, for work-area slopes over 30%, and for properties whose passages are under the published 100 cm width / 40 cm height minimum.
 
+Choose a listed Navimow sibling when the lawn does not match this 0.125-acre front-wheel-drive cart. The [Segway Navimow i110](/mowers/segway-navimow-i110/) is the 0.25-acre i-series cart at $1,099 (20 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The [Segway Navimow H210](/mowers/segway-navimow-h210/) is $1,799 (16 Oct 2026) with LiDAR, RTK, and vision at 0.25 acre and a 45% slope. The [Segway Navimow H220](/mowers/segway-navimow-h220/) is the 0.5-acre cart at $2,199 (9 Oct 2026) with LiDAR, RTK, and vision and a 45% slope.
+
 ## Standout details
 
 - **Coverage:** 0.125 acre recommended on the official US product title and FAQ. Segway’s mapping footnote is 1.2× the recommended area (0.15 acre here); the FAQ repeats that as the layout-dependent maximum. All zones share one map limit.

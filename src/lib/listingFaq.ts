@@ -540,13 +540,153 @@ function genie3000Faqs(listing: Listing): FaqItem[] {
   ];
 }
 
+function priceOn(item: Listing, label: string): string {
+  if (item.data.priceUsd === undefined) {
+    throw new Error(`${label} listing ${item.data.slug} has no priceUsd`);
+  }
+  return `${formatPrice(item.data.priceUsd)} (${formatChecked(item.data.updated)})`;
+}
+
+function navimowPeer(listings: readonly Listing[], slug: string, label: string): Listing {
+  const item = listings.find((entry) => entry.data.slug === slug);
+  if (!item) throw new Error(`${label} missing published listing ${slug}`);
+  if (item.data.brand !== "Segway Navimow") {
+    throw new Error(`${label} ${slug} is not a Segway Navimow listing`);
+  }
+  return item;
+}
+
+function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("i105 listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "i105 FAQ";
+  if (data.priceUsd !== 799) throw new Error(`${label} expected priceUsd 799`);
+  if (data.coverageAcres !== 0.125) throw new Error(`${label} expected coverageAcres 0.125`);
+  if (data.slopePercent !== 30) throw new Error(`${label} expected slopePercent 30`);
+  if (data.cuttingWidthIn !== 7.1) throw new Error(`${label} expected cuttingWidthIn 7.1`);
+  if (data.cuttingHeight !== "2–3.6 in, manual") throw new Error(`${label} expected cuttingHeight`);
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "Front-wheel drive") throw new Error(`${label} expected front-wheel drive`);
+  if (data.navigation.join(",") !== "rtk,vision") throw new Error(`${label} expected rtk + vision`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$799.00", "priceNote", label);
+  mustInclude(note, "no compare-at", "priceNote", label);
+  mustInclude(note, "AA.12.02.02.0001", "priceNote", label);
+  mustInclude(note, "Navimow i105 | 0.125 acre", "priceNote", label);
+  mustInclude(note, "$669.00 sale from a $799.00 compare-at", "priceNote", label);
+  mustInclude(note, "23 Oct 2026", "priceNote", label);
+  mustInclude(note, "has ended", "priceNote", label);
+  mustInclude(note, "available=true", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "recommended mowing area 0.125 acre", "body", label);
+  mustInclude(body, "FAQ maximum about 0.15 acre depending on layout (1.2× the recommended area)", "body", label);
+  mustInclude(body, "30% (17°)", "body", label);
+  mustInclude(body, "10% (6°)", "body", label);
+  mustInclude(body, "work-area slopes over 30%", "body", label);
+  mustInclude(body, "perimeter-wire-free", "body", label);
+  mustInclude(body, "EFLS 2.0 (Network RTK plus Visual SLAM)", "body", label);
+  mustInclude(body, "140° VisionFence", "body", label);
+  mustInclude(body, "Antenna-free setup is available where Network RTK coverage exists", "body", label);
+  mustInclude(body, "A local antenna remains part of the install story when Network RTK is not available.", "body", label);
+  mustInclude(body, "4G connectivity and anti-theft/GPS tracking require a separate Navimow Access+ 4G module.", "body", label);
+  mustInclude(body, "height not less than 40 cm", "body", label);
+  mustInclude(body, "width not less than 100 cm", "body", label);
+  mustInclude(data.whoItsFor, "narrower than 100 cm (39.4 in)", "whoItsFor", label);
+  mustInclude(body, "2.55 Ah", "body", label);
+  mustInclude(body, "about 60 minutes of mowing", "body", label);
+  mustInclude(body, "5.1 Ah / 120 min / 80–120 m²", "body", label);
+  mustInclude(body, "0.25-acre sibling", "body", label);
+  mustInclude(body, "a layout-dependent maximum of about 0.15 acre, the i110 about 0.3 acre", "body", label);
+
+  const i110 = navimowPeer(listings, "segway-navimow-i110", label);
+  const h210 = navimowPeer(listings, "segway-navimow-h210", label);
+  const h220 = navimowPeer(listings, "segway-navimow-h220", label);
+  if (i110.data.coverageAcres !== 0.25 || i110.data.slopePercent !== 30) {
+    throw new Error(`${label} choosing copy expected i110 coverage 0.25 and slope 30`);
+  }
+  if (i110.data.cuttingWidthIn !== 7.1 || i110.data.driveType !== "Front-wheel drive") {
+    throw new Error(`${label} choosing copy expected i110 7.1 in front-wheel drive`);
+  }
+  if (h210.data.coverageAcres !== 0.25 || h210.data.slopePercent !== 45) {
+    throw new Error(`${label} choosing copy expected H210 coverage 0.25 and slope 45`);
+  }
+  if (h210.data.navigation.join(",") !== "lidar,rtk,vision") {
+    throw new Error(`${label} choosing copy expected H210 LiDAR, RTK, and vision`);
+  }
+  if (h220.data.coverageAcres !== 0.5 || h220.data.slopePercent !== 45) {
+    throw new Error(`${label} choosing copy expected H220 coverage 0.5 and slope 45`);
+  }
+  if (h220.data.navigation.join(",") !== "lidar,rtk,vision") {
+    throw new Error(`${label} choosing copy expected H220 LiDAR, RTK, and vision`);
+  }
+
+  const i110Choice = `0.25-acre i-series cart at ${priceOn(i110, label)}, with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck`;
+  const h210Choice = `${priceOn(h210, label)} with LiDAR, RTK, and vision at 0.25 acre and a 45% slope`;
+  const h220Choice = `0.5-acre cart at ${priceOn(h220, label)} with LiDAR, RTK, and vision and a 45% slope`;
+  mustInclude(
+    body,
+    "Choose a listed Navimow sibling when the lawn does not match this 0.125-acre front-wheel-drive cart.",
+    "body",
+    label,
+  );
+  mustInclude(body, i110Choice, "body", label);
+  mustInclude(body, h210Choice, "body", label);
+  mustInclude(body, h220Choice, "body", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "How much does the Segway Navimow i105 cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU AA.12.02.02.0001, Navimow i105 | 0.125 acre, with no compare-at. The $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended. product.js reports available=true.`,
+    },
+    {
+      question: "How large a lawn is the Segway Navimow i105 rated for?",
+      answer: `The coverage figure is ${coverage}. That number is the recommended mowing area 0.125 acre. The same listing also records an FAQ maximum about 0.15 acre depending on layout (1.2× the recommended area).`,
+    },
+    {
+      question: "Does the Segway Navimow i105 need a boundary wire or a local antenna?",
+      answer: `No boundary wire. It is wire-free. Navigation is ${nav}. This listing records a perimeter-wire-free mower with EFLS 2.0 (Network RTK plus Visual SLAM) and a 140° VisionFence camera. Antenna-free setup is available where Network RTK coverage exists. A local antenna remains part of the install story when Network RTK is not available.`,
+    },
+    {
+      question: "What slope does the Segway Navimow i105 handle?",
+      answer: `Work-area slope is ${data.slopePercent}% (17°). Boundary slope is 10% (6°). Drive is ${data.driveType.toLowerCase()}. The listing says it is a weaker match for work-area slopes over 30%.`,
+    },
+    {
+      question: "Does the Segway Navimow i105 include 4G or anti-theft?",
+      answer:
+        "No. 4G connectivity and anti-theft/GPS tracking require a separate Navimow Access+ 4G module.",
+    },
+    {
+      question: "How wide a passage does the Segway Navimow i105 need?",
+      answer:
+        "The passage FAQ for Navimow-i says height not less than 40 cm and width not less than 100 cm. Skip it if a passage is narrower than 100 cm (39.4 in).",
+    },
+    {
+      question: "How does the Segway Navimow i105 compare with the listed i110?",
+      answer: `The listed i110 is the ${i110Choice}. This listing’s i105 column is a 2.55 Ah battery and about 60 minutes of mowing. The 5.1 Ah / 120 min / 80–120 m² column is the 0.25-acre sibling. This listing also records a layout-dependent maximum of about 0.15 acre, the i110 about 0.3 acre.`,
+    },
+    {
+      question: "How does the Segway Navimow i105 compare with the listed H210 and H220?",
+      answer: `The listed H210 is ${h210Choice}. The listed H220 is the ${h220Choice}.`,
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
-export function faqsForListing(listing: Listing): FaqItem[] {
+export function faqsForListing(listing: Listing, listings: readonly Listing[] = []): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
   if (listing.data.slug === "segway-navimow-i110") return i110Faqs(listing);
   if (listing.data.slug === "ecovacs-goat-a2000-lidar-pro") return a2000Faqs(listing);
   if (listing.data.slug === "anthbot-m5-lidar") return m5LidarFaqs(listing);
   if (listing.data.slug === "anthbot-genie-3000") return genie3000Faqs(listing);
   if (listing.data.slug === "dreame-a3-awd-1000") return a3Awd1000Faqs(listing);
+  if (listing.data.slug === "segway-navimow-i105") return i105Faqs(listing, listings);
   return [];
 }
