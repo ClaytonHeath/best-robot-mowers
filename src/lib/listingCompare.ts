@@ -146,6 +146,61 @@ export function m5LidarComparison(listings: Listing[]): ListingComparison {
 }
 
 /**
+ * Dreame A3 AWD siblings for the A3 AWD 1000 page, then two close peers
+ * already published here: the same 0.25-acre LiDAR cut class, and another
+ * 80% AWD LiDAR listing. Cells are listing fields only. The build fails if
+ * a slug is missing, if any column is no longer LiDAR, or if a Dreame
+ * sibling is no longer Dreame all-wheel drive.
+ */
+export const A3_AWD_1000_SLUG = "dreame-a3-awd-1000";
+
+export const A3_AWD_1000_PEER_SLUGS = [
+  "dreame-a3-awd-2000",
+  "dreame-a3-awd-pro-2500",
+  "dreame-a3-awd-pro-3500",
+  "dreame-a3-awd-pro-5000",
+  "mova-lidax-ultra-1000",
+  "mammotion-luba-3-awd-1500",
+] as const;
+
+const A3_AWD_1000_SIBLING_SLUGS = new Set<string>([
+  "dreame-a3-awd-2000",
+  "dreame-a3-awd-pro-2500",
+  "dreame-a3-awd-pro-3500",
+  "dreame-a3-awd-pro-5000",
+]);
+
+function requireA3Awd1000Column(item: Listing, role: "subject" | "peer"): void {
+  if (!item.data.navigation.includes("lidar")) {
+    throw new Error(`A3 AWD 1000 comparison ${role} ${item.data.slug} is not a LiDAR listing`);
+  }
+  const dreameSibling = role === "subject" || A3_AWD_1000_SIBLING_SLUGS.has(item.data.slug);
+  if (!dreameSibling) return;
+  if (item.data.brand !== "Dreame") {
+    throw new Error(`A3 AWD 1000 comparison ${role} ${item.data.slug} is not a Dreame listing`);
+  }
+  if (item.data.driveType !== "All-wheel drive") {
+    throw new Error(`A3 AWD 1000 comparison ${role} ${item.data.slug} is not all-wheel drive`);
+  }
+}
+
+/** Spec table for the A3 AWD 1000 page. Values come from published listing fields. */
+export function a3Awd1000Comparison(listings: Listing[]): ListingComparison {
+  return buildComparison(
+    listings,
+    A3_AWD_1000_SLUG,
+    A3_AWD_1000_PEER_SLUGS,
+    "A3 AWD 1000",
+    requireA3Awd1000Column,
+    {
+      heading: "Compared with Dreame A3 AWD siblings and close peers",
+      lead: "The A3 AWD 1000 is listed here next to the other published Dreame A3 AWD listings and two close peers, not every LiDAR or AWD model in this directory:",
+      caption: "Listing specs for the A3 AWD 1000, the other Dreame A3 AWD listings, and two close peers",
+    },
+  );
+}
+
+/**
  * Anthbot siblings for the Genie 3000 page. Same-PDP Genie SKUs first, then
  * the other published Anthbot lines named for this refresh. Cells are listing
  * fields only. The build fails if a slug is missing or is no longer Anthbot.
