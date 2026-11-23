@@ -4,7 +4,7 @@ import ProductPhoto from "../../components/ProductPhoto.astro";
 import RelatedListings from "../../components/RelatedListings.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { genie3000Comparison, m5LidarComparison } from "../../lib/listingCompare";
+import { a3Awd1000Comparison, genie3000Comparison, m5LidarComparison } from "../../lib/listingCompare";
 import { assertLargerYardPeers, faqsForListing } from "../../lib/listingFaq";
 import { pickRelatedListings } from "../../lib/related";
 import {
@@ -44,7 +44,9 @@ const comparison =
     ? m5LidarComparison(published)
     : d.slug === "anthbot-genie-3000"
       ? genie3000Comparison(published)
-      : null;
+      : d.slug === "dreame-a3-awd-1000"
+        ? a3Awd1000Comparison(published)
+        : null;
 if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
 const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
 if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
