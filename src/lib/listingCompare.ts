@@ -241,3 +241,127 @@ export function genie3000Comparison(listings: Listing[]): ListingComparison {
     note: `Coverage in this table is each listing’s coverage figure. For the Genie 3000, that figure is the recommended coverage (${coverage}). The marketed ceiling on this listing is 0.89 acre / up to 3600 m², not the recommended yard-fit.`,
   });
 }
+
+/**
+ * Segway Navimow siblings for the i110 page. Closest listed choices first:
+ * smaller i-series, same-acreage AWD, same-acreage H2, next LiDAR i2, then
+ * the one-acre X3. Cells are listing fields only. The build fails if a slug
+ * is missing or is no longer Segway Navimow.
+ * i206 AWD, H220, and the larger X350 / X390 / X430 stay off this table.
+ */
+export const I110_SLUG = "segway-navimow-i110";
+
+export const I110_PEER_SLUGS = [
+  "segway-navimow-i105",
+  "segway-navimow-i210-awd",
+  "segway-navimow-h210",
+  "segway-navimow-i215-lidar",
+  "segway-navimow-x330",
+] as const;
+
+function requireSegwayNavimow(item: Listing, role: "subject" | "peer"): void {
+  if (item.data.brand !== "Segway Navimow") {
+    throw new Error(`i110 comparison ${role} ${item.data.slug} is not a Segway Navimow listing`);
+  }
+}
+
+function requireText(source: string, phrase: string, label: string): void {
+  if (!source.includes(phrase)) {
+    throw new Error(`${label} expected ${JSON.stringify(phrase)}`);
+  }
+}
+
+function priceOn(listing: Listing): string {
+  if (listing.data.priceUsd === undefined) {
+    throw new Error(`i110 comparison listing ${listing.data.slug} has no priceUsd`);
+  }
+  return `${formatPrice(listing.data.priceUsd)} (${formatChecked(listing.data.updated)})`;
+}
+
+/** Spec table for the i110 page. Values come from published listing fields. */
+export function i110Comparison(listings: Listing[]): ListingComparison {
+  const bySlug = new Map(listings.map((item) => [item.data.slug, item]));
+  const subject = bySlug.get(I110_SLUG);
+  if (!subject?.body) throw new Error("i110 comparison missing the subject listing body");
+  const i105 = bySlug.get("segway-navimow-i105");
+  const i210 = bySlug.get("segway-navimow-i210-awd");
+  const h210 = bySlug.get("segway-navimow-h210");
+  const i215 = bySlug.get("segway-navimow-i215-lidar");
+  const x330 = bySlug.get("segway-navimow-x330");
+  if (!i105 || !i210 || !h210 || !i215 || !x330?.body) {
+    throw new Error("i110 comparison missing a published sibling listing");
+  }
+
+  if (subject.data.coverageAcres !== 0.25 || subject.data.slopePercent !== 30) {
+    throw new Error("i110 comparison note expected coverage 0.25 and slope 30");
+  }
+  if (i105.data.coverageAcres !== 0.125 || i105.data.slopePercent !== 30) {
+    throw new Error("i110 choosing copy expected i105 coverage 0.125 and slope 30");
+  }
+  if (i105.data.cuttingWidthIn !== 7.1 || i105.data.driveType !== "Front-wheel drive") {
+    throw new Error("i110 choosing copy expected i105 7.1 in front-wheel drive");
+  }
+  if (i210.data.coverageAcres !== 0.25 || i210.data.slopePercent !== 45 || i210.data.driveType !== "AWD") {
+    throw new Error("i110 choosing copy expected i210 AWD at 0.25 acre and 45%");
+  }
+  requireText(i210.data.priceNote, "sale against a $1,299.00 compare-at", "i110 choosing copy");
+  if (h210.data.coverageAcres !== 0.25 || h210.data.navigation.join(",") !== "lidar,rtk,vision") {
+    throw new Error("i110 choosing copy expected H210 at 0.25 acre with LiDAR, RTK, and vision");
+  }
+  if (i215.data.coverageAcres !== 0.37 || i215.data.navigation.join(",") !== "lidar,vision") {
+    throw new Error("i110 choosing copy expected i215 LiDAR + vision at 0.37 acre");
+  }
+  requireText(i215.data.priceNote, "sale against a $1,599.00 compare-at", "i110 choosing copy");
+  if (x330.data.coverageAcres !== 1 || x330.data.slopePercent !== 50 || x330.data.driveType !== "Rear-wheel drive") {
+    throw new Error("i110 choosing copy expected X330 rear-wheel drive at 1 acre and 50%");
+  }
+
+  requireText(
+    subject.body,
+    `0.125-acre i-series cart at ${priceOn(i105)}, with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck`,
+    "i110 choosing copy",
+  );
+  requireText(
+    subject.body,
+    `all-wheel drive at ${priceOn(i210)} on sale with a 45% slope rating`,
+    "i110 choosing copy",
+  );
+  requireText(subject.body, `${priceOn(h210)} with LiDAR, RTK, and vision`, "i110 choosing copy");
+  requireText(subject.body, `0.37-acre LiDAR + vision cart at ${priceOn(i215)} on sale`, "i110 choosing copy");
+  requireText(
+    subject.body,
+    `1-acre X3 at ${priceOn(x330)}, rear-wheel drive, with a 50% work-area slope`,
+    "i110 choosing copy",
+  );
+  requireText(subject.body, "1.2× the recommended area (0.3 acre here, layout-dependent)", "i110 comparison note");
+  requireText(subject.body, "30% (17°)", "i110 comparison note");
+  requireText(subject.body, "10% (6°)", "i110 comparison note");
+  requireText(subject.body, "three blades", "i110 comparison note");
+  requireText(subject.body, "58 dB(A)", "i110 comparison note");
+  if (subject.body.includes("sound pressure") || subject.body.includes("sound power")) {
+    throw new Error("i110 comparison note expected this listing not to split sound power and sound pressure");
+  }
+  if (subject.body.includes("charging station")) {
+    throw new Error("i110 comparison note expected no charging-station ingress claim on this listing");
+  }
+
+  requireText(x330.body, "Recommended mowing area: **1 acre**", "i110 comparison note");
+  if (x330.body.includes("1.2×")) {
+    throw new Error("i110 comparison note expected the X330 listing not to state a 1.2× maximum");
+  }
+  requireText(x330.body, "inside the working area: 50%", "i110 comparison note");
+  requireText(x330.body, "at the boundary: 25%", "i110 comparison note");
+  requireText(x330.body, "6 blades", "i110 comparison note");
+  requireText(x330.body, "60 dB(A)** sound power and **52 dB(A)** sound pressure", "i110 comparison note");
+  requireText(x330.body, "**IP66** for the mower, charging station and power supply", "i110 comparison note");
+  requireText(x330.body, "Not published for the X330", "i110 comparison note");
+  requireText(x330.body, "Connect+ / 4G terms", "i110 comparison note");
+
+  const coverage = formatAcres(subject.data.coverageAcres);
+  return buildComparison(listings, I110_SLUG, I110_PEER_SLUGS, "i110", requireSegwayNavimow, {
+    heading: "Compared with other Segway Navimow robot mowers",
+    lead: "The i110 is listed here next to other published Segway Navimow listings, not every Navimow model in this directory:",
+    caption: "Listing specs for the i110 and other published Segway Navimow mowers",
+    note: `Coverage in this table is each listing’s coverage figure. For the i110, that figure is the recommended mowing area (${coverage}). The same listing also records a mapping footnote of up to 1.2× the recommended area (0.3 acre here, layout-dependent). The X330 listing does not state a higher maximum. Max slope in this table is each listing’s slope percent. On this listing that figure is the work-area slope, 30% (17°), and the boundary slope is 10% (6°). The X330 listing records 50% inside the working area and 25% at the boundary. The i110 listing records three blades; the X330 listing records 6 blades. The X330 noise figure in this table is the 60 dB(A) sound-power figure on that listing; the same listing also records 52 dB(A) sound pressure. The i110 listing states 58 dB(A) and does not split those. The X330 listing also records IP66 for the charging station and power supply; the i110 listing does not. The X330 listing does not publish Connect+ / 4G terms.`,
+  });
+}

@@ -162,6 +162,21 @@ function i110Faqs(listing: Listing): FaqItem[] {
   mustInclude(body, "about 120 minutes of mowing", "body", label);
   mustInclude(body, "manual height 2–3.6 in", "body", label);
   mustInclude(body, data.driveType.toLowerCase(), "body", label);
+  mustInclude(
+    body,
+    "0.125-acre i-series cart at $799 (30 Oct 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
+    "body",
+    label,
+  );
+  mustInclude(body, "all-wheel drive at $999 (20 Nov 2026) on sale with a 45% slope rating", "body", label);
+  mustInclude(body, "$1,799 (16 Oct 2026) with LiDAR, RTK, and vision", "body", label);
+  mustInclude(body, "0.37-acre LiDAR + vision cart at $1,329 (20 Nov 2026) on sale", "body", label);
+  mustInclude(
+    body,
+    "1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope",
+    "body",
+    label,
+  );
 
   const price = formatPrice(data.priceUsd);
   const coverage = formatAcres(data.coverageAcres);
@@ -187,6 +202,16 @@ function i110Faqs(listing: Listing): FaqItem[] {
     {
       question: "What cutting width and height does the Segway Navimow i110 have?",
       answer: `Cutting width is ${data.cuttingWidthIn} in. Cutting height is ${data.cuttingHeight}. The cutting system is three blades. The battery is 5.1 Ah, with about 120 minutes of mowing and about 120 minutes to charge.`,
+    },
+    {
+      question: "How does the Segway Navimow i110 compare with the listed i105 and X330?",
+      answer:
+        "The listed i105 is the 0.125-acre i-series cart at $799 (30 Oct 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
+    },
+    {
+      question: "How does the Segway Navimow i110 compare with the listed i210 AWD, H210, and i215 LiDAR?",
+      answer:
+        "The same-acreage i210 AWD is all-wheel drive at $999 (20 Nov 2026) on sale with a 45% slope rating. The same-acreage H210 is $1,799 (16 Oct 2026) with LiDAR, RTK, and vision. The i215 LiDAR is the 0.37-acre LiDAR + vision cart at $1,329 (20 Nov 2026) on sale.",
     },
   ];
 }
