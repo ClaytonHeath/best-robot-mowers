@@ -69,14 +69,14 @@ The i105 is listed here next to three other Navimow models: the [i110](/mowers/s
     <tr>
       <th scope="row">US price</th>
       <td>$799 (30 Oct 2026)</td>
-      <td>$1,099 (9 Oct 2026)</td>
+      <td>$1,099 (25 Nov 2026)</td>
       <td>$1,799 (16 Oct 2026)</td>
       <td>$2,199 (9 Oct 2026)</td>
     </tr>
     <tr>
       <th scope="row">Stock</th>
       <td>Available (9 Oct 2026)</td>
-      <td>Sold out (9 Oct 2026)</td>
+      <td>In the official guest cart (25 Nov 2026)</td>
       <td>Available (16 Oct 2026)</td>
       <td>Available (9 Oct 2026)</td>
     </tr>
@@ -207,4 +207,4 @@ The recommended-area row is each listing’s coverage figure. The i105 listing a
 
 ## Honest verdict
 
-Pay the $799 US cart (30 Oct 2026, no compare-at; it was $669 on sale on 23 Oct 2026) if the lawn is actually 0.125 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you need 0.25 acre (i110, $1,099 but sold out on 9 Oct 2026), X-series coverage or AWD, or a path narrower than the published 100 cm passage.
+Pay the $799 US cart (30 Oct 2026, no compare-at; it was $669 on sale on 23 Oct 2026) if the lawn is actually 0.125 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you need 0.25 acre (i110, $1,099; a guest cart accepted it on 25 Nov 2026 even though product.js still reports available=false; it was sold out on 9 Oct 2026), X-series coverage or AWD, or a path narrower than the published 100 cm passage.
