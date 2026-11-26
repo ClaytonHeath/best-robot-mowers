@@ -164,7 +164,7 @@ function i110Faqs(listing: Listing): FaqItem[] {
   mustInclude(body, data.driveType.toLowerCase(), "body", label);
   mustInclude(
     body,
-    "0.125-acre i-series cart at $799 (30 Oct 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
+    "0.125-acre i-series cart at $799 (26 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
     "body",
     label,
   );
@@ -206,7 +206,7 @@ function i110Faqs(listing: Listing): FaqItem[] {
     {
       question: "How does the Segway Navimow i110 compare with the listed i105 and X330?",
       answer:
-        "The listed i105 is the 0.125-acre i-series cart at $799 (30 Oct 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
+        "The listed i105 is the 0.125-acre i-series cart at $799 (26 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
     },
     {
       question: "How does the Segway Navimow i110 compare with the listed i210 AWD, H210, and i215 LiDAR?",
@@ -579,7 +579,7 @@ function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
   mustInclude(note, "$669.00 sale from a $799.00 compare-at", "priceNote", label);
   mustInclude(note, "23 Oct 2026", "priceNote", label);
   mustInclude(note, "has ended", "priceNote", label);
-  mustInclude(note, "available=true", "priceNote", label);
+  mustInclude(note, "available=false", "priceNote", label);
   mustInclude(note, checked, "priceNote", label);
 
   mustInclude(body, "recommended mowing area 0.125 acre", "body", label);
@@ -644,7 +644,7 @@ function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
   return [
     {
       question: "How much does the Segway Navimow i105 cost?",
-      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU AA.12.02.02.0001, Navimow i105 | 0.125 acre, with no compare-at. The $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended. product.js reports available=true.`,
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU AA.12.02.02.0001, Navimow i105 | 0.125 acre, with no compare-at. The $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended. A guest cart accepted the variant even though product.js reports available=false.`,
     },
     {
       question: "How large a lawn is the Segway Navimow i105 rated for?",
