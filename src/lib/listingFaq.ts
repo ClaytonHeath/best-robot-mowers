@@ -679,6 +679,119 @@ function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
   ];
 }
 
+function lymowOnePlus5aFaqs(listing: Listing): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("One Plus 5A listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "One Plus 5A FAQ";
+  if (data.priceUsd !== 2399) throw new Error(`${label} expected priceUsd 2399`);
+  if (data.coverageAcres !== 1.1) throw new Error(`${label} expected coverageAcres 1.1`);
+  if (data.slopePercent !== 100) throw new Error(`${label} expected slopePercent 100`);
+  if (data.cuttingWidthIn !== 16) throw new Error(`${label} expected cuttingWidthIn 16`);
+  if (data.cuttingHeight !== "1.2–4.0 in") throw new Error(`${label} expected cuttingHeight`);
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "Tracked (heavy-duty track drive)") throw new Error(`${label} expected tracked drive`);
+  if (data.navigation.join(",") !== "rtk,vision") throw new Error(`${label} expected rtk + vision`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$2,399.00", "priceNote", label);
+  mustInclude(note, "$2,999.00", "priceNote", label);
+  mustInclude(note, "47332598710507", "priceNote", label);
+  mustInclude(note, "LM1PLUSUS5A", "priceNote", label);
+  mustInclude(note, "5A | 1.1 Acres/Day", "priceNote", label);
+  mustInclude(note, "$2,499 sale on 21 Oct 2026 and 3 Oct 2026", "priceNote", label);
+  mustInclude(note, "$2,999 full price on 14 Oct 2026", "priceNote", label);
+  mustInclude(note, "$50 first-order coupon for newsletter sign-ups", "priceNote", label);
+  mustInclude(note, "it is not applied in the cart", "priceNote", label);
+  mustInclude(note, "47332598743275", "priceNote", label);
+  mustInclude(note, "LM1PLUSUS10A", "priceNote", label);
+  mustInclude(note, "$2,499.00 against a $3,199.00 compare-at", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "RTK satellite positioning plus VSLAM camera mapping", "body", label);
+  mustInclude(body, "no boundary wire", "body", label);
+  mustInclude(body, "Lymow does not publish a maximum lawn size", "body", label);
+  mustInclude(body, "1.1 acres per day", "body", label);
+  mustInclude(body, "0.57 acre per charge", "body", label);
+  mustInclude(body, "0.23 acre per hour", "body", label);
+  mustInclude(body, "not a lawn-size rating", "body", label);
+  mustInclude(body, "1.73-acre daily figure as a lab maximum on flat ground with continuous mowing", "body", label);
+  mustInclude(body, "The 15-acre figure is map storage, not coverage", "body", label);
+  mustInclude(body, "Both versions share one spec table and the same 15 Ah battery", "body", label);
+  mustInclude(
+    body,
+    "the 5A charges from 10% to 90% in 150 minutes at 39 V, and the 10A does it in 90 minutes at 40.5 V",
+    "body",
+    label,
+  );
+  mustInclude(body, "the 5A at 1.1 acres per day and the 10A at 1.73 acres per day", "body", label);
+  mustInclude(
+    body,
+    "The One Plus is not the earlier Lymow One, and Lymow says the two models' blades and batteries are not interchangeable.",
+    "body",
+    label,
+  );
+  mustInclude(body, "100% (45°)", "body", label);
+  mustInclude(body, "2.8 in", "body", label);
+  mustInclude(body, "1.2–4.0 in", "body", label);
+  mustInclude(body, "16 in", "body", label);
+  mustInclude(
+    body,
+    "It is included, but the mower barely works without it: Lymow lists only 0.025–0.037 acre, or about 10 minutes, of mowing without RTK.",
+    "body",
+    label,
+  );
+  mustInclude(
+    data.whoItsFor,
+    "Steep, rough or overgrown lawns that fit within this 5A version's 1.1-acre-per-day rating and need tracks rather than wheels, since the mower is rated for 100% (45°) slopes.",
+    "whoItsFor",
+    label,
+  );
+  mustInclude(
+    body,
+    "Skip the One Plus if the yard is small and flat and you don't want to site an RTK station and move a 78.5 lb machine around.",
+    "body",
+    label,
+  );
+  mustInclude(data.verdict, "100% (45°)", "verdict", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "Does the Lymow One Plus 5A need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records RTK satellite positioning plus VSLAM camera mapping, with no boundary wire.`,
+    },
+    {
+      question: "How large a lawn is the Lymow One Plus 5A rated for?",
+      answer: `The coverage figure is ${coverage}. Lymow does not publish a maximum lawn size. The area figure for this SKU is 1.1 acres per day in the variant name, backed by 0.57 acre per charge and 0.23 acre per hour in the spec table. Treat it as an upper daily figure, not a lawn-size rating. Lymow footnotes its 1.73-acre daily figure as a lab maximum on flat ground with continuous mowing. The 15-acre figure is map storage, not coverage.`,
+    },
+    {
+      question: "How much does the Lymow One Plus 5A cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for variant 47332598710507 (SKU LM1PLUSUS5A, 5A | 1.1 Acres/Day): $2,399.00 sale against a $2,999.00 compare-at. History: $2,499 sale on 21 Oct 2026 and 3 Oct 2026, $2,999 full price on 14 Oct 2026. A $50 first-order coupon for newsletter sign-ups is offered on the page; it is not applied in the cart. The 10A version (variant 47332598743275, SKU LM1PLUSUS10A) cart-read the same day at $2,499.00 against a $3,199.00 compare-at.`,
+    },
+    {
+      question: "How does the Lymow One Plus 5A compare with the listed One Plus 10A?",
+      answer: `Both versions share one spec table and the same 15 Ah battery. The 5A charges from 10% to 90% in 150 minutes at 39 V, and the 10A does it in 90 minutes at 40.5 V. The variant names put the 5A at 1.1 acres per day and the 10A at 1.73 acres per day. The One Plus is not the earlier Lymow One, and Lymow says the two models' blades and batteries are not interchangeable.`,
+    },
+    {
+      question: "What slope and cut does the Lymow One Plus 5A publish?",
+      answer: `Maximum slope is ${data.slopePercent}% (45°). Drive is ${data.driveType?.toLowerCase()}. Cutting width is ${data.cuttingWidthIn} in. Cutting height is ${data.cuttingHeight}. Obstacle crossing height is 2.8 in.`,
+    },
+    {
+      question: "Can the Lymow One Plus 5A mow without its RTK station?",
+      answer: `It is included, but the mower barely works without it: Lymow lists only 0.025–0.037 acre, or about 10 minutes, of mowing without RTK.`,
+    },
+    {
+      question: "Who is the Lymow One Plus 5A for?",
+      answer: `Steep, rough or overgrown lawns that fit within this 5A version's 1.1-acre-per-day rating and need tracks rather than wheels, since the mower is rated for 100% (45°) slopes. Skip the One Plus if the yard is small and flat and you don't want to site an RTK station and move a 78.5 lb machine around.`,
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
 export function faqsForListing(listing: Listing, listings: readonly Listing[] = []): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
@@ -688,5 +801,6 @@ export function faqsForListing(listing: Listing, listings: readonly Listing[] = 
   if (listing.data.slug === "anthbot-genie-3000") return genie3000Faqs(listing);
   if (listing.data.slug === "dreame-a3-awd-1000") return a3Awd1000Faqs(listing);
   if (listing.data.slug === "segway-navimow-i105") return i105Faqs(listing, listings);
+  if (listing.data.slug === "lymow-one-plus-5a") return lymowOnePlus5aFaqs(listing);
   return [];
 }

@@ -365,3 +365,66 @@ export function i110Comparison(listings: Listing[]): ListingComparison {
     note: `Coverage in this table is each listing’s coverage figure. For the i110, that figure is the recommended mowing area (${coverage}). The same listing also records a mapping footnote of up to 1.2× the recommended area (0.3 acre here, layout-dependent). The X330 listing does not state a higher maximum. Max slope in this table is each listing’s slope percent. On this listing that figure is the work-area slope, 30% (17°), and the boundary slope is 10% (6°). The X330 listing records 50% inside the working area and 25% at the boundary. The i110 listing records three blades; the X330 listing records 6 blades. The X330 noise figure in this table is the 60 dB(A) sound-power figure on that listing; the same listing also records 52 dB(A) sound pressure. The i110 listing states 58 dB(A) and does not split those. The X330 listing also records IP66 for the charging station and power supply; the i110 listing does not. The X330 listing does not publish Connect+ / 4G terms.`,
   });
 }
+
+/**
+ * The other published Lymow One Plus listing. Cells are listing fields only.
+ * The build fails if that listing is missing, is no longer Lymow, or is no
+ * longer tracked RTK + vision. No other Lymow model is published here.
+ * Yarbo’s tracked core is a different product and stays off this table.
+ */
+export const LYMOW_ONE_PLUS_5A_SLUG = "lymow-one-plus-5a";
+
+export const LYMOW_ONE_PLUS_5A_PEER_SLUGS = ["lymow-one-plus-10a"] as const;
+
+function requireLymowTracked(item: Listing, role: "subject" | "peer"): void {
+  if (item.data.brand !== "Lymow") {
+    throw new Error(`One Plus 5A comparison ${role} ${item.data.slug} is not a Lymow listing`);
+  }
+  if (item.data.driveType !== "Tracked (heavy-duty track drive)") {
+    throw new Error(`One Plus 5A comparison ${role} ${item.data.slug} is not tracked`);
+  }
+  if (item.data.navigation.join(",") !== "rtk,vision") {
+    throw new Error(`One Plus 5A comparison ${role} ${item.data.slug} is not RTK + vision`);
+  }
+}
+
+/** Spec table for the One Plus 5A page. Values come from published listing fields. */
+export function lymowOnePlus5aComparison(listings: Listing[]): ListingComparison {
+  const subject = listings.find((item) => item.data.slug === LYMOW_ONE_PLUS_5A_SLUG);
+  const peer = listings.find((item) => item.data.slug === "lymow-one-plus-10a");
+  if (!subject?.body) throw new Error("One Plus 5A comparison missing the subject listing body");
+  if (!peer) throw new Error("One Plus 5A comparison missing published listing lymow-one-plus-10a");
+  if (subject.data.coverageAcres !== 1.1) {
+    throw new Error("One Plus 5A comparison note expected coverageAcres 1.1");
+  }
+  if (peer.data.coverageAcres !== 1.73) {
+    throw new Error("One Plus 5A comparison note expected the 10A coverageAcres 1.73");
+  }
+
+  const label = "One Plus 5A comparison note";
+  requireText(subject.body, "Lymow does not publish a maximum lawn size", label);
+  requireText(subject.body, "1.1 acres per day", label);
+  requireText(subject.body, "1.73 acres per day", label);
+  requireText(subject.body, "not a lawn-size rating", label);
+  requireText(subject.body, "Both versions share one spec table and the same 15 Ah battery", label);
+  requireText(
+    subject.body,
+    "the 5A charges from 10% to 90% in 150 minutes at 39 V, and the 10A does it in 90 minutes at 40.5 V",
+    label,
+  );
+
+  const coverage = formatAcres(subject.data.coverageAcres);
+  return buildComparison(
+    listings,
+    LYMOW_ONE_PLUS_5A_SLUG,
+    LYMOW_ONE_PLUS_5A_PEER_SLUGS,
+    "One Plus 5A",
+    requireLymowTracked,
+    {
+      heading: "Compared with the other Lymow One Plus listing",
+      lead: "The One Plus 5A is listed here next to the other published Lymow listing, not every tracked mower in this directory:",
+      caption: "Listing specs for the One Plus 5A and the One Plus 10A",
+      note: `Coverage in this table is each listing’s coverage figure. For the One Plus 5A, that figure is ${coverage} per day. Lymow does not publish a maximum lawn size. Treat it as an upper daily figure, not a lawn-size rating. This listing records the 10A at 1.73 acres per day. Both versions share one spec table and the same 15 Ah battery. Charge time is not a shared listing field: the 5A charges from 10% to 90% in 150 minutes at 39 V, and the 10A does it in 90 minutes at 40.5 V.`,
+    },
+  );
+}
