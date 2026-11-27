@@ -201,6 +201,50 @@ export function a3Awd1000Comparison(listings: Listing[]): ListingComparison {
 }
 
 /**
+ * Dreame A3 AWD siblings for the A3 AWD 2000 page. Same published family as
+ * the 1000 comparison, with this SKU as the subject and no extra peers.
+ * Cells are listing fields only. The build fails if a slug is missing, if
+ * any column is no longer LiDAR, or if a column is no longer Dreame
+ * all-wheel drive.
+ */
+export const A3_AWD_2000_SLUG = "dreame-a3-awd-2000";
+
+export const A3_AWD_2000_PEER_SLUGS = [
+  "dreame-a3-awd-1000",
+  "dreame-a3-awd-pro-2500",
+  "dreame-a3-awd-pro-3500",
+  "dreame-a3-awd-pro-5000",
+] as const;
+
+function requireA3Awd2000Column(item: Listing, role: "subject" | "peer"): void {
+  if (!item.data.navigation.includes("lidar")) {
+    throw new Error(`A3 AWD 2000 comparison ${role} ${item.data.slug} is not a LiDAR listing`);
+  }
+  if (item.data.brand !== "Dreame") {
+    throw new Error(`A3 AWD 2000 comparison ${role} ${item.data.slug} is not a Dreame listing`);
+  }
+  if (item.data.driveType !== "All-wheel drive") {
+    throw new Error(`A3 AWD 2000 comparison ${role} ${item.data.slug} is not all-wheel drive`);
+  }
+}
+
+/** Spec table for the A3 AWD 2000 page. Values come from published listing fields. */
+export function a3Awd2000Comparison(listings: Listing[]): ListingComparison {
+  return buildComparison(
+    listings,
+    A3_AWD_2000_SLUG,
+    A3_AWD_2000_PEER_SLUGS,
+    "A3 AWD 2000",
+    requireA3Awd2000Column,
+    {
+      heading: "Compared with other Dreame A3 AWD listings",
+      lead: "The A3 AWD 2000 is listed here next to the other published Dreame A3 AWD listings, not every LiDAR or AWD model in this directory:",
+      caption: "Listing specs for the A3 AWD 2000 and the other Dreame A3 AWD listings",
+    },
+  );
+}
+
+/**
  * Anthbot siblings for the Genie 3000 page. Same-PDP Genie SKUs first, then
  * the other published Anthbot lines named for this refresh. Cells are listing
  * fields only. The build fails if a slug is missing or is no longer Anthbot.
