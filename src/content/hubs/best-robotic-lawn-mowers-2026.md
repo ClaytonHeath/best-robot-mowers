@@ -31,7 +31,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | --- | --- | --- | --- | --- | --- | --- |
 | Tight urban | [Anthbot M5](/mowers/anthbot-m5/) | 0.12 acre | 45% | RTK + vision | Wire-free | $549 (11 Nov 2026) |
 | Small RTK Genie | [Anthbot Genie 600e (4G)](/mowers/anthbot-genie/) | 0.15 acre recommended (variant markets 0.22) | 45% | RTK + vision | Wire-free | $699 |
-| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $799 (official guest cart 26 Nov 2026, even though product.js reports available=false; was $669 on sale 23 Oct) |
+| Eighth-acre Navimow | [Segway Navimow i105](/mowers/segway-navimow-i105/) | 0.125 acre | 30% | RTK + vision | Wire-free | $799 (official guest cart 27 Nov 2026, even though product.js reports available=false; was $669 on sale 23 Oct) |
 | Quarter-acre Navimow | [Segway Navimow i110](/mowers/segway-navimow-i110/) | 0.25 acre | 30% | RTK + vision | Wire-free | $1,099 (guest cart accepted 20 Nov 2026; product.js unavailable) |
 | Vision + cloud RTK | [Worx Landroid Vision Cloud WR310.1](/mowers/worx-landroid-vision-cloud-wr310/) | 0.25 acre | 30% | Vision + RTK | Wire-free | $1,199.99 |
 | RTK + vision RWD | [Roborock RockNeo Q1](/mowers/roborock-rockneo-q1/) | 0.25 acre | 45% | RTK + vision | Wire-free | $1,299 |
@@ -47,7 +47,7 @@ Fits compact suburban and townhouse lawns when the published coverage is at or u
 | Fit | Listing | Coverage | Slope | Nav | Wire | Price (listing) |
 | --- | --- | --- | --- | --- | --- | --- |
 | Half-acre AWD LiDAR | [Dreame A3 AWD 2000](/mowers/dreame-a3-awd-2000/) | 0.5 acre | 80% | LiDAR + vision | Wire-free | $1,459.99 |
-| Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | $1,999.99 campaign / $2,599.99 MSRP (husqvarna.com guest cart, 26 Nov 2026; official sale ends 6 Dec 2026, schema.org priceValidUntil 2026-12-06; PDP InStock) |
+| Half-acre EPOS | [Husqvarna Automower 410 iQ](/mowers/husqvarna-automower-410-iq/) | 0.5 acre systematic / 0.25 irregular | 45% | RTK (EPOS) | Wire-free | $1,999.99 campaign / $2,599.99 MSRP (husqvarna.com guest cart, 27 Nov 2026; official sale ends 7 Dec 2026, schema.org priceValidUntil 2026-12-07; PDP InStock) |
 | ~3/4-acre Genie | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | 0.75 acre recommended (variant markets 0.89) | 45% | RTK + vision | Wire-free | $899 (guest cart accepted 20 Nov 2026; product.js unavailable) |
 | ~3/4-acre LiDAR + trimmer | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | 0.75 acre | 50% (virtual boundary 20%) | LiDAR + vision | Wire-free | $1,799 |
 | ~0.87-acre AWD Pro | [Dreame A3 AWD Pro 3500](/mowers/dreame-a3-awd-pro-3500/) | 0.87 acre | 80% | LiDAR + vision | Wire-free | $1,889.99 |
@@ -111,7 +111,7 @@ Catalog support above ~1 acre is real but thinner than the small-yard shelf.
 | --- | --- | --- | --- | --- | --- |
 | 1-acre AWD RTK | [Segway Navimow X430](/mowers/segway-navimow-x430/) | 1 acre | 84% | Wire-free | $2,499 (sold out 27 Sep 2026) |
 | ~1.3-acre EPOS AWD | [Husqvarna Automower 435 iQ AWD](/mowers/husqvarna-automower-435-iq-awd/) | 1.3 systematic / 0.9 irregular | 70% | Wire-free | $4,999.99 (husqvarna.com) |
-| ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | $3,399.99 campaign / $4,299.99 MSRP (husqvarna.com guest cart, 26 Nov 2026; official sale ends 6 Dec 2026, schema.org priceValidUntil 2026-12-06; PDP OutOfStock that morning) |
+| ~2-acre EPOS | [Husqvarna Automower 440 iQ](/mowers/husqvarna-automower-440-iq/) | 2 systematic / 1 irregular | 45% | Wire-free | $3,399.99 campaign / $4,299.99 MSRP (husqvarna.com guest cart, 27 Nov 2026; official sale ends 7 Dec 2026, schema.org priceValidUntil 2026-12-07; PDP OutOfStock that morning) |
 | 2.5-acre RTK | [Segway Navimow X390](/mowers/segway-navimow-x390/) | 2.5 acres | 50% | Wire-free | $4,499 ($4,999 MSRP) |
 | Estate modular | [Yarbo Lawn Mower Pro](/mowers/yarbo-lawn-mower-pro/) | 6 acres max | 70% | Wire-free | $4,899 |
 | Estate modular, faster Core | [Yarbo Y40P Lawn Mower Pro](/mowers/yarbo-y40p-lawn-mower-pro/) | 7 acres per week | 70% | Wire-free | $5,999 |

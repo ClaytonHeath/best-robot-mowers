@@ -393,3 +393,37 @@ export function faqsFor2026Hub(listings: Listing[]): FaqItem[] {
     },
   ];
 }
+
+/**
+ * Visible FAQ copy for the wire-free hub. JSON-LD must use these same strings.
+ * Explanations stay generic and match the wire-free intro and the Method page.
+ */
+export function faqsForWireFreeHub(): FaqItem[] {
+  return [
+    {
+      question: "What is a robot lawn mower without a wire?",
+      answer:
+        "On this site, wire-free means the machine is sold to hold a work area with RTK, vision, LiDAR, or a mix of those — not a loop of wire in the ground. You still place a charging station. The install you skip is trenching a boundary. This page lists only those machines. Boundary-wire models are on the full catalog.",
+    },
+    {
+      question: "How is a boundary-wire mower different?",
+      answer:
+        "A boundary-wire mower follows a buried perimeter loop. A wire-free mower is sold to hold the work area without that loop, using RTK, vision, LiDAR, or a mix. This list is for yards where a buried loop is a poor fit: rentals, beds and trees that change, or no appetite for a trench. It is not the automatic pick for every lawn. A simple, open rectangle can still be a better match for a boundary-wire machine.",
+    },
+    {
+      question: "What is the difference between RTK, vision, and LiDAR?",
+      answer:
+        "Those are the navigation tags on the cards. RTK is satellite positioning (GNSS). It needs sky. A kit may include a reference station, or use Network RTK where the maker offers it. Trees and a blocked satellite view can leave it without a fix. Vision is cameras. LiDAR measures the space around the mower. Mixed systems get more than one tag. The tag is what the maker claims the mower uses. Most kits still need sky for GNSS, or cameras and LiDAR that can see.",
+    },
+    {
+      question: "How do I read coverage on a card?",
+      answer:
+        "Coverage is the manufacturer’s recommended mowing area, printed on the card in acres. It is not a promise that every yard of that size will finish in one charge, or that trees, satellite view, or grade will stay out of the way. Where a listing also describes a different irregular or systematic capacity, that note is on the listing page.",
+    },
+    {
+      question: "How do I read slope on a card?",
+      answer:
+        "Slope is the maximum the manufacturer publishes inside the work area, unless that listing also states a lower figure at the boundary. The card shows that figure as a percent. If the listing does not state a slope, the card says Not stated. Wet grass, drop-offs, and driveways are not that number.",
+    },
+  ];
+}

@@ -10,6 +10,7 @@ import {
   i110Comparison,
   lymowOnePlus5aComparison,
   m5LidarComparison,
+  x430Comparison,
 } from "../../lib/listingCompare";
 import { assertLargerYardPeers, faqsForListing } from "../../lib/listingFaq";
 import { pickRelatedListings } from "../../lib/related";
@@ -56,7 +57,9 @@ const comparison =
           ? i110Comparison(published)
           : d.slug === "lymow-one-plus-5a"
             ? lymowOnePlus5aComparison(published)
-            : null;
+            : d.slug === "segway-navimow-x430"
+              ? x430Comparison(published)
+              : null;
 if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
 const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
 if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));

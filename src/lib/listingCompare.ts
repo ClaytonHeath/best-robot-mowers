@@ -428,3 +428,192 @@ export function lymowOnePlus5aComparison(listings: Listing[]): ListingComparison
     },
   );
 }
+
+/**
+ * Segway Navimow siblings for the X430 page. Same-acre X3 first, then the
+ * larger X3 listings, then the half-acre H2 and the smaller AWD i2. Cells
+ * are listing fields only. The build fails if a slug is missing or is no
+ * longer Segway Navimow, and if the choosing copy drifts from those listings.
+ * i105, i110, i206 AWD, i215 LiDAR, and H210 stay off this table.
+ */
+export const X430_SLUG = "segway-navimow-x430";
+
+export const X430_PEER_SLUGS = [
+  "segway-navimow-x330",
+  "segway-navimow-x350",
+  "segway-navimow-x390",
+  "segway-navimow-h220",
+  "segway-navimow-i210-awd",
+] as const;
+
+function requireX430Navimow(item: Listing, role: "subject" | "peer"): void {
+  if (item.data.brand !== "Segway Navimow") {
+    throw new Error(`X430 comparison ${role} ${item.data.slug} is not a Segway Navimow listing`);
+  }
+}
+
+function x430Price(item: Listing): string {
+  if (item.data.priceUsd === undefined) {
+    throw new Error(`X430 comparison listing ${item.data.slug} has no priceUsd`);
+  }
+  return `${formatPrice(item.data.priceUsd)} (${formatChecked(item.data.updated)})`;
+}
+
+/** Spec table for the X430 page. Values come from published listing fields. */
+export function x430Comparison(listings: Listing[]): ListingComparison {
+  const bySlug = new Map(listings.map((item) => [item.data.slug, item]));
+  const subject = bySlug.get(X430_SLUG);
+  if (!subject?.body) throw new Error("X430 comparison missing the subject listing body");
+  const x330 = bySlug.get("segway-navimow-x330");
+  const x350 = bySlug.get("segway-navimow-x350");
+  const x390 = bySlug.get("segway-navimow-x390");
+  const h220 = bySlug.get("segway-navimow-h220");
+  const i210 = bySlug.get("segway-navimow-i210-awd");
+  if (!x330?.body || !x350?.body || !x390?.body || !h220?.body || !i210?.body) {
+    throw new Error("X430 comparison missing a published sibling listing");
+  }
+
+  const label = "X430 comparison";
+  if (subject.data.coverageAcres !== 1 || subject.data.slopePercent !== 84) {
+    throw new Error(`${label} expected coverage 1 and slope 84`);
+  }
+  if (subject.data.cuttingWidthIn !== 17 || subject.data.driveType !== "All-wheel drive") {
+    throw new Error(`${label} expected 17 in all-wheel drive`);
+  }
+  if (subject.data.navigation.join(",") !== "rtk,vision") {
+    throw new Error(`${label} expected RTK and vision`);
+  }
+  if (subject.data.noiseDb !== undefined || subject.data.weightLbs !== undefined) {
+    throw new Error(`${label} expected noise and weight to stay unset`);
+  }
+  if (x330.data.coverageAcres !== 1 || x330.data.slopePercent !== 50 || x330.data.driveType !== "Rear-wheel drive") {
+    throw new Error(`${label} choosing copy expected X330 rear-wheel drive at 1 acre and 50%`);
+  }
+  if (x330.data.cuttingWidthIn !== 9.33 || x330.data.noiseDb !== 60) {
+    throw new Error(`${label} expected X330 9.33 in and noise 60`);
+  }
+  if (x350.data.coverageAcres !== 1.5 || x350.data.slopePercent !== 50 || x350.data.driveType !== "Rear-wheel drive") {
+    throw new Error(`${label} choosing copy expected X350 rear-wheel drive at 1.5 acres and 50%`);
+  }
+  if (x350.data.noiseDb !== 60) throw new Error(`${label} expected X350 noise 60`);
+  if (x390.data.coverageAcres !== 2.5 || x390.data.slopePercent !== 50 || x390.data.driveType !== "Rear-wheel drive") {
+    throw new Error(`${label} choosing copy expected X390 rear-wheel drive at 2.5 acres and 50%`);
+  }
+  if (x390.data.noiseDb !== 60) throw new Error(`${label} expected X390 noise 60`);
+  if (h220.data.coverageAcres !== 0.5 || h220.data.slopePercent !== 45) {
+    throw new Error(`${label} choosing copy expected H220 at 0.5 acre and 45%`);
+  }
+  if (h220.data.navigation.join(",") !== "lidar,rtk,vision") {
+    throw new Error(`${label} choosing copy expected H220 LiDAR, RTK, and vision`);
+  }
+  if (h220.data.driveType !== undefined) throw new Error(`${label} expected H220 driveType to stay unset`);
+  if (h220.data.cuttingHeight !== "2–4 in" || h220.data.noiseDb !== 60) {
+    throw new Error(`${label} expected H220 cutting height 2–4 in and noise 60`);
+  }
+  if (i210.data.coverageAcres !== 0.25 || i210.data.slopePercent !== 45 || i210.data.driveType !== "AWD") {
+    throw new Error(`${label} choosing copy expected i210 AWD at 0.25 acre and 45%`);
+  }
+  requireText(i210.data.priceNote, "sale against a $1,299.00 compare-at", "X430 choosing copy");
+
+  requireText(
+    subject.body,
+    "Choose a listed Navimow sibling when the lawn does not match this 1-acre all-wheel-drive cart.",
+    "X430 choosing copy",
+  );
+  requireText(
+    subject.body,
+    `1-acre X3 at ${x430Price(x330)}, rear-wheel drive, with a 50% work-area slope and a 9.33-inch deck`,
+    "X430 choosing copy",
+  );
+  requireText(
+    subject.body,
+    `1.5-acre X3 at ${x430Price(x350)}, rear-wheel drive, with a 50% slope`,
+    "X430 choosing copy",
+  );
+  requireText(
+    subject.body,
+    `2.5-acre X3 at ${x430Price(x390)}, rear-wheel drive, with a 50% slope`,
+    "X430 choosing copy",
+  );
+  requireText(
+    subject.body,
+    `0.5-acre cart at ${x430Price(h220)} with LiDAR, RTK, and vision and a 45% slope`,
+    "X430 choosing copy",
+  );
+  requireText(
+    subject.body,
+    `0.25-acre all-wheel drive at ${x430Price(i210)} on sale with a 45% slope`,
+    "X430 choosing copy",
+  );
+
+  requireText(subject.body, "1.2× the recommended area (1.2 acres for a 1-acre model)", "X430 comparison note");
+  requireText(subject.body, "84% (40°)", "X430 comparison note");
+  requireText(
+    subject.body,
+    "No separate boundary-slope figure is published for X4 (unlike X3’s 25%).",
+    "X430 comparison note",
+  );
+  requireText(subject.body, "12 blades", "X430 comparison note");
+  requireText(subject.body, "noise published as ＜ 68 dB(A) (not an exact dB)", "X430 comparison note");
+  requireText(subject.body, "Connect+ (4G) is 1 year free on the X430, then $32.90 per year.", "X430 comparison note");
+  if (subject.body.includes("charging station")) {
+    throw new Error("X430 comparison note expected no charging-station ingress claim on this listing");
+  }
+  if (subject.body.includes("sound pressure") || subject.body.includes("sound power")) {
+    throw new Error("X430 comparison note expected this listing not to split sound power and sound pressure");
+  }
+
+  requireText(x330.body, "Recommended mowing area: **1 acre**", "X430 comparison note");
+  if (x330.body.includes("1.2×")) {
+    throw new Error("X430 comparison note expected the X330 listing not to state a 1.2× maximum");
+  }
+  requireText(x330.body, "inside the working area: 50%", "X430 comparison note");
+  requireText(x330.body, "at the boundary: 25%", "X430 comparison note");
+  requireText(x330.body, "6 blades", "X430 comparison note");
+  requireText(x330.body, "60 dB(A)** sound power and **52 dB(A)** sound pressure", "X430 comparison note");
+  requireText(x330.body, "**IP66** for the mower, charging station and power supply", "X430 comparison note");
+  requireText(x330.body, "Not published for the X330", "X430 comparison note");
+  requireText(x330.body, "Connect+ / 4G terms", "X430 comparison note");
+
+  requireText(x350.body, "Recommended mowing area: **1.5 acres**", "X430 comparison note");
+  if (x350.body.includes("1.2×")) {
+    throw new Error("X430 comparison note expected the X350 listing not to state a 1.2× maximum");
+  }
+  requireText(x350.body, "inside the working area: 50%", "X430 comparison note");
+  requireText(x350.body, "at the boundary: 25%", "X430 comparison note");
+  requireText(x350.body, "6 blades", "X430 comparison note");
+  requireText(x350.body, "60 dB(A)** sound power and **52 dB(A)** sound pressure", "X430 comparison note");
+  requireText(x350.body, "**IP66** for the mower, charging station and power supply", "X430 comparison note");
+  requireText(x350.body, "Not published for the X350", "X430 comparison note");
+  requireText(x350.body, "Connect+ / 4G terms", "X430 comparison note");
+
+  requireText(x390.body, "map storage up to about 1.2× the recommended area", "X430 comparison note");
+  requireText(
+    x390.body,
+    "50% (27°) maximum slope inside the work area and 25% (14°) at the boundary",
+    "X430 comparison note",
+  );
+  requireText(x390.body, "six blades", "X430 comparison note");
+  requireText(x390.body, "60 dB(A)", "X430 comparison note");
+  if (x390.body.includes("sound pressure") || x390.body.includes("sound power")) {
+    throw new Error("X430 comparison note expected the X390 listing not to split sound power and sound pressure");
+  }
+
+  requireText(h220.body, "inside the working area: 45%", "X430 comparison note");
+  requireText(h220.body, "at the boundary: 25%", "X430 comparison note");
+  requireText(h220.body, "The page doesn't call it AWD", "X430 comparison note");
+  requireText(h220.body, "0.8–2.8 in", "X430 comparison note");
+  requireText(h220.body, "included low-cutting kit", "X430 comparison note");
+  requireText(h220.body, "60 dB(A)** sound power", "X430 comparison note");
+  requireText(h220.body, "52 dB(A)** sound pressure", "X430 comparison note");
+
+  requireText(i210.body, "inside the work area **and** at the boundary", "X430 comparison note");
+
+  const coverage = formatAcres(subject.data.coverageAcres);
+  return buildComparison(listings, X430_SLUG, X430_PEER_SLUGS, "X430", requireX430Navimow, {
+    heading: "Compared with other Segway Navimow robot mowers",
+    lead: "The X430 is listed here next to other published Segway Navimow listings, not every Navimow model in this directory:",
+    caption: "Listing specs for the X430 and other published Segway Navimow mowers",
+    note: `Coverage in this table is each listing’s coverage figure. For the X430, that figure is the recommended mowing area (${coverage}). The same listing also records a mapping footnote of up to 1.2× the recommended area (1.2 acres for a 1-acre model). The X330 listing does not state a higher maximum. The X350 listing does not state a higher maximum. The X390 listing also records map storage up to about 1.2× the recommended area. Max slope in this table is each listing’s slope percent. On this listing that figure is the work-area slope, 84% (40°), and no separate boundary-slope figure is published for X4 (unlike X3’s 25%). The X330 and X350 listings record 50% inside the working area and 25% at the boundary. The X390 listing records 50% (27°) maximum slope inside the work area and 25% (14°) at the boundary. The H220 listing records 45% inside the working area and 25% at the boundary. The i210 AWD listing records 45% inside the work area and at the boundary. The X430 drive cell is the listing field All-wheel drive. The i210 AWD drive cell is the listing field AWD. The H220 listing does not set a drive type; that page doesn't call it AWD. The X430 listing records 12 blades. The X330 and X350 listings record 6 blades. The X390 listing records six blades. The X430 noise cell says not listed; this listing publishes noise as ＜ 68 dB(A) (not an exact dB). The X330 and X350 noise figures in this table are the 60 dB(A) sound-power figures; those listings also record 52 dB(A) sound pressure. The H220 noise figure in this table is the 60 dB(A) sound-power figure; that listing also records 52 dB(A) sound pressure. The X390 listing states 60 dB(A) and does not split those. The H220 cutting-height cell is the listing field 2–4 in; the same listing also records 0.8–2.8 in with the included low-cutting kit. The X330 and X350 listings also record IP66 for the charging station and power supply; the X430 listing does not. The X330 and X350 listings do not publish Connect+ / 4G terms. This listing records Connect+ (4G) is 1 year free on the X430, then $32.90 per year.`,
+  });
+}
