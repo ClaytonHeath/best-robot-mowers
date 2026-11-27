@@ -6,7 +6,7 @@ updated: 2026-10-23
 status: published
 ---
 
-One acre of **grass** (not lot size) sits at the awkward middle of the robot-mower market: many machines top out under 0.5–0.75 acre, and fewer published listings on this site are rated at **about 1 acre or above** than in the smaller bands. This page curates those listings and the closest undersize fits. It is directory yard-fit, not a ranked “best 1-acre mower” badge. The FAQ counts the current shelf from published listing data.
+One acre of **grass** (not lot size) sits at the awkward middle of the robot-mower market: many machines top out under 0.5–0.75 acre, and fewer published listings on this site are rated at **about 1 acre or above** than in the smaller bands. This page curates those listings and the closest undersize fits. It is directory yard-fit, not a ranked “best 1-acre mower” badge. The FAQ below reflects the listings published on this site right now.
 
 Measure the lawn. If you are actually at 0.6 acre, a 0.75–0.87 acre card may be enough. If you are at a messy 1.1 acre with islands and beds, prefer models that publish a lower **irregular** capacity — or step up.
 
@@ -14,7 +14,7 @@ Measure the lawn. If you are actually at 0.6 acre, a 0.75–0.87 acre card may b
 
 ## Size / coverage framing
 
-On this site, `coverageAcres` is the manufacturer’s **recommended** work area from the listing (see the [publisher README](https://github.com/ClaytonHeath/best-robot-mowers/blob/main/README.md)). Marketing labels on the same PDP sometimes claim a higher ceiling. When those conflict, listings already document both — and this hub follows the **recommended** number for yard-fit.
+On this site, the rated coverage area is the manufacturer’s **recommended** work area from the listing (see the [publisher README](https://github.com/ClaytonHeath/best-robot-mowers/blob/main/README.md)). Marketing labels on the same PDP sometimes claim a higher ceiling. When those conflict, listings already document both — and this hub follows the **recommended** number for yard-fit.
 
 **Rough bands for this page:**
 
@@ -24,7 +24,7 @@ On this site, `coverageAcres` is the manufacturer’s **recommended** work area 
 | **~1.0–1.5 acre** | Primary 1-acre fit from the live catalog |
 | **Above ~1.5 acre** | Estate / large systematic — overkill for a true 1.0 acre but listed so you do not undersize upward |
 
-**Catalog honesty:** Published **≥1.0 acre** recommended coverage is a thinner shelf than the small- and mid-yard bands. The FAQ below counts the current published listings from `coverageAcres`. If few models fit, that is the market state of this directory — not a reason to invent acreage.
+Published **≥1.0 acre** recommended coverage is a thinner set than the small- and mid-yard bands. The FAQ below uses the rated coverage area on the current published listings. If few models fit, that is the market state of this directory — not a reason to invent acreage.
 
 ---
 
@@ -80,7 +80,7 @@ Use these when measured grass is **under** one acre, or when budget/nav preferen
 | [Anthbot Genie 3000](/mowers/anthbot-genie-3000/) | **0.75 acre** recommended | 45% | Variant **markets 0.89 acre / up to 3600 m²** — same Genie recommended-vs-marketed pattern; $899 cart |
 | [ECOVACS GOAT A3000 LiDAR PRO](/mowers/ecovacs-goat-a3000-lidar-pro/) | **0.75 acre** | 50% (virtual boundary 20%) | LiDAR + edge trimmer; not an acre-class RTK flagship |
 
-**Genie pattern (marketed vs recommended):** Anthbot Genie listings lock `coverageAcres` to the **recommended** mowing area. Genie 3000 = **3000 m² / 3/4 acre recommended** while the Shopify variant label still says **0.89 acre**. Genie 1000 = **0.25 recommended** vs **0.49 marketed**. For a measured near-acre, do not treat the marketing label as single-pass capacity — open the listing and size to the recommended figure (or step to X430 / Husqvarna acre-class cards).
+**Genie pattern (marketed vs recommended):** Anthbot Genie listings set the rated coverage area to the **recommended** mowing area. Genie 3000 = **3000 m² / 3/4 acre recommended** while the Shopify variant label still says **0.89 acre**. Genie 1000 = **0.25 recommended** vs **0.49 marketed**. For a measured near-acre, do not treat the marketing label as single-pass capacity — open the listing and size to the recommended figure (or step to X430 / Husqvarna acre-class cards).
 
 ---
 
@@ -97,7 +97,7 @@ Use these when measured grass is **under** one acre, or when budget/nav preferen
 
 ## Thin catalog above 1 acre — what to do
 
-The live **≥1.0 acre** set is the **Published coverage 1 acre+** cards and the FAQ, both taken from published `coverageAcres`. It is not limited to the notes above.
+The live **≥1.0 acre** set is the **Published coverage 1 acre+** cards and the FAQ, both taken from the published rated coverage area. It is not limited to the notes above.
 
 If none of those cards fit budget, drive type, or install constraints:
 
@@ -120,4 +120,4 @@ If none of those cards fit budget, drive type, or install constraints:
 
 Related: [2026 yard-fit roundup](/best-robotic-lawn-mowers-2026/) · [Hills / slope hub](/best-robot-mower-for-hills/) · [Wire-free catalog](/wire-free/)
 
-*Hub drafted 18 Sep 2026 from published listing frontmatter. The FAQ is generated from the current published listings.*
+*Hub drafted 18 Sep 2026 from the published listings. The FAQ is generated from the current published listings.*

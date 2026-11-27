@@ -43,7 +43,7 @@ If the steep part of your property is the **mapped edge** (retaining wall, bank 
 
 ## AWD / high-slope models in this catalog
 
-Only models with published listings and supporting frontmatter are listed. Prices are from those listings (official cart or recorded street range).
+Only models with a published listing on this site are listed. Prices are from those listings (official cart or recorded street range).
 
 ### Highest published work-area slope
 
