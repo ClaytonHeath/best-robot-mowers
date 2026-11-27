@@ -4,7 +4,13 @@ import ProductPhoto from "../../components/ProductPhoto.astro";
 import RelatedListings from "../../components/RelatedListings.astro";
 import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { a3Awd1000Comparison, genie3000Comparison, i110Comparison, m5LidarComparison } from "../../lib/listingCompare";
+import {
+  a3Awd1000Comparison,
+  genie3000Comparison,
+  i110Comparison,
+  m5LidarComparison,
+  x430Comparison,
+} from "../../lib/listingCompare";
 import { assertLargerYardPeers, faqsForListing } from "../../lib/listingFaq";
 import { pickRelatedListings } from "../../lib/related";
 import {
@@ -48,7 +54,9 @@ const comparison =
         ? a3Awd1000Comparison(published)
         : d.slug === "segway-navimow-i110"
           ? i110Comparison(published)
-          : null;
+          : d.slug === "segway-navimow-x430"
+            ? x430Comparison(published)
+            : null;
 if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
 const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
 if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
