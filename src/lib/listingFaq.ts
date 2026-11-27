@@ -164,7 +164,7 @@ function i110Faqs(listing: Listing): FaqItem[] {
   mustInclude(body, data.driveType.toLowerCase(), "body", label);
   mustInclude(
     body,
-    "0.125-acre i-series cart at $799 (30 Oct 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
+    "0.125-acre i-series cart at $799 (27 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
     "body",
     label,
   );
@@ -206,7 +206,7 @@ function i110Faqs(listing: Listing): FaqItem[] {
     {
       question: "How does the Segway Navimow i110 compare with the listed i105 and X330?",
       answer:
-        "The listed i105 is the 0.125-acre i-series cart at $799 (30 Oct 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
+        "The listed i105 is the 0.125-acre i-series cart at $799 (27 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
     },
     {
       question: "How does the Segway Navimow i110 compare with the listed i210 AWD, H210, and i215 LiDAR?",
@@ -658,7 +658,7 @@ function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
   mustInclude(note, "$669.00 sale from a $799.00 compare-at", "priceNote", label);
   mustInclude(note, "23 Oct 2026", "priceNote", label);
   mustInclude(note, "has ended", "priceNote", label);
-  mustInclude(note, "available=true", "priceNote", label);
+  mustInclude(note, "available=false", "priceNote", label);
   mustInclude(note, checked, "priceNote", label);
 
   mustInclude(body, "recommended mowing area 0.125 acre", "body", label);
@@ -723,7 +723,7 @@ function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
   return [
     {
       question: "How much does the Segway Navimow i105 cost?",
-      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU AA.12.02.02.0001, Navimow i105 | 0.125 acre, with no compare-at. The $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended. product.js reports available=true.`,
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU AA.12.02.02.0001, Navimow i105 | 0.125 acre, with no compare-at. The $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended. A guest cart accepted the variant even though product.js reports available=false.`,
     },
     {
       question: "How large a lawn is the Segway Navimow i105 rated for?",
@@ -758,6 +758,133 @@ function i105Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
   ];
 }
 
+function x430Faqs(listing: Listing, listings: readonly Listing[]): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("X430 listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "X430 FAQ";
+  if (data.priceUsd !== 2499) throw new Error(`${label} expected priceUsd 2499`);
+  if (data.coverageAcres !== 1) throw new Error(`${label} expected coverageAcres 1`);
+  if (data.slopePercent !== 84) throw new Error(`${label} expected slopePercent 84`);
+  if (data.cuttingWidthIn !== 17) throw new Error(`${label} expected cuttingWidthIn 17`);
+  if (data.cuttingHeight !== "0.75–4 in") throw new Error(`${label} expected cuttingHeight`);
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "All-wheel drive") throw new Error(`${label} expected all-wheel drive`);
+  if (data.navigation.join(",") !== "rtk,vision") throw new Error(`${label} expected rtk + vision`);
+  if (data.noiseDb !== undefined || data.weightLbs !== undefined) {
+    throw new Error(`${label} expected noise and weight to stay unset`);
+  }
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$2,499", "priceNote", label);
+  mustInclude(note, "X430 | 1.0 acre", "priceNote", label);
+  mustInclude(note, "no sale or compare-at price", "priceNote", label);
+  mustInclude(note, "sold out", "priceNote", label);
+  mustInclude(note, "Not labeled MSRP", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "recommended mowing area 1.0 acre", "body", label);
+  mustInclude(body, "1.2× the recommended area (1.2 acres for a 1-acre model)", "body", label);
+  mustInclude(body, "actual mappable area depends on layout", "body", label);
+  mustInclude(body, "cover up to 1 acre in one day", "body", label);
+  mustInclude(body, "not X450’s 1.5-acre rating", "body", label);
+  mustInclude(body, "perimeter-wire-free", "body", label);
+  mustInclude(body, "EFLS Network RTK plus 360° vision (VSLAM / VIO and VisionFence)", "body", label);
+  mustInclude(body, "360° VisionFence (RGB + ToF), not spinning LiDAR", "body", label);
+  mustInclude(body, "Antenna-free setup is available where Network RTK coverage exists", "body", label);
+  mustInclude(body, "a physical GNSS antenna is still in the box as a fallback", "body", label);
+  mustInclude(body, "Connect+ (4G) is 1 year free on the X430, then $32.90 per year.", "body", label);
+  mustInclude(body, "84% (40°)", "body", label);
+  mustInclude(body, "No separate boundary-slope figure is published for X4 (unlike X3’s 25%).", "body", label);
+  mustInclude(body, "12 blades", "body", label);
+  mustInclude(body, "17-inch dual-disc deck", "body", label);
+  mustInclude(body, "24-inch body width", "body", label);
+  mustInclude(body, "narrower than 24 inches", "body", label);
+  mustInclude(body, "not the 1.5-acre X450", "body", label);
+  mustInclude(body, "1.5 acres (X450, $2,999 and sold out on this date)", "body", label);
+  mustInclude(data.verdict, "24-inch body is a hard limit in tight gaps", "verdict", label);
+
+  const x330 = navimowPeer(listings, "segway-navimow-x330", label);
+  const x350 = navimowPeer(listings, "segway-navimow-x350", label);
+  const x390 = navimowPeer(listings, "segway-navimow-x390", label);
+  const h220 = navimowPeer(listings, "segway-navimow-h220", label);
+  const i210 = navimowPeer(listings, "segway-navimow-i210-awd", label);
+  if (x330.data.coverageAcres !== 1 || x330.data.slopePercent !== 50 || x330.data.driveType !== "Rear-wheel drive") {
+    throw new Error(`${label} choosing copy expected X330 rear-wheel drive at 1 acre and 50%`);
+  }
+  if (x330.data.cuttingWidthIn !== 9.33) throw new Error(`${label} choosing copy expected X330 9.33 in`);
+  if (x350.data.coverageAcres !== 1.5 || x350.data.slopePercent !== 50 || x350.data.driveType !== "Rear-wheel drive") {
+    throw new Error(`${label} choosing copy expected X350 rear-wheel drive at 1.5 acres and 50%`);
+  }
+  if (x390.data.coverageAcres !== 2.5 || x390.data.slopePercent !== 50 || x390.data.driveType !== "Rear-wheel drive") {
+    throw new Error(`${label} choosing copy expected X390 rear-wheel drive at 2.5 acres and 50%`);
+  }
+  if (h220.data.coverageAcres !== 0.5 || h220.data.slopePercent !== 45) {
+    throw new Error(`${label} choosing copy expected H220 at 0.5 acre and 45%`);
+  }
+  if (h220.data.navigation.join(",") !== "lidar,rtk,vision") {
+    throw new Error(`${label} choosing copy expected H220 LiDAR, RTK, and vision`);
+  }
+  if (i210.data.coverageAcres !== 0.25 || i210.data.slopePercent !== 45 || i210.data.driveType !== "AWD") {
+    throw new Error(`${label} choosing copy expected i210 AWD at 0.25 acre and 45%`);
+  }
+  mustInclude(i210.data.priceNote, "sale against a $1,299.00 compare-at", "priceNote", label);
+
+  const x330Choice = `1-acre X3 at ${priceOn(x330, label)}, rear-wheel drive, with a 50% work-area slope and a 9.33-inch deck`;
+  const x350Choice = `1.5-acre X3 at ${priceOn(x350, label)}, rear-wheel drive, with a 50% slope`;
+  const x390Choice = `2.5-acre X3 at ${priceOn(x390, label)}, rear-wheel drive, with a 50% slope`;
+  const h220Choice = `0.5-acre cart at ${priceOn(h220, label)} with LiDAR, RTK, and vision and a 45% slope`;
+  const i210Choice = `0.25-acre all-wheel drive at ${priceOn(i210, label)} on sale with a 45% slope`;
+  mustInclude(
+    body,
+    "Choose a listed Navimow sibling when the lawn does not match this 1-acre all-wheel-drive cart.",
+    "body",
+    label,
+  );
+  mustInclude(body, x330Choice, "body", label);
+  mustInclude(body, x350Choice, "body", label);
+  mustInclude(body, x390Choice, "body", label);
+  mustInclude(body, h220Choice, "body", label);
+  mustInclude(body, i210Choice, "body", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "How much does the Segway Navimow X430 cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for the X430 | 1.0 acre variant, with no sale or compare-at price.${stockSentence(note)} Not labeled MSRP.`,
+    },
+    {
+      question: "How large a lawn is the Segway Navimow X430 rated for?",
+      answer: `The coverage figure is ${coverage}. That number is the recommended mowing area 1.0 acre. The same listing also records a mapping footnote of up to 1.2× the recommended area (1.2 acres for a 1-acre model); actual mappable area depends on layout. The product page’s “cover up to 1 acre in one day” claim is this SKU’s efficiency line, not X450’s 1.5-acre rating.`,
+    },
+    {
+      question: "Does the Segway Navimow X430 need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records a perimeter-wire-free mower with EFLS Network RTK plus 360° vision (VSLAM / VIO and VisionFence). Obstacle detection is 360° VisionFence (RGB + ToF), not spinning LiDAR. Antenna-free setup is available where Network RTK coverage exists; a physical GNSS antenna is still in the box as a fallback. Connect+ (4G) is 1 year free on the X430, then $32.90 per year.`,
+    },
+    {
+      question: "What slope and cut does the Segway Navimow X430 publish?",
+      answer: `Work-area slope is ${data.slopePercent}% (40°). Drive is ${data.driveType.toLowerCase()}. No separate boundary-slope figure is published for X4 (unlike X3’s 25%). Cutting width is ${data.cuttingWidthIn} in. Cutting height is ${data.cuttingHeight}. The cutting system is 12 blades on a 17-inch dual-disc deck. The published body width is 24 inches, and the listing says it is a weaker match for properties whose gates or side yards are narrower than 24 inches.`,
+    },
+    {
+      question: "How does the Segway Navimow X430 compare with the listed X330 and X390?",
+      answer: `The listed X330 is the ${x330Choice}. The listed X390 is the ${x390Choice}.`,
+    },
+    {
+      question: "How does the Segway Navimow X430 compare with the listed X350, H220, and i210 AWD?",
+      answer: `The listed X350 is the ${x350Choice}. The listed H220 is the ${h220Choice}. The listed i210 AWD is ${i210Choice}.`,
+    },
+    {
+      question: "Is the Segway Navimow X430 the 1.5-acre X450?",
+      answer:
+        "No. This listing says it is not the 1.5-acre X450. Skip it if you need 1.5 acres (X450, $2,999 and sold out on this date). The 24-inch body is a hard limit in tight gaps.",
+    },
+  ];
+}
+
 /** Visible FAQ copy for a listing page. JSON-LD must use these same strings. */
 export function faqsForListing(listing: Listing, listings: readonly Listing[] = []): FaqItem[] {
   if (listing.data.slug === "yarbo-lawn-mower-pro") return yarboFaqs(listing);
@@ -768,5 +895,6 @@ export function faqsForListing(listing: Listing, listings: readonly Listing[] = 
   if (listing.data.slug === "dreame-a3-awd-1000") return a3Awd1000Faqs(listing);
   if (listing.data.slug === "dreame-a3-awd-2000") return a3Awd2000Faqs(listing);
   if (listing.data.slug === "segway-navimow-i105") return i105Faqs(listing, listings);
+  if (listing.data.slug === "segway-navimow-x430") return x430Faqs(listing, listings);
   return [];
 }

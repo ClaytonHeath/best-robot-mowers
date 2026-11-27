@@ -10,6 +10,7 @@ import {
   genie3000Comparison,
   i110Comparison,
   m5LidarComparison,
+  x430Comparison,
 } from "../../lib/listingCompare";
 import { assertLargerYardPeers, faqsForListing } from "../../lib/listingFaq";
 import { pickRelatedListings } from "../../lib/related";
@@ -56,7 +57,9 @@ const comparison =
           ? a3Awd2000Comparison(published)
           : d.slug === "segway-navimow-i110"
             ? i110Comparison(published)
-            : null;
+            : d.slug === "segway-navimow-x430"
+              ? x430Comparison(published)
+              : null;
 if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
 const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
 if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));

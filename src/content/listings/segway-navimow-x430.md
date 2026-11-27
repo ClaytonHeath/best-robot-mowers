@@ -34,6 +34,8 @@ Official US numbers published for this SKU / series: recommended mowing area 1.0
 
 People with up to one acre of lawn who want to skip a boundary wire and who actually need AWD — hills, ruts, or mixed terrain — rather than a cheaper small-lot mower. Antenna-free setup is available where Network RTK coverage exists; a physical GNSS antenna is still in the box as a fallback. It is a weaker match for yards over an acre (that is the X450), for extra-large lawns better served by the X390, and for properties whose gates or side yards are narrower than 24 inches.
 
+Choose a listed Navimow sibling when the lawn does not match this 1-acre all-wheel-drive cart. The [Segway Navimow X330](/mowers/segway-navimow-x330/) is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope and a 9.33-inch deck. The [Segway Navimow X350](/mowers/segway-navimow-x350/) is the 1.5-acre X3 at $2,799 (18 Oct 2026), rear-wheel drive, with a 50% slope. The [Segway Navimow X390](/mowers/segway-navimow-x390/) is the 2.5-acre X3 at $4,499 (9 Oct 2026), rear-wheel drive, with a 50% slope. The [Segway Navimow H220](/mowers/segway-navimow-h220/) is the 0.5-acre cart at $2,199 (9 Oct 2026) with LiDAR, RTK, and vision and a 45% slope. The [Segway Navimow i210 AWD](/mowers/segway-navimow-i210-awd/) is 0.25-acre all-wheel drive at $999 (20 Nov 2026) on sale with a 45% slope.
+
 ## Standout details
 
 - **Coverage:** 1.0 acre recommended on the official US variant. Segway’s mapping footnote is 1.2× the recommended area (1.2 acres for a 1-acre model); actual mappable area depends on layout. The product page’s “cover up to 1 acre in one day” claim is this SKU’s efficiency line, not X450’s 1.5-acre rating.
