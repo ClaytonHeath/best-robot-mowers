@@ -448,6 +448,85 @@ function a3Awd1000Faqs(listing: Listing): FaqItem[] {
   ];
 }
 
+function a3Awd2000Faqs(listing: Listing): FaqItem[] {
+  const data = listing.data;
+  const body = listing.body;
+  if (!body) throw new Error("A3 AWD 2000 listing body is missing; FAQ cannot be checked against it.");
+  const note = data.priceNote;
+  const label = "A3 AWD 2000 FAQ";
+  if (data.priceUsd !== 1459.99) throw new Error(`${label} expected priceUsd 1459.99`);
+  if (data.coverageAcres !== 0.5) throw new Error(`${label} expected coverageAcres 0.5`);
+  if (data.slopePercent !== 80) throw new Error(`${label} expected slopePercent 80`);
+  if (data.cuttingWidthIn !== 7.9) throw new Error(`${label} expected cuttingWidthIn 7.9`);
+  if (data.cuttingHeight !== "1.2–3.9 in (3–10 cm)") throw new Error(`${label} expected cuttingHeight`);
+  if (!data.wireFree) throw new Error(`${label} expected wireFree`);
+  if (data.driveType !== "All-wheel drive") throw new Error(`${label} expected all-wheel drive`);
+  if (data.navigation.join(",") !== "lidar,vision") throw new Error(`${label} expected lidar + vision`);
+
+  const checked = formatChecked(data.updated);
+  mustInclude(note, "$1,459.99", "priceNote", label);
+  mustInclude(note, "$2,199.99", "priceNote", label);
+  mustInclude(note, "010901AA000224", "priceNote", label);
+  mustInclude(note, "A3 AWD 2000 - 0.50 Acre", "priceNote", label);
+  mustInclude(note, "$1,699.99", "priceNote", label);
+  mustInclude(note, "16 Oct 2026", "priceNote", label);
+  mustInclude(note, "$1,899.99", "priceNote", label);
+  mustInclude(note, "17 Sep 2026", "priceNote", label);
+  mustInclude(note, "Not labeled MSRP", "priceNote", label);
+  mustInclude(note, checked, "priceNote", label);
+
+  mustInclude(body, "does not use RTK or a boundary wire", "body", label);
+  mustInclude(body, "OmniSense™ 3.0", "body", label);
+  mustInclude(body, "360° 3D LiDAR", "body", label);
+  mustInclude(body, "binocular AI vision", "body", label);
+  mustInclude(body, "No RTK. No Wires.", "body", label);
+  mustInclude(body, "2,000 m² / 0.50 acre", "body", label);
+  mustInclude(body, "0.50-acre", "body", label);
+  mustInclude(body, "0.54 acre/24 hrs", "body", label);
+  mustInclude(body, "throughput rates, not a higher capacity rating", "body", label);
+  mustInclude(body, "80% (38.7°)", "body", label);
+  mustInclude(body, "7.9 in", "body", label);
+  mustInclude(body, "1.2–3.9 in (3–10 cm)", "body", label);
+  mustInclude(body, "all-wheel drive", "body", label);
+  mustInclude(body, "1,000 m² / 0.25 acre", "body", label);
+  mustInclude(body, "on the same PDP", "body", label);
+  mustInclude(body, "not the Pro series (15.8 in dual-disc; Pro 2500 / 3500 / 5000)", "body", label);
+  mustInclude(body, "1 year", "body", label);
+  mustInclude(body, "complimentary 4G data", "body", label);
+  mustInclude(data.verdict, "not the Pro 3500 (0.87 acre, 15.8 in dual-disc)", "verdict", label);
+
+  const price = formatPrice(data.priceUsd);
+  const coverage = formatAcres(data.coverageAcres);
+  const nav = formatNav(data.navigation);
+
+  return [
+    {
+      question: "Does the Dreame A3 AWD 2000 need a boundary wire?",
+      answer: `No. It is wire-free. Navigation is ${nav}. This listing records OmniSense™ 3.0, pairing 360° 3D LiDAR with binocular AI vision, and states it does not use RTK or a boundary wire. Marketing states “No RTK. No Wires.”`,
+    },
+    {
+      question: "How large a lawn is the Dreame A3 AWD 2000 rated for?",
+      answer: `The coverage figure is ${coverage}. That number is the A3 AWD 2000 working area capacity of 2,000 m² / 0.50 acre. The same listing records power-mode throughput of Standard 0.25, Efficient 0.50, and Rush 0.54 acre/24 hrs, which are throughput rates, not a higher capacity rating.`,
+    },
+    {
+      question: "How much does the Dreame A3 AWD 2000 cost?",
+      answer: `The official US cart price recorded here is ${price} on ${checked} for SKU 010901AA000224, variant A3 AWD 2000 - 0.50 Acre, against a $2,199.99 compare-at. It was $1,699.99 on 16 Oct 2026 and $1,899.99 on 17 Sep 2026. Not labeled MSRP.`,
+    },
+    {
+      question: "How does the Dreame A3 AWD 2000 compare with the listed A3 AWD 1000 and A3 AWD Pro 3500?",
+      answer: `This listing is the 0.50-acre non-Pro SKU with a 7.9 in cut. The A3 AWD 1000 on the same PDP is 1,000 m² / 0.25 acre. This is not the Pro 3500 (0.87 acre, 15.8 in dual-disc) and not the Pro series (15.8 in dual-disc; Pro 2500 / 3500 / 5000).`,
+    },
+    {
+      question: "What slope and cut does the Dreame A3 AWD 2000 publish?",
+      answer: `Max slope is ${data.slopePercent}% (38.7°). Drive is ${data.driveType.toLowerCase()}. Cutting width is ${data.cuttingWidthIn} in. Cutting height is ${data.cuttingHeight}.`,
+    },
+    {
+      question: "Does the Dreame A3 AWD 2000 include 4G?",
+      answer: `PDP marketing lists 1 year of complimentary 4G data.`,
+    },
+  ];
+}
+
 function genie3000Faqs(listing: Listing): FaqItem[] {
   const data = listing.data;
   const body = listing.body;
@@ -927,6 +1006,7 @@ export function faqsForListing(listing: Listing, listings: readonly Listing[] = 
   if (listing.data.slug === "anthbot-m5-lidar") return m5LidarFaqs(listing);
   if (listing.data.slug === "anthbot-genie-3000") return genie3000Faqs(listing);
   if (listing.data.slug === "dreame-a3-awd-1000") return a3Awd1000Faqs(listing);
+  if (listing.data.slug === "dreame-a3-awd-2000") return a3Awd2000Faqs(listing);
   if (listing.data.slug === "segway-navimow-i105") return i105Faqs(listing, listings);
   if (listing.data.slug === "lymow-one-plus-5a") return lymowOnePlus5aFaqs(listing);
   if (listing.data.slug === "segway-navimow-x430") return x430Faqs(listing, listings);

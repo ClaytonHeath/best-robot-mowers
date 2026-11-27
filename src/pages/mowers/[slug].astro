@@ -6,6 +6,7 @@ import SpecTable from "../../components/SpecTable.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import {
   a3Awd1000Comparison,
+  a3Awd2000Comparison,
   genie3000Comparison,
   i110Comparison,
   lymowOnePlus5aComparison,
@@ -53,13 +54,15 @@ const comparison =
       ? genie3000Comparison(published)
       : d.slug === "dreame-a3-awd-1000"
         ? a3Awd1000Comparison(published)
-        : d.slug === "segway-navimow-i110"
-          ? i110Comparison(published)
-          : d.slug === "lymow-one-plus-5a"
-            ? lymowOnePlus5aComparison(published)
-            : d.slug === "segway-navimow-x430"
-              ? x430Comparison(published)
-              : null;
+        : d.slug === "dreame-a3-awd-2000"
+          ? a3Awd2000Comparison(published)
+          : d.slug === "segway-navimow-i110"
+            ? i110Comparison(published)
+            : d.slug === "lymow-one-plus-5a"
+              ? lymowOnePlus5aComparison(published)
+              : d.slug === "segway-navimow-x430"
+                ? x430Comparison(published)
+                : null;
 if (d.slug === "yarbo-lawn-mower-pro") assertLargerYardPeers(published);
 const jsonLd = [productJsonLd(d), listingBreadcrumbJsonLd(d)];
 if (faqs.length > 0) jsonLd.push(faqPageJsonLd(faqs));
