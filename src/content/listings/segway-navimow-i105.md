@@ -5,7 +5,7 @@ slug: segway-navimow-i105
 model: i105
 status: published
 priceUsd: 799
-priceNote: Official US cart on 26 Nov 2026 (AWST) for Navimow i105 | 0.125 acre (product 7975879966857, variant 43296344014985, SKU AA.12.02.02.0001) — $799.00 with no compare-at (the $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended). A guest cart/add.js accepted this variant at $799.00 USD with no discount, so it is in stock in the official guest cart, even though product.js now reports available=false. On 30 Oct 2026 product.js reported available=true and a guest cart also accepted $799.00. It was also $799.00 with no compare-at on 9 Oct 2026; the $669 sale was seen on 3 Sep and 23 Oct 2026. Tax and shipping excluded. Not labeled MSRP.
+priceNote: Official US cart on 27 Nov 2026 (AWST) for Navimow i105 | 0.125 acre (product 7975879966857, variant 43296344014985, SKU AA.12.02.02.0001) — $799.00 with no compare-at (the $669.00 sale from a $799.00 compare-at seen on 23 Oct 2026 has ended). A guest cart/add.js accepted this variant at $799.00 USD with no discount, so it is in stock in the official guest cart, even though product.js now reports available=false. On 26 Nov 2026 a guest cart/add.js also accepted this variant at $799.00 USD with no discount, even though product.js already reported available=false. On 30 Oct 2026 product.js reported available=true and a guest cart also accepted $799.00. It was also $799.00 with no compare-at on 9 Oct 2026; the $669 sale was seen on 3 Sep and 23 Oct 2026. Tax and shipping excluded. Not labeled MSRP.
 coverageAcres: 0.125
 slopePercent: 30
 navigation:
@@ -13,11 +13,11 @@ navigation:
   - vision
 wireFree: true
 whoItsFor: Small US lawns up to 0.125 acre that want a wire-free i-series Navimow with EFLS 2.0 and VisionFence. Skip it if the grass is over 1/8 acre, slopes inside the work area exceed 30%, or a passage is narrower than 100 cm (39.4 in).
-verdict: The US i105 is the 0.125-acre i-series cart at $799 (26 Nov 2026; the $669 sale seen on 23 Oct 2026 has ended; a guest cart accepted it even though product.js now reports available=false), with RTK plus 140° VisionFence and a 7.1-inch manual deck; the catch is coverage, a 10% boundary-slope cap, and 4G/anti-theft sold as Access+ — this is not the 0.25-acre i110 and not an X3/X4.
+verdict: The US i105 is the 0.125-acre i-series cart at $799 (27 Nov 2026; the $669 sale seen on 23 Oct 2026 has ended; a guest cart accepted it even though product.js now reports available=false), with RTK plus 140° VisionFence and a 7.1-inch manual deck; the catch is coverage, a 10% boundary-slope cap, and 4G/anti-theft sold as Access+ — this is not the 0.25-acre i110 and not an X3/X4.
 affiliateUrl: ""
 officialUrl: https://navimow.com/products/navimow-i105
 image: /mowers/segway-navimow-i105.webp
-updated: 2026-11-26
+updated: 2026-11-27
 cuttingWidthIn: 7.1
 cuttingHeight: 2–3.6 in, manual
 noiseDb: 58
@@ -68,14 +68,14 @@ The i105 is listed here next to three other Navimow models: the [i110](/mowers/s
   <tbody>
     <tr>
       <th scope="row">US price</th>
-      <td>$799 (26 Nov 2026)</td>
+      <td>$799 (27 Nov 2026)</td>
       <td>$1,099 (25 Nov 2026)</td>
       <td>$1,799 (16 Oct 2026)</td>
       <td>$2,199 (9 Oct 2026)</td>
     </tr>
     <tr>
       <th scope="row">Stock</th>
-      <td>In the official guest cart (26 Nov 2026)</td>
+      <td>In the official guest cart (27 Nov 2026)</td>
       <td>In the official guest cart (25 Nov 2026)</td>
       <td>Available (16 Oct 2026)</td>
       <td>Available (9 Oct 2026)</td>
@@ -207,4 +207,4 @@ The recommended-area row is each listing’s coverage figure. The i105 listing a
 
 ## Honest verdict
 
-Pay the $799 US cart (guest cart accepted 26 Nov 2026, even though product.js now reports available=false; no compare-at; it was $669 on sale on 23 Oct 2026) if the lawn is actually 0.125 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you need 0.25 acre (i110, $1,099; a guest cart accepted it on 25 Nov 2026 even though product.js still reports available=false; it was sold out on 9 Oct 2026), X-series coverage or AWD, or a path narrower than the published 100 cm passage.
+Pay the $799 US cart (guest cart accepted 27 Nov 2026, even though product.js now reports available=false; no compare-at; it was $669 on sale on 23 Oct 2026) if the lawn is actually 0.125 acre or less and a 7.1-inch, 30% i-series mower is enough. Skip it if you need 0.25 acre (i110, $1,099; a guest cart accepted it on 25 Nov 2026 even though product.js still reports available=false; it was sold out on 9 Oct 2026), X-series coverage or AWD, or a path narrower than the published 100 cm passage.

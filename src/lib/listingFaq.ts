@@ -164,7 +164,7 @@ function i110Faqs(listing: Listing): FaqItem[] {
   mustInclude(body, data.driveType.toLowerCase(), "body", label);
   mustInclude(
     body,
-    "0.125-acre i-series cart at $799 (26 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
+    "0.125-acre i-series cart at $799 (27 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck",
     "body",
     label,
   );
@@ -206,7 +206,7 @@ function i110Faqs(listing: Listing): FaqItem[] {
     {
       question: "How does the Segway Navimow i110 compare with the listed i105 and X330?",
       answer:
-        "The listed i105 is the 0.125-acre i-series cart at $799 (26 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
+        "The listed i105 is the 0.125-acre i-series cart at $799 (27 Nov 2026), with the same front-wheel drive, 30% work-area slope, and 7.1-inch deck. The listed X330 is the 1-acre X3 at $2,299 (17 Oct 2026), rear-wheel drive, with a 50% work-area slope. It is a weaker match for 0.125-acre lots that only need the i105, for anything in X3/X4 acreage.",
     },
     {
       question: "How does the Segway Navimow i110 compare with the listed i210 AWD, H210, and i215 LiDAR?",
